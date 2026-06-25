@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-06-25T20:23:36.678368+00:00",
+  "provider": "openrouter",
+  "model": "openrouter/owl-alpha",
+  "summary": {
+    "agreed": 43,
+    "mislabeled": 2,
+    "errors": 0,
+    "requests": 45,
+    "apiAttempts": 45,
+    "cacheHits": 0
+  },
+  "mislabeled": [
+    {
+      "ycId": 28853,
+      "name": "Obento Health",
+      "slug": "obento-health",
+      "batch": "Summer 2023",
+      "industries": [
+        "Healthcare",
+        "Medical Devices"
+      ],
+      "oneLiner": "CRM Co-Pilot for Medtech Sales",
+      "currentTag": "nonSaas",
+      "openrouterTag": "saasLikely",
+      "provider": "openrouter",
+      "reasoning": "The company's core product is a CRM co-pilot software tool for medtech sales teams, which is B2B SaaS delivered digitally.",
+      "ycUrl": "https://www.ycombinator.com/companies/obento-health",
+      "auditedAt": "2026-06-25T20:18:06.855299+00:00"
+    },
+    {
+      "ycId": 30238,
+      "name": "Amby Health",
+      "slug": "amby-health",
+      "batch": "Winter 2025",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "oneLiner": "AI Copilot for Ambulance Agencies (EMS)",
+      "currentTag": "nonSaas",
+      "openrouterTag": "saasLikely",
+      "provider": "openrouter",
+      "reasoning": "The core product is an AI copilot software platform delivered to EMS agencies, which is a B2B SaaS solution.",
+      "ycUrl": "https://www.ycombinator.com/companies/amby-health",
+      "auditedAt": "2026-06-25T20:19:59.237782+00:00"
+    }
+  ]
+}
