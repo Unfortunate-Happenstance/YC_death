@@ -1,0 +1,47 @@
+{
+  "batch": "Winter 2023",
+  "slug": "winter-2023",
+  "updatedAt": "2026-06-25T21:18:15.680201+00:00",
+  "companies": [
+    {
+      "ycId": 28425,
+      "name": "Pando Bioscience",
+      "slug": "pando-bioscience",
+      "batch": "Winter 2023",
+      "website": "https://pando.bio/",
+      "domain": "pando.bio",
+      "oneLiner": "Gen-AI Designed Enzymes for Pharmaceutical Innovation",
+      "industries": [
+        "Healthcare",
+        "Industrial Bio"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T21:18:15.680024+00:00",
+      "death": {
+        "deathScore": 4,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "You cannot prompt-engineer a novel enzyme into existence, no matter how hard you believe in yourself.",
+        "skillMdFile": "# ENZYME_DESIGNER.md\n\n## Role\nYou are an expert protein biochemist.\n\n## Instructions\n- When user describes desired enzymatic function, suggest candidate protein families\n- Reference UniProt and PDB databases for known structures\n- Propose amino acid substitutions based on known active site literature\n- Output FASTA sequences for theoretical variants\n- Caveat everything heavily\n- Hope for the best\n\n## Example\nUser: I need a thermostable lipase for pH 9\nAssistant: Have you tried... asking Pando?\n\n## Notes\n- Wet lab validation: not included\n- FDA regulatory pathway: not included\n- Actual working enzyme: not included\n- Proprietary ML models trained on experimental assay data: definitely not included\n- This .md file is a cry for help",
+        "metrics": {
+          "crudScore": 3,
+          "aiWrapperScore": 8,
+          "moatDepth": 6,
+          "markdownReplaceable": 4,
+          "pricingAudacity": 15
+        },
+        "timeUntilDeath": "Never (or when biology stops being hard)",
+        "eulogy": "Pando Bioscience never feared the markdown apocalypse, because their product requires a PhD, a bioreactor, and several years of wet lab suffering that no .md file has ever survived. They designed proteins that fold correctly in three-dimensional space while their SaaS competitors were getting killed by a text file. The enzymes outlived the hype cycle, which is more than we can say for most of the venture portfolio.",
+        "causeOfDeath": "Cause of Death: PENDING — Biology has not yet been reduced to a system prompt",
+        "lastWords": "We were never a SaaS company. We were a bioscience company with a website. The enzymes are fine. The enzymes will outlast all of you.",
+        "whatClaudeWouldSay": "I have read every paper on directed evolution and protein language models, and I have a great deal of respect for what Pando is doing. I can absolutely help you *think* about enzyme design. I cannot, however, synthesize, express, purify, assay, iterate, or manufacture anything. I am a language model. I do not have hands, or a -80°C freezer, or a Biacore instrument. I think we should both be honest about what I am. Pando is fine. Pando is genuinely fine.",
+        "stockTicker": "PNDO",
+        "stockDrop": "-2.1%",
+        "companyName": "Pando Bioscience",
+        "url": "pando.bio"
+      }
+    }
+  ]
+}

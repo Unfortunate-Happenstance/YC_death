@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "name": "Seis",
+    "batch": "Winter 2022",
+    "domain": "seis.com",
+    "deathScore": 99,
+    "deathRating": "ALREADY DEAD",
+    "oneLiner": "seis.com couldn't even keep their homepage alive long enough to be killed by Claude — they were pre-murdered by a missing index.html."
+  }
+]
