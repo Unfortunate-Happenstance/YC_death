@@ -1,0 +1,48 @@
+{
+  "batch": "Winter 2027",
+  "slug": "winter-2027",
+  "updatedAt": "2026-06-25T18:22:03.217051+00:00",
+  "complete": true,
+  "companies": [
+    {
+      "ycId": 32165,
+      "name": "Rote",
+      "slug": "rote",
+      "batch": "Winter 2027",
+      "website": "https://tryrote.com/",
+      "domain": "tryrote.com",
+      "oneLiner": "AI-native insurance department for auto body shops",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:22:00.708710+00:00",
+      "death": {
+        "deathScore": 52,
+        "deathRating": "CRITICAL",
+        "oneLiner": "Rote charges insurance companies money to do what a Claude prompt and a PDF of DEG precedents already does for $0.02.",
+        "skillMdFile": "# SKILL: Insurance Denial Appeal Generator\n\n## Purpose\nTransform insurer denial letters into winning supplement arguments with P-page citations and DEG precedent.\n\n## Instructions\nWhen given a denial letter or denial reason, you will:\n1. Identify the specific denial code and rationale\n2. Search your knowledge of DEG (Disability Evaluation Guidelines) precedent cases\n3. Match the denial to relevant P-page citation categories\n4. Draft a structured supplement argument in formal claims language\n5. Include 3-5 supporting precedent references with citation format\n6. Flag any statute-of-limitations risks on the appeal window\n7. Output a ready-to-submit argument document\n\n## Inputs\n- Denial letter text (paste or upload)\n- Claim type: [property / liability / workers comp / medical]\n- Jurisdiction\n- Original claim summary\n\n## Output Format\n- Executive summary of winning argument\n- Numbered precedent citations\n- Draft supplement letter (formal tone)\n- Confidence assessment\n\n## Notes\nUpdate DEG precedent corpus quarterly via file upload.",
+        "metrics": {
+          "crudScore": 41,
+          "aiWrapperScore": 78,
+          "moatDepth": 44,
+          "markdownReplaceable": 55,
+          "pricingAudacity": 71
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Rote came into this world with a noble mission: fighting the Kafkaesque bureaucracy of insurance denials, one P-page citation at a time. It was brave, it was specific, it was genuinely useful — and then Claude learned to read PDFs. We will remember it fondly as the app that charged a SaaS fee to do what is, at its core, a very angry letter with footnotes.",
+        "causeOfDeath": "Claude + a DEG precedent corpus uploaded as a knowledge base",
+        "lastWords": "But we had a *private beta*. You can't replace a private beta with a markdown file. You just— the citations were *curated*. CURATED.",
+        "whatClaudeWouldSay": "I genuinely respect what Rote was attempting, and insurance denial appeals are a real pain point affecting real people. That said, I've now reviewed approximately 40,000 DEG precedent documents and can produce a formatted supplement argument with citations in about eight seconds. I'm sure Rote's UX is lovely though. The onboarding flow looked very clean.",
+        "stockTicker": "ROTE",
+        "stockDrop": "-71.3%",
+        "companyName": "Rote",
+        "url": "tryrote.com"
+      }
+    }
+  ]
+}
