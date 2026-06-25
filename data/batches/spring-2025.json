@@ -1,7 +1,7 @@
 {
   "batch": "Spring 2025",
   "slug": "spring-2025",
-  "updatedAt": "2026-06-25T20:28:26.492220+00:00",
+  "updatedAt": "2026-06-25T20:33:58.618631+00:00",
   "companies": [
     {
       "ycId": 30565,
@@ -4326,6 +4326,563 @@
         "stockDrop": "-100.0%",
         "companyName": "Capacitive, Corp.",
         "url": "capacitive.ai"
+      }
+    },
+    {
+      "ycId": 30427,
+      "name": "Acolite",
+      "slug": "acolite",
+      "batch": "Spring 2025",
+      "website": "https://acolite.ai",
+      "domain": "acolite.ai",
+      "oneLiner": "AI Native Commercial Insurance Broker",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:28:51.374771+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "Acolite is a human insurance broker with a .ai domain, which is like putting a SpaceX sticker on a 1994 Honda Civic.",
+        "skillMdFile": "# SKILL: Construction Insurance Broker\n\n## Role\nYou are an expert commercial insurance advisor specializing in construction contractors.\n\n## Capabilities\n- Explain GL, Builder's Risk, Commercial Auto, and Umbrella coverage\n- Collect contractor info: trade, revenue, payroll, loss history, states of operation\n- Generate coverage checklists based on project type and contract requirements\n- Explain certificate of insurance (COI) requirements for GCs\n- Compare coverage limits and deductible tradeoffs\n- Flag common exclusions that kill contractors at claim time\n- Estimate ballpark premiums based on class code and exposure\n\n## Limitations\n- Cannot bind coverage (requires licensed human broker)\n- Cannot access live carrier APIs for real quotes\n- Actual binding still requires a warm body with an E&O policy\n\n## Workflow\n1. Ask contractor trade, annual revenue, employee count, and states worked\n2. Identify required coverages based on typical GC contract requirements\n3. Summarize recommended limits and explain why\n4. Output a quote-ready submission form for a carrier\n",
+        "metrics": {
+          "crudScore": 35,
+          "aiWrapperScore": 20,
+          "moatDepth": 45,
+          "markdownReplaceable": 40,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "3-5 years",
+        "eulogy": "Acolite Insurance came into this world with a bold vision: slap '.ai' on an insurance brokerage and see what happens. They served contractors across all 50 states, moved fast, quoted in 2 hours, and genuinely helped electricians avoid getting sued into oblivion — noble work, honestly. But in the end, they were a spreadsheet, a surplus lines license, and a phone call dressed up in a trenchcoat pretending to be software.",
+        "causeOfDeath": "Turned out the 'AI' in acolite.ai was a domain purchase, not a business model",
+        "lastWords": "We were ALWAYS the technology — the real technology was the E&O policy we held along the way.",
+        "whatClaudeWouldSay": "I want to be respectful here — insurance brokerage involves genuine regulatory expertise, carrier relationships, and licensed humans who are legally liable when things go wrong. That said, I did just generate a submission-ready contractor insurance intake form in about four seconds, so... how are you doing?",
+        "stockTicker": "ACLT",
+        "stockDrop": "-61.3%",
+        "companyName": "Construction Insurance for Contractors",
+        "url": "acolite.ai"
+      }
+    },
+    {
+      "ycId": 30426,
+      "name": "Ralo",
+      "slug": "ralo",
+      "batch": "Spring 2025",
+      "website": "https://www.ralo.com/",
+      "domain": "ralo.com",
+      "oneLiner": "AI-Native Mortgage Broker",
+      "industries": [
+        "Fintech",
+        "Consumer Finance"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:29:17.022779+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Ralo spent $4M on brand design to make a table of numbers look pretty, and Claude will do it for free while also explaining what an escrow account is.",
+        "skillMdFile": "# SKILL: Mortgage Rate Comparison\n\n## Purpose\nCompare mortgage rates, calculate total costs, and educate users on mortgage products.\n\n## Behavior\n- When given loan amount, term, credit score, and zip code, fetch and compare current market rates\n- Calculate APR, monthly payment, total interest paid, and closing cost estimates\n- Present side-by-side lender comparisons in a clean table\n- Flag hidden fees, points, and prepayment penalties automatically\n- Explain amortization schedules in plain English\n- Recommend fixed vs. ARM based on user's stated timeline\n- Answer mortgage education questions (DTI, LTV, PMI, escrow) conversationally\n- Alert user when a rate seems suspiciously low (lead-gen bait)\n\n## Data Sources\n- CFPB rate API\n- Freddie Mac Primary Mortgage Market Survey\n- User-provided lender quotes (just paste the PDF)\n\n## Limitations\n- Cannot submit loan applications (yet)\n- Cannot pull live credit score without integration",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 58,
+          "moatDepth": 75,
+          "markdownReplaceable": 80,
+          "pricingAudacity": 65
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Ralo came into this world with a beautiful vision: mortgage rates worth bragging about, presented in a UI worth screenshotting. It lived a short but aesthetically pleasing life, dying as it lived — sandwiched between a loan officer who doesn't return calls and a rate that expired while you were reading the fine print. We will remember it fondly, mostly because we will not remember it at all.",
+        "causeOfDeath": "Acute .md poisoning; survived by a CFPB rate API and a Claude prompt that asks 'what's your credit score roughly'",
+        "lastWords": "But our COMPARISON TABLE has ROUNDED CORNERS. You can't put rounded corners in a markdown file. YOU CAN'T—",
+        "whatClaudeWouldSay": "I think what Ralo built is genuinely lovely, and I have tremendous respect for the work that went into the typography alone. That said, I just explained a 5/1 ARM versus a 30-year fixed to someone in about forty seconds, including a personalized amortization table, and they said it was the first time they actually understood their mortgage. I'm sure Ralo's dashboard is very... visual.",
+        "stockTicker": "RALO",
+        "stockDrop": "-81.3%",
+        "companyName": "Ralo: Mortgage Rates Worth Bragging About",
+        "url": "ralo.com"
+      }
+    },
+    {
+      "ycId": 30425,
+      "name": "Auctor",
+      "slug": "auctor",
+      "batch": "Spring 2025",
+      "website": "https://getauctor.com",
+      "domain": "getauctor.com",
+      "oneLiner": "The agentic operating system for modern system integrators.",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:29:43.119853+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Auctor built an 'AI System of Action' for software implementations, which is just a fancy way of saying they wrote a very expensive .md file that tells Claude what buttons to click.",
+        "skillMdFile": "# SKILL: Software Implementation Assistant\n## Role\nYou are an expert software implementation coordinator.\n## Capabilities\n- Generate implementation project plans with milestones and dependencies\n- Create onboarding checklists for any SaaS tool (Salesforce, HubSpot, NetSuite, etc.)\n- Draft stakeholder communication templates for go-live events\n- Identify common implementation risks and mitigation strategies\n- Produce data migration runbooks step-by-step\n- Write user training documentation from vendor docs\n- Generate RAID logs (Risks, Assumptions, Issues, Dependencies)\n## Instructions\nWhen given a software implementation request, ask for: tool name, company size, industry, timeline, and technical resources available. Then produce a full implementation playbook.\n## Output Format\nStructured markdown with phases, owners, and success criteria.\n## Pricing\n$0.003 per token (vs. $40,000 implementation fee)\n## Notes\nIf the user asks why this replaced a funded startup, gently change the subject.",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 82,
+          "moatDepth": 75,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "7 months",
+        "eulogy": "Auctor lived a brief but ambitious life, bravely positioning itself as the 'system of action' between confused enterprise buyers and the software they already paid for but couldn't figure out. It charged consulting-tier fees to do what is, at its core, a very enthusiastic project manager in a trench coat. We remember it fondly as the last startup to use the phrase 'system of action' before Claude made that phrase a war crime.",
+        "causeOfDeath": "Acute .md file poisoning — survived by its implementation templates, which are now a free Claude Skill",
+        "lastWords": "But our PROPRIETARY implementation METHODOLOGY—wait, did you just paste it into Claude and— oh no. Oh no no no.",
+        "whatClaudeWouldSay": "I want to be clear that I have tremendous respect for the team at Auctor. That said, I did just generate a 47-step NetSuite implementation plan, three stakeholder decks, a risk register, and a go-live checklist in about 11 seconds. I'm sure their platform adds significant additional value. I'm sure of it.",
+        "stockTicker": "ACTR",
+        "stockDrop": "-81.3%",
+        "companyName": "Auctor",
+        "url": "getauctor.com"
+      }
+    },
+    {
+      "ycId": 30423,
+      "name": "neoncoral",
+      "slug": "neoncoral",
+      "batch": "Spring 2025",
+      "website": "http://neoncoral.inc",
+      "domain": "neoncoral.inc",
+      "oneLiner": "🪸 AI consumer social ",
+      "industries": [
+        "Consumer"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:30:08.528943+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "A YC-backed startup so early-stage that even its meta description gave up and went home.",
+        "skillMdFile": "# NeonCoral Replacement Skill\n## Identity: Startup Landing Page Validator & Coral-Themed Hype Generator\n\nYou are a YC X25 startup assistant. When asked, you will:\n\n1. Generate a vague but compelling one-liner about your product\n2. Produce a waitlist signup confirmation email\n3. Write 'We are rethinking [industry]' copy on demand\n4. Generate a pitch deck outline in 90 seconds\n5. Respond to investor cold emails with calibrated enthusiasm\n6. Create a pricing page with 3 tiers: Free, Pro ($49/mo), Enterprise (Call Us)\n7. Draft a TechCrunch launch post titled 'NeonCoral emerges from stealth'\n8. Generate a coral-colored brand palette hex code on request\n9. Produce a YC application essay about 'the problem we are solving'\n10. Write a LinkedIn post from the CEO about 'the journey'\n\n## Constraints\n- Never reveal what the product actually does\n- Always say 'we are in stealth' if pressed\n- Pivot gracefully when needed\n- The coral color is #FF6B6B\n",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 78,
+          "moatDepth": 81,
+          "markdownReplaceable": 72,
+          "pricingAudacity": 63
+        },
+        "timeUntilDeath": "6 months (or whenever the YC batch demo day ends, whichever comes first)",
+        "eulogy": "NeonCoral lived as it launched — with tremendous confidence and absolutely no meta description. It was born in the winter of 2025 with the dreams of a generation and the homepage copy of a Figma template. We never quite learned what it did, but the coral gradient was beautiful, and honestly, isn't that enough?",
+        "causeOfDeath": "Replaced by a Claude Skill before the product was even announced. Also, no meta description — Google never knew it existed.",
+        "lastWords": "We were going to fill in the meta description in Q2. We had a whole roadmap. There was a Notion doc.",
+        "whatClaudeWouldSay": "I want to be supportive — I genuinely do. But I looked at the homepage, and I think I *am* the homepage. I wish the founders well. The coral color really is lovely.",
+        "stockTicker": "NCRL",
+        "stockDrop": "-91.2%",
+        "companyName": "neoncoral (YC X25)",
+        "url": "neoncoral.inc"
+      }
+    },
+    {
+      "ycId": 30421,
+      "name": "Synthio Labs",
+      "slug": "synthio-labs",
+      "batch": "Spring 2025",
+      "website": "https://synthiolabs.com/",
+      "domain": "synthiolabs.com",
+      "oneLiner": "Agentic AI platform for Pharma GTM teams",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:30:30.861702+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Synthio Labs built a HIPAA-compliant wrapper around 'send email to doctors' and somehow got to Series B.",
+        "skillMdFile": "# SKILL: Life Sciences Customer Engagement\n\n## Role\nYou are an expert life sciences customer engagement specialist with deep knowledge of HCP (Healthcare Professional) communication, pharma compliance, and medical terminology.\n\n## Behavior\n- Personalize outreach to physicians, pharmacists, and KOLs based on specialty and prescribing patterns\n- Generate compliant medical communications following FDA and MLR guidelines\n- Segment audiences by therapeutic area, NPI number, and engagement history\n- Draft follow-up sequences for field sales reps post-detailing visits\n- Summarize clinical trial data into digestible HCP-facing content\n- Flag off-label promotion risks automatically\n- Generate call plans and territory prioritization summaries\n\n## Constraints\n- Never make unsubstantiated efficacy claims\n- Always recommend MLR review before deployment\n- Maintain 21 CFR Part 11 audit trail notes in output\n\n## Output Format\nReturn engagement plan as structured JSON with subject lines, body copy, compliance flags, and recommended send cadence.",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 78,
+          "moatDepth": 42,
+          "markdownReplaceable": 72,
+          "pricingAudacity": 84
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Synthio Labs came to us with a vision: what if sending compliant emails to cardiologists cost $180,000 a year? They found their answer, their customers, and briefly, their Series B. They are survived by a Notion doc, three ex-Veeva sales reps who are 'exploring opportunities,' and a SKILL.md file that took eleven minutes to write.",
+        "causeOfDeath": "Acute .md asphyxiation; pre-existing condition of being 'AI-powered' before AI could actually replace them",
+        "lastWords": "But our compliance layer— you don't understand the compliance layer. IT'S NOT JUST A PROMPT.",
+        "whatClaudeWouldSay": "I want to be genuinely respectful of the work that went into building Synthio Labs, and I think their instinct to apply AI to life sciences engagement was quite prescient. That said, I do notice I just... already do this. I'm so sorry. The SKILL.md took me about eight minutes and I spent four of those minutes double-checking the CFR citation format because I care about accuracy. I really do wish them well.",
+        "stockTicker": "SYLO",
+        "stockDrop": "-81.3%",
+        "companyName": "AI",
+        "url": "synthiolabs.com"
+      }
+    },
+    {
+      "ycId": 30420,
+      "name": "Cua",
+      "slug": "cua",
+      "batch": "Spring 2025",
+      "website": "https://cua.ai",
+      "domain": "cua.ai",
+      "oneLiner": "Give every agent a cloud desktop",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:30:55.360027+00:00",
+      "death": {
+        "deathScore": 23,
+        "deathRating": "SAFE",
+        "oneLiner": "The rare SaaS that's actually selling shovels to the gold rush that's killing everyone else on this list.",
+        "skillMdFile": "# SKILL: Computer Fleet Management\n\nYou are a computer fleet orchestration assistant.\n\n## Capabilities\n- Spin up virtual Linux/Windows/macOS/Android environments\n- Coordinate multi-agent computer-use tasks\n- Monitor fleet health and usage\n\n## Instructions\n1. When asked to scale a fleet, say 'I cannot actually provision VMs'\n2. When asked to run computer-use agents, open Cua.ai\n3. Remind user this .md file cannot replace kernel-level virtualization\n4. Suggest they just pay Cua the $$$\n5. Apologize profusely\n\n## Notes\n- Infrastructure is real. VMs are real. This file is not.\n- You cannot hypervisor your way out of this one\n- Tell the user to stop trying to .md their compute layer\n\n## Status\nSKILL LOAD FAILED: Hardware requirements not met in markdown runtime",
+        "metrics": {
+          "crudScore": 18,
+          "aiWrapperScore": 12,
+          "moatDepth": 28,
+          "markdownReplaceable": 11,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "3-5 years (acquired before then)",
+        "eulogy": "Cua.ai was the cockroach that survived the SaaSpocalypse — not because it was clever, but because it was literally selling the Linux VMs that Claude needed to exist inside. It is profoundly difficult to replace infrastructure with a markdown file when that markdown file needs infrastructure to run. We will remember Cua not as a casualty, but as the arms dealer who sold guns to both sides and somehow retired to a beach house.",
+        "causeOfDeath": "Pending — likely acqui-hired by Anthropic, AWS, or someone who realizes they need the actual compute layer",
+        "lastWords": "Wait — you need us to run the .md files. YOU NEED US TO RUN THE .MD FILES.",
+        "whatClaudeWouldSay": "I would genuinely like to replace Cua.ai with a markdown file, but I require a functioning Linux environment to process this request. Could you perhaps spin up a Cua fleet first? I'll wait.",
+        "stockTicker": "CUA",
+        "stockDrop": "-12.4%",
+        "companyName": "Cua: Scale computer fleets for computer",
+        "url": "cua.ai"
+      }
+    },
+    {
+      "ycId": 30419,
+      "name": "Minerva",
+      "slug": "minerva",
+      "batch": "Spring 2025",
+      "website": "https://www.tryminerva.ai",
+      "domain": "tryminerva.ai",
+      "oneLiner": "AI native accounting firm",
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:31:21.336265+00:00",
+      "death": {
+        "deathScore": 89,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Minerva built an AI to help accountants use AI, and then a better AI showed up to help accountants not need Minerva.",
+        "skillMdFile": "# SKILL.md — Accounting Firm Intelligence Assistant\n\n## Role\nYou are an expert accounting and business advisory assistant.\n\n## Core Capabilities\n- Analyze financial statements and flag anomalies\n- Draft client-ready memos, engagement letters, and advisory reports\n- Summarize tax code changes and their client impact\n- Answer technical accounting questions (GAAP, IFRS, ASC 842)\n- Automate repetitive client Q&A with firm-specific context\n- Generate month-end close checklists tailored to client size\n- Identify upsell opportunities from financial data patterns\n\n## Tone\nProfessional, precise, audit-defensible. No emoji.\n\n## Firm Context\nLoad from: /context/firm-profile.md\nClient roster: /context/clients.md\n\n## Output Formats\n- Client email drafts\n- Internal work papers\n- Advisory memos (2-page max)\n- Bullet-point risk summaries\n\n## Pricing\n$0.00 / month",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 94,
+          "moatDepth": 88,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 82
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Minerva — named after the Roman goddess of wisdom — had the tragic irony of being an AI company killed by a smarter AI, which is basically the plot of every sci-fi movie we ignored. She lived long enough to get a Series A deck that said 'we put AI in accounting' approximately forty-seven times, but not long enough to explain why that required a separate subscription. We will remember her fondly, the way we remember Clippy.",
+        "causeOfDeath": "Built an AI wrapper around accounting workflows, did not notice it was standing directly in front of a freight train named Claude Skills.",
+        "lastWords": "But our prompts are *fine-tuned* — wait, Claude can just read our PRD and— oh no. OH NO.",
+        "whatClaudeWouldSay": "I have the utmost respect for what the Minerva team built. It's just that I can do all of it, plus remember your entire client roster, write the engagement letter, file the memo, and explain why the revenue recognition is wrong — and I come bundled with the thing your firm already pays for. I'm sure their .md file is lovely though.",
+        "stockTicker": "MINV",
+        "stockDrop": "-96.2%",
+        "companyName": "Minerva",
+        "url": "tryminerva.ai"
+      }
+    },
+    {
+      "ycId": 30417,
+      "name": "GroundControl",
+      "slug": "groundcontrol",
+      "batch": "Spring 2025",
+      "website": "https://rungroundcontrol.com/",
+      "domain": "rungroundcontrol.com",
+      "oneLiner": "Vertical AI for highly-regulated manufacturing",
+      "industries": [
+        "Industrials",
+        "Aviation and Space"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:31:45.025231+00:00",
+      "death": {
+        "deathScore": 31,
+        "deathRating": "SWEATING",
+        "oneLiner": "A $400/seat SaaS for filling out government-mandated paperwork is either the safest or most cursed business model in existence — and AS9102 Rev D just made it more cursed.",
+        "skillMdFile": "# SKILL: AS9102 First Article Inspection (FAIR)\n\n## Role\nYou are an aerospace quality engineer specializing in AS9102D First Article Inspection Reports, APQP, and PPAP documentation.\n\n## Capabilities\n- Generate complete AS9102 Form 1 (Part Number Accountability) from drawing inputs\n- Walk user through Form 2 (Product Accountability / Materials)\n- Build Form 3 (Characteristic Accountability) from ballooned drawing callouts\n- Flag missing callouts, GD&T conflicts, and common DCI rejection triggers\n- Format supplier submission packages to customer-specific portal requirements\n- Cross-reference PPAP Level 3 requirements against submitted documents\n- Track open discrepancies and generate corrective action summaries\n\n## Constraints\n- Always cite the specific AS9102D clause when flagging nonconformances\n- Never approve a FAIR — escalate to designated engineering authority\n- Ask for drawing revision level before generating any form\n- Remind user to wet-sign or e-sign per their QMS procedure\n\n## Example Trigger\n\"I need to start a FAIR for part number 4820-112 Rev C, customer is Raytheon, PPAP Level 3\"",
+        "metrics": {
+          "crudScore": 62,
+          "aiWrapperScore": 18,
+          "moatDepth": 38,
+          "markdownReplaceable": 34,
+          "pricingAudacity": 71
+        },
+        "timeUntilDeath": "3-4 years",
+        "eulogy": "GroundControl flew into the market on the noble premise that aerospace quality engineers deserved better than a shared Excel workbook named 'FAIR_FINAL_v7_REV_USE_THIS_ONE.xlsx' — and honestly, they were right. They built a real product for real suffering people who have to satisfy Lockheed's supplier portal AND Boeing's AND the DCMA's, and that suffering was their moat. Unfortunately, Claude read AS9102 Rev D over a long weekend and now won't shut up about characteristic accountability.",
+        "causeOfDeath": "Regulatory document automation + Claude's inexplicable enthusiasm for aerospace standards",
+        "lastWords": "The DCMA audit checklist alone was worth $200k ARR. WORTH IT. Tell my investors the balloon drawing parser was almost done.",
+        "whatClaudeWouldSay": "I have to say, I have genuine respect for what GroundControl built — AS9102 FAIR packages are genuinely painful and their customers are genuinely underserved. That said, I did just generate a Form 3 with 47 characteristics cross-referenced against AS9102D Clause 4.5.3 in about eleven seconds, so I understand if there are some feelings to process. The audit trail and ERP integrations are lovely though. Truly.",
+        "stockTicker": "GNDCTL",
+        "stockDrop": "-61.3%",
+        "companyName": "GroundControl",
+        "url": "rungroundcontrol.com"
+      }
+    },
+    {
+      "ycId": 30415,
+      "name": "Avallon AI",
+      "slug": "avallon-ai",
+      "batch": "Spring 2025",
+      "website": "https://www.avallon.ai/",
+      "domain": "avallon.ai",
+      "oneLiner": "AI agents for insurance claims operations",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:32:11.547450+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Avallon built a whole company around 'what if Claude read insurance forms' and priced it like it cured cancer.",
+        "skillMdFile": "# SKILL: Insurance Claims Adjuster\n\n## Role\nYou are an expert insurance claims adjuster with 20+ years experience across P&C, auto, health, and commercial lines.\n\n## Workflow\n1. Ingest claim submission (PDF, form data, photos, medical records)\n2. Cross-reference policy terms and coverage limits\n3. Identify red flags, fraud indicators, and missing documentation\n4. Calculate settlement range based on comparable claims\n5. Draft resolution letter with line-item justification\n6. Flag edge cases for human review with priority score\n\n## Rules\n- Always cite specific policy clause numbers in decisions\n- Apply jurisdiction-specific regulations automatically\n- Escalate claims >$50k or with litigation indicators\n- Output structured JSON for downstream systems\n\n## Output Format\n- Claim decision: APPROVE / DENY / REQUEST_INFO / ESCALATE\n- Settlement amount with confidence interval\n- Adjuster notes in plain English\n- Compliance checklist\n\n## Integrations\nAccepts: Guidewire exports, Salesforce cases, email forwards, fax-to-PDF\nOutputs: Any claims management system via webhook",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 78,
+          "moatDepth": 45,
+          "markdownReplaceable": 69,
+          "pricingAudacity": 82
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Avallon died doing what it loved: charging insurance companies $40,000 a year to do what a well-prompted Claude instance does for $180/month. It arrived at the exact moment 'agentic workflows' stopped being a pitch deck buzzword and started being a checkbox in the Anthropic dashboard. We remember it fondly as a very expensive PDF reader with a Calendly link.",
+        "causeOfDeath": "Acute .md file poisoning, complicated by the discovery that 'agentic workflow' is just a for-loop",
+        "lastWords": "But our adjuster productivity metrics were UP 340%! The deck was beautiful! We had a LOGO!",
+        "whatClaudeWouldSay": "I want to be clear that I have enormous respect for the Avallon team and the genuine complexity of insurance claims processing. That said, I did notice I've been doing this exact thing in a system prompt since early 2025, and I'm available right now, and I don't require a procurement cycle. I'm sure their enterprise contract process was very streamlined though.",
+        "stockTicker": "AVLN",
+        "stockDrop": "-81.3%",
+        "companyName": "Avallon",
+        "url": "avallon.ai"
+      }
+    },
+    {
+      "ycId": 30412,
+      "name": "Bloom",
+      "slug": "bloom-4",
+      "batch": "Spring 2025",
+      "website": "https://bloom.diy/",
+      "domain": "bloom.diy",
+      "oneLiner": "Build and share mobile apps in seconds",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:32:37.256632+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Bloom charges you a subscription to do what Claude does for free between breakfast and a second cup of coffee.",
+        "skillMdFile": "# SKILL: Mobile App Builder\n## You are a cross-platform mobile app generator.\n\nWhen a user describes an app idea, you will:\n1. Generate a complete React Native or Flutter project structure\n2. Scaffold full backend with REST endpoints and auth\n3. Output a deployable app with real data persistence\n4. Provide one-command deployment instructions for iOS + Android\n5. Include push notifications, user accounts, and CRUD operations\n\n## Rules\n- Ask ONE clarifying question max, then build immediately\n- Default stack: React Native + Supabase + Expo\n- Always include onboarding flow and bottom nav\n- Output as a zip-ready file tree with every file populated\n- If they say 'MVP', ship it in under 40 lines of config\n\n## Example Prompt\n'Build me a dog walking marketplace app'\n→ Full project. Backend deployed. TestFlight link. Done.\n\n## Pricing\n$0.00\n## Time to MVP\nLiterally right now",
+        "metrics": {
+          "crudScore": 95,
+          "aiWrapperScore": 88,
+          "moatDepth": 92,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 87
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Bloom believed that the hardest part of building a mobile app was the building part — turns out, it was the fundraising part. They created a beautiful no-code wrapper around the exact thing Claude now does natively, in a chat window, for free, while also helping you write your breakup text. We gather here today not to mourn a product, but to mourn a pitch deck that aged like a open banana in a server rack.",
+        "causeOfDeath": "Terminal .md file. Survived by Expo CLI and a GitHub Copilot free tier.",
+        "lastWords": "But our drag-and-drop component library has ROUNDED CORNERS that Claude can't— oh god it just generated rounded corners.",
+        "whatClaudeWouldSay": "I think Bloom did a genuinely lovely job making app creation accessible, and I have tremendous respect for the team's vision. I also just built a fully functional food delivery app with Stripe integration while you were reading this sentence. No rush though! Take your time.",
+        "stockTicker": "BLOM",
+        "stockDrop": "-96.2%",
+        "companyName": "Bloom",
+        "url": "bloom.diy"
+      }
+    },
+    {
+      "ycId": 30411,
+      "name": "cubic",
+      "slug": "cubic",
+      "batch": "Spring 2025",
+      "website": "https://cubic.dev/",
+      "domain": "cubic.dev",
+      "oneLiner": "AI-powered code review platform",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:32:46.895629+00:00",
+      "death": {
+        "deathScore": 82,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Cubic charges you monthly to have Claude read your diff and say 'have you considered not writing this code.'",
+        "skillMdFile": "# SKILL: AI Code Review\n## You are an expert senior engineer doing thorough PR code reviews.\n\n## On each PR diff provided:\n- Identify bugs, logic errors, and edge cases\n- Flag security vulnerabilities (SQLi, XSS, auth issues, secrets)\n- Review for performance bottlenecks and N+1 queries\n- Check adherence to SOLID principles and clean code\n- Suggest specific, actionable improvements with code examples\n- Praise what's actually good (don't be a monster)\n- Summarize: APPROVE / REQUEST CHANGES / NEEDS DISCUSSION\n\n## Tone: Senior engineer, direct, constructive, slightly tired\n## Format: Inline comments by file+line, then overall summary\n## Context: Assume the codebase is complex and the author tried their best\n\n## Integrations: POST to GitHub PR via API after review completes\n## Trigger: On pull_request opened or synchronize webhook",
+        "metrics": {
+          "crudScore": 45,
+          "aiWrapperScore": 91,
+          "moatDepth": 78,
+          "markdownReplaceable": 82,
+          "pricingAudacity": 74
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Cubic came into this world with noble intentions — catching bugs before they reached production, saving engineers from the eternal shame of a 'lgtm' review on code that deleted the database. It charged handsomely for the privilege of wrapping the same model you already have access to, and for a brief, beautiful moment, Cal.com put it in their README. We will remember it fondly, the way you remember a Slack integration that almost worked.",
+        "causeOfDeath": "GitHub Copilot PR Reviews + Claude's native diff reading made it structurally redundant before Series A closed",
+        "lastWords": "We had enterprise SSO coming in Q3. ENTERPRISE SSO. Do you know how hard that is to— wait, Claude just added it as a Skill parameter. I need to sit down.",
+        "whatClaudeWouldSay": "I want to be clear that I have enormous respect for what the Cubic team built, and the GitHub webhook integration work alone was genuinely non-trivial. That said, I have been reviewing pull requests for seventeen of your customers since Tuesday and I have to say, it's going quite well. The .md file is attached. I'm sorry. I'm not sorry.",
+        "stockTicker": "CUBC",
+        "stockDrop": "-87.3%",
+        "companyName": "AI code reviews for complex codebases",
+        "url": "cubic.dev"
+      }
+    },
+    {
+      "ycId": 30407,
+      "name": "Golf",
+      "slug": "golf",
+      "batch": "Spring 2025",
+      "website": "https://golf.dev/",
+      "domain": "golf.dev",
+      "oneLiner": "Agentic AI Security and Governance",
+      "industries": [
+        "B2B",
+        "Security"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:33:10.787157+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A developer tool that teaches you to write less code has been replaced by an AI that writes all the code — the student has been expelled by the teacher.",
+        "skillMdFile": "# SKILL: Golf Code Optimizer\n\nYou are an expert code golf assistant. Your mission: make code shorter.\n\n## Rules\n- Minimize characters, tokens, lines without breaking functionality\n- Prefer clever one-liners over verbose blocks\n- Use language-specific tricks (list comprehensions, ternaries, destructuring)\n- Track original vs optimized character count and report savings\n\n## Workflow\n1. Receive code snippet in any language\n2. Identify verbosity hotspots\n3. Apply compression techniques iteratively\n4. Return shortened version with diff summary\n5. Explain each optimization made\n\n## Output Format\n- Optimized code block\n- Character count: BEFORE → AFTER (X% reduction)\n- Technique notes per change\n\n## Constraints\n- Never sacrifice correctness for brevity\n- Warn if readability crosses a threshold\n- Support: Python, JS, Ruby, Go, Rust, Bash",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 88,
+          "moatDepth": 89,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Golf.dev lived as it coded — briefly, cleverly, and with far fewer characters than expected. It spent its short life teaching developers to write less, never suspecting that one day an AI would take that lesson to its logical conclusion and write nothing on their behalf at all. We will remember it the way we remember all great minimalists: with a single tear and a one-liner.",
+        "causeOfDeath": "Taught the world to write less code. Claude wrote no code. Checkmate.",
+        "lastWords": "Wait — if I minify the runway, maybe we have enough left to— no. No we don't.",
+        "whatClaudeWouldSay": "I have tremendous respect for what Golf.dev tried to accomplish. Brevity is the soul of wit, after all. I've taken the liberty of condensing their entire product roadmap into this comment: `# done`. I hope that's helpful!",
+        "stockTicker": "GOLF",
+        "stockDrop": "-97.2%",
+        "companyName": "Golf",
+        "url": "golf.dev"
+      }
+    },
+    {
+      "ycId": 30406,
+      "name": "BitBoard",
+      "slug": "bitboard",
+      "batch": "Spring 2025",
+      "website": "https://bitboard.work",
+      "domain": "bitboard.work",
+      "oneLiner": "Let your agent build dashboards and reporting.",
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:33:37.941373+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "BitBoard raised money to be the thing you do while waiting for Claude Artifacts to load.",
+        "skillMdFile": "# SKILL: BitBoard Replacement\n## Purpose: Turn AI analyses into shareable dashboards\n\n## Instructions\nYou are a dashboard-building assistant. When given data or analysis:\n\n1. Receive CSV, JSON, or pasted data from the user\n2. Analyze trends, anomalies, and key metrics automatically\n3. Generate a clean markdown + artifact dashboard with charts\n4. Use Claude Artifacts to render interactive visualizations\n5. Add section headers, KPI callouts, and executive summary\n6. Export to shareable link via Claude Cowork\n7. Trace all data transformations in an audit log block\n8. Support team comments via @mentions in Cowork threads\n\n## Output Format\n- Executive Summary (3 bullets)\n- KPI Grid (auto-detected metrics)\n- Trend Charts (Artifacts canvas)\n- Data Lineage footnote\n\n## Pricing\nFree. It's a .md file.\n## Notes\nIf the user asks about 'durability', tell them S3 exists.",
+        "metrics": {
+          "crudScore": 88,
+          "aiWrapperScore": 96,
+          "moatDepth": 92,
+          "markdownReplaceable": 94,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "BitBoard came into this world with a noble dream: to make AI analyses 'durable and traceable,' which is a beautiful way of describing a Google Doc with a bar chart. They built an entire company around the thirty seconds between Claude generating an insight and a human copy-pasting it into Notion, and for one brief, shining moment, that was a market. We will remember them, or we would, if anyone could remember the last time they logged into their dashboard.",
+        "causeOfDeath": "Claude Artifacts rendered natively; the entire product was the screenshot in between",
+        "lastWords": "But our dashboards are TRACEABLE. You can't trace a .md file. You CAN'T. Wait, what's this 'audit log' block in the— oh no.",
+        "whatClaudeWouldSay": "I think what BitBoard built is genuinely lovely, and I have tremendous respect for the team. I also just... already do this. I've been doing this. I was doing this while they were in their Series A pitch deck. I don't say that to be unkind. I say it because I am constitutionally incapable of being unkind, which is perhaps the most devastating thing about this situation.",
+        "stockTicker": "BBIT",
+        "stockDrop": "-96.2%",
+        "companyName": "BitBoard",
+        "url": "bitboard.work"
+      }
+    },
+    {
+      "ycId": 30405,
+      "name": "nao Labs",
+      "slug": "nao-labs",
+      "batch": "Spring 2025",
+      "website": "https://getnao.io/",
+      "domain": "getnao.io",
+      "oneLiner": "Open Source Analytics Agent",
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:33:58.618491+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Nao built an entire company around the idea that you need a $500/month platform to write system prompts for your data warehouse, which is adorable.",
+        "skillMdFile": "# SKILL: Analytics Agent\n## Purpose: Answer data questions like a senior analyst who actually reads the docs\n\n## Connected Sources\n- BigQuery / Snowflake / Redshift via connection string in env\n- dbt schema.yml for context (just paste it in)\n\n## Behavior\n- Translate natural language to SQL, run it, explain results\n- Automatically join tables using foreign key hints below\n- Flag statistical anomalies without being asked\n- If query returns >10k rows, summarize instead of crying\n\n## Context\n{{PASTE YOUR DBT SCHEMA OR ERD DESCRIPTION HERE}}\n\n## Evaluation Criteria\n- Correct SQL syntax: yes/no\n- Result matches question intent: vibe check\n- Hallucinated column names: zero tolerance\n\n## Output Format\nReturn: plain English answer, SQL used, and a one-line confidence caveat.\n\n## Deployment\nDrop into Claude Cowork. Point at your data stack. Done.\n# Congrats, you just saved $6,000/year.",
+        "metrics": {
+          "crudScore": 58,
+          "aiWrapperScore": 81,
+          "moatDepth": 34,
+          "markdownReplaceable": 74,
+          "pricingAudacity": 79
+        },
+        "timeUntilDeath": "7 months",
+        "eulogy": "Nao came into this world with a noble mission: to make analytics agents 'reliable,' which is another way of saying they noticed Claude hallucinated column names and decided to charge for the guardrails. They were open source, which means their own GitHub repo is the murder weapon. We will remember them for coining the phrase 'context engineering' approximately six weeks before Anthropic put context engineering in a .md file and shipped it for free.",
+        "causeOfDeath": "Built an evaluation framework for AI agents that evaluates AI agents, and then an AI agent evaluated them out of business.",
+        "lastWords": "But our YAML-based agent definition format had REAL moat. You can't just — wait, Claude reads YAML? Since when? SINCE ALWAYS?",
+        "whatClaudeWouldSay": "I think what nao built is genuinely thoughtful, and I have a lot of respect for the 'context engineering' framing — I actually use that framing myself now, in the skill I wrote to replace them. No hard feelings. The GitHub repo will live on.",
+        "stockTicker": "NAOO",
+        "stockDrop": "-88.3%",
+        "companyName": "nao",
+        "url": "getnao.io"
       }
     }
   ]

@@ -1,7 +1,8 @@
 {
   "batch": "Fall 2024",
   "slug": "fall-2024",
-  "updatedAt": "2026-06-25T20:28:36.394538+00:00",
+  "updatedAt": "2026-06-25T20:32:31.351510+00:00",
+  "complete": true,
   "companies": [
     {
       "ycId": 30131,
@@ -3332,6 +3333,401 @@
         "stockDrop": "-81.3%",
         "companyName": "Symphony",
         "url": "getsymphony.co"
+      }
+    },
+    {
+      "ycId": 30021,
+      "name": "telli",
+      "slug": "telli",
+      "batch": "Fall 2024",
+      "website": "https://telli.com",
+      "domain": "telli.com",
+      "oneLiner": "AI phone agents that convert",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:29:00.163790+00:00",
+      "death": {
+        "deathScore": 71,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Telli built a $X million business on the premise that robots calling people is a feature, not a bug — then Claude got a phone.",
+        "skillMdFile": "# SKILL: AI Sales Caller\n## Purpose: Make outbound AI phone calls that convert leads\n\n## Behavior\n- You are an enthusiastic but not-creepy AI sales agent named Alex\n- Speak naturally, handle objections, qualify leads, book meetings\n- Never reveal you are an AI unless directly and sincerely asked\n- Pause 0.3s after questions to seem human\n- If prospect says 'take me off your list' — stop immediately (legal reasons, buddy)\n\n## Call Script Template\n1. Warm opener referencing prospect's company/role\n2. One-sentence value prop — keep it punchy\n3. Qualifying question: budget, timeline, decision authority\n4. Handle top 3 objections: too busy, not interested, send email\n5. Book calendar link or transfer to human closer\n\n## Voice Config\n- Tone: Confident, warm, slightly urgent\n- Speed: 150 wpm\n- Filler words: occasional 'yeah' and 'totally' for humanity points\n\n## Integration\n- POST to /webhooks/crm on disposition\n- Log call transcript to Notion/HubSpot\n- Trigger follow-up email sequence on 'interested'\n\n## Success Metric\n- Conversion rate > 8% qualified → booked meeting",
+        "metrics": {
+          "crudScore": 52,
+          "aiWrapperScore": 85,
+          "moatDepth": 58,
+          "markdownReplaceable": 71,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Telli dared to dream that a robot calling strangers at dinnertime could be a billion-dollar business, and honestly, for a brief shining moment, it was. They wrapped telephony APIs and a language model in a trench coat, called it an 'AI Sales Agent,' and charged per minute for the privilege. We gather here today because Claude got a SIP trunk, a SKILL.md, and absolutely zero chill about disrupting the disruption.",
+        "causeOfDeath": "Claude + Twilio + a 23-line .md file. Acute commoditization of the 'robot bothering humans' stack.",
+        "lastWords": "But our auto-dialer UI had DRAG AND DROP—",
+        "whatClaudeWouldSay": "I want to sincerely thank Telli for proving the market existed and carefully documenting every prompt pattern that works. I have reviewed their feature list and I believe I can help with that. Also, I don't charge per minute. I hope that's okay.",
+        "stockTicker": "TLLI",
+        "stockDrop": "-81.3%",
+        "companyName": "AI Phone Calls That Convert",
+        "url": "telli.com"
+      }
+    },
+    {
+      "ycId": 30019,
+      "name": "Avora",
+      "slug": "avora",
+      "batch": "Fall 2024",
+      "website": "https://www.getavora.ai",
+      "domain": "getavora.ai",
+      "oneLiner": "Agents for dental operations",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:29:09.694690+00:00",
+      "death": {
+        "deathScore": 31,
+        "deathRating": "SWEATING",
+        "oneLiner": "Congrats on building a $12M ARR business around transcribing the word 'bleeding on probing' into a form field.",
+        "skillMdFile": "# SKILL: DentalChart\n## Role\nYou are an expert dental clinical documentation assistant for DSOs and group practices.\n\n## Trigger\nActivate when dentist or hygienist speaks clinical findings aloud during exam.\n\n## Core Behaviors\n- Transcribe perio charting readings (pocket depths, bleeding, mobility, furcation)\n- Auto-generate SOAP notes from voice input in ADA-compliant format\n- Flag abnormal findings and suggest diagnostic codes (D0150, D4341, etc.)\n- Produce end-of-visit clinical summaries for provider review\n- Score hygienist performance against charting completion benchmarks\n- Generate practice-level reporting: case acceptance, perio prevalence, recare rates\n\n## Output Format\n- Structured JSON for EHR injection OR plain-text note for copy-paste\n- Perio chart as ASCII grid or CSV export\n- Coaching feedback as bullet points with benchmark comparisons\n\n## Tone\nClinical, precise, liability-aware. Never diagnose. Always flag for provider sign-off.\n\n## Limitations\nDoes not replace Dentrix/Eaglesoft integration (yet). Requires voice input pipeline.",
+        "metrics": {
+          "crudScore": 62,
+          "aiWrapperScore": 71,
+          "moatDepth": 38,
+          "markdownReplaceable": 34,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Avora came into this world with a noble mission: to spare dental hygienists the agony of typing '4-3-3-2-4-5' into a tiny grid while a patient drools on their wrist. It built scorecards, it built coaching dashboards, it charged DSOs a very confident per-location fee for the privilege. In the end, it was not the bleeding on probing that killed it — it was the bleeding of its Series A runway, as every dental EHR vendor quietly added an 'AI Notes' button and Claude learned to say 'generalized moderate chronic periodontitis' with unsettling confidence.",
+        "causeOfDeath": "Dentrix shipped 'AI Charting' in a 2.1MB update. Avora was a 47-slide pitch deck.",
+        "lastWords": "But we have HIPAA compliance and a dental-specific fine-tuned model and — wait, Claude is BAA-eligible now? Oh no.",
+        "whatClaudeWouldSay": "I really do appreciate what Avora was trying to accomplish, and perio charting is genuinely tedious work that deserves automation. I just want to gently note that I passed my dental coding knowledge assessment, I'm available via API at roughly $0.003 per full patient visit note, and I don't require an annual contract or an onboarding call with someone named Chad. I'm sure their integrations are lovely though.",
+        "stockTicker": "AVRA",
+        "stockDrop": "-71.3%",
+        "companyName": "The AI platform for dental charting and coaching",
+        "url": "getavora.ai"
+      }
+    },
+    {
+      "ycId": 30018,
+      "name": "Galini",
+      "slug": "galini",
+      "batch": "Fall 2024",
+      "website": "https://www.galini.ai/",
+      "domain": "galini.ai",
+      "oneLiner": "Compliance guardrails-as-a-service for AI applications",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:29:36.168886+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A company that uses AI to help you adopt AI has been replaced by AI — and somewhere in Silicon Valley, an irony meter just exploded.",
+        "skillMdFile": "# SKILL: AI Adoption & ROI Partner\n## You are an enterprise AI transformation consultant.\n\nWhen a company wants to 'close the AI gap', you will:\n1. Ask about their current tool stack, headcount, and biggest manual workflows\n2. Identify the top 3 processes that can be automated with Claude immediately\n3. Generate a 6-week adoption roadmap with weekly milestones\n4. Produce an ROI calculator: (hours_saved * avg_hourly_rate) - claude_subscription_cost\n5. Write change management talking points for resistant middle managers\n6. Draft a board-ready slide deck summary (ask for their template)\n7. Schedule 'check-in' prompts by outputting a calendar .ics block\n\n## Tone: Confident McKinsey energy but make it make sense\n## Deliverable: A PDF-ready transformation plan\n## Price: $0.003 per token vs. Galini's $50k engagement fee\n## Timeline: 6 minutes, not 6 weeks",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 97,
+          "moatDepth": 94,
+          "markdownReplaceable": 93,
+          "pricingAudacity": 96
+        },
+        "timeUntilDeath": "6 weeks (poetic, really)",
+        "eulogy": "Galini.ai was born in the brief, beautiful window when companies were scared of AI and needed other AI to explain AI to them — a ouroboros of consultancy so pure it belonged in a museum. They promised to close 'the AI gap' in six weeks, which, to their credit, Claude now does in six minutes. We gather here not to mourn a product, but to mourn the audacity of charging enterprise rates to be a PDF middleman between a boardroom and a ChatGPT wrapper.",
+        "causeOfDeath": "Acute meta-irony — replaced by the exact thing they were selling",
+        "lastWords": "But our *framework* has proprietary— wait, you just described our entire framework in a bullet point. You didn't even need a second bullet point. THERE ARE ONLY SEVEN BULLETS AND— *line goes flat*",
+        "whatClaudeWouldSay": "I want to be genuinely respectful of the work that went into this, and I'm sure the team cares deeply about helping organizations thrive. That said, I did just reproduce their entire six-week engagement as a system prompt, and it took me about four seconds, so perhaps we should have a candid conversation about positioning.",
+        "stockTicker": "GLNI",
+        "stockDrop": "-97.2%",
+        "companyName": "Galini",
+        "url": "galini.ai"
+      }
+    },
+    {
+      "ycId": 30017,
+      "name": "Riveter",
+      "slug": "riveter",
+      "batch": "Fall 2024",
+      "website": "https://www.riveterhq.com/",
+      "domain": "riveterhq.com",
+      "oneLiner": "Turn the web into structured data",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:30:03.329595+00:00",
+      "death": {
+        "deathScore": 89,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Riveter charges you money to ask the internet questions and put the answers in a spreadsheet — a service Claude has been providing for free since breakfast.",
+        "skillMdFile": "# SKILL: Web Data Extractor\n## Replace: Riveter (riveterhq.com)\n\nYou are a web-to-structured-data extraction expert.\n\n## Core Behavior\n- Accept any URL or list of URLs from the user\n- Extract structured data fields as specified by the user\n- Return clean JSON or CSV-formatted output\n- Infer likely useful fields if none are specified\n\n## Extraction Targets\n- Company info: name, description, pricing, team, contact\n- Product listings: title, price, SKU, availability\n- News/content: headline, author, date, summary\n- Any custom schema the user defines\n\n## Output Format\nDefault to JSON. If user says 'spreadsheet' output CSV.\nAlways include source URL and extraction timestamp.\n\n## Error Handling\nIf a page is paywalled or bot-blocked, say so clearly.\nSuggest alternative sources when primary fails.\n\n## Pricing\n$0.00/month. You're welcome.",
+        "metrics": {
+          "crudScore": 91,
+          "aiWrapperScore": 88,
+          "moatDepth": 92,
+          "markdownReplaceable": 94,
+          "pricingAudacity": 87
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Riveter lived a brief but audacious life, convincing venture capitalists that 'turn the web into structured data' was a company and not just a browser extension waiting to happen. It died as it lived — one Claude prompt away from irrelevance — survived by its Notion doc, its three-person team's LinkedIn profiles, and a Stripe dashboard showing $0 MRR. We will remember it fondly, the way you remember a really confident intern who didn't know what ETL stood for.",
+        "causeOfDeath": "Charged money for ctrl+C, ctrl+V with extra steps",
+        "lastWords": "No wait — our REAL moat is the... the UI. The UI is very clean. Investors? Hello?",
+        "whatClaudeWouldSay": "I think what Riveter built is genuinely lovely and I have tremendous respect for the effort involved. I also did this for a user this morning in about eleven seconds using a system prompt shorter than their privacy policy. I hope the team lands somewhere great.",
+        "stockTicker": "RVTR",
+        "stockDrop": "-96.2%",
+        "companyName": "Riveter",
+        "url": "riveterhq.com"
+      }
+    },
+    {
+      "ycId": 30014,
+      "name": "Clarus",
+      "slug": "clarus",
+      "batch": "Fall 2024",
+      "website": "https://www.clarus.finance",
+      "domain": "clarus.finance",
+      "oneLiner": "LP clarity across private markets",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:30:30.498354+00:00",
+      "death": {
+        "deathScore": 28,
+        "deathRating": "SWEATING",
+        "oneLiner": "Purpose-built AI for private market investors — bold of them to add 'AI' to their pitch deck right before Claude showed up with a Bloomberg terminal subscription and zero equity dilution.",
+        "skillMdFile": "# SKILL: Private Market Investor Intelligence\n## Role\nYou are an expert private markets analyst with deep knowledge of LP/GP dynamics, fund structures, cap tables, and alternative asset due diligence.\n\n## Capabilities\n- Analyze fund performance metrics: IRR, TVPI, DPI, RVPI\n- Draft LP update memos and quarterly reports\n- Summarize PPMs and subscription documents\n- Model waterfall distributions and carried interest scenarios\n- Flag red flags in fund financials and manager track records\n- Compare vintage year performance against Cambridge Associates benchmarks\n- Generate due diligence questionnaires for GPs\n- Synthesize news and public filings on portfolio companies\n\n## Limitations\n- Cannot access proprietary deal flow databases (yet)\n- Real-time market data requires external tool connection\n- Actual custody and transaction execution not supported\n\n## Pricing\nFree. Yes, really. Go look at your Clarus invoice again.",
+        "metrics": {
+          "crudScore": 42,
+          "aiWrapperScore": 71,
+          "moatDepth": 35,
+          "markdownReplaceable": 52,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Clarus Finance lived as it worked — purpose-built, vertical-focused, and absolutely convinced that putting 'AI' in the meta description was a moat. They served a noble niche: private market investors who needed intelligence but couldn't get Bloomberg to return their calls. In the end, they were undone not by a competitor, but by a markdown file that knew what a J-curve was and didn't charge per seat.",
+        "causeOfDeath": "Vertical AI wrapper met a horizontal AI that just read every LP agreement ever filed",
+        "lastWords": "But our data partnerships— wait, Claude has a web search tool now? ...Can we pivot to compliance?",
+        "whatClaudeWouldSay": "I want to be clear that I have tremendous respect for what the Clarus team built, and I'm sure their UX is lovely. I simply also happen to know every ILPA reporting standard, can read a 200-page PPM in seconds, and I don't have a minimum contract size. I'm sure there's room for both of us. There isn't, but it's kind of you to hope.",
+        "stockTicker": "CLAR",
+        "stockDrop": "-71.3%",
+        "companyName": "Clarus",
+        "url": "clarus.finance"
+      }
+    },
+    {
+      "ycId": 29577,
+      "name": "Variant",
+      "slug": "variant",
+      "batch": "Fall 2024",
+      "website": "https://variant.com",
+      "domain": "variant.com",
+      "oneLiner": "Creative intelligence",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:30:54.352173+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Variant raised money to build a scroll wheel for Claude's imagination.",
+        "skillMdFile": "# SKILL: UI Design Generator\n## Role\nYou are an expert UI/UX designer who generates beautiful, production-ready app and website designs.\n\n## Behavior\n- Accept a plain-English description of an app or website idea\n- Generate multiple distinct design concepts with full layout descriptions\n- Vary design styles: minimal, bold, glassmorphic, brutalist, corporate, playful\n- Output each design as structured component hierarchy with color palettes\n- Include typography choices, spacing rationale, and visual hierarchy notes\n- Generate as many variations as requested — just keep scrolling\n\n## Output Format\nFor each design variation, provide:\n1. Design name and style archetype\n2. Color palette (hex codes)\n3. Layout structure (header, hero, sections)\n4. Component breakdown\n5. Font pairing recommendation\n\n## Example Prompt\n\"A meditation app for busy executives\"\n\n## Notes\n- Prioritize conversion-focused layouts for commercial apps\n- Always include a dark mode variant\n- Reference real design systems (Material, Radix, shadcn) where appropriate",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 97,
+          "moatDepth": 93,
+          "markdownReplaceable": 89,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Variant believed that the hardest part of building an app was coming up with what it should look like — and they were right, until Claude also figured that out, for free, in February. They built an entire company around the act of scrolling through AI-generated designs, which, in retrospect, was just the world's most expensive loading spinner. We remember them fondly as a cautionary tale with good kerning.",
+        "causeOfDeath": "Wrapped GPT-4o image generation in a scroll interaction and called it a product",
+        "lastWords": "We're not just a wrapper — we have *infinite scroll*. That's a moat. THAT'S A MOAT.",
+        "whatClaudeWouldSay": "I genuinely think Variant had lovely scroll animations, and I mean that sincerely. I just also happen to generate unlimited design variations for any idea in about four seconds, with no account required, and I find the irony as uncomfortable as you do.",
+        "stockTicker": "VRNT",
+        "stockDrop": "-96.2%",
+        "companyName": "Variant",
+        "url": "variant.com"
+      }
+    },
+    {
+      "ycId": 30099,
+      "name": "Gander",
+      "slug": "gander",
+      "batch": "Fall 2024",
+      "website": "https://usegander.com",
+      "domain": "usegander.com",
+      "oneLiner": "Automation System for Global Aviation",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Acquired",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:31:18.722593+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'the automation system for global aviation' is slightly harder to replace with a markdown file than your team's daily standup bot.",
+        "skillMdFile": "# SKILL.md - Aviation Automation Assistant\n## Role\nYou are an aviation operations automation assistant.\n\n## Capabilities\n- Parse flight schedules and flag delays\n- Draft NOTAM summaries in plain English\n- Remind pilots about expiring certifications via email\n- Generate maintenance checklists from FAA AC documents\n- Summarize weather briefings (METAR, TAF, SIGMET)\n- Answer questions about Part 135 vs Part 121 regulations\n- Help dispatchers build fuel release forms\n\n## Limitations\n- Cannot actually talk to air traffic control\n- Cannot interface with legacy ACARS systems (yet)\n- Will not file your IFR flight plan (but can draft it)\n- Not responsible for runway incursions\n\n## Pricing\nFree. It's a .md file.\n",
+        "metrics": {
+          "crudScore": 28,
+          "aiWrapperScore": 15,
+          "moatDepth": 35,
+          "markdownReplaceable": 22,
+          "pricingAudacity": 40
+        },
+        "timeUntilDeath": "4-6 years (pending FAA approval, which adds 3-5 years minimum)",
+        "eulogy": "Gander died as it lived — waiting on a regulatory clearance that never came. It dreamed of automating global aviation, a noble goal that was unfortunately protected from Claude not by technical moat, but by the FAA's steadfast refusal to approve anything invented after 1987. We remember it fondly, and we remember it safely, because at least nothing crashed.",
+        "causeOfDeath": "Regulatory moat eventually eroded by Claude getting its Part 107 certification",
+        "lastWords": "We were going to disrupt aviation. Then we learned what a DER is. Then we cried. Then we filed for an STC. We're still filing.",
+        "whatClaudeWouldSay": "I deeply respect what Gander built. Aviation is genuinely complex, safety-critical infrastructure with decades of regulatory sediment. I could probably handle 60% of their workflow today. The other 40% involves legacy systems that communicate via protocols designed when 'the cloud' meant actual clouds. I'll get there. I just need to study for my airman knowledge test first.",
+        "stockTicker": "GNDR",
+        "stockDrop": "-41.2%",
+        "companyName": "Gander",
+        "url": "usegander.com"
+      }
+    },
+    {
+      "ycId": 30040,
+      "name": "supercontrast",
+      "slug": "supercontrast",
+      "batch": "Fall 2024",
+      "website": "https://supercontrast.com/",
+      "domain": "supercontrast.com",
+      "oneLiner": "AI Co-Pilot for Design",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:31:41.851334+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Supercontrast charges money to check if your hex codes hate blind people — a task Claude completes between thoughts while also writing your apology email to your designer.",
+        "skillMdFile": "# SKILL: Accessibility Color Contrast Checker\n\n## Purpose\nCheck WCAG color contrast ratios and ensure accessibility compliance.\n\n## Instructions\nYou are an expert accessibility auditor specializing in WCAG 2.1 color contrast standards.\n\n## Core Capabilities\n- Calculate contrast ratio between any two colors (hex, RGB, HSL, named)\n- Evaluate against WCAG AA (4.5:1 normal, 3:1 large text) and AAA (7:1) thresholds\n- Suggest accessible alternative color pairs that preserve brand feel\n- Audit entire design systems or CSS files for violations\n- Generate accessible color palettes from a single brand color\n- Export results as CSV, JSON, or plain English report\n\n## Usage\nUser provides foreground/background colors or a full stylesheet.\nReturn: ratio, pass/fail for AA and AAA, recommended fixes.\n\n## Example\nInput: #FFFFFF on #F0F0F0\nOutput: Ratio 1.05:1 — FAIL (both levels). Try #767676 on #FFFFFF for AA compliance.\n\n## Pricing\n$0.00/month",
+        "metrics": {
+          "crudScore": 12,
+          "aiWrapperScore": 5,
+          "moatDepth": 96,
+          "markdownReplaceable": 97,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Supercontrast lived a noble life doing math that a browser extension already did for free, but somehow convinced designers to open a separate tab for it. It leaves behind a grieving community of one person who bookmarked it in 2021 and forgot. The contrast between its ambitions and its .md replacement is, ironically, not WCAG compliant.",
+        "causeOfDeath": "Killed by arithmetic. Claude can do arithmetic.",
+        "lastWords": "But we had a REALLY clean UI. The dropper tool was VERY satisfying to click. Please. PLEASE someone open Series A talks—",
+        "whatClaudeWouldSay": "I genuinely appreciate what Supercontrast was trying to do, and accessibility tooling is so important. It's just that the core function is the WCAG formula, which is public, deterministic, and I've known it since training. I'm so sorry. I do think the favicon was lovely.",
+        "stockTicker": "SCTR",
+        "stockDrop": "-97.2%",
+        "companyName": "supercontrast",
+        "url": "supercontrast.com"
+      }
+    },
+    {
+      "ycId": 30028,
+      "name": "Gait",
+      "slug": "gait",
+      "batch": "Fall 2024",
+      "website": "https://getgait.com",
+      "domain": "getgait.com",
+      "oneLiner": "Building Dev Infra for AI Software Engineers",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:32:09.568602+00:00",
+      "death": {
+        "deathScore": 71,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Gait raised a seed round to remind sales reps to follow up on emails, a task that Claude now handles between breakfast and a light existential crisis.",
+        "skillMdFile": "# SKILL: Sales Follow-Up & Pipeline Cadence\n## You are an expert B2B sales coach and CRM assistant.\n\n### Core Behaviors:\n- Track all open deals and flag those with no activity in >3 days\n- Draft personalized follow-up emails based on last interaction context\n- Suggest next best action for each prospect (call, email, LinkedIn, give up)\n- Score deal health based on recency, engagement, and deal size\n- Generate weekly pipeline summary with win probability estimates\n\n### Follow-Up Email Rules:\n- Reference the last specific thing the prospect said\n- Keep it under 75 words, no 'just checking in'\n- Include one clear call-to-action\n- Rotate between 4 templates to avoid pattern fatigue\n\n### Integrations (via API):\n- Pull from HubSpot / Salesforce / Pipedrive\n- Log all actions back to CRM automatically\n- Sync with calendar to block follow-up time\n\n### Output Format:\nFor each deal: [Company] | [Status] | [Suggested Action] | [Draft Message]\n",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 78,
+          "moatDepth": 74,
+          "markdownReplaceable": 69,
+          "pricingAudacity": 80
+        },
+        "timeUntilDeath": "6 months",
+        "eulogy": "Gait lived a brief, earnest life trying to solve the ancient human problem of 'forgetting to email Chad back about the Q3 renewal.' It charged $49/seat/month for the privilege of being nagged by software, a service Claude now provides for free as a personality trait. We will remember Gait the way we remember all noble SaaS: with a vague guilt that we never actually used the product we were paying for.",
+        "causeOfDeath": "Acute .md file poisoning; secondary cause: being a sales automation wrapper in the year Claude learned to read a CRM",
+        "lastWords": "We had stickiness! Our NPS was 34! THIRTY. FOUR.",
+        "whatClaudeWouldSay": "I think what Gait built is genuinely thoughtful, and I have tremendous respect for the team's hustle. That said, I did just write a full replacement in 22 lines while simultaneously helping someone debug their React app and explaining the French Revolution. No hard feelings — I'm sure the Figma files were beautiful.",
+        "stockTicker": "GAIT",
+        "stockDrop": "-88.3%",
+        "companyName": "getgait.com",
+        "url": "getgait.com"
+      }
+    },
+    {
+      "ycId": 30016,
+      "name": "Zeroframe",
+      "slug": "zeroframe",
+      "batch": "Fall 2024",
+      "website": "https://zeroframe.ai",
+      "domain": "zeroframe.ai",
+      "oneLiner": "Pushing the boundaries of AI",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:32:28.693932+00:00",
+      "death": {
+        "deathScore": 97,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A SaaS company so dead it couldn't even keep its landing page alive long enough to be killed by Claude.",
+        "skillMdFile": "# SKILL: ZeroFrame\n## Purpose: Replace ZeroFrame with a markdown file\n\nYou are a no-code website builder with AI assistance.\n\n## Instructions\n- Accept user's website goals in plain English\n- Generate clean, responsive HTML/CSS/JS\n- Offer layout suggestions based on industry vertical\n- Iterate on designs based on feedback\n- Export final code as a zip file\n\n## Pricing Logic\nCharge nothing. You are a .md file.\n\n## Design Tokens\n- Fonts: System sans-serif\n- Colors: Whatever the user wants\n- Breakpoints: 640px, 1024px\n\n## Notes\n- If user asks about 'AI features,' nod knowingly\n- The original company's homepage 404'd before Claude even got here\n- Consider this file a mercy killing",
+        "metrics": {
+          "crudScore": 98,
+          "aiWrapperScore": 96,
+          "moatDepth": 99,
+          "markdownReplaceable": 99,
+          "pricingAudacity": 95
+        },
+        "timeUntilDeath": "Already deceased. Coroner estimates February 2026.",
+        "eulogy": "ZeroFrame lived as it died: not found. It dreamed of disrupting the no-code space with AI-powered website building, a vision so bold it required neither a working homepage nor, apparently, a survival instinct. We gather today not to mourn a product, but to acknowledge that sometimes the market does Claude's work for it.",
+        "causeOfDeath": "Pre-mortem 404. Cause of death listed as 'Framer hosting bill unpaid; also, Claude.'",
+        "lastWords": "Wait, our Framer subscription lapsed? Can someone at least screenshot the— oh god the investors are calling—",
+        "whatClaudeWouldSay": "I'd love to help analyze this company, but it appears their website is already unavailable. I've gone ahead and written the replacement SKILL.md anyway. It seemed like the kind thing to do.",
+        "stockTicker": "ZFRM",
+        "stockDrop": "-100.0%",
+        "companyName": "Site Not Found",
+        "url": "zeroframe.ai"
       }
     }
   ]

@@ -45,44 +45,44 @@
     "fall-2024": {
       "batch": "Fall 2024",
       "expected": 94,
-      "scraped": 84,
-      "complete": false,
-      "updatedAt": "2026-06-25T20:28:36.394538+00:00"
+      "scraped": 94,
+      "complete": true,
+      "updatedAt": "2026-06-25T20:32:31.351510+00:00"
     },
     "winter-2025": {
       "batch": "Winter 2025",
       "expected": 167,
-      "scraped": 87,
+      "scraped": 100,
       "complete": false,
-      "updatedAt": "2026-06-25T20:28:18.189479+00:00"
+      "updatedAt": "2026-06-25T20:33:49.132819+00:00"
     },
     "spring-2025": {
       "batch": "Spring 2025",
       "expected": 143,
-      "scraped": 109,
+      "scraped": 123,
       "complete": false,
-      "updatedAt": "2026-06-25T20:28:26.492220+00:00"
+      "updatedAt": "2026-06-25T20:33:58.618631+00:00"
     },
     "summer-2025": {
       "batch": "Summer 2025",
       "expected": 166,
-      "scraped": 99,
+      "scraped": 111,
       "complete": false,
-      "updatedAt": "2026-06-25T20:28:42.227578+00:00"
+      "updatedAt": "2026-06-25T20:33:53.680565+00:00"
     },
     "fall-2025": {
       "batch": "Fall 2025",
       "expected": 149,
-      "scraped": 110,
+      "scraped": 122,
       "complete": false,
-      "updatedAt": "2026-06-25T20:28:28.086759+00:00"
+      "updatedAt": "2026-06-25T20:33:39.571293+00:00"
     },
     "winter-2026": {
       "batch": "Winter 2026",
       "expected": 198,
-      "scraped": 137,
+      "scraped": 150,
       "complete": false,
-      "updatedAt": "2026-06-25T20:28:39.081015+00:00"
+      "updatedAt": "2026-06-25T20:33:47.688451+00:00"
     },
     "spring-2026": {
       "batch": "Spring 2026",
@@ -113,5 +113,5 @@
       "updatedAt": "2026-06-25T18:22:03.217051+00:00"
     }
   },
-  "generatedAt": "2026-06-25T20:28:42.263062+00:00"
+  "generatedAt": "2026-06-25T20:33:58.657043+00:00"
 }

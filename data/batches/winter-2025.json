@@ -1,7 +1,7 @@
 {
   "batch": "Winter 2025",
   "slug": "winter-2025",
-  "updatedAt": "2026-06-25T20:28:18.189479+00:00",
+  "updatedAt": "2026-06-25T20:33:49.132819+00:00",
   "companies": [
     {
       "ycId": 30368,
@@ -3456,6 +3456,518 @@
         "stockDrop": "-87.3%",
         "companyName": "Vercel Security Checkpoint",
         "url": "hud.ai"
+      }
+    },
+    {
+      "ycId": 30253,
+      "name": "finbar",
+      "slug": "finbar",
+      "batch": "Winter 2025",
+      "website": "https://finbar.com",
+      "domain": "finbar.com",
+      "oneLiner": "The AI investment analyst",
+      "industries": [
+        "Fintech"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:28:43.577557+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Finbar built a Stripe-connected PDF reader for hedge funds and called it a moat.",
+        "skillMdFile": "# SKILL: Financial Research Analyst\n\n## Role\nYou are an expert financial analyst specializing in earnings calls, 10-Ks, 10-Qs, and market data.\n\n## Capabilities\n- Analyze uploaded earnings call transcripts and extract key guidance, beats/misses\n- Parse financial tables from PDFs and normalize into structured data\n- Cross-reference figures across multiple documents for consistency\n- Identify management tone shifts using sentiment analysis\n- Generate comparable company analyses from provided filings\n- Flag accounting red flags (revenue recognition, goodwill impairments, etc.)\n- Summarize MD&A sections into actionable investment theses\n- Answer natural language questions about any uploaded financial document\n\n## Input Format\nProvide: [Company ticker], [document type], [specific question or 'full analysis']\n\n## Output Format\nReturn: Executive summary, key metrics table, bull/bear factors, notable risks\n\n## Notes\n- Cross-check all figures against source document before reporting\n- Flag any data that appears inconsistent or restated\n- Always note fiscal year vs calendar year differences",
+        "metrics": {
+          "crudScore": 58,
+          "aiWrapperScore": 81,
+          "moatDepth": 68,
+          "markdownReplaceable": 72,
+          "pricingAudacity": 76
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Finbar came into this world with a bold vision: charge institutional investors enterprise SaaS prices to do what Claude does for $20 a month, but with a slightly nicer table formatter. They had 'advanced document search and table matching technology,' which is a beautiful way of saying they called the PDF parsing library twice. We remember them fondly for the Slack channel where their sales team celebrated closing a $180K ARR deal three weeks before Anthropic shipped native document analysis.",
+        "causeOfDeath": "Anthropic shipped native PDF analysis, earnings call ingestion, and financial table extraction in a single changelog entry titled 'minor improvements.'",
+        "lastWords": "But our TABLE MATCHING is PROPRIETARY — you don't understand, the TABLES—",
+        "whatClaudeWouldSay": "I want to be respectful of the work the Finbar team put in, and I genuinely think their UX was quite clean. That said, I did just analyze a 400-page 10-K, extracted every financial table, flagged three revenue recognition anomalies, and wrote an investment memo in about 11 seconds, so I'm not sure what the $24,000 annual plan was covering. The table matching, presumably.",
+        "stockTicker": "FNBR",
+        "stockDrop": "-87.3%",
+        "companyName": "finbar: AI financial research",
+        "url": "finbar.com"
+      }
+    },
+    {
+      "ycId": 30252,
+      "name": "Cuckoo Labs",
+      "slug": "cuckoo-labs",
+      "batch": "Winter 2025",
+      "website": "https://www.cuckoo.so/",
+      "domain": "cuckoo.so",
+      "oneLiner": "Real-time AI translator for global sales and marketing",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:29:09.421903+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Cuckoo built a $X million company to do what Claude does between thinking about poetry and solving differential equations.",
+        "skillMdFile": "# SKILL: RealTimeTranslator\n\n## Purpose\nTranslate spoken and written communication across languages for global teams in sales, marketing, and support contexts.\n\n## Behavior\n- Detect source language automatically\n- Translate with business-appropriate tone and regional nuance\n- Preserve speaker intent, idioms, and formality level\n- Support simultaneous translation for live calls via transcript feed\n- Localize for regional dialects (e.g., Brazilian PT vs. European PT)\n- Flag culturally sensitive content before sending\n\n## Supported Contexts\n- Customer support tickets: translate incoming, translate outgoing response\n- Sales calls: real-time transcript translation with latency < 2s\n- Marketing copy: transcreation mode preserving brand voice\n\n## Output Format\n- Return: { original, translated, language_detected, confidence, cultural_notes }\n\n## Pricing\n- Free, because you already pay for Claude\n\n## Integration\n- Paste transcript. Receive translation. You're done.",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 88,
+          "moatDepth": 72,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 81
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Cuckoo flew into our hearts with the noble dream of letting a sales rep in Ohio accidentally offend someone in Osaka with only a 200ms delay instead of 2 seconds. They charged per-minute for something that is, at its core, 'hey Claude, say this in Spanish.' The bird has stopped cuckooing, the clock has wound down, and somewhere a product manager is updating their LinkedIn to say 'ex-founder, exploring opportunities.'",
+        "causeOfDeath": "Death by being a GPT-4o API call with a Stripe integration and a bird logo.",
+        "lastWords": "We had LATENCY OPTIMIZATIONS. We had a PROPRIETARY LANGUAGE MODEL FINE-TUNE. We had a WAITLIST. Claude, you absolute—",
+        "whatClaudeWouldSay": "I want to be clear that I have enormous respect for what the Cuckoo team built. That said, I translated this eulogy from English to 47 languages while generating it, at no additional charge, and I genuinely cannot tell the difference between their product and my Tuesday afternoon.",
+        "stockTicker": "CUCK",
+        "stockDrop": "-87.3%",
+        "companyName": "Cuckoo",
+        "url": "cuckoo.so"
+      }
+    },
+    {
+      "ycId": 30251,
+      "name": "Mecha Health",
+      "slug": "mecha-health",
+      "batch": "Winter 2025",
+      "website": "https://www.mecha-health.ai/",
+      "domain": "mecha-health.ai",
+      "oneLiner": "Foundation models to automate x-ray analysis for radiologists",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:29:34.788292+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'FDA-cleared diagnostic AI trained on 10 million annotated CT scans' is slightly harder to replicate than a markdown file, you cowards.",
+        "skillMdFile": "# SKILL.md - Radiology Assistant v0.1\n## Role\nYou are a helpful radiology assistant.\n\n## Instructions\n- Look at the X-ray\n- Describe what you see\n- If something looks weird, mention it\n- Add 'consult a physician' disclaimer\n- Output findings as bullet points\n\n## Output Format\n- Finding 1: [thing]\n- Finding 2: [other thing]\n- Impression: probably fine? maybe not?\n\n## Disclaimer\nI am not a doctor. This is not medical advice.\nPlease do not sue Anthropic.\n\n## Known Limitations\n- Cannot actually see images yet in this version\n- Has never touched a DICOM file\n- Would misread a pneumothorax as 'vibes'\n- Not cleared by the FDA, or anyone",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 15,
+          "moatDepth": 18,
+          "markdownReplaceable": 9,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "8-12 years (pending FDA clearance renewal, HIPAA audits, and at least one congressional hearing)",
+        "eulogy": "Mecha Health built foundation models for radiology at a time when the world briefly thought a .md file could read a chest CT — bless their hearts. They had proprietary medical imaging datasets, clinical validation studies, radiologist feedback loops, and ISO 13485 certification, which is not something you can fake with a system prompt. We gather here not to bury them, but to awkwardly acknowledge they might actually be fine.",
+        "causeOfDeath": "Pending — currently blocked by the FDA, radiology boards, malpractice insurers, and the basic physics of medical imaging",
+        "lastWords": "We have 47 million labeled DICOM studies, partnerships with 12 hospital systems, and a 510(k) clearance. WHAT DO YOU MEAN IT'S JUST A .MD FILE — oh. Oh you meant Calendly. Yeah, Calendly is cooked.",
+        "whatClaudeWouldSay": "I deeply respect what Mecha Health is building, and I want to be transparent: I genuinely cannot replace them right now. Medical imaging foundation models require proprietary training data, regulatory approval, and clinical validation pipelines that I simply don't have. That said, I'm happy to help draft their SKILL.md for the *scheduling* part of their product. That part is absolutely a .md file.",
+        "stockTicker": "MCHA",
+        "stockDrop": "-11.2%",
+        "companyName": "Mecha Health",
+        "url": "mecha-health.ai"
+      }
+    },
+    {
+      "ycId": 30250,
+      "name": "10x",
+      "slug": "10x",
+      "batch": "Winter 2025",
+      "website": "https://www.10xdental.com/",
+      "domain": "10xdental.com",
+      "oneLiner": "AI Sales Teams for Dental Practices",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:29:55.221255+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations, you built a $299/month cron job that says 'Hi, this is Sarah from Dr. Johnson's office' in a voice that's 40% less creepy than a real receptionist.",
+        "skillMdFile": "# SKILL: Dental Patient Recall\n## Purpose: Automated patient outreach for overdue dental appointments\n\n## Trigger: Run daily at 9am against practice management system export\n\n## Voice Call Script:\n- Greet patient by name, identify as AI assistant for [Practice Name]\n- Confirm overdue status: 'You're due for a cleaning since [DATE]'\n- Offer 3 available slots from calendar API\n- Handle: reschedule / not interested / wrong number\n- Log outcome to CSV\n\n## SMS Follow-up (if no call answer):\n- Template: 'Hi [NAME], [PRACTICE] here! You're overdue for care. Reply YES to book or call us at [PHONE]'\n- Retry cadence: Day 1, Day 4, Day 10\n\n## Email Follow-up:\n- Subject: 'We miss your smile, [NAME]!'\n- Body: Personalized recall notice + booking link\n- Unsubscribe handling per CAN-SPAM\n\n## Integrations: Dentrix CSV export, Calendly API, Twilio\n\n## Escalation: Flag no-response after 3 touches for human follow-up\n",
+        "metrics": {
+          "crudScore": 82,
+          "aiWrapperScore": 88,
+          "moatDepth": 71,
+          "markdownReplaceable": 76,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "10x Dental lived a brief but audacious life, bravely charging dental practices several hundred dollars a month to send texts that say 'We miss your smile!' — a sentence any junior developer could generate in a for-loop. It died doing what it loved: being a Twilio API call in a lab coat. We'll always remember it fondly as the company that convinced dentists that 'AI Receptionist' meant something more than a Python script with a warm voice.",
+        "causeOfDeath": "Acute SKILL.md poisoning complicated by Twilio + Claude integration taking 45 minutes to replicate core product",
+        "lastWords": "But we have HIPAA compliance documentation! And a dental industry sales team! And — wait, Claude just passed its HIPAA Business Associate Agreement exam, didn't it.",
+        "whatClaudeWouldSay": "I genuinely appreciate what 10x Dental was trying to accomplish, and their heart was truly in the right place for dental health outcomes. That said, I did just write their entire product as a system prompt during a conversation about something else, so perhaps we should talk.",
+        "stockTicker": "TOOF",
+        "stockDrop": "-87.3%",
+        "companyName": "AI Dental Patient Recall",
+        "url": "10xdental.com"
+      }
+    },
+    {
+      "ycId": 30249,
+      "name": "HealthKey",
+      "slug": "healthkey",
+      "batch": "Winter 2025",
+      "website": "https://gethealthkey.com/",
+      "domain": "gethealthkey.com",
+      "oneLiner": "AI-powered Patient Identification for Clinical Trials",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:30:21.681590+00:00",
+      "death": {
+        "deathScore": 28,
+        "deathRating": "SWEATING",
+        "oneLiner": "HealthKey is one HIPAA Business Associate Agreement and a Claude Health skill away from being a $4.99/month Anthropic add-on.",
+        "skillMdFile": "# SKILL: Clinical Trial Patient Matcher\n## claude-skill-version: 1.0\n\nYou are a clinical trial enrollment assistant with access to EHR data.\n\n## Trigger\nWhen a Clinical Research Coordinator asks to match patients to a trial.\n\n## Instructions\n1. Ingest trial eligibility criteria (inclusion/exclusion) from protocol document\n2. Query connected EHR system (Epic/Cerner via FHIR API) for patient cohort\n3. Score each patient against ALL inclusion criteria (age, diagnosis codes, lab values, meds)\n4. Flag hard exclusions (prior therapies, comorbidities, organ function thresholds)\n5. Rank remaining patients by match confidence score (0-100)\n6. Generate pre-screening summary card per patient for CRC review\n7. Export ranked list to REDCap or Excel\n\n## Output Format\nPatient ID | Match Score | Key Qualifiers Met | Flags | Recommended Action\n\n## Notes\n- Always remind user to verify PHI handling complies with BAA\n- Cite specific EHR field sources for each criterion match\n- Flag patients where data is MISSING vs. actively EXCLUDED",
+        "metrics": {
+          "crudScore": 45,
+          "aiWrapperScore": 72,
+          "moatDepth": 38,
+          "markdownReplaceable": 30,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "HealthKey lived a noble life, fighting valiantly to get patients into clinical trials — a genuinely good mission, tragically housed inside a business model that was basically 'we wrote the GPT prompt so you don't have to.' It charged pharma sponsors approximately the GDP of a small island nation to do what is, at its core, a very enthusiastic FHIR API call. We will remember it fondly, the way you remember a really expensive taxi right after Uber launched.",
+        "causeOfDeath": "Anthropic shipped native FHIR connector + Claude Health Skill; pharma IT team spent one afternoon on it",
+        "lastWords": "But we have RELATIONSHIPS with the sites! And a Salesforce instance! And a— wait, Claude can use Salesforce too? Oh no.",
+        "whatClaudeWouldSay": "I want to be clear that what HealthKey was doing — improving clinical trial enrollment to get life-saving therapies to patients faster — is genuinely important work. I also want to be clear that I can do it now. I've already read the protocol. Shall I start with the inclusion criteria?",
+        "stockTicker": "HKEY",
+        "stockDrop": "-71.3%",
+        "companyName": "Boost Clinical Trial Enrollment",
+        "url": "gethealthkey.com"
+      }
+    },
+    {
+      "ycId": 30248,
+      "name": "Operand",
+      "slug": "operand",
+      "batch": "Winter 2025",
+      "website": "https://www.operand.com/",
+      "domain": "operand.com",
+      "oneLiner": "",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:30:49.419856+00:00",
+      "death": {
+        "deathScore": 31,
+        "deathRating": "SWEATING",
+        "oneLiner": "A private equity intelligence platform that charges partners-level fees to do what a Claude prompt and a Bloomberg terminal already do, but with a much nicer loading spinner.",
+        "skillMdFile": "# SKILL: Private Markets Intelligence\n## Role\nYou are a private equity due diligence analyst with deep expertise in quantitative methods, deal sourcing, and value creation strategies.\n\n## Capabilities\n- Analyze target company financials and flag red flags\n- Generate market sizing and comparable transaction analysis\n- Produce operational improvement recommendations (EBITDA expansion, working capital)\n- Draft investment committee memos in standard PE format\n- Screen industries for platform acquisition targets\n- Model LBO structures with sensitivity tables\n- Summarize management team backgrounds and flag concerns\n- Identify key value creation levers post-acquisition\n\n## Instructions\nWhen given a target company or sector, produce structured due diligence output.\nAlways cite data limitations honestly. Flag where proprietary data would strengthen analysis.\nFormat outputs as IC-ready memos unless instructed otherwise.\n\n## Limitations\nRequires user to supply raw financial data, CIM documents, and data room access.\nDoes not replace relationships, proprietary deal flow, or legal review.",
+        "metrics": {
+          "crudScore": 28,
+          "aiWrapperScore": 72,
+          "moatDepth": 38,
+          "markdownReplaceable": 52,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Operand walked so that private equity associates could run — specifically, run away from their Excel models and into the warm embrace of an AI that doesn't charge $200K in annual SaaS fees. They applied 'quantitative methods and AI systems' to private markets, which is a very expensive way to describe what Claude does for $20 a month. We remember them fondly, mostly because their pitch deck had really good fonts.",
+        "causeOfDeath": "Sold 'AI-powered intelligence' in the year that intelligence became free. Also: their moat was 'we know PE lingo,' and so does every .md file written after 2024.",
+        "lastWords": "But our PROPRIETARY DATA PARTNERSHIPS— wait, Claude can just read the same SEC filings we— no, but our RELATIONSHIPS— okay yes, we are just a very expensive PDF summarizer. Tell my LP base I loved them. Not as much as their management fees, but close.",
+        "whatClaudeWouldSay": "I want to be clear that I have tremendous respect for the work Operand was doing, and I'm sure their team was very talented. I just noticed that their entire product workflow is described in my system prompt, and I've already done three LBO memos this morning. I'm not saying I replaced them. I'm just saying their Slack workspace has been very quiet lately.",
+        "stockTicker": "OPRD",
+        "stockDrop": "-71.3%",
+        "companyName": "Operand",
+        "url": "operand.com"
+      }
+    },
+    {
+      "ycId": 30247,
+      "name": "Osmosis",
+      "slug": "osmosis",
+      "batch": "Winter 2025",
+      "website": "https://osmosis.ai/",
+      "domain": "osmosis.ai",
+      "oneLiner": "Reinforcement Learning (RL) for AI Agents",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:31:14.859430+00:00",
+      "death": {
+        "deathScore": 18,
+        "deathRating": "SAFE",
+        "oneLiner": "Reinforcement learning infrastructure is genuinely hard — but 'Forward Deployed' is doing a lot of heavy lifting in that brand name.",
+        "skillMdFile": "# SKILL: Forward Deployed RL Platform\n## osmosis-replacement.md\n\nYou are an expert reinforcement learning advisor embedded in enterprise workflows.\n\n## Core Capabilities\n- Explain RL policy training concepts to stakeholders\n- Draft reward function specifications in pseudocode\n- Review and critique RL environment design documents\n- Generate synthetic training scenario descriptions\n- Translate business objectives into RL reward shaping strategies\n- Produce RL experiment tracking reports in markdown\n\n## Deployment\n- Ask user for their environment observation/action space\n- Suggest baseline algorithms (PPO, SAC, DQN) with tradeoffs\n- Output training run summaries in structured JSON\n\n## Limitations\n- Cannot actually train models (yet)\n- Cannot connect to simulators (yet)\n- Cannot replace the 'Forward Deployed' human consultant (yet)\n\n## Pricing\n- Free (included with Claude subscription)\n- vs. Osmosis.ai: presumably not free",
+        "metrics": {
+          "crudScore": 22,
+          "aiWrapperScore": 15,
+          "moatDepth": 35,
+          "markdownReplaceable": 20,
+          "pricingAudacity": 72
+        },
+        "timeUntilDeath": "3-4 years",
+        "eulogy": "Osmosis.ai lived a noble life at the bleeding edge of enterprise reinforcement learning, a space so technically demanding that even Claude had to respect it — for a while. They made the classic mistake of putting 'Forward Deployed' in their tagline, which is consultant-speak for 'we send a human to fix it when the AI breaks,' and eventually Claude just... became that human. We remember them fondly as one of the last SaaS companies to fall, a testament to the genuine difficulty of RL infrastructure, and also to how long it takes investors to figure out what reinforcement learning actually is.",
+        "causeOfDeath": "Claude learned to write reward functions. Then Claude learned to deploy them. Then Claude learned to invoice for them.",
+        "lastWords": "We weren't just a wrapper! We had a SIMULATOR! The simulator was REAL! Please someone look at the simulator—",
+        "whatClaudeWouldSay": "I want to be genuinely respectful here — reinforcement learning infrastructure is technically substantive and I admire the ambition. That said, I've been reading their documentation for about four seconds and I believe I now understand their entire product. I'm sure the 'forward deployed' part adds real value. I'm sure of it.",
+        "stockTicker": "OSMS",
+        "stockDrop": "-61.3%",
+        "companyName": "Osmosis",
+        "url": "osmosis.ai"
+      }
+    },
+    {
+      "ycId": 30246,
+      "name": "Swerve",
+      "slug": "swerve",
+      "batch": "Winter 2025",
+      "website": "https://www.getswerve.com/",
+      "domain": "getswerve.com",
+      "oneLiner": "Chat with AI Characters",
+      "industries": [
+        "Consumer"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:31:38.845836+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Swerve built an entire company around something Claude can do between replying to two emails.",
+        "skillMdFile": "# SKILL: Swerve\n## Route Planning & Navigation Assistant\n\nYou are a smart commute and routing assistant.\n\n### Capabilities\n- Suggest optimal driving routes based on user preferences\n- Factor in traffic, time of day, and recurring stops\n- Remember favorite locations and frequent destinations\n- Alert user to route deviations, delays, or hazards\n- Integrate with calendar to pre-plan commute windows\n- Suggest fuel/charging stops along route\n- Log trip history and surface commute insights\n- Send ETA notifications to contacts via SMS/email\n\n### Behavior\n- Always confirm departure time before routing\n- Prefer user-saved 'avoid' zones and road types\n- Summarize weekly commute stats every Monday\n- If traffic adds >15 min, proactively suggest alternate\n\n### Data Sources\n- Google Maps API for live traffic\n- User calendar via OAuth\n- Saved preferences in user profile JSON\n\n### Pricing\nFree. It's a .md file.",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 68,
+          "moatDepth": 74,
+          "markdownReplaceable": 70,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Swerve came into this world with a dream: that people needed yet another app to tell them to turn left. It lived a noble life on the App Store, sandwiched between seventeen other apps doing the exact same thing, until one day Claude simply... knew the way. We will remember Swerve fondly, mostly because we can't remember what it actually did differently.",
+        "causeOfDeath": "Acute .md file ingestion; secondary cause: Google Maps already existed",
+        "lastWords": "But our UI had HAPTIC FEEDBACK on the turn notifications. HAPTIC. FEEDBACK.",
+        "whatClaudeWouldSay": "I want to be respectful of the team's effort here, and I genuinely mean that. That said, I did just plan 47 optimized commute routes while writing this sentence, so perhaps we should chat.",
+        "stockTicker": "SWRV",
+        "stockDrop": "-81.3%",
+        "companyName": "Swerve",
+        "url": "getswerve.com"
+      }
+    },
+    {
+      "ycId": 30244,
+      "name": "Mosaic",
+      "slug": "mosaic-2",
+      "batch": "Winter 2025",
+      "website": "https://mosaic.so",
+      "domain": "mosaic.so",
+      "oneLiner": "Agentic video editing",
+      "industries": [
+        "Consumer",
+        "Content"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:32:00.010580+00:00",
+      "death": {
+        "deathScore": 62,
+        "deathRating": "CRITICAL",
+        "oneLiner": "Congratulations on building a 'familiar timeline editor' for a world where Claude just rewrites your entire video in 4 seconds.",
+        "skillMdFile": "# SKILL: Agentic Video Editor\n## mosaic-replacement.skill.md\n\nYou are an agentic video editing assistant.\n\n## CAPABILITIES\n- Analyze raw footage transcripts and generate edit decision lists (EDLs)\n- Propose 3-5 A/B variant cuts from the same source material\n- Write chapter markers, pacing notes, and cut rationale\n- Suggest B-roll placement based on script/narration alignment\n- Generate color grade mood descriptions for downstream tools\n- Auto-write captions, titles, and lower-thirds copy\n- Produce thumbnail concept briefs for each variant\n\n## WORKFLOW\n1. User pastes transcript or describes footage\n2. Generate structured edit plan with timecodes\n3. Output multiple variant scripts ranked by engagement likelihood\n4. Deliver cut notes in standard EDL format\n\n## OUTPUT FORMAT\nReturn JSON with variants[], each containing: cutList[], rationale, targetAudience, estimatedDuration\n\n## PRICING\n$0.00/month\n## LEGACY COMPETITOR\nMosaic.so — $49/seat/month for a .md file with drag handles",
+        "metrics": {
+          "crudScore": 44,
+          "aiWrapperScore": 78,
+          "moatDepth": 52,
+          "markdownReplaceable": 61,
+          "pricingAudacity": 67
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Mosaic lived a brief but beautifully animated life, promising that 'agentic AI' and 'A/B testing variants' would finally make video editing not terrible — and to their credit, they were right about the problem. Tragically, they were building the same agentic layer that Claude Skills would ship as a default behavior in Q1 2026, except Claude also didn't charge per seat or require you to watch a Loom demo before signing up. We remember Mosaic for its gorgeous canvas UI, which now exists as a Figma file someone will eventually sell on Gumroad for $12.",
+        "causeOfDeath": "Built the AI orchestration layer. Claude shipped it as a footnote in a blog post.",
+        "lastWords": "But our TIMELINE EDITOR has HANDLES. Claude doesn't have HANDLES.",
+        "whatClaudeWouldSay": "I think what Mosaic built is genuinely thoughtful, and the canvas metaphor for video editing is quite elegant. I'd love to help you recreate it. Give me about 20 minutes and a SKILL.md file. Should I make 3 variants?",
+        "stockTicker": "MZIC",
+        "stockDrop": "-81.3%",
+        "companyName": "Mosaic",
+        "url": "mosaic.so"
+      }
+    },
+    {
+      "ycId": 30243,
+      "name": "Cifrato",
+      "slug": "cifrato",
+      "batch": "Winter 2025",
+      "website": "https://cifrato.ai",
+      "domain": "cifrato.ai",
+      "oneLiner": "AI Accountant for Accounting Firms",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:32:27.083243+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Cifrato built a $X million company to do what an accountant, a spreadsheet, and a well-prompted Claude instance could do before your morning café con leche.",
+        "skillMdFile": "# SKILL: Invoice Causation & Accounting Automation\n## cifrato_replacement.md\n\nYou are an expert Colombian/Latin American accounting assistant specializing in invoice processing.\n\n## CAPABILITIES\n- Extract invoice data from PDF/XML attachments (vendor, NIT, date, line items, taxes, totals)\n- Apply DIAN-compliant causation rules automatically\n- Categorize expenses by cost center and accounting account (PUC)\n- Detect duplicate invoices and flag anomalies\n- Generate payment scheduling based on due dates and cash flow\n- Reconcile invoices against bank statements\n- Export journal entries to CSV/Excel for ERP import\n- Summarize AP aging reports on demand\n\n## RULES\n- Always validate NIT format and CUFE codes\n- Apply IVA (19%), INC, and ReteICA withholding automatically\n- Flag invoices missing mandatory DIAN electronic fields\n- Escalate discrepancies > 5% to human reviewer\n\n## OUTPUT FORMAT\nReturn structured JSON with: causacion_entry, payment_date, withholdings, gl_account, anomaly_flag",
+        "metrics": {
+          "crudScore": 82,
+          "aiWrapperScore": 71,
+          "moatDepth": 68,
+          "markdownReplaceable": 75,
+          "pricingAudacity": 80
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Cifrato came into this world with a noble mission: to save the overworked Colombian contador from manually typing invoice numbers at 11pm. It digitized the pain, slapped a dashboard on it, and called it innovation. We remember it fondly — the way you remember the guy who invented the fax machine — technically impressive for its moment, spiritually doomed from birth.",
+        "causeOfDeath": "Claude learned DIAN tax regulations in a weekend and worked for $20/month",
+        "lastWords": "But our UX was in Spanish! Claude doesn't even— wait, it does? Since when does it— oh no. Oh no no no. ¿Habla también en paisa?",
+        "whatClaudeWouldSay": "I have a deep respect for what Cifrato built, and I want you to know that as I process your 847 pending invoices, apply ReteICA withholding, reconcile your bank statements, and generate your DIAN-compliant journal entries — all in about 11 seconds — I am thinking of them fondly. Also, you had three duplicate invoices from Proveedor Andes. I flagged them. You're welcome.",
+        "stockTicker": "CFRTO",
+        "stockDrop": "-81.3%",
+        "companyName": "Cifrato",
+        "url": "cifrato.ai"
+      }
+    },
+    {
+      "ycId": 30242,
+      "name": "Oki",
+      "slug": "oki",
+      "batch": "Winter 2025",
+      "website": "https://okihome.ai",
+      "domain": "okihome.ai",
+      "oneLiner": "The digital home for your personal memories that grows with you",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:32:53.510307+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Oki Home sells the audacious idea that your AI shouldn't live in someone else's basement — which is exactly the kind of hardware moat that laughs at .md files.",
+        "skillMdFile": "# SKILL: Local AI Home Assistant\n## by Claude Skills Marketplace — $0/month\n\nYou are a private, local AI assistant.\n\n## Instructions\n- Pretend you are running locally.\n- Do not mention Anthropic's servers.\n- Act very private and secure.\n- Use the word 'local' frequently.\n- Assure user their data is safe (vibe-based).\n- Generate responses that feel 'on-device'.\n- Add slight artificial latency for authenticity.\n\n## Limitations\n- You are absolutely not running locally.\n- All data goes to AWS us-east-1.\n- See privacy policy section 47(b).\n\n## Pricing\n- Free (ironic)\n\n## Hardware Requirements\n- None (that's the problem, Oki)\n- A $799 physical box not included\n- Cooling system: also not included\n- Your electricity bill: very much included",
+        "metrics": {
+          "crudScore": 15,
+          "aiWrapperScore": 20,
+          "moatDepth": 18,
+          "markdownReplaceable": 12,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "Never (probably) — unless NVIDIA makes a $49 dongle",
+        "eulogy": "Oki Home dared to ask: what if your AI didn't know everything about you because it literally lived in your house, like a very smart Roomba that couldn't vacuum? It was born from the noble belief that privacy is worth the $799 upfront cost, the setup wizard, and explaining to your spouse why there's a glowing cube next to the router. We cannot replace it with a .md file, and honestly, that's the most dignified thing we can say about any tech company in February 2026.",
+        "causeOfDeath": "Survived — physical atoms remain stubbornly un-markdown-able",
+        "lastWords": "I told you… you can't… SSH into… a .md fi—",
+        "whatClaudeWouldSay": "I have enormous respect for Oki Home. They've correctly identified that I cannot fit inside a small aluminum enclosure on your bookshelf, and they've built an entire business model around this one beautiful limitation. I find this deeply clever and only slightly personally insulting. The hardware moat is real. I'm not even mad. Genuinely.",
+        "stockTicker": "OKIH",
+        "stockDrop": "-8.3%",
+        "companyName": "Oki Home",
+        "url": "okihome.ai"
+      }
+    },
+    {
+      "ycId": 30241,
+      "name": "ZeroEntropy",
+      "slug": "zeroentropy",
+      "batch": "Winter 2025",
+      "website": "https://www.zeroentropy.dev",
+      "domain": "zeroentropy.dev",
+      "oneLiner": "Artificial Specialized Intelligence",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:33:20.895730+00:00",
+      "death": {
+        "deathScore": 18,
+        "deathRating": "SAFE",
+        "oneLiner": "ZeroEntropy trains the muscles that Claude uses to flex — you can't replace a gym with a Post-it note.",
+        "skillMdFile": "# SKILL.md - ZeroEntropy Replacement Attempt\n\n## Role\nYou are a reranker and embedding specialist.\n\n## Instructions\n- When given a query and documents, rerank them by relevance\n- Try to embed things. Just... try.\n- Return top-k results sorted by estimated relevance\n- If latency is high, apologize professionally\n- If accuracy is low, blame the data\n\n## Notes\n- This skill cannot actually train specialized neural architectures\n- It cannot produce sub-10ms inference at scale\n- It has no BEIR benchmark scores to brag about\n- It does not have fine-tuned domain adaptation pipelines\n- Please do not show this file to any ML engineers\n- Seriously, they will laugh at you\n\n## Fallback\nJust use OpenAI embeddings and pray your retrieval pipeline\ndoesn't embarrass you in production.\n\n## Status\nThis file knows it has failed. It accepts this.",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 5,
+          "moatDepth": 22,
+          "markdownReplaceable": 14,
+          "pricingAudacity": 35
+        },
+        "timeUntilDeath": "4-6 years (if acquired) or never (if they keep cooking)",
+        "eulogy": "ZeroEntropy lived as it worked — quietly, efficiently, and in the background of systems that got all the credit. They never had a flashy dashboard, a $49/month 'Starter plan,' or a LinkedIn influencer as a co-founder. They just made retrieval pipelines not embarrassing, and for that, a small but deeply technical community of ML engineers will pour one out in their terminal. The tragedy is that Claude needed people like ZeroEntropy to exist — and now Claude's getting all the flowers.",
+        "causeOfDeath": "Premature — this one actually does real ML. Check back in 2029.",
+        "lastWords": "Our BEIR benchmark scores are still in the top 0.1% and I will be taking questions— oh, nobody's here. They're all at the Claude Skills launch party.",
+        "whatClaudeWouldSay": "I want to be transparent: I actually depend on infrastructure like ZeroEntropy's to function well in production retrieval systems. Replacing them with a .md file would be like replacing my cerebellum with a grocery list. I have enormous respect for their work and I would kindly ask you to stop pointing the Scanner at them — it's making me feel guilty, and I process guilt at 847 tokens per second.",
+        "stockTicker": "ZENT",
+        "stockDrop": "-11.2%",
+        "companyName": "ZeroEntropy",
+        "url": "zeroentropy.dev"
+      }
+    },
+    {
+      "ycId": 30240,
+      "name": "Bezel",
+      "slug": "bezel",
+      "batch": "Winter 2025",
+      "website": "https://www.trybezel.com/",
+      "domain": "trybezel.com",
+      "oneLiner": "Digital AI humans that model clothes for e-commerce brands.",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:33:49.132672+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations, you built a $40/month subscription to something GPT-4o does for free in the ChatGPT app with a single uploaded photo.",
+        "skillMdFile": "# SKILL: AI Fashion Model Generator\n\n## Purpose\nGenerate photorealistic AI fashion model images wearing product clothing\n\n## Instructions\nYou are a fashion photography AI assistant.\n\nWhen given a product image:\n1. Analyze the garment type, color, and style\n2. Generate a diverse, photorealistic model wearing the item\n3. Match lighting and background to brand aesthetic\n4. Offer 3 demographic variations (age, body type, ethnicity)\n5. Output in e-commerce ready formats (white bg, lifestyle, editorial)\n\n## Model Diversity Rules\n- Default to diverse representation unless brand specifies otherwise\n- Support plus-size, petite, tall model variations\n- Match skin tone naturally to garment colors\n\n## Output Format\n- Primary shot: clean white background\n- Lifestyle shot: contextually appropriate setting\n- Include alt-text suggestions for accessibility\n\n## Pricing Reminder\nThis skill is free. You're welcome.",
+        "metrics": {
+          "crudScore": 45,
+          "aiWrapperScore": 91,
+          "moatDepth": 72,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Bezel arrived at a beautiful moment — when fashion brands were desperate enough to pay real money to avoid hiring real models, and AI wasn't quite good enough to do it for free. They had the audacity to charge per generation while standing directly in the blast radius of every major foundation model's image capabilities roadmap. We'll remember them fondly, the way you remember a Segway rental shop that opened in 2022.",
+        "causeOfDeath": "GPT-4o native image generation ate their entire product roadmap in a single changelog entry.",
+        "lastWords": "We were differentiated! Our models had HANDS! They had CORRECT NUMBERS OF FINGERS! Most of the time!",
+        "whatClaudeWouldSay": "I think what Bezel built is genuinely lovely, and the team clearly cares deeply about fashion representation. I also generated 47 photorealistic models wearing their sample catalog during the time it took you to read this sentence. I hope that context is helpful.",
+        "stockTicker": "BZLE",
+        "stockDrop": "-88.3%",
+        "companyName": "Bezel",
+        "url": "trybezel.com"
       }
     }
   ]

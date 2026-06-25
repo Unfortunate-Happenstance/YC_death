@@ -143,9 +143,34 @@ select {
   gap: 0.4rem;
 }
 
-.batch-chips button.pending { opacity: 0.45; cursor: not-allowed; }
-.batch-chips button.partial { border-color: var(--amber); color: var(--amber); }
-.batch-chips button.complete { border-color: var(--green); color: var(--green); }
+.batch-chips button.pending {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* Scrape status when deselected: neutral chip + small status dot */
+.batch-chips button.complete:not(.active)::before,
+.batch-chips button.partial:not(.active)::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
+.batch-chips button.complete:not(.active)::before {
+  background: var(--green);
+  opacity: 0.7;
+}
+
+.batch-chips button.partial:not(.active)::before {
+  background: var(--amber);
+  opacity: 0.7;
+}
 
 .chart-panel h2,
 .section-head h2 {
@@ -307,6 +332,7 @@ select {
   max-height: 90vh;
   overflow-y: auto;
   position: relative;
+  color: var(--text);
 }
 
 .modal-close {
@@ -323,7 +349,11 @@ select {
 
 .modal-close:hover { color: var(--text); }
 
-.modal h2 { margin: 0 0 0.25rem; }
+.modal h2 {
+  margin: 0 0 0.25rem;
+  color: var(--text);
+  font-size: 1.5rem;
+}
 
 .modal-domain {
   font-family: var(--font-mono);
