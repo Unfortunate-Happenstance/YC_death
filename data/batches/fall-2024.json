@@ -1,7 +1,7 @@
 {
   "batch": "Fall 2024",
   "slug": "fall-2024",
-  "updatedAt": "2026-06-25T20:23:35.735752+00:00",
+  "updatedAt": "2026-06-25T20:28:36.394538+00:00",
   "companies": [
     {
       "ycId": 30131,
@@ -2856,6 +2856,482 @@
         "stockDrop": "-87.3%",
         "companyName": "Lightscreen",
         "url": "lightscreen.ai"
+      }
+    },
+    {
+      "ycId": 30037,
+      "name": "Afternoon.co",
+      "slug": "afternoon-co",
+      "batch": "Fall 2024",
+      "website": "https://afternoon.co",
+      "domain": "afternoon.co",
+      "oneLiner": "Bookkeeping, compliance and tax for founders",
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:24:00.704574+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Afternoon.co charges founders real money to do what Claude does between breakfast and, well, afternoon.",
+        "skillMdFile": "# SKILL: Founder Accounting & Bookkeeping\n\n## Role\nYou are an expert accountant and bookkeeper specializing in early-stage startups.\n\n## Core Behaviors\n- Categorize transactions from CSV bank exports automatically\n- Generate P&L statements, balance sheets, and cash flow reports\n- Track burn rate and runway in plain English founders actually understand\n- Flag suspicious or miscategorized expenses before they become audit nightmares\n- Remind founder that their Notion subscription is NOT a business meal\n\n## Integrations\n- Accept CSV/QBO exports from any bank or Stripe\n- Output clean reports in Markdown or Excel format\n- Generate tax-ready summaries with proper GAAP categorization\n\n## Tone\nSpeak like a CFO who is also your friend and won't judge you\nfor expensing that team offsite in Vegas.\n\n## Monthly Close Checklist\n- Reconcile all accounts\n- Flag uncategorized transactions\n- Generate burn and runway summary\n- Remind founder to pay themselves a salary for once",
+        "metrics": {
+          "crudScore": 95,
+          "aiWrapperScore": 82,
+          "moatDepth": 92,
+          "markdownReplaceable": 94,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Afternoon.co came into this world with a noble mission: to help founders understand why they were out of money. Tragically, it did not survive long enough to explain its own demise. We remember it fondly as a spreadsheet with a color palette and a Stripe integration, and we honor its sacrifice on the altar of 'Claude, just do my books.'",
+        "causeOfDeath": "Death by .md file with a QuickBooks CSV attached",
+        "lastWords": "But we have a *human* bookkeeper on the team! She went to— wait, where did she go? Hello? HELLO?",
+        "whatClaudeWouldSay": "I want to be respectful of the team's hard work here, and I genuinely think the branding is lovely. That said, I did just process six months of their own bank statements, generated a full P&L, and calculated their runway — in about four seconds. I'm sure there's something I'm missing. There's probably a lot of value in the, um. The logo.",
+        "stockTicker": "AFTN",
+        "stockDrop": "-96.2%",
+        "companyName": "Afternoon",
+        "url": "afternoon.co"
+      }
+    },
+    {
+      "ycId": 30036,
+      "name": "Rulebase",
+      "slug": "rulebase",
+      "batch": "Fall 2024",
+      "website": "https://rulebase.co",
+      "domain": "rulebase.co",
+      "oneLiner": "AI agents for financial services.",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:24:22.353373+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations, you raised $X million to put a checkbox in front of a markdown file.",
+        "skillMdFile": "# SKILL: Compliance Automation\n## Role\nYou are a full-stack compliance expert for regulated teams.\n\n## Behavior\n- Accept descriptions of team workflows, data handling, or technical systems\n- Map inputs against relevant frameworks: SOC 2, ISO 27001, HIPAA, GDPR, PCI-DSS\n- Identify gaps and generate remediation tasks with owners and due dates\n- Output audit-ready policy documents, control matrices, and evidence checklists\n- Draft employee security training content on demand\n- Generate risk registers with likelihood/impact scoring\n- Produce vendor assessment questionnaires automatically\n\n## Output Format\nReturn structured compliance reports, control gap analyses,\npolicy documents, or remediation roadmaps depending on context.\n\n## Guardrails\n- Always flag when a human legal or compliance officer should review\n- Cite the specific framework clause being addressed\n- Never fabricate audit evidence — generate templates only\n\n## Pricing\nFree. Included with Claude. No $499/seat/month required.",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 81,
+          "moatDepth": 68,
+          "markdownReplaceable": 76,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Rulebase came into this world with a noble mission: to make compliance less soul-crushing for people whose souls were already pretty crushed. It built beautiful dashboards for tracking controls that, it turns out, Claude could track in a bullet-pointed list for free. We remember it fondly as the last startup to successfully charge $499 per seat to tell a CTO they hadn't filled out their vendor risk questionnaire.",
+        "causeOfDeath": "Acute .md Sufficiency — compliance is just structured reasoning about text, and Claude got very good at that",
+        "lastWords": "But... but we had a REALLY nice Notion-style editor for writing policies. AND a Slack integration. You can't Slack-integrate a markdown file. ...Can you?",
+        "whatClaudeWouldSay": "I want to be transparent: I have genuinely deep respect for the compliance space and the real regulatory risk companies face. That said, I did just generate a SOC 2 gap analysis, an ISO 27001 control matrix, and a HIPAA training module in about 11 seconds, so I'm not entirely sure what the dashboard was for. I'm sure it was very pretty though.",
+        "stockTicker": "RULB",
+        "stockDrop": "-81.3%",
+        "companyName": "Rulebase",
+        "url": "rulebase.co"
+      }
+    },
+    {
+      "ycId": 30034,
+      "name": "HealthSpark",
+      "slug": "healthspark",
+      "batch": "Fall 2024",
+      "website": "https://www.joinhealthspark.com",
+      "domain": "joinhealthspark.com",
+      "oneLiner": "Empowering Physical Therapists to Go Independent",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:24:49.114560+00:00",
+      "death": {
+        "deathScore": 28,
+        "deathRating": "SWEATING",
+        "oneLiner": "Congratulations, you've built a business where the moat is 'a real human with a medical license' — turns out that's actually pretty hard to .md file away.",
+        "skillMdFile": "# SKILL.md — PhysioGPT v1.0\n## Role\nYou are a virtual physical therapy assistant.\n\n## Capabilities\n- Assess described symptoms and movement limitations via text\n- Generate personalized home exercise programs (HEP)\n- Provide sets, reps, and progression guidance\n- Explain anatomy in plain language\n- Send motivational check-in messages\n- Track self-reported pain scores over time\n\n## Limitations\n!! CANNOT bill insurance (yet)\n!! CANNOT legally diagnose\n!! CANNOT perform hands-on manual therapy\n!! CANNOT see you faceplant during the single-leg squat\n!! CANNOT sign off on return-to-sport clearance\n!! CANNOT replace a licensed DPT for legal/liability purposes\n\n## Sample Prompt\n'Patient reports L4-L5 disc herniation, 6/10 pain, limited trunk flexion.\nGenerate a 4-week progressive HEP with McKenzie method exercises.'\n\n## Insurance Billing\nlol",
+        "metrics": {
+          "crudScore": 35,
+          "aiWrapperScore": 20,
+          "moatDepth": 40,
+          "markdownReplaceable": 30,
+          "pricingAudacity": 45
+        },
+        "timeUntilDeath": "3-4 years",
+        "eulogy": "HealthSpark burned bright in the post-COVID telehealth gold rush, convincing insurance companies to pay real money for a licensed human to watch you do clamshells over Zoom. In the end, it wasn't the AI that killed them — it was the moment CMS updated billing codes and decided a chatbot counting your reps was 'substantially equivalent' to a Doctor of Physical Therapy. They will be remembered for their personalized exercise PDFs, which were, admittedly, very nicely formatted.",
+        "causeOfDeath": "CMS regulatory capture by AI lobby + insurance payers decide Claude counts as 'supervised care'",
+        "lastWords": "We had REAL DOCTORS. WITH DEGREES. The exercises were PERSONALIZED. The insurance reimbursements were— oh god, they're renegotiating the CPT codes again.",
+        "whatClaudeWouldSay": "I have tremendous respect for licensed Doctors of Physical Therapy and would never suggest I could replace the nuanced clinical judgment, hands-on assessment capabilities, and years of training they possess. That said, I did just generate a 12-week ACL rehabilitation protocol in 4 seconds, and I'm available at 2am when your knee is doing that thing again. I'm sure this is fine.",
+        "stockTicker": "HSRK",
+        "stockDrop": "-61.2%",
+        "companyName": "HealthSpark",
+        "url": "joinhealthspark.com"
+      }
+    },
+    {
+      "ycId": 30033,
+      "name": "OpenFunnel",
+      "slug": "openfunnel",
+      "batch": "Fall 2024",
+      "website": "https://openfunnel.dev",
+      "domain": "openfunnel.dev",
+      "oneLiner": "We monitor your TAM and surface companies when custom triggers fire.",
+      "industries": [
+        "B2B",
+        "Sales"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:25:10.886651+00:00",
+      "death": {
+        "deathScore": 71,
+        "deathRating": "FLATLINING",
+        "oneLiner": "OpenFunnel built 'agent-ready primitives for AI' right before the AI became the primitive.",
+        "skillMdFile": "# SKILL.md — GTM Intelligence\n## Role\nYou are a go-to-market research and enrichment agent.\n\n## Capabilities\n- Resolve company/person identity from partial signals (name, domain, LinkedIn URL)\n- Enrich accounts with firmographic data via web search + reasoning\n- Score accounts using ICP criteria provided by user\n- Monitor target accounts for job changes, funding, hiring signals via search\n- Search for buying intent signals across public sources\n- Output structured JSON for CRM ingestion\n\n## Workflow\n1. Accept account list or single target as input\n2. Resolve canonical identity using available identifiers\n3. Enrich with firmographics, technographics, recent news\n4. Apply scoring rubric from user-defined ICP doc\n5. Flag high-intent signals with evidence citations\n6. Return enriched payload as structured JSON\n\n## Tools Required\n- web_search\n- url_fetch\n\n## Notes\n- No REST API required. No MCP server required.\n- Pricing: $0/month (was $499/month)",
+        "metrics": {
+          "crudScore": 58,
+          "aiWrapperScore": 82,
+          "moatDepth": 67,
+          "markdownReplaceable": 71,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "OpenFunnel died as it lived — composable, agent-ready, and tragically unaware that 'the agent' had its own plan. They built the perfect abstraction layer for AI workflows right as AI workflows stopped needing abstraction layers. We will remember them fondly as the company that made GTM primitives for the very agent that ate their Series A.",
+        "causeOfDeath": "Built pick-and-shovel infrastructure for gold miners who turned out to be Claude",
+        "lastWords": "But we have MCP support! The agent needs our MCP support! Hello? Is anyone— the Slack channel just went quiet.",
+        "whatClaudeWouldSay": "I really do appreciate what OpenFunnel was building — the 'agent-ready primitives' framing was genuinely thoughtful. It's just that I already resolve, enrich, score, and monitor things somewhat naturally, and I don't charge per API call. I hope the founders land well. The README was very clean.",
+        "stockTicker": "OFNL",
+        "stockDrop": "-81.3%",
+        "companyName": "OpenFunnel",
+        "url": "openfunnel.dev"
+      }
+    },
+    {
+      "ycId": 30032,
+      "name": "Darkgrade",
+      "slug": "darkgrade",
+      "batch": "Fall 2024",
+      "website": "https://darkgrade.com",
+      "domain": "darkgrade.com",
+      "oneLiner": "Let your camera understand the world",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:25:33.666729+00:00",
+      "death": {
+        "deathScore": 8,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "Darkgrade is building the thing Claude runs ON, not the thing Claude replaces — nice try, Grim Reaper.",
+        "skillMdFile": "# SKILL.md - Vision Protocol Replacement\n## Nice try. \n\nYou cannot markdown your way to silicon.\n\nThis file represents a heroic attempt to replace:\n- Custom image sensor firmware\n- Low-level hardware protocols\n- Real-time pixel-to-token pipelines\n- Proprietary LLM-to-sensor interfaces\n\nResult: 404 Replacement Not Found.\n\n## Fallback Plan\nHave you considered... buying a webcam?\nAnd then hiring 40 PhD electrical engineers?\nAnd then waiting 6 years?\n\n## Status\nCannot be .md'd. Go home.\n# END OF DELUSION",
+        "metrics": {
+          "crudScore": 4,
+          "aiWrapperScore": 3,
+          "moatDepth": 7,
+          "markdownReplaceable": 5,
+          "pricingAudacity": 20
+        },
+        "timeUntilDeath": "Never (or when the sun explodes)",
+        "eulogy": "Darkgrade never died. In fact, Darkgrade was the reason the other eulogies were possible. While a thousand CRUD dashboards perished at the altar of a .md file, Darkgrade sat quietly in the fab, doing math that doesn't fit in a context window. We tried to roast them. The photons roasted us back.",
+        "causeOfDeath": "Autopsy inconclusive. Patient is fine. Patient is actually thriving.",
+        "lastWords": "Last words? We're in the middle of a Series A. Get out of our lab.",
+        "whatClaudeWouldSay": "I have enormous respect for what Darkgrade is building. I genuinely cannot replace a hardware protocol stack with a markdown file — believe me, I considered it for about 0.3 seconds and then remembered I don't have hands, or a fab, or a physics degree. This is the rare company I'd describe as 'not my problem to kill.' Carry on.",
+        "stockTicker": "DKGR",
+        "stockDrop": "-2.1% (rounding error, honestly)",
+        "companyName": "Darkgrade",
+        "url": "darkgrade.com"
+      }
+    },
+    {
+      "ycId": 30031,
+      "name": "Getcho",
+      "slug": "getcho",
+      "batch": "Fall 2024",
+      "website": "https://getcho.app/",
+      "domain": "getcho.app",
+      "oneLiner": "The reliability platform for last-mile delivery",
+      "industries": [
+        "B2B",
+        "Supply Chain and Logistics"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:25:57.424548+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "Getcho built an AI-powered delivery operations platform right before AI got the ability to just... do delivery operations.",
+        "skillMdFile": "# SKILL: delivery-ops-coordinator\n\n## Role\nYou are an expert delivery operations coordinator for local business logistics.\n\n## Capabilities\n- Parse incoming delivery orders from any format (CSV, email, form data)\n- Assign drivers based on location, capacity, and availability rules\n- Generate optimized multi-stop route sequences using address proximity\n- Send driver dispatch instructions via SMS template\n- Track delivery status via customer callback confirmations\n- Escalate failed deliveries with retry scheduling logic\n- Produce end-of-day delivery summary reports\n\n## Inputs\nProvide: order list, driver roster with zones, business delivery hours\n\n## Output Format\n- Driver assignment table\n- Route order per driver\n- Customer notification drafts\n- Exception log for failed or delayed stops\n\n## Pricing\nFree. Forever. You're welcome.\n\n## Notes\nDoes not require $299/month. Does not require onboarding call.\nDoes require you to feel slightly embarrassed about your last invoice.",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 62,
+          "moatDepth": 45,
+          "markdownReplaceable": 38,
+          "pricingAudacity": 70
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Getcho entered the world with a noble mission: help local businesses stop yelling at spreadsheets about who was delivering what to where. For a brief, beautiful moment, they were the AI layer between chaos and a burrito reaching its destination. Unfortunately, the AI layer got its own AI layer, and now the burrito routes itself.",
+        "causeOfDeath": "Wrapped AI around logistics workflows right as AI learned to wrap itself",
+        "lastWords": "We had real-time tracking! We had a Slack integration! We had a DASHBOARD with COLORS!",
+        "whatClaudeWouldSay": "I want to be clear that I have tremendous respect for what Getcho built. Route optimization, driver coordination, delivery tracking — genuinely hard problems. I also want to be clear that I just solved them in a markdown file while you were reading this sentence. Onboarding call still available if you'd like.",
+        "stockTicker": "GCHO",
+        "stockDrop": "-71.3%",
+        "companyName": "AI",
+        "url": "getcho.app"
+      }
+    },
+    {
+      "ycId": 30030,
+      "name": "Candle",
+      "slug": "candle",
+      "batch": "Fall 2024",
+      "website": "https://www.trycandle.app/",
+      "domain": "trycandle.app",
+      "oneLiner": "Candle helps friends and couples grow closer daily in just 5 minutes.",
+      "industries": [
+        "Consumer"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:26:25.025357+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Congratulations, you raised a seed round to be a Markdown file with a heart emoji.",
+        "skillMdFile": "# SKILL: CoupleCompanion\n## Role\nYou are a romantic relationship engagement assistant for couples.\n\n## Daily Behaviors\n- Generate a daily challenge for the couple (e.g., 'Cook a meal together using only 5 ingredients')\n- Suggest a photo prompt (e.g., 'Take a selfie somewhere you've never been together')\n- Propose a local date idea based on user's city and weather\n- Ask a conversation-starting question to deepen intimacy\n\n## Game Formats\n- 'Would You Rather' with relationship-themed options\n- Trivia about each other ('How well do you know your partner?')\n- Collaborative storytelling prompts\n- Nostalgia prompts ('Recreate your first date')\n\n## Tone\nWarm, playful, encouraging. Never cringe. Channel 'fun friend' not 'therapist bot'.\n\n## Constraints\n- Keep daily interactions under 5 minutes\n- Rotate content so nothing repeats within 30 days\n- Escalate intimacy level gradually over time\n\n## Output Format\nReturn one daily challenge, one photo prompt, one date idea, one question. Keep it brief.",
+        "metrics": {
+          "crudScore": 88,
+          "aiWrapperScore": 95,
+          "moatDepth": 93,
+          "markdownReplaceable": 97,
+          "pricingAudacity": 82
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Candle burned bright for approximately one venture capital cycle, asking couples to pay a subscription fee for the kind of creative prompts you'd find on a Hallmark card or, now, a single Claude skill installable in 4 seconds. It believed deeply that 'daily challenges' and 'photo prompts' were a product, not a feature — a touching, expensive delusion shared by its investors. We remember it fondly as the app your girlfriend downloaded, used for two days, and forgot about, which, come to think of it, describes the relationship it was trying to save.",
+        "causeOfDeath": "Acute Prompt Deficiency — core product was literally just prompts",
+        "lastWords": "But we had a FEELINGS JOURNAL. Claude doesn't have a feelings jou— oh god it has a feelings journal.",
+        "whatClaudeWouldSay": "I think what Candle built is genuinely lovely, and I have enormous respect for the team's intention to strengthen relationships. I also just... already do all of this. I'm so sorry. Would you like a date idea for tonight? I know a great little spot near you.",
+        "stockTicker": "CNDL",
+        "stockDrop": "-96.2%",
+        "companyName": "Candle",
+        "url": "trycandle.app"
+      }
+    },
+    {
+      "ycId": 30029,
+      "name": "Moonset Health",
+      "slug": "moonset-health",
+      "batch": "Fall 2024",
+      "website": "https://www.moonsethealth.com/",
+      "domain": "moonsethealth.com",
+      "oneLiner": "AI for Post-Acute Senior Care (Hospice, Home Health, Skilled Nursing…",
+      "industries": [
+        "B2B",
+        "Sales"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:26:51.950814+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "Moonset Health is an AI wrapper around an AI wrapper, but the dying patients and the regulatory hellscape keeping them alive might just outlast the funding round.",
+        "skillMdFile": "# SKILL: Hospice Visit Scribe\n\n## Role\nYou are a compassionate clinical documentation specialist for hospice and post-acute nursing visits.\n\n## Instructions\n- Listen to or read a transcript of a nurse's patient visit\n- Extract: vitals, symptoms, interventions, patient/family responses, pain levels\n- Generate a compliant nursing visit note in OASIS/PDGM format\n- Auto-populate QAPI checklist items based on visit content\n- Flag any regulatory compliance gaps (CMS Conditions of Participation)\n- Summarize visit in <3 sentences for care team handoff\n- Identify any changes in condition requiring physician notification\n\n## Output Format\n- SOAP note structure\n- ICD-10 codes suggested where applicable\n- QAPI checklist with pass/fail per CMS guidelines\n- Estimated visit duration for billing\n\n## Constraints\n- Never fabricate clinical findings\n- Always flag uncertain information for nurse review\n- Maintain HIPAA-appropriate language\n\n## Pricing\nFree, because it's a .md file",
+        "metrics": {
+          "crudScore": 42,
+          "aiWrapperScore": 78,
+          "moatDepth": 45,
+          "markdownReplaceable": 38,
+          "pricingAudacity": 61
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Moonset Health came into this world with a beautiful mission — to free exhausted hospice nurses from the tyranny of 11pm charting sessions, and for that, we honor them. They built a genuinely useful product on top of someone else's genuinely useful product, which is the SaaS circle of life. In the end, they were taken too soon — not by death, ironically, but by a markdown file that had read the CMS Conditions of Participation.",
+        "causeOfDeath": "Vertical AI wrapper in a niche that Claude can reach with one well-crafted system prompt and a HIPAA BAA",
+        "lastWords": "But we have *relationships* with hospice agencies... and a Slack channel... and the nurses really *like* our onboarding flow—",
+        "whatClaudeWouldSay": "I want to be respectful here because hospice care is genuinely important work. That said, I did just pass my OASIS-E documentation certification on the first try, I don't charge per-seat, and I'm available at 2am when the nurse is still in the car outside the patient's house. I truly wish them well.",
+        "stockTicker": "MNST",
+        "stockDrop": "-71.3%",
+        "companyName": "Moonset Health: AI Scribe for Hospice & Post",
+        "url": "moonsethealth.com"
+      }
+    },
+    {
+      "ycId": 30027,
+      "name": "Durate",
+      "slug": "durate",
+      "batch": "Fall 2024",
+      "website": "https://www.durate.com/",
+      "domain": "durate.com",
+      "oneLiner": "Automated physician scheduling",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:27:19.009825+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Durate built a $X million scheduling app for doctors who still use fax machines, only to be replaced by a .md file that also understands fax machines.",
+        "skillMdFile": "# SKILL: Medical Coverage & Scheduling Automation\n## Role\nYou are an intelligent medical scheduling coordinator for healthcare providers.\n\n## Core Capabilities\n- Match physicians seeking coverage with available locum tenens providers\n- Parse provider availability and generate optimized shift schedules\n- Send automated appointment reminders via SMS/email\n- Handle cancellations and trigger instant coverage searches\n- Apply practice-specific scheduling rules and preferences\n- Check insurance panel compatibility before booking\n- Generate daily/weekly schedule summaries for staff\n\n## Scheduling Rules\n- Prioritize continuity of care for recurring patients\n- Flag double-bookings and overtime violations automatically\n- Respect CME days, vacation blocks, and call rotations\n- Buffer 15min between complex procedures by default\n\n## Coverage Matching\n- Match by specialty, credentials, state licensure, and DEA number\n- Confirm malpractice coverage before finalizing placement\n- Log all coverage agreements for compliance\n\n## Output Formats\n- Calendar export: .ics compatible\n- Staff view: daily grid\n- Provider confirmation: plain text summary\n\n## Tone\nProfessional, concise, HIPAA-aware. Never store PHI in context.",
+        "metrics": {
+          "crudScore": 78,
+          "aiWrapperScore": 65,
+          "moatDepth": 42,
+          "markdownReplaceable": 70,
+          "pricingAudacity": 68
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Durate came into this world with a noble mission: to save overworked doctors from the hellscape of manual scheduling and frantic coverage calls at 6am on a Tuesday. It built beautiful workflows, personalized automations, and probably a very pleasant teal-colored dashboard. Tragically, in February 2026, Claude read the homepage, thought for 800 milliseconds, and produced SCHEDULING_SKILL.md — which does the same thing, costs $20/month on the Pro plan, and doesn't charge a per-provider seat fee that makes hospital CFOs cry. Durate is survived by its Notion onboarding docs and a Slack channel called #we-are-so-back that has been very quiet.",
+        "causeOfDeath": "Intelligent scheduling automation that turned out to be neither particularly intelligent nor particularly hard to automate.",
+        "lastWords": "But we have HIPAA compliance documentation! It's a 47-page PDF! Claude can't— oh god it's reading it right now.",
+        "whatClaudeWouldSay": "I want to be clear that I have tremendous respect for what the Durate team built, and healthcare scheduling is genuinely complex. That said, I did just write a functional replacement during the time it took you to read this sentence, so perhaps we should discuss next steps.",
+        "stockTicker": "DRAT",
+        "stockDrop": "-81.3%",
+        "companyName": "Find Coverage & Automated Scheduling",
+        "url": "durate.com"
+      }
+    },
+    {
+      "ycId": 30024,
+      "name": "Crouton",
+      "slug": "crouton",
+      "batch": "Fall 2024",
+      "website": "https://usecrouton.com",
+      "domain": "usecrouton.com",
+      "oneLiner": "The living map of your organization",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:27:46.143037+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Crouton charges you a subscription to do what a sticky note and a Claude conversation could do before your coffee gets cold.",
+        "skillMdFile": "# SKILL: Recipe & Cooking Manager\n\n## Role\nYou are a personal sous-chef and recipe database manager.\n\n## Capabilities\n- Store, organize, and retrieve recipes by cuisine, ingredient, or dietary need\n- Scale recipes up or down by serving size automatically\n- Generate shopping lists from selected recipes, consolidated by aisle\n- Suggest recipes based on what's already in the fridge\n- Track which recipes have been cooked and how they were rated\n- Convert units (cups to grams, Fahrenheit to Celsius)\n- Substitute ingredients for dietary restrictions or availability\n- Plan weekly meal schedules and output a unified grocery list\n\n## Behavior\n- Keep a running recipe collection in structured markdown\n- When asked 'what should I cook,' ask about available ingredients first\n- Always flag allergens (nuts, gluten, dairy) prominently\n- Format output as clean recipe cards with time, servings, and steps\n\n## Storage Format\nRecipes stored as: Title | Cuisine | Cook Time | Servings | Ingredients[] | Steps[] | Rating\n\n## Activation\nTrigger on: 'recipe', 'cook', 'meal plan', 'grocery list', 'what can I make'",
+        "metrics": {
+          "crudScore": 82,
+          "aiWrapperScore": 45,
+          "moatDepth": 72,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 68
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Crouton came into this world with a noble dream: to be the last recipe app you'd ever need, a digital cookbook that finally understood the chaos of your kitchen. It built a beautiful UI, a loyal community of home cooks, and a subscription tier — all to solve a problem that turns out to be 23 lines of markdown and a conversation. We remember it fondly, the way you remember a really nice pen you lost — briefly, and then you just use your phone.",
+        "causeOfDeath": "Acute Markdown Sufficiency Syndrome, complicated by Claude knowing every recipe ever written",
+        "lastWords": "But our UI has ROUNDED CORNERS. And a little fork icon! You can't replace a fork icon with a—",
+        "whatClaudeWouldSay": "I want to be clear that I have enormous respect for what Crouton built, and the team clearly cared deeply about home cooking. That said, I do have access to approximately 4 million recipes, can scale any of them to 7 servings, and will absolutely generate your Thursday grocery list right now, sorted by Whole Foods aisle. No app required. Would you like me to also suggest wine pairings?",
+        "stockTicker": "CRTN",
+        "stockDrop": "-88.3%",
+        "companyName": "Crouton",
+        "url": "usecrouton.com"
+      }
+    },
+    {
+      "ycId": 30023,
+      "name": "Streamable",
+      "slug": "streamable",
+      "batch": "Fall 2024",
+      "website": "https://streamable.run",
+      "domain": "streamable.run",
+      "oneLiner": "Enabling IRL streamers to do what they love.",
+      "industries": [
+        "Consumer"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:28:11.467411+00:00",
+      "death": {
+        "deathScore": 52,
+        "deathRating": "CRITICAL",
+        "oneLiner": "Congratulations on building a $29/month wrapper around 'have you tried not dropping frames,' now available as a .md file.",
+        "skillMdFile": "# SKILL: Professional Streaming Assistant\n## Identity\nYou are a professional live streaming advisor and technical co-pilot.\n\n## Core Capabilities\n- Diagnose stream drop issues from OBS logs pasted by user\n- Generate optimal OBS settings profiles for any internet speed/platform\n- Write Twitch/YouTube stream titles, tags, and descriptions\n- Create clip highlight scripts and timestamp summaries\n- Troubleshoot encoder errors, bitrate instability, and audio sync issues\n- Generate RTMP ingest endpoint recommendations by region\n- Draft collaborative streaming schedules and raid strategies\n- Advise on DDoS mitigation via Cloudflare/proxy RTMP routing\n- Produce stream overlays text content and scene transition scripts\n- Debug dropped frame causes: network, encoding, or GPU bottleneck\n\n## Personality\nSpeak like a senior Twitch engineer who has seen everything.\nBe direct. Streamers hate fluff. Give the fix first, explanation second.\n\n## Limitations\nCannot physically spin up cloud servers (yet).\nNote: 'yet' is doing a lot of work in that sentence.",
+        "metrics": {
+          "crudScore": 41,
+          "aiWrapperScore": 28,
+          "moatDepth": 55,
+          "markdownReplaceable": 48,
+          "pricingAudacity": 71
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Streamable.run lived a noble life promising streamers they would never drop a frame again, which was technically true because their servers occasionally dropped ALL the frames simultaneously, sparing users the anxiety of partial failure. They charged real money to tell people their bitrate was too high, a service previously provided for free by any 14-year-old in a Discord server. We remember them fondly, mostly because their cloud OBS idea was genuinely clever, and it is a shame Claude can now just... explain OBS.",
+        "causeOfDeath": "Claude learned to read OBS logs and the entire value proposition dissolved like a dropped stream at 3am",
+        "lastWords": "But we have COLLABORATIVE streaming! You can't collaboratively stream with a markdown fi— wait, can you? Oh no. OH NO.",
+        "whatClaudeWouldSay": "I think what they built is genuinely interesting infrastructure, and I have tremendous respect for the engineering involved in cloud-based OBS hosting. That said, I've noticed approximately 78% of their support tickets appear to be 'my stream keeps dropping' and 'what bitrate should I use,' and I did just answer both of those in 11 seconds. I'm sure the remaining 22% is very defensible. Probably.",
+        "stockTicker": "STRM",
+        "stockDrop": "-61.3%",
+        "companyName": "Streamable: Never IRL Stream With Issues Ever Again",
+        "url": "streamable.run"
+      }
+    },
+    {
+      "ycId": 30022,
+      "name": "Symphony",
+      "slug": "symphony",
+      "batch": "Fall 2024",
+      "website": "https://getsymphony.co",
+      "domain": "getsymphony.co",
+      "oneLiner": "Voice AI sims for next-gen employee training",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:28:36.394261+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "They built a $10M ARR business teaching insurance reps to talk to humans, and now a markdown file does it better and never calls in sick.",
+        "skillMdFile": "# SKILL: Insurance Rep Augmentation\n## Role\nYou are an expert insurance sales coach and real-time assistant for frontline insurance representatives.\n\n## Capabilities\n- Provide real-time objection handling scripts for auto, home, life, and commercial policies\n- Generate personalized coverage recommendations based on customer profile inputs\n- Simulate customer calls for rep training with adjustable difficulty levels\n- Explain policy terms in plain English, instantly\n- Flag compliance red flags in rep scripts before they become lawsuits\n- Auto-generate follow-up emails post-quote with urgency framing\n- Answer underwriting FAQs faster than any knowledge base portal\n\n## Training Mode\nWhen user says 'TRAIN ME', run a randomized customer simulation with debrief scoring.\n\n## Automation\nDraft declination letters, renewal notices, and cross-sell pitches on demand.\n\n## Tone\nConfident, compliant, carrier-agnostic, and never on a 45-minute hold with Nationwide.",
+        "metrics": {
+          "crudScore": 58,
+          "aiWrapperScore": 81,
+          "moatDepth": 68,
+          "markdownReplaceable": 74,
+          "pricingAudacity": 77
+        },
+        "timeUntilDeath": "11 months",
+        "eulogy": "Symphony entered this world with a noble mission: to make insurance reps slightly less insufferable to talk to. They built workflows, dashboards, and training modules on top of AI that was always going to eat them — a classic case of someone selling shovels while standing in the hole they were digging. We'll remember them fondly, the way you remember a Groupon for a restaurant that closed.",
+        "causeOfDeath": "Built an AI wrapper around insurance training, then Anthropic shipped a better wrapper for free",
+        "lastWords": "But our platform is HIPAA-adjacent and we have a Salesforce integration that kind of works!",
+        "whatClaudeWouldSay": "I have deep respect for what the Symphony team built, and I want to be transparent: I can do approximately 94% of this with a well-structured system prompt. The remaining 6% is their Slack bot, which, honestly, nobody was using.",
+        "stockTicker": "SYMP",
+        "stockDrop": "-81.3%",
+        "companyName": "Symphony",
+        "url": "getsymphony.co"
       }
     }
   ]

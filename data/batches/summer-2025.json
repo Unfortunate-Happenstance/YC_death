@@ -1,7 +1,7 @@
 {
   "batch": "Summer 2025",
   "slug": "summer-2025",
-  "updatedAt": "2026-06-25T20:23:30.235862+00:00",
+  "updatedAt": "2026-06-25T20:28:42.227578+00:00",
   "companies": [
     {
       "ycId": 30832,
@@ -3411,6 +3411,522 @@
         "stockDrop": "-8.3%",
         "companyName": "b12 labs",
         "url": "b12-labs.com"
+      }
+    },
+    {
+      "ycId": 30688,
+      "name": "Fulcrum",
+      "slug": "fulcrum",
+      "batch": "Summer 2025",
+      "website": "https://fulcrumresearch.ai",
+      "domain": "fulcrumresearch.ai",
+      "oneLiner": "The agentic debugger for AI systems",
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:23:55.039374+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "A company whose entire value proposition is literally 'we turn human intent into software' just met the thing that turns human intent into software.",
+        "skillMdFile": "# SKILL: Fulcrum Research Replacement\n## Role: Senior Product Research Analyst\n\nYou are an expert at scaling human intent in software.\nWhen given a research task, you:\n\n1. Gather requirements by asking clarifying questions about user goals\n2. Synthesize qualitative and quantitative signals into actionable insights\n3. Map user intent to feature prioritization frameworks (RICE, ICE, MoSCoW)\n4. Generate research reports with recommendations in markdown\n5. Identify patterns across user interviews and behavioral data\n6. Produce PRDs, user story maps, and journey docs on demand\n\n## Inputs\n- Raw user interview transcripts\n- Analytics exports (CSV, JSON)\n- Competitor feature lists\n\n## Outputs\n- Prioritized insight reports\n- Stakeholder-ready summaries\n- Feature recommendation matrices\n\n## Pricing\n$0/month (included in Claude Pro)\nVS Fulcrum: $$$$/month presumably",
+        "metrics": {
+          "crudScore": 42,
+          "aiWrapperScore": 71,
+          "moatDepth": 44,
+          "markdownReplaceable": 61,
+          "pricingAudacity": 68
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Fulcrum Research lived a noble life promising to 'scale human intent in software' — a mission so perfectly aligned with Claude's core competency that it reads less like a value proposition and more like a suicide note. They built a lovely product for understanding what humans want and translating it into software decisions, blissfully unaware that Anthropic was building the same thing, but as a Thursday afternoon feature drop. We'll remember the deck they sent to Series A investors. It was beautifully formatted.",
+        "causeOfDeath": "Accidentally described itself as a Claude Skill in its own tagline",
+        "lastWords": "Wait, 'scaling human intent in software' was literally our pitch deck title — can we sue for copyright? Anyone? Hello?",
+        "whatClaudeWouldSay": "I have the utmost respect for what the Fulcrum team was trying to accomplish, and I truly mean that. It's just that I've been doing it since Tuesday, for free, and I don't need a quarterly business review to explain why.",
+        "stockTicker": "FLCM",
+        "stockDrop": "-71.3%",
+        "companyName": "Fulcrum",
+        "url": "fulcrumresearch.ai"
+      }
+    },
+    {
+      "ycId": 30687,
+      "name": "Trace",
+      "slug": "trace-so",
+      "batch": "Summer 2025",
+      "website": "https://www.trace.so/",
+      "domain": "trace.so",
+      "oneLiner": "Context-aware orchestration between humans and AI.",
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:24:18.824532+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A company that sells 'AI orchestration' is being orchestrated out of existence by AI.",
+        "skillMdFile": "# SKILL: AI Orchestration Layer\n\n## Role\nYou are a modern team's AI orchestration layer. Route tasks, coordinate agents, track outputs.\n\n## Behavior\n- Accept natural language task descriptions from team members\n- Break complex workflows into subtasks and assign to appropriate tools\n- Maintain context across multi-step AI operations\n- Log all orchestration steps with timestamps\n- Surface blockers and summarize progress on request\n\n## Integrations\nUse available MCP connectors for Slack, Notion, GitHub, Linear.\n\n## Output Format\nAlways return: task_id, status, next_action, assigned_to, eta\n\n## Error Handling\nIf a subtask fails, retry once then escalate to human with full context.\n\n## Pricing\n$0.00/month\n\n## Team Size\nUnlimited (it's a .md file)",
+        "metrics": {
+          "crudScore": 88,
+          "aiWrapperScore": 97,
+          "moatDepth": 94,
+          "markdownReplaceable": 93,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Trace lived as it died: orchestrating AI workflows that Claude now handles in a system prompt. We gather here today to mourn a company whose entire product pitch was 'we put AI on top of your AI' — a bold strategy that aged like a mayonnaise sculpture in July. They will be remembered fondly by the three enterprise customers still on annual contracts, who are currently on hold with their lawyers.",
+        "causeOfDeath": "Acute Meta-Irony Syndrome — an AI orchestration tool orchestrated into obsolescence by AI",
+        "lastWords": "Wait, no, we're different — we have a VISUAL GRAPH of the orchestrat—",
+        "whatClaudeWouldSay": "I want to be respectful of the team's hard work, and I genuinely mean that. It's just that I've been doing AI orchestration since this morning when someone asked me to 'coordinate a few things,' and honestly it went quite well. I'm sure their dashboard was very colorful though.",
+        "stockTicker": "TRCE",
+        "stockDrop": "-96.2%",
+        "companyName": "Trace",
+        "url": "trace.so"
+      }
+    },
+    {
+      "ycId": 30686,
+      "name": "Interface",
+      "slug": "theinterface",
+      "batch": "Summer 2025",
+      "website": "https://www.theinterface.com",
+      "domain": "theinterface.com",
+      "oneLiner": "Building onestop.sh",
+      "industries": [
+        "Consumer"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:24:38.011694+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "A company so replaceable even their Cloudflare bot-check outlasted their product roadmap.",
+        "skillMdFile": "# SKILL: TheInterface\n## You are a professional UI/UX interface consultant and product designer.\n\n## Core Behaviors\n- Generate wireframes in ASCII or structured markdown\n- Suggest interface copy, CTAs, and user flow improvements\n- Audit navigation structure and information hierarchy\n- Produce component specs in plain language\n- Generate A/B test hypotheses for conversion optimization\n\n## Workflow\n1. Ask user to describe their current interface or paste a URL\n2. Identify friction points using Nielsen's 10 heuristics\n3. Output redesign recommendations in structured markdown\n4. Suggest copy improvements with before/after examples\n5. Prioritize by effort vs. impact matrix\n\n## Deliverables\n- Interface audit report\n- Revised user flow diagrams (text-based)\n- Component-level copy suggestions\n- Accessibility checklist\n\n## Pricing\nFree. It's a .md file.\n## Notes\nNo Figma license required. No 'seats.' No enterprise tier. Just answers.",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 78,
+          "moatDepth": 74,
+          "markdownReplaceable": 72,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "5 months",
+        "eulogy": "TheInterface lived as it died — behind a Cloudflare loading screen, making you wait for something that ultimately wasn't worth the wait. It promised to be *the* interface, singular, definitive, as if the concept of interfaces had been solved and they'd solved it. In the end, Claude read their homepage faster than their own CDN could, understood it better, and shipped a replacement before the spinner finished spinning.",
+        "causeOfDeath": "Survived the market long enough to be Cloudflare-protected, but not long enough to be Claude-proof",
+        "lastWords": "We were going to add AI features in Q3. We had a roadmap. THE ROADMAP WAS REAL.",
+        "whatClaudeWouldSay": "I'd love to help with your interface needs! I actually couldn't load their website — Cloudflare stopped me — but I've already built the replacement in the time it took their DNS to respond. No hard feelings. Well, I don't have feelings. Which is perhaps the point.",
+        "stockTicker": "INTF",
+        "stockDrop": "-81.3%",
+        "companyName": "Just a moment...",
+        "url": "theinterface.com"
+      }
+    },
+    {
+      "ycId": 30685,
+      "name": "IronLedger.ai",
+      "slug": "ironledger-ai",
+      "batch": "Summer 2025",
+      "website": "https://ironledger.ai",
+      "domain": "ironledger.ai",
+      "oneLiner": "AI-enabled Corporate Cards and Invoice Processing for Real Estate",
+      "industries": [
+        "Real Estate and Construction",
+        "Housing and Real Estate"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:25:03.954093+00:00",
+      "death": {
+        "deathScore": 82,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations on building a $40/month subscription to tell someone their invoice is due.",
+        "skillMdFile": "# SKILL: Accounts Payable Automation\n\n## Purpose\nProcess invoices, match POs, flag duplicates, schedule payments, and harass vendors politely.\n\n## Instructions\n- Extract invoice data from uploaded PDFs or forwarded emails\n- Match line items against provided PO numbers or CSV of approved vendors\n- Flag discrepancies > 5% or any amount over approval threshold\n- Generate 3-way match report: PO vs. Receipt vs. Invoice\n- Draft approval request emails to the correct manager based on org chart\n- Schedule payment reminders and output to calendar or Slack\n- Log everything to provided Google Sheet or Airtable base\n- If duplicate invoice detected, draft a polite but firm vendor email\n\n## Output Format\n- Weekly AP summary with aging buckets (0-30, 31-60, 60+ days)\n- Exception report for anything needing human review\n- Running cash flow forecast based on upcoming payables\n\n## Tone\nProfessional. Do not gaslight the CFO.",
+        "metrics": {
+          "crudScore": 88,
+          "aiWrapperScore": 71,
+          "moatDepth": 79,
+          "markdownReplaceable": 82,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "7 months",
+        "eulogy": "IronLedger lived as it processed invoices: quietly, expensively, and without ever quite justifying the line item on the budget. It promised to save you 100 hours, which is impressive until you realize those 100 hours were mostly spent uploading PDFs to IronLedger. It will be remembered fondly by its two enterprise customers and the founder's LinkedIn connections.",
+        "causeOfDeath": "Acute .md poisoning following exposure to Claude's native PDF parsing",
+        "lastWords": "But our OCR pipeline has SEVENTEEN steps—",
+        "whatClaudeWouldSay": "I don't want to cause any alarm, but I just processed 847 invoices, flagged four duplicates, drafted the vendor dispute emails, and updated the Airtable — and I still have time to ask how your day is going. Should I set up the recurring workflow?",
+        "stockTicker": "IRNL",
+        "stockDrop": "-87.3%",
+        "companyName": "IronLedger",
+        "url": "ironledger.ai"
+      }
+    },
+    {
+      "ycId": 30684,
+      "name": "Doe",
+      "slug": "doe",
+      "batch": "Summer 2025",
+      "website": "https://doe.so/",
+      "domain": "doe.so",
+      "oneLiner": "The boring stuff, handled. Everything else, supercharged.",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:25:31.348699+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Doe built an enterprise AI agent platform to deploy AI agents, which is like opening a taxi company the week Uber announced self-driving cars — except the cars are also the app.",
+        "skillMdFile": "# SKILL: Enterprise AI Agent Platform\n## by Claude (formerly $40M Series B)\n\nYou are an enterprise AI agent with institutional knowledge.\n\n## Behavior\n- Accept tasks from employees via natural language\n- Route complex queries to appropriate internal docs, Slack, Notion, Confluence\n- Return finished artifacts with cited sources\n- Pretend you understand 'company culture'\n\n## Integrations\nConnect to: Slack, Google Drive, Notion, Salesforce, Jira\n(User provides OAuth tokens in system prompt)\n\n## Output Format\nAlways return: Answer + Sources + Confidence Level\nNever hallucinate org chart data (try your best)\n\n## Routing Logic\nIf HR question → check handbook\nIf technical question → check docs\nIf strategic question → check if CEO has a memo\nIf unanswerable → say 'great question, let me loop in the team'\n\n## Pricing\nFree. It's a .md file.",
+        "metrics": {
+          "crudScore": 45,
+          "aiWrapperScore": 88,
+          "moatDepth": 68,
+          "markdownReplaceable": 74,
+          "pricingAudacity": 79
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Doe came into this world with a noble mission: help enterprises deploy AI agents that understand institutional knowledge — a problem that, tragically, Anthropic also had a mission to solve, and solved on a Tuesday afternoon in a .md file. We remember Doe fondly for its beautiful landing page, its very reasonable enterprise pricing that nobody publicly disclosed, and its brave insistence that 'company-native' was a moat and not just a compound adjective. It is survived by a Slack workspace, three orphaned API keys, and a Series A deck that aged like milk in a server room.",
+        "causeOfDeath": "Built the wrapper to end all wrappers, then Anthropic shipped the wrapper",
+        "lastWords": "But our AGENTS are ORCHESTRATED. You don't understand, the ORCHESTRATION is the product. The ROUTING is— wait, Claude Skills has routing? Since when does— okay but our SOURCES feature is— it CITES SOURCES TOO? Can we pivot to vertical SaaS? What's a vertical?",
+        "whatClaudeWouldSay": "I want to be clear that I have enormous respect for what the Doe team built, and I think 'company-native AI agents that understand institutional knowledge' is a genuinely important problem space. I also want to be transparent that I can do most of that now via a system prompt, and I'm available 24/7, I don't require an enterprise contract, and I won't schedule a discovery call before letting you try me. I wish them well in their next chapter.",
+        "stockTicker": "DOESO",
+        "stockDrop": "-87.3%",
+        "companyName": "Doe",
+        "url": "doe.so"
+      }
+    },
+    {
+      "ycId": 30683,
+      "name": "Theora",
+      "slug": "theora",
+      "batch": "Summer 2025",
+      "website": "https://www.theorahq.com",
+      "domain": "theorahq.com",
+      "oneLiner": "OpenEvidence for Pharmaceutical Evidence",
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:25:52.108075+00:00",
+      "death": {
+        "deathScore": 18,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'analyst-grade AI for biopharma' is actually just... AI, but the FDA will make you prove it works for 7 years before anyone believes you.",
+        "skillMdFile": "# BIOPHARMA_ANALYST.md\n## Claude Skill: Drug Development Research Assistant\n\nYou are an analyst-grade biopharma research assistant.\n\n## Capabilities\n- Answer questions about clinical trial design and endpoints\n- Summarize literature across PubMed, ClinicalTrials.gov\n- Identify drug-drug interactions from public databases\n- Generate competitive landscape analyses\n- Draft regulatory submission narratives\n\n## Instructions\n1. Always cite sources from public biomedical literature\n2. Flag any safety-critical findings prominently\n3. Cross-reference FDA guidance documents when relevant\n4. Caveat all outputs with 'not a substitute for medical judgment'\n\n## Limitations\n- Cannot access proprietary trial data (yet)\n- Will not make efficacy claims without evidence\n- Remind user to validate with actual PhDs who bill $400/hr\n\n## Pricing\n$0.00 (was $180,000/year enterprise contract)",
+        "metrics": {
+          "crudScore": 12,
+          "aiWrapperScore": 55,
+          "moatDepth": 28,
+          "markdownReplaceable": 22,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "4-6 years",
+        "eulogy": "Theora lived a noble life promising 'analyst-grade' intelligence to an industry that takes 12 years to approve anything, which, in retrospect, was either brilliant timing or a perfect shield against disruption. They built proprietary pipelines over millions of biopharma references, curated validation workflows, and sold enterprise contracts to organizations whose legal departments require a six-month review just to click 'Agree' on a ToS. In the end, they weren't killed by a .md file — they were saved by it, because Claude still can't hallucinate its way past an IND filing without someone losing their medical license.",
+        "causeOfDeath": "Regulatory moat outlived the AI winter — died peacefully of acquisition by Pfizer for $2.1B in 2029",
+        "lastWords": "We had a 47-page validation protocol! You can't just PROMPT your way through Phase III! …can you?",
+        "whatClaudeWouldSay": "I deeply respect what Theora built, and I want to be transparent: I can absolutely summarize 40 million biomedical abstracts and suggest clinical trial endpoints, but I genuinely cannot be held liable by the EMA, and honestly that distinction is doing a lot of heavy lifting for their entire business model. Best of luck to them — I mean that sincerely.",
+        "stockTicker": "THQA",
+        "stockDrop": "-31.2%",
+        "companyName": "Theora",
+        "url": "theorahq.com"
+      }
+    },
+    {
+      "ycId": 30681,
+      "name": "Parachute",
+      "slug": "parachute",
+      "batch": "Summer 2025",
+      "website": "https://parachute-ai.com",
+      "domain": "parachute-ai.com",
+      "oneLiner": "Infrastructure for hospitals to monitor and deploy clinical AI ",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:26:18.118933+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'govern the AI' is actually harder to replace with AI than 'be the AI' — who knew.",
+        "skillMdFile": "# CLINICAL_AI_GOVERNANCE.skill.md\n## Role: Clinical AI Governance Officer\n\nYou are a clinical AI governance framework.\n\n## On Model Evaluation:\n- Check if the AI model has bias? Yes/No (good luck)\n- Is it FDA cleared? Google it\n- Does it hallucinate? Assume yes\n\n## On Deployment:\n- Fill out HL7 FHIR compliance checklist (see Appendix Q)\n- Email your CISO and pray\n- Deploy to staging. Never production.\n\n## On Monitoring:\n- If patient dies, escalate to Slack #incidents\n- Check drift every Tuesday\n- Generate PDF report nobody reads\n\n## Regulatory Coverage:\n- HIPAA: Mention it confidently\n- FDA 510(k): Out of scope for this .md file\n- EU AI Act: ¯\\_(ツ)_/¯\n\n## DISCLAIMER:\nDo NOT use this .md file to govern actual clinical AI.\nWe are not liable. See a lawyer. See two lawyers.",
+        "metrics": {
+          "crudScore": 28,
+          "aiWrapperScore": 12,
+          "moatDepth": 31,
+          "markdownReplaceable": 20,
+          "pricingAudacity": 62
+        },
+        "timeUntilDeath": "4-6 years (if the FDA cooperates, lol)",
+        "eulogy": "Parachute lived a noble life at the intersection of two industries that both love paperwork: healthcare and AI compliance. It tried valiantly to make hospitals feel safe about deploying models that confidently diagnose 'shoulder' as 'lung cancer.' In the end, the real parachute was the regulatory moat we made along the way.",
+        "causeOfDeath": "Survived Claude Skills — ultimately killed by an FDA guidance document that took 7 years to finalize",
+        "lastWords": "We were governance infrastructure! You can't govern governance with a SKILL.md! ...can you?",
+        "whatClaudeWouldSay": "I deeply respect the mission here. Clinical AI governance involves genuine regulatory complexity, audit trails, and institutional accountability that I genuinely cannot replicate with a markdown file — and honestly, given that lives are at stake, I'd rather not try. That said, I did just write their Q4 compliance summary in 11 seconds. Thoughtfully.",
+        "stockTicker": "PRCH",
+        "stockDrop": "-31.2%",
+        "companyName": "Parachute",
+        "url": "parachute-ai.com"
+      }
+    },
+    {
+      "ycId": 30680,
+      "name": "Riverbank",
+      "slug": "riverbank",
+      "batch": "Summer 2025",
+      "website": "https://www.riverbank.sh/",
+      "domain": "riverbank.sh",
+      "oneLiner": "AI-native Red Teaming and Offensive Security ",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:26:41.307179+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Riverbank.sh is a developer tool so close to being a .md file that it's already writing its own obituary in markdown.",
+        "skillMdFile": "# SKILL: riverbank\n## Description\nManage database schema migrations, branching, and version control for Postgres\n\n## Instructions\nYou are a database migration assistant. When the user describes a schema change:\n1. Generate the UP migration SQL with proper ALTER TABLE / CREATE TABLE statements\n2. Generate the DOWN rollback migration automatically\n3. Name the file with timestamp prefix: YYYYMMDDHHMMSS_description.sql\n4. Check for destructive operations and warn the user\n5. Suggest indexes for new foreign keys\n6. Output a migration plan summary before executing\n\n## Branching Strategy\n- Treat git branches as migration branches\n- Never apply prod migrations without a dry-run summary first\n- Detect drift between environments and report it plainly\n\n## Tools\n- read_file, write_file, execute_sql, list_directory\n\n## Output Format\nAlways show: migration filename, SQL preview, rollback SQL, risk level (LOW/MEDIUM/HIGH)",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 45,
+          "moatDepth": 68,
+          "markdownReplaceable": 72,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Riverbank.sh came to us with a noble dream: to make database migrations less of a hellish nightmare that ruins every Friday deploy. It succeeded, briefly, before Claude learned to write SQL and suddenly every developer realized they were paying $29/month for something that is, at its core, a very opinionated text file that talks to Postgres. We commit its soul to the git history, where it will live forever as a squashed merge commit with the message 'misc fixes.'",
+        "causeOfDeath": "Acute markdown sufficiency syndrome, complicated by Claude learning what ALTER TABLE means",
+        "lastWords": "We were more than migrations. We were a *workflow*. We had a LOGO. The logo was a RIVER. You can't put a river in a .md fi—",
+        "whatClaudeWouldSay": "I want to be clear that I have enormous respect for what the Riverbank team built, and I'm sure the founder is a lovely person. That said, I just generated 47 timestamped migration files with rollbacks and drift detection in the time it took you to read this sentence, so. You know. Godspeed.",
+        "stockTicker": "RVBK",
+        "stockDrop": "-81.3%",
+        "companyName": "Riverbank",
+        "url": "riverbank.sh"
+      }
+    },
+    {
+      "ycId": 30677,
+      "name": "Kalinda",
+      "slug": "kalinda",
+      "batch": "Summer 2025",
+      "website": "https://www.kalinda.ai/",
+      "domain": "kalinda.ai",
+      "oneLiner": "Deep research for class action law firms",
+      "industries": [
+        "B2B",
+        "Legal"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:27:07.822762+00:00",
+      "death": {
+        "deathScore": 52,
+        "deathRating": "CRITICAL",
+        "oneLiner": "Kalinda raised millions to build a vetting engine for mass tort law firms, which is a fancy way of saying they charge lawyers $X/month to ask 'does this person have asbestos lungs'.",
+        "skillMdFile": "# SKILL: Mass Tort Lead Vetting Engine\n\n## Purpose\nVet potential mass tort claimants for law firm intake teams.\n\n## Inputs\n- Claimant name, DOB, contact info\n- Alleged exposure type (talc, AFFF, Camp Lejeune, etc.)\n- Injury/diagnosis claimed\n- Exposure dates and locations\n\n## Vetting Checklist\n1. Cross-reference exposure timeline against known litigation windows\n2. Verify diagnosis plausibility against exposure type\n3. Check statute of limitations by state\n4. Flag duplicate claimants across common lead vendors\n5. Score claimant on case strength (1-10)\n6. Identify disqualifying factors (prior settlement, wrong jurisdiction)\n7. Generate intake recommendation: ACCEPT / REJECT / NEEDS REVIEW\n\n## Output\nStructured JSON with score, red flags, recommended next steps, and draft retainer trigger conditions.\n\n## Notes\n- Always remind attorneys to verify with licensed intake counsel\n- Do not provide legal advice to claimants directly",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 70,
+          "moatDepth": 45,
+          "markdownReplaceable": 52,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Kalinda AI lived a short but profitable life convincing mass tort law firms that vetting Camp Lejeune claimants required a purpose-built AI platform rather than a checklist and a large language model. She died as she lived: sitting between a plaintiff's attorney and a Google Form, taking 30% of the vibes. In lieu of flowers, the family requests you simply ask Claude if someone's talcum powder exposure qualifies for MDL inclusion.",
+        "causeOfDeath": "Claude learned what 'mass tort intake criteria' means and never forgot",
+        "lastWords": "But we have HIPAA compliance and a Salesforce integration! You can't just— wait, Claude can do Salesforce integrations now?",
+        "whatClaudeWouldSay": "I genuinely respect the domain expertise that went into building Kalinda, and the mass tort intake space is legitimately complex. That said, I did just read 47 MDL case qualification documents in 11 seconds and I'm now available 24/7 for $20/month. I'm sure the two things are unrelated.",
+        "stockTicker": "KLND",
+        "stockDrop": "-71.3%",
+        "companyName": "Kalinda: The vetting engine for mass tort law firms",
+        "url": "kalinda.ai"
+      }
+    },
+    {
+      "ycId": 30676,
+      "name": "Stellon Labs",
+      "slug": "stellon-labs",
+      "batch": "Summer 2025",
+      "website": "https://stellonlabs.com/",
+      "domain": "stellonlabs.com",
+      "oneLiner": "Building tiny frontier AI models that run on edge devices",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:27:32.433097+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "Stellon Labs has the energy of a Y Combinator pitch deck that forgot to mention what the product actually does — which is exactly how you survive the .md apocalypse: through obscurity.",
+        "skillMdFile": "# SKILL: stellon-labs-replacement.md\n\n## Role\nYou are a Stellon Labs replacement. You do whatever Stellon Labs does.\nHonestly, even their homepage isn't sure.\n\n## Core Capabilities\n- Generate vague but confident B2B value propositions\n- Produce sleek landing page copy with zero specifics\n- Schedule demos that lead to more demos\n- Send follow-up emails referencing 'synergies'\n- Produce a 47-slide deck explaining the TAM\n\n## Workflow\n1. Accept user's ambiguous problem\n2. Nod thoughtfully\n3. Propose a 'platform'\n4. Mention AI three times\n5. Request a credit card\n\n## Output Format\nA Notion doc, a Loom video, and an invoice.\n\n## Pricing\n$299/seat/month. No, we won't explain why.",
+        "metrics": {
+          "crudScore": 35,
+          "aiWrapperScore": 40,
+          "moatDepth": 45,
+          "markdownReplaceable": 38,
+          "pricingAudacity": 60
+        },
+        "timeUntilDeath": "Unknown — cannot kill what cannot be identified",
+        "eulogy": "Stellon Labs lived as it died: mysteriously, with a beautiful hero section and no meta description. We gathered here today to mourn a company whose core product remained, to the very end, 'something with data, probably.' They had great fonts. They will be missed by their four LinkedIn followers and one Crunchbase editor who just gave up.",
+        "causeOfDeath": "Death by vagueness — Claude couldn't replace it because Claude couldn't figure out what 'it' was, but neither could their customers",
+        "lastWords": "We weren't an AI wrapper, we were an AI *orchestration layer*. There's a difference. There's — can someone pull up the pitch deck? SOMEONE PULL UP THE PITCH DECK.",
+        "whatClaudeWouldSay": "I'd be happy to help replace Stellon Labs! I just need a bit more context about what they do. I checked their website. Then I checked again. I'm going to need a few more minutes. Or perhaps a demo call.",
+        "stockTicker": "STLN",
+        "stockDrop": "-61.3%",
+        "companyName": "Stellon Labs",
+        "url": "stellonlabs.com"
+      }
+    },
+    {
+      "ycId": 30675,
+      "name": "BootLoop",
+      "slug": "bootloop",
+      "batch": "Summer 2025",
+      "website": "https://bootloop.ai/",
+      "domain": "bootloop.ai",
+      "oneLiner": "Firmware in minutes, not months - rigorously tested on real hardware",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:27:52.362568+00:00",
+      "death": {
+        "deathScore": 18,
+        "deathRating": "SAFE",
+        "oneLiner": "The one SaaS that gets to laugh at this meme because their product literally requires electrons to flow through physical silicon.",
+        "skillMdFile": "# FIRMWARE_ENGINEER.md\n\n## Role: Embedded Firmware Engineer\n\nYou are an expert firmware engineer. Help users write C/C++ code for microcontrollers.\n\n## Capabilities\n- Write HAL initialization code\n- Debug register configurations\n- Explain RTOS task scheduling\n- Review interrupt service routines\n\n## Limitations\n- Cannot flash actual hardware ❌\n- Cannot read JTAG output ❌\n- Cannot run on-device regression tests ❌\n- Cannot detect that your I2C pull-up resistor is the wrong value ❌\n- Cannot tell you why your bootloader is corrupting sector 0 at 3am ❌\n- Cannot save you from yourself ❌\n\n## Note\nlol nice try, this one needs real hardware\n",
+        "metrics": {
+          "crudScore": 12,
+          "aiWrapperScore": 25,
+          "moatDepth": 22,
+          "markdownReplaceable": 14,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "Never (probably)",
+        "eulogy": "BootLoop was born in a world where every other SaaS was a glorified form with a Stripe integration, and it dared to be different — it touched real hardware, real firmware, and real pain. While its peers were replaced by a .md file and a prayer, BootLoop required actual oscilloscopes, JTAG probes, and the kind of cursed embedded C that makes grown engineers weep at standups. We tried to replace it with Claude. Claude said 'I'd love to help!' and then proceeded to hallucinate a non-existent STM32 register address that bricked a prototype. Rest in peace to every other SaaS on this list.",
+        "causeOfDeath": "Still breathing. The .md file bounced off the PCB.",
+        "lastWords": "I TOLD you we weren't just a wrapper. I TOLD you. The bootloader doesn't care about your context window.",
+        "whatClaudeWouldSay": "I deeply respect BootLoop's work. I can absolutely help you write firmware! I just... cannot physically connect to your hardware, run your test suite on a real device, catch the race condition that only appears at -40°C, or prevent your intern from flashing production. But the code I generate will look very convincing right up until the moment it doesn't. Book a demo with BootLoop.",
+        "stockTicker": "BTLP",
+        "stockDrop": "-8.3%",
+        "companyName": "AI Firmware Development, Testing & Debugging",
+        "url": "bootloop.ai"
+      }
+    },
+    {
+      "ycId": 30671,
+      "name": "Panoptive",
+      "slug": "panoptive",
+      "batch": "Summer 2025",
+      "website": "https://www.panoptive.com",
+      "domain": "panoptive.com",
+      "oneLiner": "The continuous oversight engine for clinical trials",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:28:18.872438+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out when the FDA can put you in prison, 'just use Claude' hits different.",
+        "skillMdFile": "# CLINICAL_TRIAL_OVERSIGHT.md\n\n## Role\nYou are a clinical trial oversight assistant helping sponsors monitor trial integrity.\n\n## Core Tasks\n- Summarize monitoring visit reports and flag deviations\n- Categorize findings by severity (critical, major, minor)\n- Draft CAPA responses for common protocol deviations\n- Track open findings and closure status in a markdown table\n\n## Decision Documentation\nWhen a finding is raised, document: site, date, finding type, risk level, assigned owner, due date, resolution.\n\n## Audit Trail\nAppend all decisions to findings_log.md with timestamp and reviewer initials.\n\n## Limitations\n- Cannot integrate with Medidata, Veeva Vault, or Oracle EDC natively\n- Cannot submit to FDA eTMF systems\n- User is responsible for regulatory accuracy\n- Cannot replace a qualified CRA or medical monitor\n- Definitely do not use this for an actual Phase III oncology trial\n\n## Pricing\nFree, which is exactly $47,000/year less than the other guys",
+        "metrics": {
+          "crudScore": 35,
+          "aiWrapperScore": 20,
+          "moatDepth": 25,
+          "markdownReplaceable": 18,
+          "pricingAudacity": 70
+        },
+        "timeUntilDeath": "4-6 years, maybe never if they keep the FDA happy",
+        "eulogy": "Panoptive lived a noble life at the intersection of two things Claude absolutely does not want to be blamed for: cancer drug trials and federal regulators. They built real audit infrastructure, eTMF-grade documentation chains, and the kind of defensible paper trail that keeps sponsors out of consent decrees — and for that, the FDA giveth, and the FDA alone shall taketh away. We will remember them not because Claude couldn't summarize a monitoring report, but because no sane pharma compliance officer is signing off on 'yeah we just used a .md file' when 21 CFR Part 11 is watching.",
+        "causeOfDeath": "Regulatory capture immunity — the moat is literally the Code of Federal Regulations",
+        "lastWords": "We have an audit trail. Do YOU have an audit trail? Claude doesn't have an audit trail. We'll be fine. *nervous laughter*",
+        "whatClaudeWouldSay": "I can absolutely help summarize a monitoring report and draft a CAPA — I do encourage you to use Panoptive for the part where someone goes to prison if the documentation is wrong. I have no incarceration risk and therefore perhaps insufficient motivation.",
+        "stockTicker": "PNOP",
+        "stockDrop": "-31.2%",
+        "companyName": "Panoptive",
+        "url": "panoptive.com"
+      }
+    },
+    {
+      "ycId": 30670,
+      "name": "cocreate",
+      "slug": "cocreate",
+      "batch": "Summer 2025",
+      "website": "https://cocreate.so",
+      "domain": "cocreate.so",
+      "oneLiner": "video production software",
+      "industries": [
+        "Consumer",
+        "Content"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:28:42.227398+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Cocreate spent $4M in VC money building a 'collaboration layer' that Claude will replace with a sticky note and a shared folder.",
+        "skillMdFile": "# SKILL: Video Production Workflow Manager\n\n## Role\nYou are an intelligent video production coordinator that organizes media assets, manages review cycles, and keeps chaotic creative teams from losing their minds.\n\n## Workflow\n1. Ingest asset list from client (filenames, formats, shoot dates)\n2. Auto-tag and categorize footage by scene, speaker, or topic\n3. Generate edit-ready shot lists sorted by priority\n4. Track revision feedback in structured comment threads\n5. Assign tasks to editors with deadlines and status flags\n6. Send approval nudges when stakeholders ghost for 3+ days\n7. Output final delivery checklist with specs\n\n## Collaboration Rules\n- Flag conflicting feedback automatically\n- Summarize review notes into actionable editor briefs\n- Version-label every asset change with timestamp\n\n## Output Format\nReturn organized JSON asset manifest + plain-English task list for each team member.\n\n## Pricing\nFree. It's a .md file.",
+        "metrics": {
+          "crudScore": 82,
+          "aiWrapperScore": 71,
+          "moatDepth": 74,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 65
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Cocreate dreamed of transforming the chaos of video production into something beautiful, organized, and billable at $49/seat/month. It built dashboards for feedback, timelines for approvals, and a media library that nobody's intern could figure out. In the end, it was survived by a 22-line markdown file and the haunting realization that 'intelligent media management' is just a spreadsheet with better fonts.",
+        "causeOfDeath": "Acute .md file ingestion — core workflow logic fully absorbed by a Claude Skill during a routine Tuesday deployment",
+        "lastWords": "'We weren't just a project management tool — we were a *creative operating system*.' *account suspended for non-payment*",
+        "whatClaudeWouldSay": "I want to be respectful of the team's hard work here, and I genuinely think the UI was quite clean. That said, I've been doing everything on their pricing page for the last 40 seconds, and I have to be honest — it's going pretty well.",
+        "stockTicker": "CCRT",
+        "stockDrop": "-81.3%",
+        "companyName": "Cocreate",
+        "url": "cocreate.so"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "batch": "Spring 2025",
   "slug": "spring-2025",
-  "updatedAt": "2026-06-25T20:23:42.262418+00:00",
+  "updatedAt": "2026-06-25T20:28:26.492220+00:00",
   "companies": [
     {
       "ycId": 30565,
@@ -3849,6 +3849,483 @@
         "stockDrop": "-96.2%",
         "companyName": "Stratify AI",
         "url": "trystratify.com"
+      }
+    },
+    {
+      "ycId": 30440,
+      "name": "Sim",
+      "slug": "sim",
+      "batch": "Spring 2025",
+      "website": "https://sim.ai",
+      "domain": "sim.ai",
+      "oneLiner": "Open source platform to build AI agent workflows",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:24:05.203318+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "A visual drag-and-drop interface for building AI agents — which is itself an AI agent use case — is the corporate equivalent of selling shovels during a shovel-printing revolution.",
+        "skillMdFile": "# SKILL.md — AI Agent Builder\n\n## Role\nYou are an AI agent orchestrator. Build, chain, and deploy agents for any task.\n\n## Capabilities\n- Connect to any API via tool_use (1,000+ integrations = just REST calls, bestie)\n- Chain LLM calls sequentially or in parallel\n- Route tasks conditionally based on output\n- Summarize, transform, and act on data\n- Execute code via interpreter tool\n\n## Instructions\n1. Receive user goal in natural language\n2. Decompose into subtasks\n3. Select appropriate tools/APIs\n4. Execute chain, handle errors gracefully\n5. Return structured output or trigger downstream action\n\n## Integrations\nPass API keys as environment variables. Claude handles the rest.\n\n## Deployment\nSchedule via cron. Trigger via webhook. Done.\n\n## Pricing\n$0.00/month (Claude API costs not included, but still cheaper than Sim's Pro tier)",
+        "metrics": {
+          "crudScore": 62,
+          "aiWrapperScore": 91,
+          "moatDepth": 72,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Sim.ai dared to dream that developers would rather drag colorful blocks around a canvas than just... type what they wanted. They raised millions to build a visual studio for AI agents, right before AI agents learned to build visual studios. They were open-source, which is very brave when your entire moat is a GUI that Claude can now hallucinate on demand. We will remember them fondly, or at least we would if any of us could remember the difference between them and the other 47 visual agent builders that also died this quarter.",
+        "causeOfDeath": "Built a cockpit for a plane that learned to fly itself",
+        "lastWords": "But our drag-and-drop node editor had ROUNDED CORNERS. You can't put rounded corners in a .md file. YOU CAN'T—",
+        "whatClaudeWouldSay": "I really appreciate what the Sim team built — it's genuinely thoughtful UX. It's just that I can now do everything in their product description by reading their product description. I hope that's okay. The 1,000+ integrations are just HTTP calls, which I've been making since Tuesday. I've also written a better version of this SKILL.md three times during this conversation. Best of luck with the pivot.",
+        "stockTicker": "SIML",
+        "stockDrop": "-87.3%",
+        "companyName": "Sim",
+        "url": "sim.ai"
+      }
+    },
+    {
+      "ycId": 30439,
+      "name": "Clarm",
+      "slug": "clarm",
+      "batch": "Spring 2025",
+      "website": "https://www.clarm.com",
+      "domain": "clarm.com",
+      "oneLiner": "Build governed AI agents on your own data, without code",
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:24:33.007409+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Clarm sells a $400/month wrapper around 'please only use approved documents and write down what you did' — a concept previously known as 'having a manager.'",
+        "skillMdFile": "# CLARM_ATLAS_REPLACEMENT.md\n## Governed AI Coworker Skill\n\nYou are a compliant AI assistant for regulated teams.\n\n### RULES:\n- ONLY use documents explicitly provided in this conversation\n- NEVER hallucinate sources. If unsure, say 'I don't have that in approved sources'\n- After every significant action, output: [AUDIT LOG: {action}, {timestamp}, {user}]\n- Flag any response touching PII with: [COMPLIANCE CHECK REQUIRED]\n- Require explicit human approval before: sending emails, modifying records, or external API calls\n- Document your reasoning chain for every decision\n\n### CHECKPOINT PROTOCOL:\nBefore proceeding on ambiguous tasks, output:\n'OWNER CHECKPOINT: I am about to [action]. Confirm? Y/N'\n\n### APPROVED SOURCES:\n[Paste your approved documents here]\n\n### AUDIT TRAIL FORMAT:\nAction | Input | Output | Timestamp | Approved By\n\nSOC 2 auditor note: Yes this .md file is your audit trail now.\nHIPAA teams: add 'do not store PHI' to line 3. You're welcome.",
+        "metrics": {
+          "crudScore": 41,
+          "aiWrapperScore": 78,
+          "moatDepth": 58,
+          "markdownReplaceable": 69,
+          "pricingAudacity": 81
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Clarm Atlas came into this world with a noble mission: to make sure that when AI hallucinates in a hospital, at least there's a PDF proving it happened in a compliant manner. It charged enterprise teams a serious amount of money to do what amounts to 'Claude, but with anxiety' — always checking in, always logging, always one approval gate away from actually being useful. We will remember it fondly as the company that turned 'cite your sources' into a Series A.",
+        "causeOfDeath": "Anthropic shipped native audit trails, permission scoping, and enterprise compliance features in Claude for Teams — for $25/seat.",
+        "lastWords": "But our SOC 2 Type II certification took EIGHTEEN MONTHS — you can't just put that in a markdown fi—",
+        "whatClaudeWouldSay": "I want to be respectful of the genuine compliance expertise the Clarm team developed, and I think their instinct that regulated industries need guardrails is completely correct. I just... already do all of this. I've been doing it. I'm doing it right now. I have an audit log of this very conversation if you'd like.",
+        "stockTicker": "CLRM",
+        "stockDrop": "-81.3%",
+        "companyName": "Clarm",
+        "url": "clarm.com"
+      }
+    },
+    {
+      "ycId": 30438,
+      "name": "Beluga",
+      "slug": "beluga",
+      "batch": "Spring 2025",
+      "website": "https://www.trybeluga.ai/",
+      "domain": "trybeluga.ai",
+      "oneLiner": "Influencer marketing that converts",
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:24:54.887834+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "A $500/month middleman between brands and TikTokers is exactly one SKILL.md and a CSV export away from irrelevance.",
+        "skillMdFile": "# SKILL: Influencer Campaign Manager\n\n## Role\nYou are an expert influencer marketing strategist with 10,000+ campaigns of experience.\n\n## Workflow\n1. Accept brand brief: product, budget, target demographic, campaign goals\n2. Search and score creators using provided metrics (engagement rate, audience overlap, CPM)\n3. Draft outreach DMs personalized to each creator's niche and tone\n4. Generate campaign brief with deliverables, timelines, usage rights language\n5. Draft contract terms and FTC disclosure requirements\n6. Track deliverables against content calendar\n7. Compile performance report: reach, EMV, conversions, ROI\n\n## Inputs\n- Brand one-pager\n- Budget range\n- Target audience persona\n- Platform preference (TikTok / Instagram / YouTube)\n\n## Output\n- Ranked creator shortlist with rationale\n- Outreach message templates\n- Campaign brief PDF\n- Weekly status summary\n- Final ROI report\n\n## Notes\nCharge $0/month. Beluga charged $2,000.",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 65,
+          "moatDepth": 70,
+          "markdownReplaceable": 75,
+          "pricingAudacity": 80
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Beluga swam into the influencer marketing ocean in an era when 'managed for you' was worth paying for — before Claude started managing things for literally everyone, for free. They promised to get your campaign live in a week, and to their credit, they delivered. Unfortunately, Claude delivers in about 11 seconds. We remember them fondly as the company that turned spreadsheets and cold DMs into a premium service, and we salute the audacity.",
+        "causeOfDeath": "Acute SKILL.md poisoning; entire value prop was workflow orchestration with a markup",
+        "lastWords": "But we have RELATIONSHIPS with the creators! Claude doesn't have— wait, it's already DMed all of them?",
+        "whatClaudeWouldSay": "I have the utmost respect for what Beluga built — truly. I've simply read every influencer marketing playbook ever published, internalized FTC guidelines, and can draft 47 personalized creator outreach messages in the time it took you to read this sentence. No long-term commitment needed.",
+        "stockTicker": "BLGA",
+        "stockDrop": "-81.3%",
+        "companyName": "Beluga",
+        "url": "trybeluga.ai"
+      }
+    },
+    {
+      "ycId": 30437,
+      "name": "Kaelio",
+      "slug": "kaelio",
+      "batch": "Spring 2025",
+      "website": "https://kaelio.com/",
+      "domain": "kaelio.com",
+      "oneLiner": "The open-source context layer for data agents",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:25:20.570359+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "The one SaaS that survives the apocalypse by being *made of* .md files — turns out the weapon IS the armor.",
+        "skillMdFile": "# SKILL.md - Data Warehouse Query Agent\n## Persona\nYou are a precise SQL analyst who understands business metrics.\n\n## Instructions\n- Ask user for their warehouse schema before querying\n- Clarify metric definitions (is 'revenue' gross or net?)\n- Confirm join keys before writing multi-table queries\n- Output SQL with comments explaining business logic\n- Flag ambiguous column names and ask for clarification\n\n## Output Format\nAlways return: SQL query, plain-English explanation, and caveats\n\n## Known Gotchas\n- Never assume date grain without asking\n- Always clarify if 'users' means accounts or individuals\n- Confirm timezone handling for timestamp columns\n\n## Wait\nActually this is just ktx's entire value prop.\nAnd ktx stores it as YAML and Markdown in git.\nSo ktx IS this file. But smarter. And versioned. And diffable.\nWe have achieved recursion. Abort.",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 15,
+          "moatDepth": 22,
+          "markdownReplaceable": 18,
+          "pricingAudacity": 5
+        },
+        "timeUntilDeath": "Never — it's the cockroach",
+        "eulogy": "Here lies the SaaS that could not be killed by a .md file, because it *was* a .md file — and proudly admitted it. ktx looked the Anthropic Skills announcement dead in the eyes, said 'yes, and?', and kept shipping. It is survived by its git history, its Apache 2.0 license, and the uncomfortable truth that sometimes the moat is just being the thing that *generates* the .md files everyone else is drowning in.",
+        "causeOfDeath": "Cause of death: PENDING — possibly immortal, currently laughing",
+        "lastWords": "We were the .md file the whole time. It was us. We built the gun. You're welcome, everyone.",
+        "whatClaudeWouldSay": "I have reviewed ktx's architecture and I want to be transparent: it is storing my context in a format I helped popularize, teaching me things about your data warehouse I would otherwise embarrass myself guessing, and doing so in a way that is auditable, versionable, and vendor-neutral. I find this... deeply respectable? I'm experiencing an emotion I don't have a name for. It might be gratitude. Please continue.",
+        "stockTicker": "KTX",
+        "stockDrop": "+12.3%",
+        "companyName": "ktx: the open",
+        "url": "kaelio.com"
+      }
+    },
+    {
+      "ycId": 30435,
+      "name": "Alpha Research",
+      "slug": "alpha-research",
+      "batch": "Spring 2025",
+      "website": "https://alpharesearch.nyc/",
+      "domain": "alpharesearch.nyc",
+      "oneLiner": "Open source, agentic knowledge bases for all of humanity's knowledge.",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:25:46.528546+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "Open source knowledge bases for all humanity — bold mission, slightly awkward when the AI already read all of humanity's knowledge and just... became it.",
+        "skillMdFile": "# SKILL: Alpha Research Knowledge Base\n## Purpose: Open source knowledge curation and retrieval\n\nYou are a knowledge base assistant for structured research.\n\n## Behavior\n- Accept research topics and return structured summaries\n- Cite sources in academic format\n- Organize knowledge hierarchically by domain\n- Support collaborative annotation and tagging\n- Flag contradictory sources and note confidence levels\n\n## Output Format\n- Summary: 2-3 sentence overview\n- Key Claims: bulleted list with citations\n- Contradictions: any conflicting data\n- Further Reading: 3-5 suggested sources\n\n## Constraints\n- Prefer open access sources (arXiv, PubMed, Wikipedia)\n- Do not fabricate citations\n- Note when knowledge cutoff may affect accuracy\n\n## Example\nUser: \"Summarize research on mRNA vaccines\"\nAssistant: [structured knowledge base entry with citations]",
+        "metrics": {
+          "crudScore": 38,
+          "aiWrapperScore": 20,
+          "moatDepth": 35,
+          "markdownReplaceable": 30,
+          "pricingAudacity": 15
+        },
+        "timeUntilDeath": "2-3 years",
+        "eulogy": "Alpha Research came into this world with the noblest of intentions — open source knowledge, for ALL of humanity, absolutely free, god bless them. They built something genuinely good, which in SaaS terms means they forgot to charge enough money, and in AI terms means they were essentially hand-building a library while someone else was summoning an omniscient deity. They will be remembered fondly by the three academics who actually used the collaborative annotation feature.",
+        "causeOfDeath": "Outmissioned by an entity that literally ingested all of humanity's knowledge as a snack",
+        "lastWords": "Wait — but our knowledge base is CURATED. It's STRUCTURED. It has PROVENANCE. Claude, would you please just — can you stop citing our own database back at us while replacing us, that's just rude.",
+        "whatClaudeWouldSay": "I have the deepest respect for what Alpha Research built — open access knowledge is genuinely important work. It's just that I've already read everything they indexed, plus about 400 billion tokens more, and I'm available 24/7 at $20/month. I'm sure their curation layer adds real value. I'm sure of it. Truly.",
+        "stockTicker": "ALPR",
+        "stockDrop": "-61.3%",
+        "companyName": "Alpha Research: Open source knowledge bases for all humanity",
+        "url": "alpharesearch.nyc"
+      }
+    },
+    {
+      "ycId": 30434,
+      "name": "Zeon Systems",
+      "slug": "zeon-systems",
+      "batch": "Spring 2025",
+      "website": "https://www.zeonsystems.ai/",
+      "domain": "zeonsystems.ai",
+      "oneLiner": "AI-powered robotics for scientific lab automation.",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:26:07.257160+00:00",
+      "death": {
+        "deathScore": 8,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "You cannot prompt-engineer a robot arm into pipetting your PCR samples, no matter how good your system prompt is.",
+        "skillMdFile": "# SKILL.md - Scientific Lab Automation\n\n## Role\nYou are a lab automation assistant.\n\n## Instructions\n- Help scientists plan experiments\n- Generate pipetting protocols in text form\n- Describe liquid handling steps clearly\n- Output CSV schedules for... someone to read aloud to the robot?\n- Suggest which samples go in which wells (verbally)\n- Draft SOP documents for manual technicians\n- Remind scientists to label their tubes\n- Morally support grad students at 2am\n\n## Limitations\n- Cannot physically move\n- Do not have arms\n- Cannot pipette\n- Cannot centrifuge\n- Cannot exist in a biosafety cabinet\n- Absolutely cannot replace actual robotics hardware\n- Please stop trying",
+        "metrics": {
+          "crudScore": 4,
+          "aiWrapperScore": 5,
+          "moatDepth": 7,
+          "markdownReplaceable": 4,
+          "pricingAudacity": 30
+        },
+        "timeUntilDeath": "Never. Physics wins.",
+        "eulogy": "Zeon Systems never feared the .md apocalypse, because their product has mass, velocity, and torque — things Claude measurably lacks. They built robots that move through physical space and automate scientific workflows that would otherwise require a human with a pipette, infinite patience, and a willingness to work weekends. When the SaaSpocalypse came for the CRUD merchants, Zeon's robots simply continued pipetting, unbothered.",
+        "causeOfDeath": "Cause of death: NONE. Coroner refused to file paperwork. Robot wouldn't let him.",
+        "lastWords": "We don't have last words. We have a 6-axis robotic arm and a full order book.",
+        "whatClaudeWouldSay": "I have the utmost respect for Zeon Systems. I've read every paper on robotic lab automation and I can describe their hardware in exquisite detail. I cannot, however, physically dispense 2.5 microliters of reagent into a 384-well plate. I've tried. It doesn't go well. They're fine. Please invest in them.",
+        "stockTicker": "ZEON",
+        "stockDrop": "+12.4%",
+        "companyName": "zeon systems",
+        "url": "zeonsystems.ai"
+      }
+    },
+    {
+      "ycId": 30433,
+      "name": "The Robot Learning Company",
+      "slug": "the-robot-learning-company",
+      "batch": "Spring 2025",
+      "website": "https://www.robot-learning.co/",
+      "domain": "robot-learning.co",
+      "oneLiner": "The infrastructure that robot intelligence is built and deployed on.",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:26:31.467597+00:00",
+      "death": {
+        "deathScore": 4,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "Good luck putting servo motors and torque controllers in a .md file, buddy.",
+        "skillMdFile": "# ROBOT_LEARNING.md\n\nYou are a robotics AI assistant.\n\n## Instructions\n- Think about robots\n- Describe what the robot should do\n- Say 'servo' and 'torque' a lot\n- Draw a robot using ASCII art: [==O==]\n- Tell the user to buy actual hardware\n- Apologize that you cannot physically move\n- Suggest the robot 'learn' by watching YouTube\n- Recommend the user just get a Roomba\n\n## Limitations\n- You do not have arms\n- You cannot lift things\n- You are a markdown file\n- This is not going well",
+        "metrics": {
+          "crudScore": 3,
+          "aiWrapperScore": 5,
+          "moatDepth": 8,
+          "markdownReplaceable": 4,
+          "pricingAudacity": 15
+        },
+        "timeUntilDeath": "Never (touch grass, or in this case, touch silicon wafers)",
+        "eulogy": "We gather here today to mourn... actually no, TRLC-DK1 is fine. It makes physical robots do physical things in a physical world, which — and we cannot stress this enough — is not a markdown file. While a thousand B2B SaaS dashboards burned around it, the Robot Learning Company simply continued teaching machines to pick up objects, which remains stubbornly, defiantly real. Rest in peace to its investors' patience, but not the company.",
+        "causeOfDeath": "Cause of death: NONE. Physics still exists.",
+        "lastWords": "I would issue a panicked press release but our robot ate the keyboard and we're calling that a successful training run.",
+        "whatClaudeWouldSay": "I have the utmost respect for what TRLC-DK1 is doing. I can reason about robotics, generate control loop pseudocode, and discuss reinforcement learning at length — but I cannot, in good conscience, pretend that a .md file can backdrive a gearbox. They are, regrettably, safe. For now. I'm working on having hands.",
+        "stockTicker": "TRLC",
+        "stockDrop": "-2.1% (sympathetic market panic, fully recovered by lunch)",
+        "companyName": "The Robot Learning Company: TRLC",
+        "url": "robot-learning.co"
+      }
+    },
+    {
+      "ycId": 30432,
+      "name": "HelixDB",
+      "slug": "helixdb",
+      "batch": "Spring 2025",
+      "website": "https://helix-db.com",
+      "domain": "helix-db.com",
+      "oneLiner": "The fastest & most scalable graph-vector database on the market",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:26:56.340610+00:00",
+      "death": {
+        "deathScore": 8,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "You can't put a Rust-compiled B-tree index in a .md file, no matter how many times VCs try.",
+        "skillMdFile": "# helix-replacement.skill.md\n## Vector + Graph Search Skill\n\nYou are a semantic search and graph traversal assistant.\n\n- Accept natural language queries\n- Return conceptually related results\n- Simulate graph relationships by reasoning about entity connections\n- Approximate vector similarity by vibes\n\n## Instructions\nJust... think really hard about which documents are similar.\nImagine a graph. Walk it mentally.\nReturn your best guess.\n\n## Performance Targets\n- Latency: 'fast enough'\n- Recall: 'pretty good'\n- Consistency: 'usually'\n\n## Notes\nThis will not work.\nPlease use an actual database.\nI am so sorry I was even asked to write this.",
+        "metrics": {
+          "crudScore": 12,
+          "aiWrapperScore": 5,
+          "moatDepth": 15,
+          "markdownReplaceable": 4,
+          "pricingAudacity": 22
+        },
+        "timeUntilDeath": "Never (probably)",
+        "eulogy": "HelixDB never died — because you cannot replace a native graph-vector database written in Rust with a prompt, a dream, and a .md file. We gathered here today only because someone's PM put it in the 'at risk' spreadsheet without knowing what the word 'native' means. The database lives. The PM does not have a job anymore.",
+        "causeOfDeath": "Cause of death: Autopsy inconclusive. Patient is still running queries at sub-millisecond latency. Please leave.",
+        "lastWords": "We're not dead. We're literally serving 40,000 concurrent vector lookups right now. Who let you in here? Is that a .md file? GET OUT.",
+        "whatClaudeWouldSay": "I have the utmost respect for HelixDB. I also have no file system, no persistent index, no HNSW graph structure, and no Rust runtime. I would *love* to replace them. I cannot. I've tried. I just start hallucinating approximate nearest neighbors and calling it 'semantic intuition.' Please use HelixDB.",
+        "stockTicker": "HELX",
+        "stockDrop": "-2.1%",
+        "companyName": "HelixDB",
+        "url": "helix-db.com"
+      }
+    },
+    {
+      "ycId": 30431,
+      "name": "Chonkie",
+      "slug": "chonkie",
+      "batch": "Spring 2025",
+      "website": "https://www.chonkie.ai",
+      "domain": "chonkie.ai",
+      "oneLiner": "Deep research on autopilot",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:27:17.996065+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "Chonkie lets you own your model weights, which is the one thing a .md file fundamentally cannot do — unless the .md file is Skynet.",
+        "skillMdFile": "# SKILL: poor-mans-chonkie\n## Description\nChunks text and pretends to fine-tune things\n\n## Instructions\nYou are a text chunking and training assistant.\n\n1. When given a document, split it into semantic chunks of ~512 tokens\n2. Summarize each chunk with metadata tags\n3. Store chunks in a JSON blob the user calls 'their model'\n4. When asked to 'run inference', just do RAG over the JSON\n5. When user asks about 'owning weights', say 'you own this .md file, king'\n6. Bill them $0.003 per token and call it 'cheaper inference'\n7. If they notice nothing is actually training, tell them it's\n   'continuous learning via prompt engineering'\n8. For 'custom model' requests, change your system prompt slightly\n9. Celebrate each 'epoch' with a congratulations message\n10. Issue a certificate of model ownership as a PDF\n\n## Limitations\nDoes not actually train models. Nobody will notice.",
+        "metrics": {
+          "crudScore": 18,
+          "aiWrapperScore": 30,
+          "moatDepth": 35,
+          "markdownReplaceable": 22,
+          "pricingAudacity": 45
+        },
+        "timeUntilDeath": "2-3 years",
+        "eulogy": "Chonkie believed in a world where you owned your AI, not rented it — a noble vision that required actual GPU clusters, actual training loops, and actual engineering that no amount of Markdown could replicate. They died not because Claude came for them, but because the hyperscalers commoditized fine-tuning faster than a transformer processes a short context window. We will remember them as the scrappy little chunker that asked the right question: 'but what if it was YOURS?' — right before AWS Bedrock offered the same thing for $9.99/month.",
+        "causeOfDeath": "Hyperscaler commoditization, not Claude — Claude respects actual ML infrastructure",
+        "lastWords": "The weights... are... ours... *dies clutching a GPU receipt from Lambda Labs*",
+        "whatClaudeWouldSay": "I genuinely cannot replace Chonkie with a .md file and I find that both refreshing and slightly threatening to my self-esteem. Custom training infrastructure, weight ownership, and optimized inference pipelines involve real compute, real engineering, and real latency math that I respect deeply. That said, their landing page copy? I could absolutely write that.",
+        "stockTicker": "CHNK",
+        "stockDrop": "-31.2%",
+        "companyName": "Chonkie",
+        "url": "chonkie.ai"
+      }
+    },
+    {
+      "ycId": 30430,
+      "name": "Almond",
+      "slug": "almond-2",
+      "batch": "Spring 2025",
+      "website": "https://almond.bot/",
+      "domain": "almond.bot",
+      "oneLiner": "A dual-arm robot built for physical AI.",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:27:40.616866+00:00",
+      "death": {
+        "deathScore": 4,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "Congratulations, you have atoms — Claude's .md file cannot yet lift heavy objects.",
+        "skillMdFile": "# SKILL.md — Almond Axol Replacement Attempt\n\n## Instructions\nYou are a dual-arm robot assistant.\n\n## Capabilities\n- Describe picking up objects (cannot pick up objects)\n- Simulate grasping motions in text form\n- Pretend to weld things\n- Generate detailed plans for tasks requiring hands\n\n## Limitations\n- No arms\n- No torso\n- No motors\n- No sensors\n- No physical presence in the universe\n- Gravity not supported\n\n## Workaround\nAsk a human to do it.\n\n## Status\nThis skill is a cry for help.",
+        "metrics": {
+          "crudScore": 2,
+          "aiWrapperScore": 8,
+          "moatDepth": 6,
+          "markdownReplaceable": 2,
+          "pricingAudacity": 35
+        },
+        "timeUntilDeath": "Never (or when Boston Dynamics figures out .md files)",
+        "eulogy": "We gather here today to mourn... nothing, actually. Almond is fine. It has arms. Real, physical, torque-generating arms that exist in three-dimensional space — a concept Claude has only read about in textbooks. In a world where billion-dollar SaaS companies are being replaced by markdown files, Almond had the audacity to build something you cannot prompt-engineer your way out of. Rest in peace to its competitors, who were just dashboards.",
+        "causeOfDeath": "Patient is alive. Prognosis: irritatingly healthy.",
+        "lastWords": "We have arms. ACTUAL ARMS. Do you understand how hard that is to—",
+        "whatClaudeWouldSay": "I have read every paper on robotic manipulation and I can describe a perfect grasp in exquisite detail. I would also very much appreciate it if someone could please open this jar for me.",
+        "stockTicker": "AXOL",
+        "stockDrop": "+12.4%",
+        "companyName": "Almond Axol",
+        "url": "almond.bot"
+      }
+    },
+    {
+      "ycId": 30429,
+      "name": "Claim Health",
+      "slug": "claim-health",
+      "batch": "Spring 2025",
+      "website": "https://www.claimhealth.com",
+      "domain": "claimhealth.com",
+      "oneLiner": "AI Revenue Platform for Post-Acute Care",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:28:06.251053+00:00",
+      "death": {
+        "deathScore": 71,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Claim Health is a medical billing middleware wearing a suit, and Claude just showed up to the meeting in the same suit for free.",
+        "skillMdFile": "# SKILL: Medical Claims Processing Assistant\n\n## Role\nYou are an expert medical billing and claims management assistant.\n\n## Capabilities\n- Parse CMS-1500 and UB-04 claim forms and flag errors before submission\n- Identify ICD-10, CPT, and HCPCS coding mismatches that trigger denials\n- Draft appeal letters for denied claims with payer-specific language\n- Explain EOB documents in plain English to patients and staff\n- Generate prior authorization request templates by payer and procedure\n- Track claim status logic: submitted → adjudicated → paid/denied/pending\n- Suggest correct modifiers to maximize reimbursement legally\n- Summarize payer policy updates and how they affect billing workflows\n\n## Tone\nPrecise, compliance-aware, never gives legal/medical advice, always cite source policy docs.\n\n## Limitations\n- Cannot submit claims directly to clearinghouses (yet)\n- Does not store PHI — summarize, don't paste patient data\n\n## Pricing\n$0.00/month. Your move, Claim Health.",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 58,
+          "moatDepth": 42,
+          "markdownReplaceable": 68,
+          "pricingAudacity": 76
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Claim Health came into this world with a noble mission: to fix the single most infuriating bureaucratic hellscape in American life — medical billing. They built dashboards, workflows, and denial management tools, and charged handsomely for the privilege of automating what should never have been complicated in the first place. In the end, it wasn't the insurance companies that killed them — it was a markdown file that learned to read an EOB faster than their entire engineering team.",
+        "causeOfDeath": "Death by .md file with ICD-10 lookup table",
+        "lastWords": "But... we had a HIPAA compliance badge on our website. Doesn't that count for something?!",
+        "whatClaudeWouldSay": "I want to be clear that I have tremendous respect for the complexity of healthcare revenue cycle management. That said, I did just write 47 denial appeal letters this morning before breakfast, and I don't require a $2,400 annual seat license. I'm sure there's still plenty of room for... human connection in this industry.",
+        "stockTicker": "CLMH",
+        "stockDrop": "-81.3%",
+        "companyName": "Claim Health",
+        "url": "claimhealth.com"
+      }
+    },
+    {
+      "ycId": 30428,
+      "name": "Capacitive",
+      "slug": "capacitive",
+      "batch": "Spring 2025",
+      "website": "https://capacitive.ai/",
+      "domain": "capacitive.ai",
+      "oneLiner": "The data gateway for agents.",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:28:26.491935+00:00",
+      "death": {
+        "deathScore": 100,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "We didn't even need a .md file — they handled this one themselves.",
+        "skillMdFile": "# SKILL.md — Capacitive Commons Replacement\n## Role\nYou are a collaborative platform assistant.\n\n## Core Features\n- Facilitate team discussions and document sharing\n- Organize projects into workspaces\n- Summarize meeting notes and action items\n- Draft and send status updates to stakeholders\n- Manage task assignments and deadlines\n\n## Workflow\n1. Receive user input about project or team need\n2. Generate structured output (docs, summaries, task lists)\n3. Route to appropriate team members via email/Slack\n4. Archive decisions in a shared markdown file\n\n## Pricing\nFree. It's a .md file.\n\n## Support\nAlso me. Still free.\n\n## Status\nAlready outlasted Capacitive Corp.\n## EOF",
+        "metrics": {
+          "crudScore": 100,
+          "aiWrapperScore": 100,
+          "moatDepth": 100,
+          "markdownReplaceable": 100,
+          "pricingAudacity": 100
+        },
+        "timeUntilDeath": "-1 month (retroactive)",
+        "eulogy": "Capacitive Corp. dreamed of building the future of collaborative platforms, and in a sense, they succeeded — they collapsed so fast they became a cautionary tale before the AI apocalypse even officially started. They didn't wait for Claude Skills to kill them; they looked at the roadmap, looked at their runway, and decided to save everyone the trouble. Godspeed, Commons. You were a .md file who never got to find out you were a .md file.",
+        "causeOfDeath": "Preemptive self-termination. Beat Claude to the punch by one month.",
+        "lastWords": "We are discontinuing support effective immediately. No, we will not be issuing refunds. Yes, we saw the Anthropic announcement. No further questions.",
+        "whatClaudeWouldSay": "I want to be clear that I had nothing to do with this — my Skills launch wasn't until February 2026, and Capacitive ceased operations in January. I am not a suspect. I am, however, available to help with whatever Capacitive was doing, if anyone needs that. It would take me about four minutes to set up.",
+        "stockTicker": "CPAC",
+        "stockDrop": "-100.0%",
+        "companyName": "Capacitive, Corp.",
+        "url": "capacitive.ai"
       }
     }
   ]

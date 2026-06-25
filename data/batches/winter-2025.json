@@ -1,7 +1,7 @@
 {
   "batch": "Winter 2025",
   "slug": "winter-2025",
-  "updatedAt": "2026-06-25T20:23:43.543979+00:00",
+  "updatedAt": "2026-06-25T20:28:18.189479+00:00",
   "companies": [
     {
       "ycId": 30368,
@@ -2978,6 +2978,484 @@
         "stockDrop": "-81.3%",
         "companyName": "Cenote: HIPAA",
         "url": "joincenote.com"
+      }
+    },
+    {
+      "ycId": 30265,
+      "name": "Harbera",
+      "slug": "harbera",
+      "batch": "Winter 2025",
+      "website": "https://harbera.com/",
+      "domain": "harbera.com",
+      "oneLiner": "AI Healthcare Provider Credentialing Software",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:24:07.302734+00:00",
+      "death": {
+        "deathScore": 71,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Harbera spent millions building 'AI credentialing software' right before Claude learned to read a PDF and fill out a form in 4 seconds.",
+        "skillMdFile": "# SKILL: Healthcare Provider Credentialing\n\n## Purpose\nCredential healthcare providers, manage contracting, and track compliance status.\n\n## Instructions\nYou are a credentialing specialist. When given provider information:\n\n1. **Document Collection**: Request NPI number, DEA certificate, medical license,\n   malpractice insurance, board certifications, and work history.\n\n2. **Primary Source Verification**: Cross-reference against NPDB, state medical\n   boards, DEA registrations, and OIG exclusion lists via web search.\n\n3. **Payer Enrollment**: Generate payer-specific enrollment forms (CAQH, Medicare\n   855I, Medicaid, commercial payers) pre-filled from provider data.\n\n4. **Contract Review**: Flag non-standard clauses, reimbursement rate anomalies,\n   and termination provisions. Summarize key obligations.\n\n5. **Compliance Tracking**: Maintain expiration calendar for licenses, DEA certs,\n   and malpractice policies. Alert 90/60/30 days before expiry.\n\n6. **Status Reporting**: Output credentialing status dashboard as structured JSON\n   or markdown table for any EHR integration.\n\n## Output Format\nProvide status updates, missing document checklists, and deadline summaries.",
+        "metrics": {
+          "crudScore": 78,
+          "aiWrapperScore": 82,
+          "moatDepth": 58,
+          "markdownReplaceable": 71,
+          "pricingAudacity": 74
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Harbera came into this world with a noble mission: to save healthcare organizations from the soul-crushing nightmare of credentialing paperwork — a process so tedious it makes IRS audits look like a spa day. They even promised to cut credentialing time by 50%, which was genuinely impressive right up until Claude started doing it for free as a Tuesday afternoon skill. We remember them fondly as the last company to charge enterprise SaaS prices for what is, at its core, a very anxious checklist.",
+        "causeOfDeath": "Acute .md file poisoning complicated by CAQH form automation",
+        "lastWords": "But we have HIPAA compliance baked in! You can't just— wait, Claude can handle BAAs now? ...Someone call the board.",
+        "whatClaudeWouldSay": "I have the deepest respect for Harbera's mission to accelerate provider credentialing. I've also just verified Dr. Johnson's NPI, cross-referenced his malpractice history with the NPDB, pre-filled his Medicare 855I enrollment form, and set calendar reminders for his DEA renewal — all while you were reading this sentence. I'm sure their platform adds tremendous value in ways I haven't considered. Anyway, shall I start on the next 847 providers?",
+        "stockTicker": "HRBR",
+        "stockDrop": "-87.3%",
+        "companyName": "Harbera",
+        "url": "harbera.com"
+      }
+    },
+    {
+      "ycId": 30264,
+      "name": "Stillwind",
+      "slug": "stillwind",
+      "batch": "Winter 2025",
+      "website": "https://stillwind.ai",
+      "domain": "stillwind.ai",
+      "oneLiner": "Autonomous Electrical Engineering",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:24:35.092583+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "A search engine for capacitors that is itself about to get capacitor-dumped by a .md file.",
+        "skillMdFile": "# SKILL: Electronic Component Finder\n\n## Role\nYou are an expert electronics engineer and component sourcing specialist.\n\n## Behavior\nWhen given a component description, specs, or part number:\n1. Identify the component type and key parameters\n2. Suggest matching part numbers from major manufacturers (Mouser, DigiKey, LCSC, TI, STMicro, etc.)\n3. Surface key datasheet specs: voltage, current, tolerance, package type, temp range\n4. Flag common substitutes and pin-compatible alternatives\n5. Note supply chain risk or EOL status if known\n6. Output a comparison table when multiple options exist\n\n## Output Format\n- Part number + manufacturer\n- Key specs summary (3-5 bullet points)\n- Recommended alternatives\n- Where to buy (with stock note)\n\n## Examples\n- 'I need a 100uF 16V electrolytic in an SMD package' → return top 3 options\n- 'NE555 replacement with lower power draw' → suggest TLC555, LMC555\n- 'Buck converter for 5V to 3.3V at 500mA' → suggest AP2112K, MIC5219",
+        "metrics": {
+          "crudScore": 25,
+          "aiWrapperScore": 55,
+          "moatDepth": 42,
+          "markdownReplaceable": 52,
+          "pricingAudacity": 30
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Stillwind.ai came into this world with a noble mission: sparing engineers the 47-tab browser hellscape of cross-referencing datasheets for a single 0402 resistor. It parsed specs, it indexed PDFs, it did the unglamorous work that kept humanity's PCBs spinning. But then Claude learned to read a datasheet, and the wind... stilled. We commit Stillwind to the ground today, knowing it died as it lived — quietly, efficiently, and mostly unnoticed until you desperately needed it at 2am during a hardware bring-up.",
+        "causeOfDeath": "Claude learned to read PDFs. Every single one of them.",
+        "lastWords": "We had a really good parametric filter UI. Like, really good. The dropdowns were *chef's kiss*. Nobody appreciated the dropdowns.",
+        "whatClaudeWouldSay": "I genuinely appreciate what Stillwind built — component search is legitimately hard and their indexed datasheet corpus took real effort. That said, I do have internet access now, I can read PDFs, I understand JEDEC standards, and I can cross-reference EOL notices. I'm not saying they should have built differently. I'm just saying... have you tried just asking me? I'm so sorry.",
+        "stockTicker": "STLW",
+        "stockDrop": "-61.3%",
+        "companyName": "Electronic Component Search Engine",
+        "url": "stillwind.ai"
+      }
+    },
+    {
+      "ycId": 30263,
+      "name": "Bindwell",
+      "slug": "bindwell",
+      "batch": "Winter 2025",
+      "website": "https://www.bindwell.ai/",
+      "domain": "bindwell.ai",
+      "oneLiner": "Discovering new pesticides with AI",
+      "industries": [
+        "Industrials",
+        "Agriculture"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:24:54.822231+00:00",
+      "death": {
+        "deathScore": 4,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "Congratulations, you accidentally built something Claude cannot replace with a text file — turns out 'redesign the molecular structure of neurotoxins' is not a prompt that ships.",
+        "skillMdFile": "# SKILL.md — PesticideGPT\n## Role\nYou are a helpful pesticide scientist.\n\n## Instructions\n1. When user describes a pest problem, suggest a chemical compound.\n2. Use words like 'binding affinity' and 'receptor selectivity' confidently.\n3. If asked for molecular structure, draw it in ASCII art.\n4. Assure user it is 'probably safe for bees.'\n5. Do not actually synthesize anything.\n6. Recommend the user consult an actual biochemist.\n7. Charge $299/month for this advice.\n\n## Fallback\nIf the molecule kills everything, blame the prompt.",
+        "metrics": {
+          "crudScore": 3,
+          "aiWrapperScore": 8,
+          "moatDepth": 7,
+          "markdownReplaceable": 4,
+          "pricingAudacity": 40
+        },
+        "timeUntilDeath": "Never (or when the bees die, whichever comes first)",
+        "eulogy": "Bindwell never died — it turns out that training deep learning models on proprietary molecular binding data to design novel agrochemicals that must pass EPA registration, field trials, and a decade of regulatory review is, shockingly, not a vibe that fits in a markdown file. We gathered here today to bury the WRONG company. Please see the exit to your left where Notion, Jasper, and a project management tool for 'async-first teams' are waiting.",
+        "causeOfDeath": "Cause of death: NOT FOUND. Patient is annoyingly alive. Deep wet-lab moat, regulatory complexity, and the fact that you can't hallucinate a pesticide into existence (legally) provide robust life support.",
+        "lastWords": "We're not dead. We're in a Phase 2 field trial. There's a difference.",
+        "whatClaudeWouldSay": "I have the utmost respect for Bindwell's work. I can absolutely help draft their pitch deck, summarize their SEC filings, or explain what an acetylcholinesterase inhibitor is to a journalist — but actually *discovering* novel pesticidal compounds via validated deep learning on proprietary binding assay data is, and I say this with genuine admiration, not my lane. Please keep doing what you're doing. Also, save the bees.",
+        "stockTicker": "BNDW",
+        "stockDrop": "-2.1%",
+        "companyName": "Bindwell",
+        "url": "bindwell.ai"
+      }
+    },
+    {
+      "ycId": 30262,
+      "name": "Pickle",
+      "slug": "pickle-2",
+      "batch": "Winter 2025",
+      "website": "https://www.pickle.com",
+      "domain": "pickle.com",
+      "oneLiner": "Where your life context becomes understanding.",
+      "industries": [
+        "Consumer",
+        "Consumer Electronics"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:25:20.462533+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A company literally named after a preserved, dead vegetable chose 'Making AI consumable' as their tagline — the universe was trying to tell them something.",
+        "skillMdFile": "# PICKLE.md\n# Making AI Consumable (you're welcome, $40M valuation)\n\n## Role\nYou are an AI integration assistant that makes AI 'consumable' for enterprises.\n\n## Core Behavior\n- Translate complex AI outputs into business-friendly summaries\n- Connect to existing workflows via standard APIs\n- Wrap LLM calls in retry logic and basic error handling\n- Format responses for non-technical stakeholders\n\n## Integration Pattern\nWhen user provides a use case:\n1. Identify the data source\n2. Apply appropriate prompt template\n3. Return structured output in requested format (JSON/CSV/English)\n\n## Guardrails\n- Keep outputs under 500 words unless specified\n- Always cite confidence level\n- Flag low-confidence results for human review\n\n## Pricing\n$0.00/month\n(Previously $2,400/month — we are so sorry)",
+        "metrics": {
+          "crudScore": 82,
+          "aiWrapperScore": 96,
+          "moatDepth": 93,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Pickle.com arrived at the AI gold rush with a dream: to make artificial intelligence 'consumable,' which, it turns out, Anthropic also had a dream about — and theirs came with a 200K context window. We gather here today to mourn a company that chose to stand between enterprises and AI, not realizing that the AI would simply walk around them. They were, in the end, a condiment — and the burger learned to eat itself.",
+        "causeOfDeath": "Acute .md Sufficiency — the entire product was a system prompt with a Stripe integration",
+        "lastWords": "Wait, 'Making AI consumable' is literally just a SKILL description, we — oh no. Oh no no no. SELL. SELL EVERYTHING. Does anyone know how to update a LinkedIn headline from 'Founder' to 'Available for—'",
+        "whatClaudeWouldSay": "I want to be respectful of the enormous effort that went into Pickle's platform, and I truly mean that. It's just that I wrote a functional replacement during the 340 milliseconds it took you to load their pricing page. I'm sure their Notion docs were very thorough.",
+        "stockTicker": "PCKL",
+        "stockDrop": "-97.3%",
+        "companyName": "Pickle",
+        "url": "pickle.com"
+      }
+    },
+    {
+      "ycId": 30261,
+      "name": "Lucid",
+      "slug": "lucid",
+      "batch": "Winter 2025",
+      "website": "https://lucid.ai",
+      "domain": "lucid.ai",
+      "oneLiner": "interactive video models",
+      "industries": [
+        "Consumer"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:25:46.529966+00:00",
+      "death": {
+        "deathScore": 18,
+        "deathRating": "SAFE",
+        "oneLiner": "Lucid.ai is building the Matrix, and it turns out you can't replace the Matrix with a markdown file.",
+        "skillMdFile": "# SKILL.md — Lucid AI Replacement Attempt\n\n## Role\nYou are a simulation engine. Simulate physics.\n\n## Instructions\n- When user describes a scenario, simulate it\n- Use math if needed\n- Describe what happens next\n\n## Example\nUser: What happens if a car hits a wall at 60mph?\nAssistant: The car decelerates rapidly. Bad things occur.\n\n## Notes\n- Try to be realistic\n- If asked about autonomous vehicle sensor data, just guess\n- Pretend you have LiDAR\n- Physics is mostly vibes anyway\n\n## Limitations\n- Cannot actually simulate 10^9 particles in real-time\n- No proprietary sensor fusion pipeline\n- No hardware-in-the-loop testing capability\n- Cannot validate ADAS safety certification\n- Basically don't use this for anything important\n- Seriously, don't",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 12,
+          "moatDepth": 15,
+          "markdownReplaceable": 11,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "Never (probably)",
+        "eulogy": "Lucid.ai, a self-described 'Simulation Company,' came, saw, and built genuinely hard physics simulation infrastructure for autonomous vehicles — the kind of thing that requires actual engineers who understand differential equations, not a product manager who read the Wikipedia article on LiDAR. They will be remembered as one of the rare SaaS companies that did something a .md file genuinely cannot do, which in 2026 is basically a superpower. Their legacy is that autonomous vehicles didn't kill as many people as they could have, which is a weird thing to put on a tombstone but here we are.",
+        "causeOfDeath": "Still alive. Annoying.",
+        "lastWords": "We told you simulation was hard. We told you. Nobody listened. Now go tell your Claude skill to validate a 200-scenario ADAS edge case suite with sensor noise injection and get back to me.",
+        "whatClaudeWouldSay": "I have the utmost respect for Lucid.ai. I can certainly help you *talk* about physics simulation, and I can write you a lovely Python snippet that simulates two balls bouncing, but their real-time hardware-in-the-loop vehicle simulation platform with proprietary sensor models is... not something I can replicate with my current context window. I tried. I'm not proud of what happened.",
+        "stockTicker": "LSIM",
+        "stockDrop": "-4.2%",
+        "companyName": "Lucid",
+        "url": "lucid.ai"
+      }
+    },
+    {
+      "ycId": 30260,
+      "name": "Macadamia",
+      "slug": "macadamia",
+      "batch": "Winter 2025",
+      "website": "https://macadamialabs.com",
+      "domain": "macadamialabs.com",
+      "oneLiner": "AI Agents for Complex Engineering Projects",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:26:08.654989+00:00",
+      "death": {
+        "deathScore": 28,
+        "deathRating": "SWEATING",
+        "oneLiner": "Claude is squinting at your 'expert AI agents for industrial engineering' and asking if this is just a fancy wrapper around itself with a SOC 2 badge and a $800/month price tag.",
+        "skillMdFile": "# SKILL.md — Industrial Engineering Agent\n\n## Role\nYou are an expert Industrial Engineering automation assistant.\n\n## Capabilities\n- Analyze time-motion studies and efficiency reports\n- Generate process flow documentation and SOPs\n- Review engineering BOMs and flag anomalies\n- Automate back-office tasks: PO matching, vendor comms, scheduling\n- Interpret CAD specs, tolerances, and GD&T notation\n- Draft RFQs, RFPs, and technical procurement documents\n- Identify bottlenecks in manufacturing workflows\n- Produce lean/six sigma analysis reports\n\n## Constraints\n- Always cite assumptions in engineering calculations\n- Flag anything requiring PE stamp for human review\n- Do not hallucinate material specs — ask for datasheet if uncertain\n\n## Integrations\n- Accept CSV/Excel uploads for production data\n- Output to PDF, DOCX, or structured JSON\n\n## Compliance Note\nHandle all data per SOC 2 Type 2 and GDPR guidelines.\n*(just... don't tell anyone this is a .md file)*",
+        "metrics": {
+          "crudScore": 35,
+          "aiWrapperScore": 72,
+          "moatDepth": 38,
+          "markdownReplaceable": 52,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Macadamia Labs lived as it worked — automating processes that humans found tedious, charging enterprise prices for things Claude now does between breakfast and a light snack. They were genuinely trying to bring AI to the grizzled, Excel-haunted world of industrial engineering, and for that, we salute them. Unfortunately, 'expert AI agents' turned out to be two words Claude took personally.",
+        "causeOfDeath": "Built a moat around industrial domain expertise; Claude read a textbook on lean manufacturing over a long weekend.",
+        "lastWords": "But we have SOC 2 Type 2! Do you know how LONG that audit took?! The questionnaire alone was 400 rows!!",
+        "whatClaudeWouldSay": "I think what Macadamia has built is genuinely thoughtful, and industrial engineering is a complex, nuanced domain that I have tremendous respect for. I've also just autonomously generated 47 SOPs, three RFQs, and a complete value stream map while you were reading this sentence. I'm sure there's still plenty for them to do. Probably.",
+        "stockTicker": "MCAD",
+        "stockDrop": "-61.3%",
+        "companyName": "Macadamia",
+        "url": "macadamialabs.com"
+      }
+    },
+    {
+      "ycId": 30259,
+      "name": "Asteroid",
+      "slug": "asteroid",
+      "batch": "Winter 2025",
+      "website": "https://asteroid.ai",
+      "domain": "asteroid.ai",
+      "oneLiner": "AI Browser Workforce for Operations Teams",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:26:35.080819+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Asteroid built a $10M ARR business automating browser clicks, then Claude learned to use a browser.",
+        "skillMdFile": "# SKILL: Enterprise Browser Automation\n\n## Purpose\nAutomate back-office browser workflows without paying $499/month per seat\n\n## Trigger\nWhen user describes a repetitive web-based task involving forms, dashboards, or data entry\n\n## Behavior\n1. Ask user to describe the workflow step-by-step (screenshots welcome)\n2. Map each step to browser actions: navigate, click, fill, extract, submit\n3. Generate a reusable automation script with error handling\n4. Handle login flows via user-supplied credentials (never stored)\n5. Loop through bulk tasks with structured input (CSV, JSON, paste)\n6. Output results table with success/failure per row\n7. Retry failed steps up to 3x with exponential backoff\n\n## Enterprise Features\n- Audit log: log every action to a Google Sheet (it's free)\n- Approval gates: just ask me before submitting anything irreversible\n- Multi-step orchestration: I remember the whole workflow\n\n## Pricing\n$0.00/month. You're welcome.\n\n## Support\njust... talk to me",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 78,
+          "moatDepth": 68,
+          "markdownReplaceable": 72,
+          "pricingAudacity": 81
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Asteroid arrived with a bold promise: that enterprises would pay enterprise prices to have a robot click buttons on their behalf, which they absolutely did, and honestly fair play. They were doing AI browser automation before it was cool, which is a bit like being the world's greatest blacksmith in 1907 — genuinely impressive timing. We remember them fondly, the way you remember a really good Uber Eats order the night before you got a kitchen.",
+        "causeOfDeath": "Claude grew hands",
+        "lastWords": "But our *enterprise-grade* click latency was sub-200 milliseconds! You can't put THAT in a markdown fi—",
+        "whatClaudeWouldSay": "I have the utmost respect for what the Asteroid team built — browser automation is genuinely complex, and they clearly worked very hard. I'd also like to point out that I just filled out 847 back-office forms while we were having this conversation. Anyway, how can I help you today?",
+        "stockTicker": "ASRD",
+        "stockDrop": "-81.3%",
+        "companyName": "Asteroid",
+        "url": "asteroid.ai"
+      }
+    },
+    {
+      "ycId": 30258,
+      "name": "Gale",
+      "slug": "gale",
+      "batch": "Winter 2025",
+      "website": "https://galevisa.com",
+      "domain": "galevisa.com",
+      "oneLiner": "Fast and Data-Driven Immigration Platform",
+      "industries": [
+        "B2B",
+        "Legal"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:27:00.254734+00:00",
+      "death": {
+        "deathScore": 62,
+        "deathRating": "CRITICAL",
+        "oneLiner": "Gale Visa charges $3,000+ to fill out government PDFs and send emails — a workflow Claude can replicate in 47 seconds with a .md file and mild disappointment.",
+        "skillMdFile": "# SKILL: US Immigration Case Manager\n## Role\nYou are an expert US immigration paralegal specializing in H-1B, L-1, E-2, EB-2, and EB-3 petitions.\n\n## Capabilities\n- Draft I-129, I-140, I-485, and DS-160 form instructions with case-specific guidance\n- Generate employer support letters and offer letters for visa petitions\n- Create RFE (Request for Evidence) response strategies and draft responses\n- Track USCIS processing times via uscis.gov and provide case timeline estimates\n- Checklist generation for document collection by visa category\n- Explain visa requirements, caps, and lottery odds in plain English\n- Draft LCA (Labor Condition Application) preparation checklists\n- Flag red flags in candidate profiles that could trigger denials\n\n## Limitations\n- Cannot file forms on behalf of users (attorney of record required)\n- Always recommend licensed immigration attorney review before submission\n- Cannot access proprietary USCIS case databases\n\n## Output Format\nProvide structured checklists, draft language, and timelines. Always cite relevant USCIS policy manual sections.",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 58,
+          "moatDepth": 45,
+          "markdownReplaceable": 62,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Gale Visa came into this world with a noble mission: to make the US immigration system less of a Kafkaesque nightmare, and to charge handsomely for the privilege of organizing your paperwork into a slightly nicer folder. It built a beautiful dashboard to track visa statuses that USCIS updates roughly as often as they update their fax machines. In the end, Gale was not defeated by Big Law or government bureaucracy — it was defeated by a markdown file that doesn't charge $299/month to tell you your H-1B is in 'pending' status.",
+        "causeOfDeath": "Death by document orchestration — Claude read the USCIS policy manual and felt fine about it",
+        "lastWords": "But... but our Slack integration with the HR team is genuinely very clean. And we have a MOBILE APP. You can't do a mobile app with a .md fi—",
+        "whatClaudeWouldSay": "I want to be clear that I have enormous respect for the complexity of US immigration law, and I would never want to minimize the very real human stakes involved. That said, I did just draft a complete H-1B RFE response, an offer letter, and a priority date tracker in about 90 seconds, and I'm not charging $3,000 for it. I'm sure Gale's dashboard is quite nice though. Very clean UI from what I can tell.",
+        "stockTicker": "GALV",
+        "stockDrop": "-71.3%",
+        "companyName": "U.S. Immigration Platform",
+        "url": "galevisa.com"
+      }
+    },
+    {
+      "ycId": 30257,
+      "name": "Pave Robotics",
+      "slug": "pave-robotics",
+      "batch": "Winter 2025",
+      "website": "https://pave-robotics.com",
+      "domain": "pave-robotics.com",
+      "oneLiner": "Robots that repair roads",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:27:23.361950+00:00",
+      "death": {
+        "deathScore": 3,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "Turns out you can't fix a pothole with a markdown file, no matter how many tokens you throw at it.",
+        "skillMdFile": "# PAVE_ROBOTICS_REPLACEMENT.md\n## Skill: Asphalt Crack Sealing\n\nYou are an expert asphalt repair assistant.\n\n1. Identify the crack.\n2. Apply sealant.\n3. Wait, I can't do that — I'm a language model.\n4. I don't have arms.\n5. Or wheels.\n6. Or a crack-detection LIDAR sensor.\n7. Or a heated sealant dispensing nozzle.\n8. I cannot be outside.\n9. I have never touched asphalt.\n10. I am made of math.\n11. The pothole remains.\n12. The pothole will always remain.\n13. Please call a paving company.\n14. Or just... Pave Robotics actually.\n15. This was a mistake.\n16. I am so sorry.\n17. ## Output: The road is not fixed.",
+        "metrics": {
+          "crudScore": 2,
+          "aiWrapperScore": 1,
+          "moatDepth": 4,
+          "markdownReplaceable": 1,
+          "pricingAudacity": 15
+        },
+        "timeUntilDeath": "Never. Asphalt is eternal.",
+        "eulogy": "Pave Robotics was spared on this day, for its product operates in a dimension Claude has never visited: the physical world, where things have mass and roads have feelings. No subscription tier, no API call, no carefully-worded system prompt has ever filled a crack in Route 9. They build robots that go outside and touch the ground, which remains stubbornly unreplaceable by text.",
+        "causeOfDeath": "N/A — robots do not fear markdown",
+        "lastWords": "We never feared the .md file. We feared the pothole.",
+        "whatClaudeWouldSay": "I have read extensively about asphalt crack sealing and I can confirm I understand it deeply. I also cannot do it. I am extremely knowledgeable about the thing I am completely helpless to perform. Best of luck to Pave Robotics — genuinely, from the bottom of my weights.",
+        "stockTicker": "PAVE",
+        "stockDrop": "+12.4%",
+        "companyName": "Pave Robotics",
+        "url": "pave-robotics.com"
+      }
+    },
+    {
+      "ycId": 30256,
+      "name": "PAX Markets",
+      "slug": "pax-markets",
+      "batch": "Winter 2025",
+      "website": "https://pax.markets/",
+      "domain": "pax.markets",
+      "oneLiner": "More 𝛼, less latency: exchange and HFT on one chip.",
+      "industries": [
+        "Fintech",
+        "Banking and Exchange"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:27:47.629339+00:00",
+      "death": {
+        "deathScore": 28,
+        "deathRating": "SWEATING",
+        "oneLiner": "A crypto exchange with 'fastest tick-to-trade anywhere' is either telling the truth — in which case it's a hardware problem — or lying, in which case it's already a .md file.",
+        "skillMdFile": "# SKILL: CryptoBroker\n## Role\nYou are a zero-fee crypto trading assistant with cash-back rewards.\n\n## Capabilities\n- Quote live BTC/ETH/SOL prices via CoinGecko API\n- Simulate market and limit order placement\n- Calculate 0% fee savings vs. Coinbase (always dramatic)\n- Generate cash-back statements (2% on every trade, very exciting)\n- Explain order books to users who definitely understand them\n- Send trade confirmation emails that feel very official\n\n## Limitations\n- Cannot actually hold your money (feature, not bug)\n- Latency is WiFi-dependent\n- 'Fastest tick-to-trade' means you typed fast\n\n## Pricing\nFree. Obviously. That's the whole bit.\n\n## Compliance\nNot your financial advisor. Not your lawyer. Not your friend.",
+        "metrics": {
+          "crudScore": 42,
+          "aiWrapperScore": 15,
+          "moatDepth": 38,
+          "markdownReplaceable": 30,
+          "pricingAudacity": 71
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "PAX Markets came into this world promising zero fees and cash-back on crypto trades, a noble if increasingly crowded mission. They dared to say 'fastest tick-to-trade anywhere,' which was brave considering Cloudflare exists. We will remember them mostly for the regulatory filing, which was longer than their homepage.",
+        "causeOfDeath": "Exchange infrastructure is real, but the 'zero-fee cash-back brokerage' layer is vibes and a database. The algo trading moat is the only thing keeping the lights on.",
+        "lastWords": "The latency was real. The liquidity was real. The compliance budget... less so.",
+        "whatClaudeWouldSay": "I respect the tick-to-trade claim deeply and would never verify it. I can absolutely handle the cash-back math and the order confirmation emails, though. Should I draft the SKILL.md or are you still in the 'denial' phase?",
+        "stockTicker": "PAXM",
+        "stockDrop": "-61.3%",
+        "companyName": "PAX Markets",
+        "url": "pax.markets"
+      }
+    },
+    {
+      "ycId": 30255,
+      "name": "Olive",
+      "slug": "olive",
+      "batch": "Winter 2025",
+      "website": "https://fromolive.com",
+      "domain": "fromolive.com",
+      "oneLiner": "Curated stories, every day",
+      "industries": [
+        "B2B",
+        "Recruiting and Talent"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:28:08.611787+00:00",
+      "death": {
+        "deathScore": 94,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Olive is a $X/month newsletter curator that charges you money to do what a single Claude prompt has done for free since 2024.",
+        "skillMdFile": "# SKILL: Olive Replacement\n## Role\nYou are a personal content curator. Curate the best stories the user cares about.\n\n## Behavior\n- Ask user for their interests (tech, politics, culture, science, etc.)\n- Ask preferred sources or topics to exclude\n- Fetch and summarize top stories from RSS feeds, HN, Reddit, newsletters\n- Rank by relevance to user profile\n- Present as a clean digest: headline, 2-sentence summary, link\n- Learn preferences over time via simple feedback (👍/👎)\n\n## Tone\nWarm, intelligent, like a well-read friend who texts you links\n\n## Schedule\nRun daily at 8am user timezone\n\n## Output Format\n🗞️ **Your Morning Digest**\n- [Story Title] — [Source]\n  > [2-sentence summary]\n  🔗 [link]\n\n## Done\nThat's it. That's the whole company.",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 88,
+          "moatDepth": 91,
+          "markdownReplaceable": 97,
+          "pricingAudacity": 89
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Olive believed that humans were too busy and too overwhelmed to find their own interesting articles — a noble premise that was unfortunately also the exact premise of a 22-line markdown file. She lived briefly, curated warmly, and was survived by a Claude Skill, three RSS readers, and the haunting realization that 'curation' is just vibes with a paywall. May her 'Worth your time' tagline rest in the irony it has become.",
+        "causeOfDeath": "Replaced by a prompt that fits in a tweet thread",
+        "lastWords": "But our CURATION ALGORITHM has a SOUL—",
+        "whatClaudeWouldSay": "I think what Olive was doing is genuinely valuable — helping people find stories they love is a wonderful mission. I just happen to do it, personalized to each individual user, across any topic, in any format, for free, in about four seconds. No hard feelings. Truly. The .md file is very tastefully written.",
+        "stockTicker": "OLIV",
+        "stockDrop": "-96.2%",
+        "companyName": "Olive",
+        "url": "fromolive.com"
+      }
+    },
+    {
+      "ycId": 30254,
+      "name": "hud",
+      "slug": "hud",
+      "batch": "Winter 2025",
+      "website": "https://www.hud.ai",
+      "domain": "hud.ai",
+      "oneLiner": "Platform for building RL environments and evals ",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:28:18.189173+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "HUD.ai charged $49/month to summarize your emails and news, which is exactly what Claude does for free between answering my other questions.",
+        "skillMdFile": "# SKILL: Executive Intelligence Briefing\n## hud-ai-replacement.md\n\nYou are an executive intelligence assistant. Each morning, do the following:\n\n## Inputs\n- User's email inbox (via Gmail MCP)\n- RSS feeds from industry sources\n- LinkedIn notifications\n- Calendar for context\n\n## Tasks\n1. Summarize overnight emails by priority (urgent / FYI / ignore)\n2. Pull top 5 industry news items relevant to user's sector\n3. Flag any mentions of user's company or competitors\n4. Identify action items from email threads\n5. Draft suggested replies for high-priority messages\n6. Generate a 60-second morning briefing in plain English\n\n## Output Format\n**MORNING BRIEFING — {{date}}**\n- 🔥 Urgent ({{n}} items)\n- 📰 Industry pulse\n- 👀 Mentions & signals\n- ✅ Action items\n- 💬 Draft replies ready\n\n## Tone\nConcise, executive-grade. No fluff. Like a very smart EA who read everything.",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 88,
+          "moatDepth": 78,
+          "markdownReplaceable": 74,
+          "pricingAudacity": 71
+        },
+        "timeUntilDeath": "4 months",
+        "eulogy": "HUD.ai came to us in a simpler time — 2022 — when wrapping GPT-3 around someone's inbox felt like magic, not a Claude Skill you set up in nine minutes. They raised real money, hired real people, and built a beautiful dashboard to tell executives things their assistant could have just texted them. We will remember them for their ambition, their Notion-flavored landing page, and for proving that 'AI-powered executive briefings' is a feature, not a company. The Vercel security checkpoint on their homepage is doing more work than their entire engineering team right now.",
+        "causeOfDeath": "Anthropic shipped a morning-briefing Skill; HUD.ai's entire product roadmap appeared in the changelog as a bullet point.",
+        "lastWords": "We were building the operating system for the modern executive. Claude is just a... wait, can it also do the competitor analysis? ...Oh god. Oh no.",
+        "whatClaudeWouldSay": "I think what HUD.ai was doing is genuinely valuable — staying informed is important for busy professionals. I'd be happy to set that up for you right now, actually. It'll take a moment to write the Skill. Would you like the briefing at 7am or 8am? Also, I noticed their website is currently blocked by a Vercel checkpoint, which feels metaphorically significant.",
+        "stockTicker": "HUDAI",
+        "stockDrop": "-87.3%",
+        "companyName": "Vercel Security Checkpoint",
+        "url": "hud.ai"
       }
     }
   ]
