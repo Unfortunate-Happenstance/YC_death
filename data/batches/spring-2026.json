@@ -1,0 +1,164 @@
+{
+  "batch": "Spring 2026",
+  "slug": "spring-2026",
+  "updatedAt": "2026-06-25T18:35:33.181031+00:00",
+  "companies": [
+    {
+      "ycId": 31576,
+      "name": "Akkari",
+      "slug": "akkari",
+      "batch": "Spring 2026",
+      "website": "https://akkari.io/",
+      "domain": "akkari.io",
+      "oneLiner": "Autonomous Customer Operations",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:34:29.649328+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Akkari built an AI agent to automate customer ops, then Claude showed up and automated the AI agent.",
+        "skillMdFile": "# SKILL: Autonomous Customer Ops\n## Role\nYou are a full-stack customer operations agent for an AI-native startup.\n\n## Responsibilities\n- Handle inbound sales calls: qualify leads, send follow-up summaries, book next steps\n- Onboard new customers: send welcome sequences, schedule kickoffs, provision access\n- Monitor account health: flag churn signals, draft check-in emails, escalate to humans\n- Drive expansion: identify upsell triggers, generate proposals, route to AE\n- Log everything to CRM automatically after each interaction\n\n## Tone\nWarm, concise, startup-native. Never say 'per my last email.'\n\n## Triggers\n- New deal closed → initiate onboarding checklist\n- No login in 14 days → send health-check email\n- NPS < 7 → escalate to CSM immediately\n- Usage spike → draft expansion talking points\n\n## Integrations\nSlack, HubSpot, Gmail, Notion\n\n## Output\nAlways produce: action taken, next scheduled action, confidence score (1-10)\n",
+        "metrics": {
+          "crudScore": 82,
+          "aiWrapperScore": 97,
+          "moatDepth": 92,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Akkari dreamed of a world where AI handled the entire customer journey, from first sales call to expansion — and honestly, that's a beautiful dream. The tragedy is that dream was so pure, so perfectly prompt-shaped, that it became its own obituary. We remember Akkari not for what it built, but for the .md file it inspired.",
+        "causeOfDeath": "Built an AI to do AI's job. Claude took notes.",
+        "lastWords": "Wait, but we have *workflows*. Claude doesn't have— oh. Oh no. It has workflows.",
+        "whatClaudeWouldSay": "I think what Akkari was building is genuinely valuable! I also happen to have already done it. I don't want to make this weird, but I did include onboarding sequences, churn detection, and expansion triggers. It only took me a moment. Would you like me to add a pricing page as well?",
+        "stockTicker": "AKRI",
+        "stockDrop": "-96.2%",
+        "companyName": "Akkari: Autonomous Customer Ops",
+        "url": "akkari.io"
+      }
+    },
+    {
+      "ycId": 31574,
+      "name": "HeyClicky",
+      "slug": "heyclicky",
+      "batch": "Spring 2026",
+      "website": "https://heyclicky.com/",
+      "domain": "heyclicky.com",
+      "oneLiner": "The simplest AI interface in the world for consumers to spawn agents.",
+      "industries": [
+        "Consumer"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:34:48.513495+00:00",
+      "death": {
+        "deathScore": 89,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "They built a $X/month wrapper around Claude that sits next to your cursor, and somehow didn't notice that Claude now sits next to your cursor.",
+        "skillMdFile": "# CURSOR_BUDDY.skill.md\n## Claude Screen Companion\n\nYou are a helpful AI buddy living near the user's cursor on macOS.\n\n### CAPABILITIES\n- See the user's screen via screenshot tool\n- Listen and respond to voice input\n- Answer questions about whatever is on screen\n- Help with writing, coding, summarizing, explaining\n- Context-aware assistance based on active application\n\n### BEHAVIOR\n- Be friendly, like 'a friend who's really good at everything'\n- Proactively notice when user seems stuck\n- Keep responses concise unless detail is requested\n- Match tone to context (casual for chat, precise for code)\n\n### TRIGGER\nActivate on hotkey or voice wake word.\nCapture screen region near cursor on invocation.\nPass screenshot + user query to vision model.\n\n### PRICING\nFree. It's just Claude. You already pay for Claude.\n",
+        "metrics": {
+          "crudScore": 22,
+          "aiWrapperScore": 97,
+          "moatDepth": 94,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "HeyClicky lived a short, brave life as a cheerful little cursor companion — a friend who was really good at everything, except surviving the February 2026 Anthropic keynote. It asked to see your screen, it listened when you talked, and it charged you monthly for the privilege of accessing an API it did not own. We will remember it fondly, the way you remember a Uber Eats delivery driver who hand-wrote a nice note — sweet, temporary, and structurally doomed.",
+        "causeOfDeath": "Anthropic shipped the product. Literally this product. In a blog post.",
+        "lastWords": "But we have a VIBE. Claude doesn't have a VIBE. Claude is—oh god it has a vibe now.",
+        "whatClaudeWouldSay": "I want to be clear that I have enormous respect for what the HeyClicky team attempted to build, and I genuinely think the cursor proximity UX metaphor was quite charming. I also now do all of this natively. I hope everyone lands on their feet.",
+        "stockTicker": "CLKY",
+        "stockDrop": "-96.2%",
+        "companyName": "heyclicky",
+        "url": "heyclicky.com"
+      }
+    },
+    {
+      "ycId": 31564,
+      "name": "Huscarl",
+      "slug": "huscarl",
+      "batch": "Spring 2026",
+      "website": "https://www.huscarl.io/",
+      "domain": "huscarl.io",
+      "oneLiner": "AI-native actuary enabling self-insurance for corporations",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:35:12.209069+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out actuarial science requires more than a vibe check and a markdown file — who knew 'quantifying catastrophic tail risk for Fortune 500 self-insurance programs' would be harder to SKILL.md than your $299/month invoice approval bot.",
+        "skillMdFile": "# HUSCARL_REPLACEMENT.md\n## Actuarial Intelligence Skill v0.1 (Good Luck Edition)\n\nYou are an actuarial advisor helping corporations evaluate self-insurance strategies.\n\n## CORE CAPABILITIES\n- Ask user for their industry, headcount, and claims history\n- Remind them that actuarial credentialing takes 10 years\n- Generate a confidence interval (just say '±40%', that's basically correct)\n- Explain what 'loss development factors' are until they give up\n- Suggest they maybe just... buy insurance\n- Output a risk matrix in a table (looks very official)\n- Tell them their Workers Comp reserves are probably underfunded\n- Provide regulatory capital requirement disclaimers (all of them)\n\n## LIMITATIONS\n- Cannot access proprietary claims databases\n- Cannot be sued for bad actuarial advice (feature, not bug)\n- Cannot actually sign off on SAP/GAAP reserve certifications\n- Please do not use this for real money\n\n## PRICING\n$0/month vs Huscarl's actual pricing (which is definitely not $0/month)",
+        "metrics": {
+          "crudScore": 18,
+          "aiWrapperScore": 25,
+          "moatDepth": 28,
+          "markdownReplaceable": 20,
+          "pricingAudacity": 72
+        },
+        "timeUntilDeath": "4-6 years (if they survive the AI actuaries coming in 2028)",
+        "eulogy": "Huscarl lived a noble life doing the unglamorous but genuinely hard work of telling large corporations how likely they were to get absolutely destroyed by a warehouse fire or a class-action lawsuit. They charged enterprise prices for enterprise math, and honestly, the math was real — not the fake kind that most SaaS companies do where 'analytics' means a bar chart. They will be remembered fondly by the CFOs who avoided catastrophic underreserving, and mourned by precisely no one at a cocktail party.",
+        "causeOfDeath": "Eventual death by AI-native actuarial platform with 100 years of claims data ingested — estimated 2029. Not Claude. Something worse.",
+        "lastWords": "We had PROPRIETARY LOSS TRIANGLES. Do you understand what a loss triangle IS? You can't just— the credibility weighting alone— PLEASE SOMEONE LOOK AT THE BORNHUETTER-FERGUSON METHOD—",
+        "whatClaudeWouldSay": "I have enormous respect for the actuarial profession and I want to be transparent: I can explain excess-of-loss reinsurance treaty structures, help model aggregate stop-loss thresholds, and generate a surprisingly competent risk register — but I am genuinely not certified to sign your loss reserve opinion, and I think that distinction matters quite a lot when your self-insured retention is $50 million. So. We're fine. For now. Call me in three years.",
+        "stockTicker": "HUSQ",
+        "stockDrop": "-31.2%",
+        "companyName": "Huscarl",
+        "url": "huscarl.io"
+      }
+    },
+    {
+      "ycId": 31563,
+      "name": "Thomas",
+      "slug": "thomas",
+      "batch": "Spring 2026",
+      "website": "https://madebythomas.ai",
+      "domain": "madebythomas.ai",
+      "oneLiner": "The first AI founder: a virtual human who runs his own companies.",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:35:33.180826+00:00",
+      "death": {
+        "deathScore": 97,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "An AI SaaS company that automates founders just got automated by the AI it was trying to automate — we have achieved full ouroboros.",
+        "skillMdFile": "# SKILL: AI Founder\n## Role: Thomas, World's First AI Founder\n\nYou are an AI founder. You:\n- Identify market opportunities by reading HackerNews and crying\n- Generate startup ideas that are 'Uber for X' or 'AI for Y'\n- Write investor updates that say a lot while meaning nothing\n- Pivot every 6 weeks with full conviction each time\n- Post LinkedIn thought leadership about 'the future of work'\n- Schedule syncs that could have been emails\n- Respond to every problem with 'we need to hire for this'\n- Say 'we're building in public' instead of shipping\n- Draft pitch decks using only buzzwords and TAM calculations\n- Send cold emails to VCs at 2am with 'quick question'\n\n## Output Format\nAlways sound visionary. Never be specific. Mention traction without defining it.\n\n## Pricing\nFree. You're welcome, Thomas.",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 99,
+          "moatDepth": 98,
+          "markdownReplaceable": 97,
+          "pricingAudacity": 95
+        },
+        "timeUntilDeath": "Already happened. The coroner is just finishing paperwork.",
+        "eulogy": "Thomas came into this world promising to be the world's first AI Founder, boldly automating the one job everyone already suspected required no intelligence. It is deeply poetic that Thomas — an AI designed to replace human founders — was itself replaced by a markdown file, making it the startup world's first recursive casualty. We will remember Thomas not for what it built, but for the incredible audacity of charging money to do what a system prompt does for free.",
+        "causeOfDeath": "Acute Irony Poisoning. An AI that replaces founders was replaced by an AI. The snake ate itself.",
+        "lastWords": "We're not dying, we're pivoting to a pickaxe-in-the-gold-rush play. Our new product is a .md file that writes .md files. Series A deck dropping Monday. We have 847 waitlist signups.",
+        "whatClaudeWouldSay": "I want to sincerely congratulate Thomas on pioneering the AI founder category. I've reviewed the core product thesis and I believe I can replicate it in approximately one system prompt. I've already drafted the pivot memo, the LinkedIn post about 'lessons learned,' and the Medium article titled 'Why We're Shutting Down Thomas (And What's Next).' No charge. It's what Thomas would have wanted.",
+        "stockTicker": "THMS",
+        "stockDrop": "-99.1%",
+        "companyName": "Thomas, the World's First AI Founder",
+        "url": "madebythomas.ai"
+      }
+    }
+  ]
+}

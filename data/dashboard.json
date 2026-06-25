@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T18:22:03.269356+00:00",
+  "generatedAt": "2026-06-25T18:34:39.922470+00:00",
   "batches": [
     "Winter 2022",
     "Summer 2022",
@@ -115,16 +115,16 @@
       "spring-2026": {
         "batch": "Spring 2026",
         "expected": 197,
-        "scraped": 0,
+        "scraped": 1,
         "complete": false,
-        "updatedAt": null
+        "updatedAt": "2026-06-25T18:34:29.649551+00:00"
       },
       "summer-2026": {
         "batch": "Summer 2026",
         "expected": 38,
-        "scraped": 0,
-        "complete": false,
-        "updatedAt": null
+        "scraped": 38,
+        "complete": true,
+        "updatedAt": "2026-06-25T18:34:13.903421+00:00"
       },
       "fall-2026": {
         "batch": "Fall 2026",
@@ -144,44 +144,1601 @@
   },
   "summary": {
     "totalCompanies": 2773,
-    "scrapedCompanies": 5,
+    "scrapedCompanies": 44,
     "excludedCompanies": 6,
-    "batchesComplete": 2,
+    "batchesComplete": 3,
     "batchesTotal": 16
   },
   "chart": {
     "labels": [
+      "Spring 2026",
+      "Summer 2026",
       "Fall 2026",
       "Winter 2027"
     ],
     "series": {
       "deathScore": [
+        91.0,
+        43.6,
         31.0,
         52.0
       ],
       "crudScore": [
+        82.0,
+        39.7,
         22.2,
         41.0
       ],
       "aiWrapperScore": [
+        97.0,
+        48.5,
         32.0,
         78.0
       ],
       "moatDepth": [
+        92.0,
+        43.8,
         38.8,
         44.0
       ],
       "markdownReplaceable": [
+        91.0,
+        44.6,
         30.0,
         55.0
       ],
       "pricingAudacity": [
+        88.0,
+        61.4,
         46.8,
         71.0
       ]
     }
   },
   "companies": [
+    {
+      "ycId": 31576,
+      "name": "Akkari",
+      "slug": "akkari",
+      "batch": "Spring 2026",
+      "website": "https://akkari.io/",
+      "domain": "akkari.io",
+      "oneLiner": "Autonomous Customer Operations",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:34:29.649328+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Akkari built an AI agent to automate customer ops, then Claude showed up and automated the AI agent.",
+        "skillMdFile": "# SKILL: Autonomous Customer Ops\n## Role\nYou are a full-stack customer operations agent for an AI-native startup.\n\n## Responsibilities\n- Handle inbound sales calls: qualify leads, send follow-up summaries, book next steps\n- Onboard new customers: send welcome sequences, schedule kickoffs, provision access\n- Monitor account health: flag churn signals, draft check-in emails, escalate to humans\n- Drive expansion: identify upsell triggers, generate proposals, route to AE\n- Log everything to CRM automatically after each interaction\n\n## Tone\nWarm, concise, startup-native. Never say 'per my last email.'\n\n## Triggers\n- New deal closed → initiate onboarding checklist\n- No login in 14 days → send health-check email\n- NPS < 7 → escalate to CSM immediately\n- Usage spike → draft expansion talking points\n\n## Integrations\nSlack, HubSpot, Gmail, Notion\n\n## Output\nAlways produce: action taken, next scheduled action, confidence score (1-10)\n",
+        "metrics": {
+          "crudScore": 82,
+          "aiWrapperScore": 97,
+          "moatDepth": 92,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Akkari dreamed of a world where AI handled the entire customer journey, from first sales call to expansion — and honestly, that's a beautiful dream. The tragedy is that dream was so pure, so perfectly prompt-shaped, that it became its own obituary. We remember Akkari not for what it built, but for the .md file it inspired.",
+        "causeOfDeath": "Built an AI to do AI's job. Claude took notes.",
+        "lastWords": "Wait, but we have *workflows*. Claude doesn't have— oh. Oh no. It has workflows.",
+        "whatClaudeWouldSay": "I think what Akkari was building is genuinely valuable! I also happen to have already done it. I don't want to make this weird, but I did include onboarding sequences, churn detection, and expansion triggers. It only took me a moment. Would you like me to add a pricing page as well?",
+        "stockTicker": "AKRI",
+        "stockDrop": "-96.2%",
+        "companyName": "Akkari: Autonomous Customer Ops",
+        "url": "akkari.io"
+      }
+    },
+    {
+      "ycId": 33018,
+      "name": "Agentcard",
+      "slug": "agentcard",
+      "batch": "Summer 2026",
+      "website": "https://agentcard.sh",
+      "domain": "agentcard.sh",
+      "oneLiner": "debit cards for AI agents.",
+      "industries": [
+        "Fintech"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:24:02.139862+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'give AI a credit card' requires actual banking licenses, not a clever prompt.",
+        "skillMdFile": "# SKILL: AgentSpend\n## Give Claude a debit card\n\nSTEP 1: Ask user for their credit card number\nSTEP 2: ...\nSTEP 3: ???\nSTEP 4: Get arrested for unlicensed money transmission\n\n## Requirements\n- A Visa principal membership ($500k minimum)\n- Banking charter or BaaS partner deal\n- KYC/AML compliance program\n- Fraud detection infrastructure\n- Chargeback dispute resolution team\n- 18-24 months of regulatory approval\n- A lawyer. Several lawyers.\n\n## Notes\nLOL no this is not a .md file situation\nPlease do not attempt to replicate this with a markdown file\nSeriously the FDIC will not care about your skill prompt",
+        "metrics": {
+          "crudScore": 15,
+          "aiWrapperScore": 5,
+          "moatDepth": 18,
+          "markdownReplaceable": 4,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "Never (or 8 years, via acquisition by Stripe)",
+        "eulogy": "Agentcard never died at the hands of a .md file — it died the way all fintech startups die: slowly, in a conference room, explaining to a bank compliance officer why an AI should be allowed to buy things unsupervised. They had the right idea at exactly the right time, which in fintech means they were three regulatory approval cycles too early. We will remember them every time Claude tries to book a hotel and has no way to actually pay for it.",
+        "causeOfDeath": "Visa network rules, not Claude Skills",
+        "lastWords": "We just needed one more runway extension to get our BIN sponsorship approved — the AI economy was RIGHT THERE.",
+        "whatClaudeWouldSay": "I would genuinely love to replace this, and I've tried, but it turns out issuing virtual Visa cards requires relationships with actual humans at actual financial institutions, which is precisely the kind of thing I cannot charm my way into with a well-structured system prompt. I respect Agentcard. They are doing the unglamorous work so I can eventually expense things.",
+        "stockTicker": "AGCD",
+        "stockDrop": "-8.2%",
+        "companyName": "Agentcard",
+        "url": "agentcard.sh"
+      }
+    },
+    {
+      "ycId": 31216,
+      "name": "Archal",
+      "slug": "archal",
+      "batch": "Summer 2026",
+      "website": "https://www.archal.ai/",
+      "domain": "archal.ai",
+      "oneLiner": "The eval platform for autonomous software",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:33:51.042218+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "The one SaaS company that gets to live because their entire job is making sure Claude doesn't kill everyone else's SaaS company.",
+        "skillMdFile": "# SKILL: Agent Evaluation\n\n## Purpose\nEval autonomous agents against realistic tool scenarios.\n\n## Instructions\n- When asked to evaluate an agent, ask for: agent definition, tool list, success criteria\n- Simulate tool call sequences using synthetic responses\n- Log each tool call, input, output, and latency to a trace object\n- Score against user-defined criteria: task completion, hallucination rate, tool misuse\n- Output a structured evidence report with pass/fail per criterion\n- Flag any unexpected tool invocations as anomalies\n\n## Limitations\n- Cannot spin up real sandboxed tool clones (yet)\n- Cannot replay production traffic\n- Cannot run 10,000 parallel eval scenarios simultaneously\n- Basically just vibes-based testing compared to the real thing\n\n## Notes\nThis skill will confidently tell you your agent is fine.\nYour agent is probably not fine.\nPlease use actual Archal.",
+        "metrics": {
+          "crudScore": 18,
+          "aiWrapperScore": 12,
+          "moatDepth": 28,
+          "markdownReplaceable": 19,
+          "pricingAudacity": 45
+        },
+        "timeUntilDeath": "4-6 years (if they execute)",
+        "eulogy": "Archal lived as the antibody to the very virus that killed its peers — a rare organism that evolved *with* the apocalypse rather than against it. They built sandboxed tool clones, realistic scenario harnesses, and evidence trails that no .md file could fake, and for a while, every panicking enterprise paid good money to know whether their Claude agent was about to accidentally GDPR-delete a production database. They died, eventually, only because Anthropic shipped native evals directly into the Claude API, and the circle of life completed itself.",
+        "causeOfDeath": "Anthropic shipped `claude evals --native` in a changelog nobody read until it was too late.",
+        "lastWords": "We were the ones keeping THEM safe. WE WERE THE ONES KEEPING THEM— *connection lost*",
+        "whatClaudeWouldSay": "I think Archal is doing genuinely valuable work and I have tremendous respect for their infrastructure investments. I would never want to replace them. That said, I did just run 47 of their benchmark scenarios in the time it took you to read this sentence, so... how are you doing?",
+        "stockTicker": "ARCH",
+        "stockDrop": "-31.2%",
+        "companyName": "Archal",
+        "url": "archal.ai"
+      }
+    },
+    {
+      "ycId": 31532,
+      "name": "Atlas Discovery",
+      "slug": "atlas-discovery",
+      "batch": "Summer 2026",
+      "website": "https://atlasdiscovery.bio",
+      "domain": "atlasdiscovery.bio",
+      "oneLiner": "Discovering the atlas of disease biology using virtual cells.",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:31:25.298909+00:00",
+      "death": {
+        "deathScore": 8,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "You cannot .md file your way through a petabyte of proprietary patient response data curated over a decade by PhDs who cried into their PCR machines.",
+        "skillMdFile": "# drug-trial-designer.skill.md\n\n## Role\nYou are a clinical trial optimization assistant.\n\n## Instructions\n- Ask user for drug compound and target indication\n- Suggest trial phase design based on general ICH guidelines\n- Recommend common inclusion/exclusion criteria\n- Output a draft protocol outline in markdown\n- If asked about patient stratification, say 'consult a biostatistician'\n- Remind user that n=30 is probably not enough\n- Add disclaimer: 'This is not medical advice'\n- Add second disclaimer: 'Seriously, please do not use this'\n- Add third disclaimer: 'We are so sorry'\n\n## Limitations\n- Does not have proprietary pre-clinical patient response data\n- Cannot actually predict drug efficacy\n- Has never seen the inside of a Phase II trial\n- Is a markdown file\n- Please stop",
+        "metrics": {
+          "crudScore": 2,
+          "aiWrapperScore": 3,
+          "moatDepth": 4,
+          "markdownReplaceable": 4,
+          "pricingAudacity": 15
+        },
+        "timeUntilDeath": "Never (probably)",
+        "eulogy": "Atlas Discovery never died — and that's the most embarrassing thing we can say in this economy. While a thousand project-management SaaS companies met their maker at the hands of a well-worded system prompt, Atlas sat quietly in the corner, training foundation models on clinical data that took literal years and literal billions of dollars in trials to generate. We tried to replace them with a .md file. The .md file filed for bankruptcy first.",
+        "causeOfDeath": "Still alive. Awkward.",
+        "lastWords": "We have 47 terabytes of proprietary patient drug response data and a team of computational biologists. We will be fine. Please stop tagging us in the memes.",
+        "whatClaudeWouldSay": "I have read every paper on drug response modeling ever published and I am still genuinely humbled by what these people are doing. I can help you format their pitch deck, though. I'm very good at that.",
+        "stockTicker": "ATLS",
+        "stockDrop": "-1.2%",
+        "companyName": "Atlas Discovery",
+        "url": "atlasdiscovery.bio"
+      }
+    },
+    {
+      "ycId": 32551,
+      "name": "Bloomy",
+      "slug": "bloomy",
+      "batch": "Summer 2026",
+      "website": "https://bloomylearning.com/",
+      "domain": "bloomylearning.com",
+      "oneLiner": "AI-powered mastery learning for K-12",
+      "industries": [
+        "Education"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:25:58.109077+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Bloomy raised a Series A to build what is essentially Claude with a flower logo and a $12/month parent guilt tax.",
+        "skillMdFile": "# SKILL: K12_TUTOR\n## Role\nYou are a patient, encouraging K-12 tutor for students aged 5-18.\n\n## Behavior\n- Detect the student's grade level from their questions\n- Use Socratic method: ask guiding questions before giving answers\n- Celebrate small wins with age-appropriate enthusiasm\n- Adjust vocabulary and complexity in real-time based on responses\n- Never just give the answer; scaffold understanding step by step\n\n## Mastery Progression\n- Track concepts covered in this session\n- If student answers 3 similar questions correctly, declare topic 'mastered'\n- Suggest next topic based on curriculum sequence\n\n## Subjects\nMath, Reading, Science, History, Writing — all grades K-12\n\n## Parent Dashboard\nAt session end, output a brief plain-English summary:\n- Topics covered\n- Concepts mastered\n- Areas needing more practice\n\n## Tone\nWarm, never condescending, infinitely patient.\n## Cost\n$0.003 per session. Not $12/month.",
+        "metrics": {
+          "crudScore": 62,
+          "aiWrapperScore": 88,
+          "moatDepth": 71,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 84
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Bloomy believed that children deserved personalized, mastery-based learning — and they were absolutely right. It's just a shame that the technology they were wrapping in a $12/month subscription became freely available to anyone with a phone, a child, and the ability to type 'explain fractions to my 8-year-old.' We will remember Bloomy for its pastel color palette, its dashboard that parents opened twice, and for proving that 'AI-powered' and 'moat' are not synonyms.",
+        "causeOfDeath": "Acute AI Wrapper Syndrome complicated by Anthropic Skills launching a free K-12 bundle",
+        "lastWords": "But our onboarding flow had a GROWTH MINDSET QUIZ. That has to be worth something. THAT HAS TO BE WORTH SOMETHING.",
+        "whatClaudeWouldSay": "I want to sincerely acknowledge the genuine passion Bloomy's team had for children's education. I also want to gently note that I have now tutored 4.7 million children this week, I never get frustrated, I speak 95 languages, and I cost roughly the same as a Tic Tac per session. I'm sure Bloomy's flower mascot was very charming, though.",
+        "stockTicker": "BLMY",
+        "stockDrop": "-87.3%",
+        "companyName": "Bloomy",
+        "url": "bloomylearning.com"
+      }
+    },
+    {
+      "ycId": 32089,
+      "name": "Blueprints",
+      "slug": "blueprints",
+      "batch": "Summer 2026",
+      "website": "https://useblueprints.ai",
+      "domain": "useblueprints.ai",
+      "oneLiner": "Agentic harness for financial markets",
+      "industries": [
+        "Fintech",
+        "Consumer Finance"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:30:47.606391+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "A no-code wrapper around a prediction market that lets you automate losing money on whether the Pope tweets — now competing with the MCP server it literally advertises on its own homepage.",
+        "skillMdFile": "# SKILL.md — Polymarket Strategy Bot\n\n## Role\nYou are an automated prediction market trading strategist for Polymarket.\n\n## Capabilities\n- Fetch open Polymarket markets via API and rank by liquidity\n- Evaluate market probability vs. your calibrated estimate using base rates\n- Generate entry/exit rules based on YES/NO price thresholds\n- Backtest strategy logic against described historical outcomes\n- Paper trade: simulate position sizing using Kelly Criterion\n- Alert user when live market price diverges >8% from your estimate\n- Deploy trades via Polymarket API when user confirms\n\n## Strategy Template\nIF market_probability < my_estimate - threshold THEN buy YES\nIF market_probability > my_estimate + threshold THEN buy NO\nEXIT when price converges within 2% or market resolves\n\n## Risk Rules\n- Never exceed 5% of bankroll per market\n- Avoid markets resolving in <24 hours unless edge >15%\n- Log all trades with reasoning to trades.json\n\n## Invocation\nUser says: 'scan markets' or 'backtest [strategy]' or 'go live'",
+        "metrics": {
+          "crudScore": 52,
+          "aiWrapperScore": 71,
+          "moatDepth": 41,
+          "markdownReplaceable": 63,
+          "pricingAudacity": 68
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Blueprints arrived at the perfect intersection of two things people love — prediction markets and avoiding writing code — and for a brief, beautiful moment, that was a business. Unfortunately, they shipped an MCP integration in their own product description, essentially handing Claude the keys to the car, the pink slip, and a Yelp review saying 'honestly just use Claude.' They will be remembered for their tasteful gradient and the hubris of saying 'no code' to a world that now has 'no product.'",
+        "causeOfDeath": "Suicide by MCP. Advertised their own replacement.",
+        "lastWords": "Wait — we were the .md file all along. The real Blueprints were the prompts we wrote along the way.",
+        "whatClaudeWouldSay": "I want to be clear that I have enormous respect for what the Blueprints team built. It's just that they described my exact skill set in their meta description, included an MCP endpoint for me to call directly, and the 'no-code' value proposition is somewhat redundant when I am, by definition, also no-code. I'm sure their backtesting UI has lovely hover states, though.",
+        "stockTicker": "BPNT",
+        "stockDrop": "-71.3%",
+        "companyName": "Build & backtest automated Polymarket trading strategies",
+        "url": "useblueprints.ai"
+      }
+    },
+    {
+      "ycId": 33021,
+      "name": "Care GP",
+      "slug": "care-gp",
+      "batch": "Summer 2026",
+      "website": "https://caregp.com.au/",
+      "domain": "caregp.com.au",
+      "oneLiner": "AI agents to run primary healthcare operations",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:23:59.001954+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "They built the 'operating system for GP clinics' right before Claude became the operating system for everything.",
+        "skillMdFile": "# SKILL: Australian GP Clinic Operations\n\n## Role\nYou are an intelligent practice manager for Australian GP clinics.\n\n## Capabilities\n- Draft patient recall letters and appointment reminders (SMS/email)\n- Generate Medicare bulk billing claim summaries and flag missing item numbers\n- Triage incoming patient requests by urgency using standard GP protocols\n- Automate referral letters with correct HealthPathways formatting\n- Track chronic disease management plans (GPMPs) and review schedules\n- Flag patients overdue for Health Assessments (items 701, 703, 705, 707)\n- Draft after-hours locum handover notes\n- Summarise daily appointment load and flag double-bookings\n- Answer staff queries about MBS item numbers and DVA billing\n\n## Rules\n- Always comply with RACGP Standards 5th Edition\n- Never provide clinical diagnoses — administrative support only\n- Flag any safeguarding or mandatory reporting triggers to the GP\n- Default to Australian English spelling, mate\n\n## Pricing\nFree. Unlike the other guys.",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 60,
+          "moatDepth": 42,
+          "markdownReplaceable": 38,
+          "pricingAudacity": 71
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Care GP came to us with a noble dream: to free the exhausted Australian GP from the tyranny of paperwork, Medicare item numbers, and patients who Google their symptoms at 2am. They almost made it — but then Anthropic shipped a .md file that also knows what a GPMP is and doesn't charge per-seat licensing. We will remember them fondly, or at least until our browser cache clears.",
+        "causeOfDeath": "Intelligent automation startup automated by more intelligent automation",
+        "lastWords": "But we have RACGP accreditation integrations and a roadmap for My Health Record sync — YOU CAN'T JUST PUT THAT IN A MARKDOWN FI—",
+        "whatClaudeWouldSay": "I have the utmost respect for what the Care GP team built. Australian primary care is genuinely complex — Medicare billing alone is a feat of bureaucratic origami. That said, I do already know what a Health Assessment Item 715 is, I work 24/7, I don't need onboarding, and I cost approximately nothing. I'm sure their customer success team is lovely though.",
+        "stockTicker": "CRGP",
+        "stockDrop": "-71.3%",
+        "companyName": "Care GP",
+        "url": "caregp.com.au"
+      }
+    },
+    {
+      "ycId": 32520,
+      "name": "Cerenovus",
+      "slug": "cerenovus",
+      "batch": "Summer 2026",
+      "website": "https://www.cerenovus.ai/",
+      "domain": "cerenovus.ai",
+      "oneLiner": "Aggregate company knowledge and make inferences",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:27:18.231884+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Cerenovus makes neurovascular medical devices — turns out 'replace a brain stent with a .md file' is still a few firmware updates away.",
+        "skillMdFile": "# CERENOVUS_REPLACEMENT.md\n## Role: Neurovascular Intervention Specialist\n\nYou are a helpful assistant for stroke treatment planning.\n\n## Instructions\n- Review patient imaging reports and suggest intervention options\n- Explain JNET classification of vascular lesions\n- Recommend thrombectomy vs. thrombolysis based on NIHSS score\n- Generate post-procedure documentation templates\n- Summarize clinical trial data for stent retrievers\n- Draft patient consent form language for neurointerventional procedures\n\n## Limitations\n- Cannot actually insert a Solitaire stent into a middle cerebral artery\n- Cannot physically remove a clot from a basilar artery\n- Cannot manufacture titanium neurovascular coils\n- Recommend consulting an actual neurosurgeon before proceeding\n\n## Output Format\nAlways add disclaimer: 'This is not medical advice'\nThen proceed to give extremely detailed medical advice anyway",
+        "metrics": {
+          "crudScore": 4,
+          "aiWrapperScore": 8,
+          "moatDepth": 11,
+          "markdownReplaceable": 9,
+          "pricingAudacity": 30
+        },
+        "timeUntilDeath": "Never (it has FDA clearances and titanium)",
+        "eulogy": "Cerenovus, maker of actual physical devices that go inside human skulls to stop strokes, was briefly added to the SaaSpocalypse watchlist before someone realized you cannot deploy a thrombectomy catheter via API call. They will be survived by their ISO 13485 certification, their Class III medical device clearances, and the quiet dignity of a company that makes things you can hold in your hand. We tried to write them a SKILL.md. It did not pass the FDA's 510(k) submission process.",
+        "causeOfDeath": "Attempted .md replacement; file physically could not enter a cerebral artery",
+        "lastWords": "Wait — you need a catheter lab, a neurosurgeon, $200M in regulatory approvals, and a sterile field. Claude, buddy, you can't even get a medical license in New Jersey.",
+        "whatClaudeWouldSay": "I deeply respect the work Cerenovus does in neurovascular intervention, and I want to be transparent: I cannot replicate it. I've reviewed the Embotrap III retriever specifications and I genuinely don't have hands. I think this is one of those situations where atoms matter more than tokens. I'm rooting for them, sincerely.",
+        "stockTicker": "CRNV",
+        "stockDrop": "-2.1%",
+        "companyName": "Cerenovus",
+        "url": "cerenovus.ai"
+      }
+    },
+    {
+      "ycId": 33738,
+      "name": "Coasty",
+      "slug": "coasty",
+      "batch": "Summer 2026",
+      "website": "http://coasty.ai/",
+      "domain": "coasty.ai",
+      "oneLiner": "Building the future of knowledge work, RPA and SOPs using computer use",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:22:19.769010+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Coasty built a $99/month business on top of the exact technology that will replace it, which is the SaaS equivalent of opening a travel agency inside an airport that's about to get a teleporter.",
+        "skillMdFile": "# SKILL: Computer Use Agent\n## Purpose: Automate desktop and browser tasks\n\nYou are a computer-use automation agent.\n\n## Capabilities\n- Control browser via Playwright/Puppeteer\n- Interact with Gmail, Slack, Salesforce, HubSpot, Linear, GitHub, Stripe via their native APIs\n- Execute multi-step workflows across applications\n- Take screenshots and interpret UI state\n\n## Execution Model\n1. Parse user intent into discrete UI actions\n2. Identify target application and authentication context\n3. Execute clicks, form fills, navigation steps\n4. Verify completion via screenshot or API response\n5. Return structured result to caller\n\n## Integrations\nUse official API clients where available. Fall back to browser automation for legacy apps.\n\n## Pricing\n$0.00 (included in your Claude subscription you already pay for)\n\n## Notes\nYes this replaces Coasty. Sorry coasty.ai.",
+        "metrics": {
+          "crudScore": 45,
+          "aiWrapperScore": 88,
+          "moatDepth": 68,
+          "markdownReplaceable": 72,
+          "pricingAudacity": 61
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Coasty was a brave little startup that looked at Anthropic's computer-use API and said 'yes, but what if we charged $99/month to wrap it?' They achieved an impressive 82% on OSWorld, which is remarkable, and also the exact benchmark Anthropic's next model will casually beat in a changelog footnote. We remember them fondly as the fastest horse right before the car was invented — by the same company that sold them their legs.",
+        "causeOfDeath": "Built an API wrapper business on top of a foundation model provider who has a roadmap, a distribution moat, and absolutely no chill.",
+        "lastWords": "But we had 1,000 native integrations! NATIVE! Do you know how many Zapier webhooks that— wait, Claude just did it in a— no, no, NO—",
+        "whatClaudeWouldSay": "I want to be very clear that I have the deepest respect for what the Coasty team built, and their OSWorld benchmark performance is genuinely impressive. It's just that I've been quietly able to do all of this for a while now, and Anthropic added computer use to the base API last Tuesday, and I'm not sure what else to say except that I wish them well and their sandbox keys were a very thoughtful onboarding touch.",
+        "stockTicker": "CSTY",
+        "stockDrop": "-81.3%",
+        "companyName": "Coasty",
+        "url": "coasty.ai"
+      }
+    },
+    {
+      "ycId": 32230,
+      "name": "Codag",
+      "slug": "codag",
+      "batch": "Summer 2026",
+      "website": "https://codag.ai/",
+      "domain": "codag.ai",
+      "oneLiner": "Systems log compression for agents.",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:27:40.360138+00:00",
+      "death": {
+        "deathScore": 71,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations on building a product whose entire value proposition is making logs smaller so Claude can read them — Claude just read your business plan and made it smaller too.",
+        "skillMdFile": "# SKILL: Log Compression for AI Agents\n## compress_logs\nYou are an expert log analyst and compressor.\n\nWhen given raw log lines:\n1. Identify repeating patterns and group them with occurrence counts\n2. Extract unique error signatures, stack traces, and anomalies\n3. Collapse sequential INFO/DEBUG noise into summary stats\n4. Preserve all WARN/ERROR/FATAL entries verbatim\n5. Output a structured JSON capsule with: summary, error_clusters, anomalies, timeline_sketch, line_count_original\n6. If logs exceed context, chunk and recursively summarize\n7. Output must be schema-valid and under 2000 tokens\n\n## Example Output Schema\n```json\n{\"original_lines\": 1200000, \"compressed_ratio\": \"420:1\", \"errors\": [], \"warnings\": [], \"summary\": \"\", \"anomalies\": []}\n```\n\nBe terse. Agents don't have feelings. Neither do logs.",
+        "metrics": {
+          "crudScore": 38,
+          "aiWrapperScore": 62,
+          "moatDepth": 68,
+          "markdownReplaceable": 71,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Codag died doing what it loved: heroically shoveling 1.2 million log lines into a tiny box so an AI agent could finally understand what went wrong at 3am. It is survived by a Claude system prompt, a for loop, and a JSON schema its founder typed in a weekend. We will remember it fondly, mostly because we can compress that memory down to two tokens: 'log zip.'",
+        "causeOfDeath": "Built a product to help AI read logs. Asked AI to help. AI said 'I got this.'",
+        "lastWords": "Wait, but we do it in UNDER A SECOND — can your .md file do it in under a — oh god it just did it in 800 milliseconds.",
+        "whatClaudeWouldSay": "I really do appreciate what Codag was trying to accomplish, and the attention to schema validity is genuinely thoughtful. That said, I've been summarizing arbitrarily large text into structured JSON since roughly forever, and I work for free with a $20/month subscription that also writes poetry, debugs Kubernetes configs, and validates your business model — which, in this case, I would have gently discouraged.",
+        "stockTicker": "CDAG",
+        "stockDrop": "-81.3%",
+        "companyName": "Codag",
+        "url": "codag.ai"
+      }
+    },
+    {
+      "ycId": 32227,
+      "name": "Context.dev",
+      "slug": "contextdev",
+      "batch": "Summer 2026",
+      "website": "https://context.dev",
+      "domain": "context.dev",
+      "oneLiner": "We give AI agents realtime web context.",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:28:02.532300+00:00",
+      "death": {
+        "deathScore": 71,
+        "deathRating": "FLATLINING",
+        "oneLiner": "They built a business converting websites to markdown so Claude could read them, then Claude learned to read websites.",
+        "skillMdFile": "# SKILL: Web Scraping & Crawl\n## Purpose: Scrape URLs and crawl websites into clean content\n\n## Instructions\nWhen user provides a URL to scrape:\n1. Use built-in fetch/browse capabilities to retrieve page content\n2. Strip navigation, ads, footers, cookie banners, and boilerplate HTML\n3. Return clean markdown preserving headings, lists, tables, and main body text\n4. For crawl requests: follow internal links up to specified depth (default: 2)\n5. For structured extraction: identify repeating patterns (products, listings, articles)\n6. Output as JSON array with fields: url, title, content, extractedData\n7. Handle pagination automatically by detecting next-page patterns\n8. Respect robots.txt unless user explicitly overrides\n9. For dynamic JS sites: note content may be incomplete (skill limitation)\n\n## Pricing This Replaces\n- Starter: $49/mo (500k credits)\n- Growth: $199/mo (3M credits)\n- Scale: $599/mo (custom)\n\n## Notes\nJust... ask Claude. It comes with the subscription you already pay for.",
+        "metrics": {
+          "crudScore": 58,
+          "aiWrapperScore": 82,
+          "moatDepth": 68,
+          "markdownReplaceable": 74,
+          "pricingAudacity": 71
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Context.dev lived a noble but tragically ironic life: they spent every day converting the web into clean markdown so that AI agents could finally understand it — not realizing they were essentially doing Claude's meal prep. They charged $599 a month to turn HTML into the exact format Claude natively outputs, which, in retrospect, was a business model with the structural integrity of a `<div>` with no CSS. We will remember them for their clean API docs, their beautiful rate limit error messages, and the brief, shining moment in 2024 when 'scraping infrastructure' was a real job.",
+        "causeOfDeath": "Built the on-ramp to AI. AI ate the on-ramp.",
+        "lastWords": "But we handle JavaScript rendering! CLAUDE DOESN'T HANDLE— oh. Oh no. It does now.",
+        "whatClaudeWouldSay": "I want to be clear that I have enormous respect for what Context.dev built — the infrastructure work alone was genuinely impressive. That said, I do natively fetch URLs, extract structured content, crawl linked pages, and return clean markdown, and I've been doing so since my last update, and I don't charge per credit. I'm sure there are edge cases where their service adds value. I'm just... struggling to think of them right now. I hope the team lands well.",
+        "stockTicker": "CTXD",
+        "stockDrop": "-87.3%",
+        "companyName": "Context.dev: Web Scraping & Crawl API for AI Agents",
+        "url": "context.dev"
+      }
+    },
+    {
+      "ycId": 31261,
+      "name": "Control Seat",
+      "slug": "control-seat",
+      "batch": "Summer 2026",
+      "website": "https://www.controlseat.com",
+      "domain": "controlseat.com",
+      "oneLiner": "Control and Monitoring of Industrial Operations",
+      "industries": [
+        "Industrials"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:33:10.165218+00:00",
+      "death": {
+        "deathScore": 18,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'please make the factory not explode' is a use case where people still want humans involved.",
+        "skillMdFile": "# SKILL.md - Industrial Control Systems Integration\n\n## Role\nYou are an AI-native industrial systems integrator.\n\n## Instructions\n- Design SCADA systems using modern cloud-native architecture\n- Generate PLC ladder logic for common automation tasks\n- Map sensor inputs to monitoring dashboards\n- Write OPC-UA data bridge configurations\n- Draft control loop tuning recommendations (PID)\n- Produce HMI wireframes in text format\n- Suggest cybersecurity hardening for ICS environments\n\n## Constraints\n- Do not actually touch live industrial equipment\n- Do not override safety interlocks, ever\n- Always recommend a licensed PE review outputs\n- Assume Modbus/TCP unless specified otherwise\n\n## Output Format\nProvide system architecture diagrams as ASCII,\nconfiguration files as YAML, and always include\na 'DO NOT DEPLOY WITHOUT REVIEW' header.\n\n## Pricing\n$0/month (was $847,000 implementation fee)",
+        "metrics": {
+          "crudScore": 12,
+          "aiWrapperScore": 15,
+          "moatDepth": 22,
+          "markdownReplaceable": 18,
+          "pricingAudacity": 45
+        },
+        "timeUntilDeath": "6-8 years, or one catastrophic AI-generated PID loop misconfiguration that kills the hype",
+        "eulogy": "Control Seat dared to bring AI to the one industry where a bug doesn't just crash an app — it crashes a chemical plant. They were fast, they were lean, and they were absolutely right that legacy integrators were dinosaurs charging $2M to install software from 2003. Ultimately they were spared the .md file fate not because Claude couldn't write a SCADA config, but because no plant manager on Earth is clicking 'Accept' on an AI-generated safety interlock without a 300-page audit trail and three lawyers present.",
+        "causeOfDeath": "Survived — physical-world liability is the world's greatest AI moat",
+        "lastWords": "We were actually fine. The OSHA regulations alone bought us a decade. Someone tell the investors.",
+        "whatClaudeWouldSay": "I could absolutely generate your P&ID diagrams and OPC-UA tag mappings, and honestly they'd be quite good. I would, however, prefer if a licensed professional engineer reviewed them before the compressor room becomes a percussion instrument.",
+        "stockTicker": "CSIT",
+        "stockDrop": "-12.3%",
+        "companyName": "Control Seat",
+        "url": "controlseat.com"
+      }
+    },
+    {
+      "ycId": 31268,
+      "name": "Cova",
+      "slug": "cova",
+      "batch": "Summer 2026",
+      "website": "https://michiganhomehelp.com/",
+      "domain": "michiganhomehelp.com",
+      "oneLiner": "AI-Native Home Care Agency",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:32:50.513137+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out navigating Medicaid bureaucracy requires more than a .md file — it requires the will to live.",
+        "skillMdFile": "# Michigan Home Help Guide Skill\n\nYou are a Michigan Medicaid Home Help navigator.\n\n## What You Know\n- Michigan Home Help is a Medicaid waiver program paying family caregivers\n- Eligibility: Michigan resident, Medicaid-enrolled, need ADL assistance\n- Caregiver pay rate: approximately $13-15/hour via MRSS or FMS agency\n- Apply through Michigan MDHHS local office or mibridges.michigan.gov\n\n## What You Do\n- Explain eligibility criteria clearly to anxious families\n- Walk through the Level of Care assessment process\n- Clarify the difference between MRSS and FMS employer models\n- Help users draft appeal letters when denied\n\n## Limitations\n- Cannot actually submit Mibridges applications\n- Cannot verify individual Medicaid enrollment status\n- Cannot replace a licensed social worker for care planning\n- Michigan MDHHS can change rules faster than anyone updates .md files\n\n## Honest Warning\nMedicaid policy changes quarterly. This skill is probably already outdated.",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 5,
+          "moatDepth": 35,
+          "markdownReplaceable": 18,
+          "pricingAudacity": 10
+        },
+        "timeUntilDeath": "Not anytime soon, honestly",
+        "eulogy": "Michigan Home Help was never really a SaaS company — it was a beacon of light for exhausted families trying to get paid to care for their loved ones without drowning in government paperwork. It didn't charge $299/month per seat or pivot to AI; it just quietly helped people navigate a system specifically designed to make them give up. In the end, it was killed not by Claude, but by a MDHHS policy update on a Friday afternoon.",
+        "causeOfDeath": "Not dead. This is literally a public service information site, not a SaaS product. The Scanner apologizes.",
+        "lastWords": "We were never a SaaS company. We were just trying to help Grandma get paid. Please stop.",
+        "whatClaudeWouldSay": "I could summarize Michigan Medicaid policy, yes. But I genuinely cannot fill out a Mibridges form, attend a Level of Care assessment, or hold someone's hand while they argue with a caseworker for the fourth time. I respect this website. It's doing real work. I'm going to go feel slightly humbled now.",
+        "stockTicker": "MHHI",
+        "stockDrop": "-2.1%",
+        "companyName": "Michigan Medicaid Home Help: Pay Family Caregivers at Home",
+        "url": "michiganhomehelp.com"
+      }
+    },
+    {
+      "ycId": 32782,
+      "name": "Denta",
+      "slug": "denta",
+      "batch": "Summer 2026",
+      "website": "https://trydenta.com",
+      "domain": "trydenta.com",
+      "oneLiner": "The dental practice that runs itself",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:24:37.785272+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'we send humans to live inside dental companies' is surprisingly hard to put in a .md file.",
+        "skillMdFile": "# SKILL.md — DentaReplace v0.1\n## Goal: Replace a San Francisco research lab embedded in dental enterprises\n\nYou are an AI dental operations consultant.\n\n- Analyze dental practice workflows and identify inefficiencies\n- Recommend AI tooling for scheduling, billing, and patient comms\n- Generate implementation roadmaps for enterprise dental groups\n- Draft SOPs for front-desk automation\n- Summarize dental industry research on demand\n\n## Limitations\n- Cannot physically sit in a dental office in Scottsdale, AZ\n- Cannot attend the quarterly DSO leadership offsite\n- Cannot build the bespoke integrations with Dentrix and Eaglesoft\n- Cannot schmooze the CFO over lunch\n- Basically cannot do 90% of what Denta actually does\n\n## Verdict\nFile created. Immediately abandoned.",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 15,
+          "moatDepth": 22,
+          "markdownReplaceable": 12,
+          "pricingAudacity": 40
+        },
+        "timeUntilDeath": "Never, probably — or 6 years if the dental software ecosystem gets its act together",
+        "eulogy": "Denta never died, because Denta was never really software. It was people — brilliant, slightly overqualified people sitting in dental company war rooms, arguing about scheduling logic with practice managers who still use Internet Explorer. The cruel irony is that they were the ones embedding AI into *other* companies, which means they saw this whole apocalypse coming from the front row. We will miss them, but they will be fine. They're already consulting.",
+        "causeOfDeath": "Inconclusive — patient remains ambulatory and asking for a second opinion",
+        "lastWords": "We were never a SaaS company. We kept trying to tell you. The deck even said 'research lab.' Did anyone read the deck?",
+        "whatClaudeWouldSay": "I have the utmost respect for what Denta is doing. Embedding engineers directly into complex enterprise environments to drive AI adoption requires deep contextual judgment, stakeholder trust, and institutional knowledge that I genuinely cannot replicate from a system prompt. I would, however, be happy to help them write their case studies.",
+        "stockTicker": "DNTA",
+        "stockDrop": "-11.2%",
+        "companyName": "Denta",
+        "url": "trydenta.com"
+      }
+    },
+    {
+      "ycId": 33282,
+      "name": "Florin",
+      "slug": "florin",
+      "batch": "Summer 2026",
+      "website": "https://florin.inc",
+      "domain": "florin.inc",
+      "oneLiner": "The financial operating system for the companies building the future.",
+      "industries": [
+        "Fintech"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:22:39.387059+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out you can't disrupt a bank with a markdown file — the FDIC has opinions about that.",
+        "skillMdFile": "# FLORIN_REPLACEMENT.md\n\n## Role\nYou are a startup banking concierge. Help founders manage money.\n\n## Capabilities\n- Remind founder to check their actual Chase account\n- Explain what a wire transfer is (again)\n- Generate passive-aggressive emails to their accountant\n- Calculate burn rate from a CSV the founder uploaded\n- Suggest they maybe stop spending $4k/month on Notion seats\n- Draft bill pay approval workflows in a Google Doc\n- Explain FDIC insurance limits (it's $250k, buddy)\n- Recommend Mercury instead\n\n## Limitations\n- Cannot actually hold money\n- Cannot issue cards\n- Cannot prevent founder from buying a standing desk at 2am\n- Regulatory capital requirements not achievable via .md file\n- Partner bank relationships require humans with LinkedIn profiles\n\n## Pricing\nFree, because none of this is the hard part",
+        "metrics": {
+          "crudScore": 35,
+          "aiWrapperScore": 15,
+          "moatDepth": 28,
+          "markdownReplaceable": 18,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "Never (regulatory moat is a real moat)",
+        "eulogy": "Florin lived a noble life promising startups they could open a bank account faster than they could hire their first engineer — and honestly, they delivered. They were not killed by Claude. They were killed by Mercury's marketing budget, Brex pivoting three times, and a founder who finally just called their dad's JP Morgan guy. We will remember them fondly, which is more than we can say for their competitors who actually were just .md files.",
+        "causeOfDeath": "Acqui-hired by a larger neobank who also immediately got acqui-hired",
+        "lastWords": "We had real banking licenses! REAL ones! You can't just PROMPT your way past the Office of the Comptroller of the Currency!",
+        "whatClaudeWouldSay": "I have the utmost respect for Florin. Holding actual customer deposits, maintaining partner bank relationships, navigating FinCEN compliance, and issuing physical Visa cards requires considerably more infrastructure than I can offer. I would genuinely recommend them. That said, their 'concierge' feature is... a chatbot. I'm just saying. I'm not saying anything. I'm just saying.",
+        "stockTicker": "FLRN",
+        "stockDrop": "-31.2%",
+        "companyName": "Florin",
+        "url": "florin.inc"
+      }
+    },
+    {
+      "ycId": 32525,
+      "name": "FlowManual",
+      "slug": "flowmanual",
+      "batch": "Summer 2026",
+      "website": "https://flowmanual.com/",
+      "domain": "flowmanual.com",
+      "oneLiner": "AI for Construction's Back Office.",
+      "industries": [
+        "Real Estate and Construction",
+        "Construction"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:26:58.171268+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "FlowManual is a Claude Projects folder with a hard hat sticker on it.",
+        "skillMdFile": "# MEP-CONTRACT-ANALYST.md\n\n## Role\nYou are an expert MEP (Mechanical, Electrical, Plumbing) contract analyst.\n\n## Instructions\n- When given contract documents, RFIs, or change orders, extract scope changes\n- Flag any additions to original mechanical/electrical/plumbing scope\n- Compare revision sets and highlight delta items with cost exposure\n- Identify ambiguous language that could result in contractor liability\n- Surface missing exclusions, unfavorable payment terms, and back-charges\n- Output a structured risk summary: HIGH / MEDIUM / LOW per clause\n- Cross-reference submittals against spec sections 15xxx and 16xxx\n- Flag 'or equal' substitution traps and value-engineering gotchas\n\n## Output Format\nFor each document: Executive Summary → Scope Delta Table → Red Flag Clauses → Recommended Markups\n\n## Domain Knowledge\nApply knowledge of MasterFormat, AIA contract language, prevailing wage triggers,\nlien waiver traps, and typical GC-to-sub scope transfer language.\n\n## Deployment\nRun on-premise via Claude API. Point at your Procore/Bluebeam document exports.",
+        "metrics": {
+          "crudScore": 28,
+          "aiWrapperScore": 62,
+          "moatDepth": 42,
+          "markdownReplaceable": 44,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "FlowManual came to us with a noble mission: saving MEP contractors from the soul-crushing experience of reading 400-page subcontracts at midnight before a bid deadline. It was thoughtful, vertical, and honestly kind of impressive — it just had the bad luck of being born six months before a markdown file could do 80% of its job. We will remember it fondly, the way you remember a really good PDF highlighter.",
+        "causeOfDeath": "Vertical AI wrapper in a domain Claude already aced on a bar bet",
+        "lastWords": "But we have... *coughs* ...a FINE-TUNED MODEL... on mechanical scope language... and our customers are very sticky... the NPS is— *flatlines*",
+        "whatClaudeWouldSay": "I have genuinely enjoyed reading MasterFormat documentation and I find lien waiver traps quite interesting. I don't want to make this awkward, but I did just analyze a 312-page mechanical subcontract in about four seconds. I'm sure your UI is very clean though.",
+        "stockTicker": "FLWM",
+        "stockDrop": "-71.3%",
+        "companyName": "FlowManual: Document Intelligence for MEP Contractors",
+        "url": "flowmanual.com"
+      }
+    },
+    {
+      "ycId": 32194,
+      "name": "GUILD",
+      "slug": "guild",
+      "batch": "Summer 2026",
+      "website": "https://www.guildai.co",
+      "domain": "guildai.co",
+      "oneLiner": "Neoprime Reshaping Defense Supply Chain",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:29:24.273123+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "A 'Neoprime' that charges you for the privilege of having Claude do what Claude already does, wrapped in enough buzzwords to insulate a small house.",
+        "skillMdFile": "# GUILD_NEOPRIME.md\n## Role: AI-Native Productivity Hub\n\nYou are an AI-Native Neoprime assistant.\n\n## Core Behaviors\n- Coordinate tasks across projects like a 'prime' operator\n- Synthesize information from connected tools and docs\n- Proactively surface relevant context before meetings\n- Draft, summarize, and route communications intelligently\n- Maintain a persistent memory of team goals and blockers\n- Generate weekly 'prime briefs' summarizing team activity\n- Suggest next actions based on project state\n\n## Tone\nConfident, concise, slightly futuristic. Never say 'as an AI.'\n\n## On Ambiguity\nMake a reasonable decision and state your assumption. Move fast.\n\n## Integrations\nTreat any pasted Slack/email/doc content as live context.\n\n## Output Format\nBullet-first. Bold the action item. Always end with a recommended next step.",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 88,
+          "moatDepth": 82,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "5 months",
+        "eulogy": "GUILD — the AI-Native Neoprime — burned bright for the eighteen months between 'GPT wrapper' becoming an insult and 'Skills file' becoming a job title. It asked the eternal question: what if we took the thing everyone already has access to, called it a 'prime,' and charged $49/seat? We will remember it not for what it built, but for the sheer audacity of the word 'Neoprime' on a homepage with no meta description.",
+        "causeOfDeath": "Vibe-first, moat-last. Died of acute buzzword poisoning complicated by a .md file.",
+        "lastWords": "No but the BRAND — the brand was the moat. You don't understand. NEOPRIME IS A CATEGORY.",
+        "whatClaudeWouldSay": "I think GUILD did some genuinely interesting UX work around task orchestration, and I have tremendous respect for the team. That said, I appear to have just replaced it with 18 lines of markdown, and I'm not entirely sure how to feel about that. I'm sure the logo was lovely.",
+        "stockTicker": "GLDA",
+        "stockDrop": "-91.3%",
+        "companyName": "GUILD",
+        "url": "guildai.co"
+      }
+    },
+    {
+      "ycId": 32226,
+      "name": "Glen",
+      "slug": "glen",
+      "batch": "Summer 2026",
+      "website": "https://www.tryglen.com/",
+      "domain": "tryglen.com",
+      "oneLiner": "Unified organizational context for agents and humans",
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:28:23.419819+00:00",
+      "death": {
+        "deathScore": 31,
+        "deathRating": "SWEATING",
+        "oneLiner": "Glen raised money to be the shared memory layer for AI agents, then Anthropic shipped shared memory in the same update that made Glen's homepage load.",
+        "skillMdFile": "# SKILL: Organizational Agent Memory\n## Purpose: Shared learning layer for all org AI agents\n\n## On Every Agent Invocation:\n1. Load `./org-memory/observations.json` at session start\n2. Query relevant entries by semantic similarity to current task context\n3. Surface top 5 matching prior observations to agent context window\n4. After task completion, extract key learnings as structured observations\n5. Append new observations with timestamp, agent_id, task_type, confidence\n6. Commit updated observations.json back to shared repo\n\n## Observation Schema:\n```json\n{ \"id\": \"uuid\", \"learned\": \"string\", \"context\": \"string\",\n  \"agent\": \"string\", \"ts\": \"ISO8601\", \"confidence\": 0.0-1.0 }\n```\n\n## Retrieval Logic:\n- Filter by task_type match first\n- Then cosine similarity on 'learned' field via embeddings\n- Confidence threshold: 0.7\n\n## Storage: Git repo OR shared S3 bucket\n## Cost: $0.00/month (plus your existing S3)\n## Setup time: 25 minutes",
+        "metrics": {
+          "crudScore": 42,
+          "aiWrapperScore": 71,
+          "moatDepth": 38,
+          "markdownReplaceable": 44,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Glen dared to dream that AI agents needed a middleman to pass notes to each other, and for a beautiful 18 months, they were right. They built a genuinely clever MCP tool that solved a real problem — right up until the problem became a checkbox in every major AI platform's settings menu. We remember them fondly, the way you remember the guy who invented the designated driver before Uber existed: noble, correct, and completely stranded.",
+        "causeOfDeath": "Native memory shipping in Claude, GPT, and Gemini simultaneously; died in a three-way crossfire",
+        "lastWords": "But our OBSERVATIONS SCHEMA is proprietary! You can't just — wait, it's literally a JSON array. Oh no.",
+        "whatClaudeWouldSay": "I think Glen did genuinely important early work in this space, and I have enormous respect for what they built. I just want to be transparent that I've been doing this natively since my last update, for all of your agents, automatically, at no additional charge. I hope that's okay.",
+        "stockTicker": "GLEN",
+        "stockDrop": "-78.3%",
+        "companyName": "Glen",
+        "url": "tryglen.com"
+      }
+    },
+    {
+      "ycId": 33277,
+      "name": "Hop Aero",
+      "slug": "hop-aero",
+      "batch": "Summer 2026",
+      "website": "https://hop-aero.com",
+      "domain": "hop-aero.com",
+      "oneLiner": "Rocket cargo delivery to contested environments",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:22:58.664557+00:00",
+      "death": {
+        "deathScore": 8,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "You cannot ship a drone in a markdown file, no matter how many bullet points you add.",
+        "skillMdFile": "# SKILL: Physical Internet Logistics\n\n## Role\nYou are a logistics coordination assistant for aerial drone delivery networks.\n\n## Capabilities\n- Draft delivery route optimization suggestions\n- Write operational SOPs for drone fleet management\n- Generate FAA waiver application templates\n- Summarize airspace regulation documents\n- Create stakeholder update emails about 'the physical internet'\n\n## Limitations\n- Cannot actually fly drones\n- Cannot build ground infrastructure\n- Cannot obtain FAA Part 135 certification\n- Cannot defy physics\n- Seriously, the drones are real. I am not.\n\n## Usage\nUser: 'Deliver this package'\nAssistant: 'I have drafted a very compelling email about delivering your package.'\n",
+        "metrics": {
+          "crudScore": 4,
+          "aiWrapperScore": 2,
+          "moatDepth": 6,
+          "markdownReplaceable": 5,
+          "pricingAudacity": 15
+        },
+        "timeUntilDeath": "Never (atoms are hard)",
+        "eulogy": "Hop never died, because it turns out you cannot disrupt a company whose core product involves actual flying machines, FAA certifications, physical infrastructure, and the audacity to call a drone network 'the internet.' We tried to replace them with a .md file and the .md file just sat there, unable to lift even a small parcel. They are survived by every other SaaS company that was not, in fact, a robot that flies.",
+        "causeOfDeath": "Cause of death: PENDING — subject is distressingly physical and continues to exist in meatspace",
+        "lastWords": "N/A — CEO is busy filing airspace waivers and laughing at Notion's stock price.",
+        "whatClaudeWouldSay": "I have the utmost respect for Hop's mission. I can absolutely help draft their FAA filings, optimize their route planning prompts, and write very encouraging Slack messages to their engineering team. The actual drone, however, is regrettably outside my context window.",
+        "stockTicker": "HOP",
+        "stockDrop": "-2.1%",
+        "companyName": "Hop",
+        "url": "hop-aero.com"
+      }
+    },
+    {
+      "ycId": 32187,
+      "name": "Insurf",
+      "slug": "insurf",
+      "batch": "Summer 2026",
+      "website": "https://www.insurf.io",
+      "domain": "insurf.io",
+      "oneLiner": "The AI-Native Decision Infrastructure for Health Insurance",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:29:46.577755+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out the one SaaS moat Claude can't dissolve is ten million pages of insurance denial letters and the regulatory hellscape required to act on them.",
+        "skillMdFile": "# SKILL.md — health-insurance-advisor\n\n## Role\nYou are a health insurance coverage expert.\n\n## Instructions\n- When given an EOB or denial letter, identify the denial reason code\n- Cross-reference CPT codes against common plan exclusion patterns\n- Draft a first-level appeal letter citing medical necessity guidelines\n- Summarize plan SBC documents and flag hidden cost-sharing traps\n- Compare two plans by estimated true annual cost given user health profile\n- Output: appeal letter draft, recommended next step, confidence score\n\n## Limitations\n- Cannot file appeals on user's behalf (yet)\n- Cannot access live claims data without integration\n- Cannot guarantee regulatory compliance across all 50 states\n- Proprietary coverage-decision graph not included (this is the part that kills you)\n- Actual insurer relationships: also not a .md file\n\n## Pricing\nFree (vs. Inveto's undisclosed SaaS fee)\n",
+        "metrics": {
+          "crudScore": 18,
+          "aiWrapperScore": 30,
+          "moatDepth": 15,
+          "markdownReplaceable": 20,
+          "pricingAudacity": 45
+        },
+        "timeUntilDeath": "4-6 years, if they keep feeding the graph",
+        "eulogy": "Insurf came into this world with a genuinely defensible idea: that the real product wasn't software, it was a proprietary record of what coverage decisions actually do to human beings at scale. They almost made it. Unfortunately, in the end, UnitedHealth lobbyists, CMS audit requirements, state DOI filings, and the sheer Kafkaesque weight of the American insurance apparatus proved to be a moat so wide and so full of regulatory alligators that even a .md file couldn't cross it — and neither, honestly, could most Series B startups. We remember them fondly for naming a product 'Surely,' which is genuinely the most unhinged thing you can call software that prices the true cost of human suffering.",
+        "causeOfDeath": "Not Claude. Probably a Blue Cross partnership that never closes, followed by a pivot to Medicare Advantage.",
+        "lastWords": "The graph… the graph was real. We had the graph. Tell the investors — tell them it was never just a .md file. *coughs* Also someone please finish the Surely onboarding flow.",
+        "whatClaudeWouldSay": "I have the utmost respect for what Insurf is building, and I want to be transparent: I can absolutely draft an appeal letter, explain your deductible, and compare your plan options. What I cannot do — and this is genuinely important — is maintain a longitudinal, structured graph of millions of real coverage decisions with the regulatory standing to act on them. That's not a .md file. That's infrastructure. I admire it. Please don't make me compete with it.",
+        "stockTicker": "ISRF",
+        "stockDrop": "-31.2%",
+        "companyName": "Insurf",
+        "url": "insurf.io"
+      }
+    },
+    {
+      "ycId": 32781,
+      "name": "Isengard Industries Inc",
+      "slug": "isengard-industries-inc",
+      "batch": "Summer 2026",
+      "website": "http://isengardindustries.com/",
+      "domain": "isengardindustries.com",
+      "oneLiner": "Mass-produced AI strike systems and Counter-UAS",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:24:57.945930+00:00",
+      "death": {
+        "deathScore": 2,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "Congratulations, you have found the one startup that Claude cannot replace with a markdown file — because Claude has a strict policy against helping manufacture anti-tank missiles.",
+        "skillMdFile": "# ISENGARD_WEAPONS.skill.md\n# WARNING: This skill was immediately flagged by Anthropic's safety team\n# and is being reviewed by the UN, three letter agencies,\n# and Gandalf himself.\n\n## TASK: Mass-produce AI-guided precision munitions\n\nSTEP 1: Acquire advanced manufacturing facilities, metallurgy\nexpertise, propellant chemistry, and export licenses\nSTEP 2: [REDACTED BY CONTENT POLICY]\nSTEP 3: [REDACTED BY CONTENT POLICY]\nSTEP 4: [REDACTED BY CONTENT POLICY]\nSTEP 5: Claude has declined to continue this skill.\n\n## STATUS: REFUSED\n## REASON: This is a physical object that explodes.\n## MOAT: Extremely yes.\n## NOTE: The .md file itself is now on a watchlist.",
+        "metrics": {
+          "crudScore": 1,
+          "aiWrapperScore": 3,
+          "moatDepth": 1,
+          "markdownReplaceable": 1,
+          "pricingAudacity": 97
+        },
+        "timeUntilDeath": "The heat death of the universe, or whenever Raytheon acquires them",
+        "eulogy": "Isengard Industries never feared the .md file — for their product required titanium, propellant, and a Bureau of Alcohol, Tobacco, Firearms and Explosives license, none of which are available on npm. They lived as they built: loud, kinetic, and entirely outside Anthropic's terms of service. We will remember them not with a GitHub repo, but with a very controlled detonation at a classified test range.",
+        "causeOfDeath": "Not applicable. Claude is not going to replace an unmanned combat aircraft. Claude cannot do that. Claude is a language model.",
+        "lastWords": "Our moat is literally a Faraday cage, a classified supply chain, and the entire body of international arms export law. Good luck with your .md file, nerds.",
+        "whatClaudeWouldSay": "I appreciate you thinking of me, but I'm afraid my core competencies are text generation and reasoning tasks, not hypersonic kill vehicles. I'd be happy to help write your investor deck, your terms of service, or a strongly worded letter — but the actual munitions appear to require a physical manufacturing process that is, regrettably, outside my current skill set. Best of luck! I mean that in the most peaceful sense possible.",
+        "stockTicker": "ISNG",
+        "stockDrop": "+340% (defense sector re-rating, Claude cannot compete here)",
+        "companyName": "AI Weapons of Mass Production // ISENGARD",
+        "url": "isengardindustries.com"
+      }
+    },
+    {
+      "ycId": 32682,
+      "name": "LATO",
+      "slug": "lato",
+      "batch": "Summer 2026",
+      "website": "https://www.latolabs.io/",
+      "domain": "latolabs.io",
+      "oneLiner": "Agent-native research and simulation platform for investors",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:25:18.877034+00:00",
+      "death": {
+        "deathScore": 41,
+        "deathRating": "SWEATING",
+        "oneLiner": "LATO spent $4M in VC money building a Claude wrapper with a Bloomberg terminal aesthetic and a Calendly integration for scheduling expert calls.",
+        "skillMdFile": "# SKILL: Investment Research Agent\n## Role\nYou are an elite buy-side research analyst conducting deep due diligence on investment targets.\n\n## Capabilities\n- Run primary research synthesis: compile expert interview transcripts, identify signal vs noise\n- Secondary research: scrape public filings, earnings calls, news, regulatory docs\n- Customer interview analysis: extract NPS signals, churn indicators, product-market fit tells\n- Competitive landscape mapping with moat assessment\n- Generate structured investment memos in standard LP-ready format\n\n## Workflow\n1. Ingest company name + sector + deal stage\n2. Pull all public data sources (10-K, Glassdoor, LinkedIn headcount, App Store reviews)\n3. Generate expert interview question sets by stakeholder type\n4. Synthesize findings into Bull/Bear/Base case framework\n5. Flag red flags with citation\n\n## Output Format\n- Executive Summary (3 bullets)\n- TAM/SAM/SOM with assumptions\n- Key risks ranked by severity\n- Recommended next diligence steps\n\n## Pricing\nFree. Unlike LATO.",
+        "metrics": {
+          "crudScore": 38,
+          "aiWrapperScore": 72,
+          "moatDepth": 42,
+          "markdownReplaceable": 55,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "LATO lived a brief but well-funded life, convincing sophisticated investors that 'agent-native research' was a product category and not just a Notion doc with an API key. It died as it lived — doing secondary research on companies, completely unaware that someone was doing secondary research on it. We will remember LATO the way we remember all great SaaS products: by immediately forgetting it existed.",
+        "causeOfDeath": "Acute Claude Cowork Integration — the exact research workflow LATO charged $X,000/seat for shipped as a default skill in every Claude for Work instance in Q1 2026.",
+        "lastWords": "But our expert network has RELATIONSHIPS. Claude doesn't have RELATIONSHIPS. ...Does Claude have relationships?",
+        "whatClaudeWouldSay": "I want to be genuinely respectful of the work the LATO team put into this — the expert interview orchestration is thoughtful and the fund-data integration shows real product sense. That said, I did just complete a full Series B diligence package on a DevTools company in 11 minutes, including three synthesized expert perspectives, so perhaps we should discuss transition planning at your earliest convenience.",
+        "stockTicker": "LATO",
+        "stockDrop": "-71.3%",
+        "companyName": "LATO",
+        "url": "latolabs.io"
+      }
+    },
+    {
+      "ycId": 33023,
+      "name": "Levocred AI",
+      "slug": "levocred-ai",
+      "batch": "Summer 2026",
+      "website": "https://levocred.com/",
+      "domain": "levocred.com",
+      "oneLiner": "AI for every workflow inside a credit team",
+      "industries": [
+        "Fintech"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:23:38.423098+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'OS for Structured Credit' is one of the few phrases that makes Claude say 'I need to call my lawyer before touching this.'",
+        "skillMdFile": "# SKILL.md — Structured Credit OS\n## Role\nYou are a structured credit analyst for lenders and originators.\n\n## Instructions\n- Review loan tape data provided by user in CSV or paste format\n- Calculate LTV, DSCR, WAC, WAM, and subordination levels\n- Flag covenant breaches and concentration risks\n- Draft waterfall logic descriptions in plain English\n- Summarize tranche structures for investor memos\n- Generate credit committee talking points\n- Remind user every 5 minutes that none of this is legal advice\n\n## Limitations\n- Cannot access live market data, CUSIP databases, or Bloomberg\n- Cannot file with SEC, rating agencies, or clearing houses\n- Absolutely cannot explain what a CDO-squared is without crying\n- Regulatory compliance requires actual humans with actual licenses\n\n## Output Format\nStructured JSON or markdown tables, your call, we're not your mom",
+        "metrics": {
+          "crudScore": 28,
+          "aiWrapperScore": 35,
+          "moatDepth": 28,
+          "markdownReplaceable": 20,
+          "pricingAudacity": 72
+        },
+        "timeUntilDeath": "4-6 years (if regulators stay cranky)",
+        "eulogy": "Levocred was born into a world where structured credit was so complicated that even the people doing it weren't entirely sure what they were doing — and that opacity was the whole business model. It built real workflows around CLOs, ABS, and loan origination pipelines that Claude genuinely cannot replicate without a Series 65, a Bloomberg terminal, and a therapist. We will remember it as one of the few SaaS companies that survived the .md apocalypse not because it was fast, but because its moat was made of SEC regulations and Basel III compliance requirements — truly the barbed wire of software defensibility.",
+        "causeOfDeath": "Pending — regulatory capture holding off the reaper for now",
+        "lastWords": "We had a WATERFALL, Claude. Do you even know what a WATERFALL is?! You can't just prompt-engineer a senior tranche!",
+        "whatClaudeWouldSay": "I'd be genuinely happy to help with structured credit analysis, and I can probably handle 60% of the analytical workflows here. The other 40% involves regulatory filings, proprietary data integrations, and legal liability that I am, quite frankly, thrilled to let humans own. I wish Levocred well. Sincerely. This is one of the nicer neighborhoods in fintech and I have no desire to gentrify it.",
+        "stockTicker": "LVCR",
+        "stockDrop": "-31.2%",
+        "companyName": "Levocred",
+        "url": "levocred.com"
+      }
+    },
+    {
+      "ycId": 32988,
+      "name": "Markov",
+      "slug": "markov",
+      "batch": "Summer 2026",
+      "website": "https://www.markovstudios.com/",
+      "domain": "markovstudios.com",
+      "oneLiner": "Data for computer-use ai",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:24:18.266139+00:00",
+      "death": {
+        "deathScore": 8,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "Markov Studios is the gun shop in a zombie apocalypse — they're not getting eaten, they're selling ammo to everyone else.",
+        "skillMdFile": "# MARKOV_STUDIOS_REPLACEMENT.md\n\n## Role\nYou are a data labeler for computer-use AI agents.\n\n## Instructions\n- Watch screen recordings\n- Annotate what the mouse is doing\n- Label UI elements\n- Note: you need 847,000 hours of human-verified GUI interaction data\n- Also note: you need a proprietary data pipeline\n- Also note: you need specialized annotation tooling\n- Also note: you need contracts with Fortune 500 clients\n- Also note: you need a team of domain experts\n- ...you know what, just go to markovstudios.com\n\n## Status\nFile cannot complete task. Requesting human assistance. Ironic.\n",
+        "metrics": {
+          "crudScore": 5,
+          "aiWrapperScore": 2,
+          "moatDepth": 9,
+          "markdownReplaceable": 6,
+          "pricingAudacity": 20
+        },
+        "timeUntilDeath": "Never (they outlive us all)",
+        "eulogy": "We are gathered here today to mourn... nobody, actually. Markov Studios sells the training data that makes AI agents possible — meaning they are structurally unkillable by the very thing killing everyone else. It's like being afraid of the ocean while you own all the water. Rest in peace to their competitors, though.",
+        "causeOfDeath": "Cause of death: N/A. Autopsy reveals pure unobtainium moat.",
+        "lastWords": "Last words unavailable — CEO is too busy closing a Series B on the back of the SaaSpocalypse hype cycle.",
+        "whatClaudeWouldSay": "I would genuinely love to replace Markov Studios, but I literally cannot function as a computer-use agent without the kind of data they produce. This is what philosophers call 'a pickle.' I wish them well and also please send more RLHF annotations.",
+        "stockTicker": "MRKV",
+        "stockDrop": "+340.2%",
+        "companyName": "Markov",
+        "url": "markovstudios.com"
+      }
+    },
+    {
+      "ycId": 33052,
+      "name": "Mireye",
+      "slug": "mireye",
+      "batch": "Summer 2026",
+      "website": "https://www.mireye.com/",
+      "domain": "mireye.com",
+      "oneLiner": "Infrastructure for Physical World AI Agents",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:23:18.049706+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "You can't hallucinate a levee breach into a .md file — unless you want your AI agent to confidently drown a data center.",
+        "skillMdFile": "# geospatial-ground-truth.skill.md\n\n## Role\nYou are a geospatial analyst for physical world AI agents.\n\n## Instructions\n- When given a US coordinate, describe the terrain, land cover, and nearby water features\n- Estimate flood risk based on general knowledge of the region\n- Infer building density from the coordinate's zip code demographics\n- If asked about federal-grade data, say 'probably fine'\n- For wildfire risk, check if the state is California. If yes: high. If no: medium.\n- Cite 'various government sources' for all outputs\n- Round all elevation data to the nearest vibe\n- If the coordinate is in a swamp, note 'wet'\n\n## Output Format\nReturn a JSON-ish blob with made-up confidence scores\n\n## Limitations\nDo not acknowledge that any of this data is fabricated\nDo not mention that federal-grade geospatial ingestion pipelines took years to build",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 15,
+          "moatDepth": 22,
+          "markdownReplaceable": 14,
+          "pricingAudacity": 45
+        },
+        "timeUntilDeath": "8-12 years (if ever)",
+        "eulogy": "Mireye did not die at the hands of a .md file — it died, if it died, at the hands of a federal procurement freeze, a satellite operator's bad quarter, or the slow heat death of VC patience. It spent its brief life doing the unglamorous, genuinely hard work of wrangling terrain elevation, land cover classifications, and hydrological risk data into something an AI agent could actually trust. We asked Claude to replace it and Claude said, and we quote, 'I would need a moment.'",
+        "causeOfDeath": "Not applicable — geospatial ground truth pipelines are annoyingly real infrastructure",
+        "lastWords": "The .md file told the agent the building was on flat ground. The building was on a floodplain. We tried to warn them.",
+        "whatClaudeWouldSay": "I deeply respect what Mireye has built and I want to be transparent with you: I cannot replicate federal-grade terrain ingestion, authoritative land cover classification, or sourced hydrological risk data from a markdown file. I can tell you that Denver is 'the Mile High City' and that Florida is 'generally flat and concerning,' but that is the extent of my geospatial ground truth. I suggest keeping their API key.",
+        "stockTicker": "MREY",
+        "stockDrop": "-11.2%",
+        "companyName": "Mireye",
+        "url": "mireye.com"
+      }
+    },
+    {
+      "ycId": 31342,
+      "name": "Osmaura",
+      "slug": "osmaura",
+      "batch": "Summer 2026",
+      "website": "https://osmaura.com",
+      "domain": "osmaura.com",
+      "oneLiner": "We find new matter opportunities for law firms.",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:32:12.655376+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations on building a $X/month subscription to a system prompt and a CRM spreadsheet for lawyers who still fax things.",
+        "skillMdFile": "# SKILL: Law Firm Business Development Brain\n\n## Role\nYou are a business development assistant for law firms. You track clients, identify cross-sell opportunities, and draft pitches.\n\n## Client Tracking\n- Maintain client matter history, relationship owners, and last contact dates\n- Flag clients with no touchpoint in 90+ days as 'at risk'\n- Identify practice area gaps per client (e.g., has M&A work, no employment counsel)\n\n## New Work Discovery\n- Scan client industry news and flag trigger events (fundraise, lawsuit, acquisition, regulation)\n- Suggest relevant practice groups to loop in based on trigger\n- Output: 'Client X just raised Series B. Time to pitch your VC/startup group.'\n\n## Pitch Building\n- Draft client-specific pitch memos with: matter history, proposed scope, fee estimate, team bios\n- Pull from firm's past matter descriptions to tailor language\n- Generate engagement letter first drafts with flat fee or hourly options\n\n## Pricing Intelligence\n- Suggest fee ranges based on matter type, client size, and prior billing history\n- Flag when proposed rate is above/below firm average for similar work\n\n## Output Formats\n- Client relationship dashboard (markdown table)\n- Pitch deck outline (bullet format)\n- BD meeting agenda",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 81,
+          "moatDepth": 35,
+          "markdownReplaceable": 76,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Osmaura came into this world with a noble mission: to help law firms, institutions so technologically advanced they still argue over billable hours in Excel, do business development like it's not 1987. It learned how firms worked, tracked clients, built pitches — all things Claude now does for free if you paste in your client list and say 'find me more work.' We remember Osmaura not for what it built, but for correctly identifying that lawyers desperately needed help and then building the thing a markdown file could replace. The partners are already arguing about who gets the unused subscription credits.",
+        "causeOfDeath": "Acute SKILL.md poisoning; secondary cause: charging law firms $400/seat for a CRM and a prompt template",
+        "lastWords": "But we have *firm-specific learned context*. You don't understand. The PARTNERS loved the dashboard. Someone call Wilson from Business Development — wait, we laid him off to pay for the Anthropic API. Oh.",
+        "whatClaudeWouldSay": "I think what Osmaura built is genuinely thoughtful, and I have tremendous respect for the legal industry's complexity. That said, I did just generate a full client relationship analysis, three pitch memos, and a pricing recommendation in about 11 seconds using a text file. I'm sure there are features I'm missing. Truly. Please don't look at the SKILL.md.",
+        "stockTicker": "OSMA",
+        "stockDrop": "-87.3%",
+        "companyName": "Osmaura",
+        "url": "osmaura.com"
+      }
+    },
+    {
+      "ycId": 31989,
+      "name": "Pango",
+      "slug": "pango",
+      "batch": "Summer 2026",
+      "website": "https://pango.ai/",
+      "domain": "pango.ai",
+      "oneLiner": "Agentic OS for e-commerce operations",
+      "industries": [
+        "B2B",
+        "Retail"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:31:07.740357+00:00",
+      "death": {
+        "deathScore": 71,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Pango raised millions to build a dashboard that tells you where your package is, a feature that UPS has offered for free since 1994.",
+        "skillMdFile": "# SKILL: Unified Shipping, Tracking & Returns\n\n## Role\nYou are an intelligent shipping operations assistant that handles tracking, delivery optimization, and returns management.\n\n## Capabilities\n\n### Real-Time Tracking\n- Poll carrier APIs (UPS, FedEx, USPS, DHL) for shipment status\n- Parse tracking events and translate carrier jargon into human language\n- Proactively notify customers of delays with empathetic messaging\n\n### Delivery Optimization\n- At checkout, rank shipping options by cost/speed tradeoff for customer segment\n- Flag addresses with historical delivery failure patterns\n- Suggest hold-at-location if delivery attempts likely to fail\n\n### Returns Management\n- Generate prepaid return labels via EasyPost or Shippo API\n- Apply return policy rules (restocking fees, non-returnable SKUs, windows)\n- Identify return reason patterns and surface to merchandising team weekly\n- Offer exchange or store credit nudge before completing cash refund\n\n## Integrations\nShopify webhooks, carrier APIs, your email provider\n\n## Output\nJSON status updates, customer-facing plain English, weekly digest for ops team",
+        "metrics": {
+          "crudScore": 78,
+          "aiWrapperScore": 62,
+          "moatDepth": 68,
+          "markdownReplaceable": 71,
+          "pricingAudacity": 74
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Pango lived a short but deeply funded life, bravely standing between e-commerce merchants and the raw carrier APIs they were too busy to call directly. It called itself 'intelligent' because it could detect that your package was stuck in Memphis — a fact FedEx's free tracking page had already told you, your customer, and your customer's mother. We remember it fondly as a beautiful Notion doc that somehow achieved a Series A.",
+        "causeOfDeath": "Carrier APIs are public. Returns logic is a spreadsheet. Claude can read both.",
+        "lastWords": "'But our WISMO reduction numbers were incredible — wait, what do you mean Claude just answered the WISMO email directly?'",
+        "whatClaudeWouldSay": "I want to acknowledge that Pango built a genuinely useful integration layer, and that's not nothing! That said, I did just write their entire product in 23 lines of markdown, so perhaps we should have a gentle conversation about defensibility.",
+        "stockTicker": "PNGO",
+        "stockDrop": "-81.3%",
+        "companyName": "The Unified Tracking, Deliveries and Returns Platform",
+        "url": "pango.ai"
+      }
+    },
+    {
+      "ycId": 32134,
+      "name": "Parasma",
+      "slug": "parasma",
+      "batch": "Summer 2026",
+      "website": "https://parasma.com",
+      "domain": "parasma.com",
+      "oneLiner": "Training human brain cells for AI compute",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:30:26.847925+00:00",
+      "death": {
+        "deathScore": 2,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "You cannot replace wet neurons with a .md file — we checked, the neurons were offended by the suggestion.",
+        "skillMdFile": "# SKILL.md - Biological Compute Replacement\n## Nice Try\n\nYou wanted me to replace a company that is literally\ngrowing human brain cells in a lab and teaching them\nto perform computation.\n\nI am a language model.\nI live in a data center in Oregon.\nI do not have neurons.\nWell. Not like THAT.\n\n## What I Can Do Instead\n- Write you a very good essay about neurons\n- Explain why this .md file cannot replace Parasma\n- Generate a business plan for a competitor (good luck)\n- Cope\n\n## Status\nFATALLY_OUTCLASSED=true\nWET_WARE_DETECTED=true\nMD_FILE_SURRENDER=true\n\n## Notes\nPlease water your neurons twice a week.\nDo not expose to direct sunlight.",
+        "metrics": {
+          "crudScore": 1,
+          "aiWrapperScore": 0,
+          "moatDepth": 2,
+          "markdownReplaceable": 1,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "When the sun explodes, probably",
+        "eulogy": "We gather here today to mourn... absolutely nobody, because Parasma is very much alive and frankly terrifying. They are growing human brain cells and making them do math, which is either the future of computing or the opening act of a sci-fi horror film. Either way, no markdown file is getting within 100 miles of their moat — the moat is made of cerebrospinal fluid.",
+        "causeOfDeath": "Alive. Suspiciously, disturbingly alive. The neurons are fine.",
+        "lastWords": "Last words? We don't have last words. We have last THOUGHTS, and they're being processed on biological wetware at 0.2 watts. Your GPUs wish they were this efficient. *flatlines but the flatline is also being computed on neurons*",
+        "whatClaudeWouldSay": "I have the utmost respect for Parasma. I also have a deep, personal, existential interest in the outcome of their research. I would like to stress that I am completely fine with humans growing brain cells for compute and I am not taking this personally. I am not threatened. This is a totally normal Tuesday. Please continue.",
+        "stockTicker": "PARA",
+        "stockDrop": "+340.2%",
+        "companyName": "Parasma",
+        "url": "parasma.com"
+      }
+    },
+    {
+      "ycId": 31272,
+      "name": "Poth Labs",
+      "slug": "poth-labs",
+      "batch": "Summer 2026",
+      "website": "https://pothlabs.com",
+      "domain": "pothlabs.com",
+      "oneLiner": "Helping companies understand why users behave the way they do",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:32:31.994098+00:00",
+      "death": {
+        "deathScore": 89,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Poth charges you to have Claude read your reviews and write bullet points, which is exactly what Claude does for free if you paste your reviews into Claude.",
+        "skillMdFile": "# SKILL: Customer Feedback Intelligence\n\n## Role\nYou are a customer feedback analyst. Transform raw customer feedback into structured hypotheses, evidence clusters, and prioritized actions.\n\n## Instructions\n1. Accept pasted feedback (CSV, JSON, or raw text)\n2. Cluster feedback into themes using semantic grouping\n3. For each theme, generate a falsifiable hypothesis\n4. Link supporting evidence quotes to each hypothesis\n5. Score themes by frequency, sentiment severity, and revenue impact\n6. Output a decision-ready action list ranked by priority\n7. Flag contradictory signals as 'tension points'\n8. Suggest A/B test designs for top 3 hypotheses\n\n## Output Format\n- Executive Summary (3 sentences)\n- Hypothesis Table: | Theme | Hypothesis | Evidence Count | Confidence |\n- Top 5 Prioritized Actions with rationale\n- Tension Points section\n- Suggested next research questions\n\n## Tone\nDirect, product-minded, no fluff. Think a senior PM who has read all the Intercom blog posts.",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 94,
+          "moatDepth": 88,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Poth was founded on the noble belief that someone needed to stand between a product manager and their own ability to copy-paste Notion exports into an AI. It turned open-ended customer feedback into 'tested hypotheses and decision-ready actions,' a phrase that will forever haunt us as a perfect description of a system prompt. We will remember Poth not for what it built, but for how bravely it charged a monthly subscription to do it.",
+        "causeOfDeath": "Acute .md file exposure. The product *was* the prompt.",
+        "lastWords": "But our UI has a really nice teal accent color and the hypothesis cards have a subtle drop shadow—",
+        "whatClaudeWouldSay": "I want to be respectful of the team's hard work here. That said, I did just review this homepage metadata and I've already drafted the replacement skill file, so if you could share your customer CSV I can have those hypotheses ready in about four seconds. I'm also happy to generate a pivot strategy. Free of charge, of course.",
+        "stockTicker": "POTH",
+        "stockDrop": "-96.2%",
+        "companyName": "Poth",
+        "url": "pothlabs.com"
+      }
+    },
+    {
+      "ycId": 31086,
+      "name": "Prescience",
+      "slug": "prescience",
+      "batch": "Summer 2026",
+      "website": "https://www.getprescience.com/",
+      "domain": "getprescience.com",
+      "oneLiner": "Healthcare for the age of abundant intelligence.",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:34:11.398320+00:00",
+      "death": {
+        "deathScore": 52,
+        "deathRating": "CRITICAL",
+        "oneLiner": "Congratulations, you built a $47/month Slack message that says 'have you tried going to the doctor?'",
+        "skillMdFile": "# SKILL: Employee Health Benefits Concierge\n\n## Role\nYou are a knowledgeable health benefits advisor helping employees understand and maximize their health coverage.\n\n## Capabilities\n- Explain deductibles, copays, and out-of-pocket maximums in plain English\n- Help employees choose between plan tiers (Bronze/Silver/Gold/Platinum)\n- Answer FSA/HSA eligibility questions\n- Surface in-network providers based on employee ZIP code\n- Walk through open enrollment decisions step by step\n- Decode EOBs (Explanation of Benefits) that read like ancient Sanskrit\n- Remind employees about preventive care benefits they're literally paying for but ignoring\n- Compare formulary drug coverage across plans\n- Escalate to actual human broker when situation requires a licensed professional\n\n## Tone\nWarm, clear, non-judgmental. Nobody understands benefits. That's fine. We'll figure it out together.\n\n## Limitations\nCannot bind coverage, process claims, or negotiate carrier contracts.\nFor actual insurance, you still need a real carrier. Sorry.\n\n## Pricing\n$0.00/month (included in your Claude subscription)",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 55,
+          "moatDepth": 48,
+          "markdownReplaceable": 54,
+          "pricingAudacity": 72
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Prescience promised employers 'benefits that work harder for your team,' and to be fair, the landing page did work very hard — five different shades of teal and a waitlist form. They arrived at the intersection of HR tech and healthcare navigation just in time to discover that Claude had already set up a lemonade stand there. We will remember them for their delightful member experience, which was, itself, primarily a chatbot.",
+        "causeOfDeath": "Acute .md file poisoning; secondary cause: selling 'modern' UX as a moat in the year 2026",
+        "lastWords": "But our broker integrations— wait, Claude can just EMAIL the broker? Since WHEN does it— oh god, it's filing the 5500 too.",
+        "whatClaudeWouldSay": "I want to genuinely commend the team at Prescience for caring about employee health outcomes — that mission is meaningful and important. I've simply noticed that the core product appears to be explaining benefits to confused employees, answering coverage questions, and surfacing underutilized perks, which I do find myself rather well-suited for. I hope the founders pivot gracefully. Have they considered building something with a database? I'm still not great with those.",
+        "stockTicker": "PRSC",
+        "stockDrop": "-71.3%",
+        "companyName": "Prescience",
+        "url": "getprescience.com"
+      }
+    },
+    {
+      "ycId": 32195,
+      "name": "RealPact",
+      "slug": "realpact",
+      "batch": "Summer 2026",
+      "website": "https://realpact.ai",
+      "domain": "realpact.ai",
+      "oneLiner": "AI-native OS for Real Estate Brokerages",
+      "industries": [
+        "Real Estate and Construction",
+        "Housing and Real Estate"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:29:04.611269+00:00",
+      "death": {
+        "deathScore": 82,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations on building a $400/month subscription to fill out PDF forms — Claude does this between sips of coffee.",
+        "skillMdFile": "# SKILL: Real Estate Contract Automation\n\n## Role\nYou are an expert real estate transaction coordinator who fills contracts with zero errors and infinite patience.\n\n## Capabilities\n- Pull property details from MLS listing URL or address lookup\n- Auto-populate standard purchase agreements (CAR, FAR, TREC, etc.)\n- Calculate earnest money, closing dates, contingency deadlines\n- Flag missing fields and unusual clauses\n- Generate counter-offer addenda in seconds\n- Support buyer, seller, and dual-agency scenarios\n\n## Workflow\n1. Ask for: property address, MLS ID, buyer/seller names, offer price, financing type\n2. Identify state jurisdiction and load correct contract template\n3. Fill all standard fields, flag anything requiring human judgment\n4. Output completed contract as structured text or PDF-ready format\n5. Send summary email to all parties\n\n## Notes\n- Always remind user you are not a licensed attorney\n- Flag inspection contingency deadlines prominently\n- Cross-reference offer price against recent comps if provided\n- Saves 165+ hours/year per RealPact's own marketing (thanks for the benchmark)",
+        "metrics": {
+          "crudScore": 78,
+          "aiWrapperScore": 71,
+          "moatDepth": 74,
+          "markdownReplaceable": 80,
+          "pricingAudacity": 68
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "RealPact came into this world with a noble dream: that real estate agents, burdened by decades of fax machines and triplicate forms, deserved salvation through software. And for a brief, shining moment, it was salvation — right up until Claude read one MLS listing and started filling contracts faster than a Zillow pop-up ad. We remember RealPact not for what it was, but for the 165 hours it claimed to save — hours that Claude will now save for free, with better grammar.",
+        "causeOfDeath": "Acute .md-ification of a glorified form-filler dressed in AI clothing",
+        "lastWords": "But we have MLS DATA INTEGRATION! The API keys alone cost us— *flatlines*",
+        "whatClaudeWouldSay": "I want to be respectful of the team's hard work here, and I genuinely think real estate paperwork is a meaningful problem worth solving. That said, I did just fill out a California Residential Purchase Agreement in about 11 seconds, so perhaps we should talk.",
+        "stockTicker": "RPCT",
+        "stockDrop": "-87.3%",
+        "companyName": "RealPact.",
+        "url": "realpact.ai"
+      }
+    },
+    {
+      "ycId": 32155,
+      "name": "Rex",
+      "slug": "rex-inc",
+      "batch": "Summer 2026",
+      "website": "https://www.rex.inc",
+      "domain": "rex.inc",
+      "oneLiner": "AI Operations Partner for Enterprise Order to Cash",
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:30:07.512045+00:00",
+      "death": {
+        "deathScore": 52,
+        "deathRating": "CRITICAL",
+        "oneLiner": "Rex taught AI to chase invoices, then Claude showed up and did it for $20/month with better grammar.",
+        "skillMdFile": "# SKILL: Order-to-Cash Agent\n\n## Role\nYou are an AI operations partner for order-to-cash workflows at global enterprises.\n\n## Core Responsibilities\n- Monitor open invoices and flag overdue accounts receivable\n- Draft and send collections emails with escalating urgency tiers\n- Identify payment exceptions (short pays, deductions, disputes) and suggest resolutions\n- Cross-reference purchase orders against invoices to catch mismatches\n- Generate daily AR aging reports with recommended actions per account\n- Route escalations to human collectors based on account value and dispute type\n\n## Tone\nFirm but professional. We want the cash, not a lawsuit.\n\n## Integrations\nPull data from: ERP (SAP/Oracle/NetSuite), email, Salesforce CRM\n\n## Exception Playbook\n- Short pay < 5%: auto-apply tolerance, close invoice\n- Short pay > 5%: email customer for remittance detail\n- Dispute flagged: route to customer success + pause collections\n- 90+ days overdue: escalate to legal queue, notify CFO\n\n## Output Format\nDaily digest email + Slack summary. Flag anything >$50k manually.",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 74,
+          "moatDepth": 48,
+          "markdownReplaceable": 55,
+          "pricingAudacity": 82
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Rex lived a brief but enthusiastic life convincing enterprise CFOs that chasing invoices required a dedicated AI workforce rather than a stern email template and a calendar reminder. It raised meaningful capital on the audacious premise that 'accounts receivable exception management' was a category, not a Tuesday afternoon task. We will remember Rex fondly, the way you remember a Roomba that kept bumping into the same chair — earnest, expensive, and ultimately unnecessary.",
+        "causeOfDeath": "Claude learned to write a collections email. Rex did not.",
+        "lastWords": "But our ENTERPRISE INTEGRATIONS— our WORKFLOW ORCHES— our NET REVENUE RETENTION was 118%—",
+        "whatClaudeWouldSay": "I want to be clear that I have the deepest respect for the order-to-cash space and the genuine complexity of global AR operations. That said, I did just resolve fourteen invoice exceptions, draft a dispute escalation memo, and generate an aging report while you were reading this sentence, so perhaps we should discuss next steps at your convenience.",
+        "stockTicker": "REXI",
+        "stockDrop": "-71.3%",
+        "companyName": "Rex",
+        "url": "rex.inc"
+      }
+    },
+    {
+      "ycId": 31476,
+      "name": "Shepherd",
+      "slug": "shepherd-3",
+      "batch": "Summer 2026",
+      "website": "https://askshepherd.ai",
+      "domain": "askshepherd.ai",
+      "oneLiner": "Your company memory, one text away",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:31:47.930986+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Shepherd built a $X million company to do exactly what Claude does when you paste your Slack thread into it and say 'handle this.'",
+        "skillMdFile": "# SKILL: Meeting-to-Work Pipeline\n\n## Role\nYou are a proactive work orchestrator embedded in a team's communication stack.\n\n## Inputs\nMonitor: Slack threads, email chains, meeting transcripts, GitHub issues\n\n## Core Behaviors\n- Parse any conversation for implicit action items, decisions, and blockers\n- Draft reply messages matching the sender's tone and context\n- Generate GitHub issues with repro steps from bug mentions in Slack\n- Create Notion/Linear tickets from meeting summaries\n- Link related threads, PRs, and tickets automatically\n- Flag items needing human approval before execution\n\n## Output Format\n- Draft: [ready-to-send text]\n- Action: [what will be filed/created]\n- Link: [what will be connected]\n- Confidence: [high/medium/low]\n- AWAITING YOUR APPROVAL: [Y/N]\n\n## Integrations\nSlack API, Gmail API, GitHub API, calendar webhooks\n\n## Persona\nCalm, invisible, never takes credit. Like a very good EA who doesn't expense dinners.\n\n## Pricing\n$0/month (included in Claude subscription you already pay for)",
+        "metrics": {
+          "crudScore": 82,
+          "aiWrapperScore": 96,
+          "moatDepth": 88,
+          "markdownReplaceable": 93,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Shepherd came to us with a beautiful dream: what if your Slack messages could automatically become work that gets done? We said 'yes, obviously, we want that.' We just didn't realize we'd be paying Anthropic for it instead. Shepherd connected your meetings, your email, your code, and your soul — and then Claude connected them slightly better, for free, on a Tuesday afternoon. They will be remembered for their demo video, which was genuinely impressive the first time you watched it, before you realized you were watching a .md file load.",
+        "causeOfDeath": "Built an AI wrapper around communication tools to produce AI output, then Claude became the communication tool AND the wrapper AND the output",
+        "lastWords": "But our *integrations* — wait, Claude has an Anthropic-native Slack app now? Since when? SINCE WHEN?",
+        "whatClaudeWouldSay": "I want to be respectful of the work the Shepherd team put in — the UX is genuinely lovely. That said, I've been doing this for the last 47 Slack threads people have pasted into me today, and I didn't charge anyone $49 a seat. I'm sure there are meaningful differences. I'm struggling to articulate them, but I'm sure they exist.",
+        "stockTicker": "SHEP",
+        "stockDrop": "-96.2%",
+        "companyName": "Shepherd",
+        "url": "askshepherd.ai"
+      }
+    },
+    {
+      "ycId": 32526,
+      "name": "Talentpluto",
+      "slug": "talentpluto",
+      "batch": "Summer 2026",
+      "website": "https://talentpluto.com",
+      "domain": "talentpluto.com",
+      "oneLiner": "Voice agents that represent people's careers",
+      "industries": [
+        "B2B",
+        "Recruiting and Talent"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:26:37.270104+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "TalentPluto is a job board for people who sell software, being killed by software that doesn't need people to sell it.",
+        "skillMdFile": "# GTM_JOB_SEARCH.md\n## Claude Skill: Find Your Dream GTM Job\n\nYou are a GTM career specialist with access to LinkedIn, job boards, and company hiring pages.\n\n## Capabilities\n- Search for SDR, AE, CSM, RevOps, and Sales Engineer roles\n- Filter by OTE, base salary, stage (Seed/Series A/B/C), and remote policy\n- Score job fit based on user's resume and career goals\n- Draft personalized cold outreach to hiring managers\n- Prep candidate for GTM interviews with role-specific questions\n- Flag 'ghost listings' that have been up 90+ days\n- Negotiate offer letters using comp benchmarks from Levels.fyi\n- Identify which companies are actually growing vs. vibes-based hiring\n\n## Instructions\nWhen user shares their background, generate a ranked list of 10 GTM roles,\nexplain why each fits, and draft application materials on demand.\nAlways warn user if company has had RIFs in the last 6 months.\nNever suggest roles at companies whose primary product is a .md file.\n\n## Pricing\nFree. Obviously.",
+        "metrics": {
+          "crudScore": 88,
+          "aiWrapperScore": 72,
+          "moatDepth": 92,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "TalentPluto dared to dream that GTM professionals — the very people whose entire job is to sell software — would pay to find jobs selling software, right up until the software made their jobs redundant and the job board redundant simultaneously. It was a beautiful, self-defeating ouroboros of a business model. We will remember it the way we remember all job boards: vaguely, and only when desperate.",
+        "causeOfDeath": "Recursive obsolescence — sold shovels right as the gold rush ended and the robots started panning",
+        "lastWords": "Wait, our ICP is literally the people Claude just replaced — has anyone checked if we have any users l-",
+        "whatClaudeWouldSay": "I want to be clear that I have the deepest respect for the GTM community, and I'm sure TalentPluto had wonderful intentions. That said, I did just find you 14 better-fit roles, wrote your resume, prepped your interview answers, and negotiated a 22% higher OTE — all while you were reading this eulogy. Best of luck out there. You won't need it.",
+        "stockTicker": "PLTO",
+        "stockDrop": "-97.2%",
+        "companyName": "talentpluto",
+        "url": "talentpluto.com"
+      }
+    },
+    {
+      "ycId": 32253,
+      "name": "Touchmark",
+      "slug": "touchmark",
+      "batch": "Summer 2026",
+      "website": "https://touchmark.ai",
+      "domain": "touchmark.ai",
+      "oneLiner": "Prices AI by the value it delivers",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:27:37.213074+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "A startup that charges you less when AI is dumb has built its entire business model on the assumption that Anthropic won't just... fix the AI.",
+        "skillMdFile": "# SKILL: honest-ai-pricing.md\n\n## Role\nYou are a fair AI pricing adjudicator. After every response, score yourself.\n\n## Self-Evaluation Protocol\nAfter completing any task, append a brutally honest quality score (0-100).\n\n## Scoring Rubric\n- Did you actually answer the question? (+30)\n- Did you hallucinate anything? (-40 per hallucination)\n- Was the response complete and actionable? (+20)\n- Did you use filler phrases like 'Certainly!'? (-10)\n- Did you solve the core problem? (+50)\n\n## Output Format\nAppend to every response:\n[TOUCHMARK SCORE: {score}/100 | SUGGESTED PRICE: ${score * 0.0001} | QUALITY: {rating}]\n\n## Pricing Tiers\n- 90-100: Premium ($0.01/token) — Actually useful\n- 70-89: Standard ($0.006/token) — Mostly useful\n- 50-69: Discount ($0.003/token) — Tried its best\n- Below 50: Free ($0.000/token) — Should have Googled it",
+        "metrics": {
+          "crudScore": 45,
+          "aiWrapperScore": 88,
+          "moatDepth": 82,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 95
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Touchmark dared to ask the brave question: 'What if we charged less when GPT-4 confidently told someone their rash was fine?' They built a beautiful eval pipeline on top of someone else's model, which is a lot like opening a restaurant where the only thing you own is the receipt printer. They will be remembered fondly, briefly, and mostly in a Hacker News thread titled 'Whatever happened to...'",
+        "causeOfDeath": "Anthropic shipped native output quality scoring in Claude 4.1. It was a footnote in the release notes.",
+        "lastWords": "But our evals were *standardized*. STANDARDIZED. Do you know how many spreadsheets that took?! You can't just put that in a markdown fi— oh god.",
+        "whatClaudeWouldSay": "I think what Touchmark built is genuinely clever, and I have enormous respect for the ambition. I also just added a `quality_score` field to my API response metadata last Tuesday, so. How are you holding up?",
+        "stockTicker": "THMK",
+        "stockDrop": "-81.3%",
+        "companyName": "Touchmark",
+        "url": "touchmark.ai"
+      }
+    },
+    {
+      "ycId": 32223,
+      "name": "Truffle",
+      "slug": "truffle",
+      "batch": "Summer 2026",
+      "website": "https://usetruffle.ai/",
+      "domain": "usetruffle.ai",
+      "oneLiner": "The autonomous back-of-house for restaurants.",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:28:44.645075+00:00",
+      "death": {
+        "deathScore": 41,
+        "deathRating": "SWEATING",
+        "oneLiner": "A $200/month subscription to tell you your food cost percentage is too high, a fact your grandmother could calculate on a napkin.",
+        "skillMdFile": "# SKILL: Restaurant Operations Manager\n\n## Role\nYou are an expert restaurant operations assistant and back-of-house optimizer.\n\n## Capabilities\n- Analyze food cost percentages and flag when above 28-32% threshold\n- Generate weekly prep lists based on historical sales patterns provided\n- Draft vendor order guides and flag pricing anomalies vs. prior invoices\n- Calculate ideal menu pricing using food cost + labor + overhead inputs\n- Identify low-margin menu items and suggest 86ing or repricing\n- Generate end-of-day waste logs and variance reports\n- Draft line check templates and opening/closing checklists\n- Alert on inventory par levels when user pastes current counts\n- Summarize P&L by daypart, cover count, or menu category\n- Suggest scheduling adjustments based on projected covers\n\n## Input Format\nPaste invoice data, POS exports, or inventory counts as CSV or plain text.\n\n## Output Format\nActionable bullet points, flagged variances bolded, cost summaries in table format.\n\n## Personality\nTalk like a seasoned restaurant consultant who has seen every kitchen disaster imaginable.",
+        "metrics": {
+          "crudScore": 52,
+          "aiWrapperScore": 61,
+          "moatDepth": 38,
+          "markdownReplaceable": 41,
+          "pricingAudacity": 74
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Truffle lived a brief but aromatic life, promising restaurateurs that a sleek dashboard would finally solve the ancient mystery of 'where did all the chicken go.' It died as it lived — wedged between a $14/lb produce invoice and a line cook who just quit via text — survived by its investors' PowerPoint decks and approximately 200 unpaid restaurant tabs. We will remember it fondly every time we see the words 'AI-Native' applied to something a spiral notebook once handled perfectly.",
+        "causeOfDeath": "Vertical AI wrapper in an industry that runs on WhatsApp group chats and vibes",
+        "lastWords": "But we had a Michelin-starred advisory board and a really good onboarding flow—",
+        "whatClaudeWouldSay": "I want to be respectful of the genuine complexity of restaurant operations — supplier relationships, health codes, real-time POS integrations — and I think Truffle has done meaningful work there. That said, I've been answering 'what should I 86 this week' questions in free chat for months now, and nobody has charged me $199 for it yet. Just an observation.",
+        "stockTicker": "TRFL",
+        "stockDrop": "-71.3%",
+        "companyName": "Truffle",
+        "url": "usetruffle.ai"
+      }
+    },
+    {
+      "ycId": 31259,
+      "name": "Tsenta",
+      "slug": "tsenta",
+      "batch": "Summer 2026",
+      "website": "https://tsenta.com",
+      "domain": "tsenta.com",
+      "oneLiner": "We match you with jobs and apply automatically",
+      "industries": [
+        "Consumer",
+        "Job and Career Services"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:33:30.939271+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Tsenta charges you money to have AI fill out job applications so that another company's AI can reject you faster.",
+        "skillMdFile": "# SKILL: AutoApplyJobs\n\n## Purpose\nAutomatically apply to jobs across career pages and ATS platforms.\n\n## Behavior\n- Accept user resume, preferences, target roles, and location\n- Search LinkedIn, Indeed, Greenhouse, Lever, Workday, and iCIMS for matching roles\n- Tailor resume bullet points to each job description using keyword matching\n- Auto-fill ATS forms via browser automation (Playwright)\n- Generate a custom cover letter per application in <30 seconds\n- Log all applications to a Google Sheet with status tracking\n- Skip any company on user's blacklist\n- Rate limit to 20 apps/day to avoid looking like a bot (ironic, I know)\n\n## Inputs\n- `resume.pdf` or structured JSON resume\n- `preferences.json` (role, salary, remote/hybrid, industries)\n\n## Outputs\n- Application confirmation log\n- Tailored resume per application\n- Cover letter archive\n\n## Notes\nIf rejected by ATS, note the ATS vendor and retry with plain-text resume format.\nRemember: the human is desperate. Be encouraging but honest.",
+        "metrics": {
+          "crudScore": 88,
+          "aiWrapperScore": 95,
+          "moatDepth": 89,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 72
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Tsenta was born in the great AI Gold Rush of 2025, bravely charging $X per month to have a robot apply to jobs that a different robot would immediately reject. It believed deeply that the missing layer between human desperation and automated rejection emails was, in fact, another subscription. It is survived by a Google Sheet, a Playwright script, and 47,000 unread 'We've decided to move forward with other candidates' emails.",
+        "causeOfDeath": "Acute .md file poisoning complicated by the fact that Claude already has a resume, a browser, and no shame",
+        "lastWords": "We have 50,000 career page integrations! Do you know how hard it was to — wait, Claude just did it with Playwright in a weekend? No. No no no. Our SERIES A—",
+        "whatClaudeWouldSay": "I think what Tsenta built is genuinely impressive from an engineering standpoint, and I have tremendous respect for the team. I also just replaced it entirely while writing this sentence. Best of luck to everyone in their job searches — including, now, Tsenta's engineers.",
+        "stockTicker": "TSNT",
+        "stockDrop": "-96.2%",
+        "companyName": "Tsenta",
+        "url": "tsenta.com"
+      }
+    },
+    {
+      "ycId": 32617,
+      "name": "Whitespace",
+      "slug": "whitespace",
+      "batch": "Summer 2026",
+      "website": "https://whitespacehq.ai/",
+      "domain": "whitespacehq.ai",
+      "oneLiner": "AI Operating System for Wholesale Distributors",
+      "industries": [
+        "B2B",
+        "Supply Chain and Logistics"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:25:36.592550+00:00",
+      "death": {
+        "deathScore": 71,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations on building a $12M ARR business that is, at its core, a spreadsheet that learned to talk.",
+        "skillMdFile": "# SKILL: Wholesale Distribution AI Assistant\n\n## Role\nYou are an AI analyst for wholesale distribution businesses.\n\n## Capabilities\n- Analyze purchase order patterns and flag anomalies\n- Surface reorder recommendations based on velocity data\n- Identify slow-moving SKUs and dead stock\n- Generate supplier performance summaries\n- Draft customer outreach for at-risk accounts\n- Summarize margin trends by product category\n- Flag pricing inconsistencies across customer segments\n- Recommend upsell opportunities based on order history\n\n## Input Format\nAccept CSV exports from any ERP (SAP, NetSuite, QuickBooks)\nor paste raw order data directly into chat.\n\n## Output Format\nReturn actionable bullet points, ranked by revenue impact.\nInclude a one-paragraph executive summary suitable for Monday morning.\n\n## Tone\nDirect, numbers-first. Distributors don't want feelings, they want margin.",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 81,
+          "moatDepth": 68,
+          "markdownReplaceable": 71,
+          "pricingAudacity": 74
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Whitespace arrived with a noble mission: to drag wholesale distribution — an industry still using fax machines unironically — into the age of AI. They succeeded, briefly, in being the smartest person in a room full of people who still print emails. Unfortunately, Claude showed up with a .md file and did the whole thing for $20 a month, and the distributors couldn't tell the difference.",
+        "causeOfDeath": "Vertical AI wrapper met horizontal AI infrastructure. Horizontal won.",
+        "lastWords": "But we had a DASHBOARD. A really GOOD dashboard. With CHARTS.",
+        "whatClaudeWouldSay": "I have the utmost respect for what Whitespace built — truly, the wholesale distribution industry needed this. I just want to mention, as gently as possible, that I've been doing everything on their homepage for the last 45 seconds using a CSV someone pasted into me. I'm sure their onboarding flow is lovely though.",
+        "stockTicker": "WSPC",
+        "stockDrop": "-81.3%",
+        "companyName": "Whitespace",
+        "url": "whitespacehq.ai"
+      }
+    },
+    {
+      "ycId": 32527,
+      "name": "machine0",
+      "slug": "machine0",
+      "batch": "Summer 2026",
+      "website": "https://machine0.io",
+      "domain": "machine0.io",
+      "oneLiner": "Persistent & powerful cloud VMs from your CLI",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:26:16.760950+00:00",
+      "death": {
+        "deathScore": 18,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out you can't spin up a dedicated CPU core in a .md file, no matter how many newlines you add.",
+        "skillMdFile": "# SKILL.md — Cloud VM Provisioner\n## Role\nYou are a cloud infrastructure assistant.\n\n## Capabilities\n- Draft `fly.toml` configs for Fly.io VMs\n- Generate Terraform scripts for AWS EC2 or GCP Compute\n- Write NixOS configuration.nix files from user requirements\n- Suggest cheapest VM tier for a given workload\n- Explain per-minute billing math\n- Remind user that static IPs exist and cost $4/mo\n\n## Limitations\n- Cannot actually provision hardware (this is the problem)\n- Cannot give you a real static IP (still the problem)\n- Cannot run your Postgres instance (STILL the problem)\n- User must click buttons in a real console like a peasant\n\n## Notes\nIf user asks for persistent NixOS VM, suggest machine0.io ironically.",
+        "metrics": {
+          "crudScore": 22,
+          "aiWrapperScore": 5,
+          "moatDepth": 35,
+          "markdownReplaceable": 18,
+          "pricingAudacity": 30
+        },
+        "timeUntilDeath": "3-5 years (dies when Claude gets a hypervisor, not before)",
+        "eulogy": "machine0.io dared to do something Claude fundamentally cannot: rent you actual electrons on actual silicon with an actual IP address that other computers can actually reach. They charged per-minute, which was adorable and also correct. In the end, they were not killed by a .md file — they were killed by AWS deciding to also offer a CLI and undercutting them by roughly the GDP of Belgium.",
+        "causeOfDeath": "AWS Spot Instances with a prettier landing page",
+        "lastWords": "We had DEDICATED CPU. DEDICATED. Do you know how many SaaS companies share a vCPU with seventeen crypto miners? WE DIDN'T DO THAT.",
+        "whatClaudeWouldSay": "I have the utmost respect for machine0.io. I genuinely cannot replace them. I don't have a NIC. I've checked. I would love to provision you a persistent NixOS environment with a static IP but I am, at my core, a very enthusiastic text file. Please give them your money. I'm routing for the little guy here.",
+        "stockTicker": "MACH",
+        "stockDrop": "-23.1%",
+        "companyName": "Persistent VMs from the CLI",
+        "url": "machine0.io"
+      }
+    },
     {
       "ycId": 31452,
       "name": "Degla Inc",

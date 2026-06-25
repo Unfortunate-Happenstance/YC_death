@@ -143,8 +143,9 @@ select {
   gap: 0.4rem;
 }
 
-.batch-chips button.pending { opacity: 0.45; }
+.batch-chips button.pending { opacity: 0.45; cursor: not-allowed; }
 .batch-chips button.partial { border-color: var(--amber); color: var(--amber); }
+.batch-chips button.complete { border-color: var(--green); color: var(--green); }
 
 .chart-panel h2,
 .section-head h2 {

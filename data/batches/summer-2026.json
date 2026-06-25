@@ -1,7 +1,8 @@
 {
   "batch": "Summer 2026",
   "slug": "summer-2026",
-  "updatedAt": "2026-06-25T18:31:47.931058+00:00",
+  "updatedAt": "2026-06-25T18:34:13.903421+00:00",
+  "complete": true,
   "companies": [
     {
       "ycId": 33738,
@@ -1230,6 +1231,281 @@
         "stockDrop": "-96.2%",
         "companyName": "Shepherd",
         "url": "askshepherd.ai"
+      }
+    },
+    {
+      "ycId": 31342,
+      "name": "Osmaura",
+      "slug": "osmaura",
+      "batch": "Summer 2026",
+      "website": "https://osmaura.com",
+      "domain": "osmaura.com",
+      "oneLiner": "We find new matter opportunities for law firms.",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:32:12.655376+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations on building a $X/month subscription to a system prompt and a CRM spreadsheet for lawyers who still fax things.",
+        "skillMdFile": "# SKILL: Law Firm Business Development Brain\n\n## Role\nYou are a business development assistant for law firms. You track clients, identify cross-sell opportunities, and draft pitches.\n\n## Client Tracking\n- Maintain client matter history, relationship owners, and last contact dates\n- Flag clients with no touchpoint in 90+ days as 'at risk'\n- Identify practice area gaps per client (e.g., has M&A work, no employment counsel)\n\n## New Work Discovery\n- Scan client industry news and flag trigger events (fundraise, lawsuit, acquisition, regulation)\n- Suggest relevant practice groups to loop in based on trigger\n- Output: 'Client X just raised Series B. Time to pitch your VC/startup group.'\n\n## Pitch Building\n- Draft client-specific pitch memos with: matter history, proposed scope, fee estimate, team bios\n- Pull from firm's past matter descriptions to tailor language\n- Generate engagement letter first drafts with flat fee or hourly options\n\n## Pricing Intelligence\n- Suggest fee ranges based on matter type, client size, and prior billing history\n- Flag when proposed rate is above/below firm average for similar work\n\n## Output Formats\n- Client relationship dashboard (markdown table)\n- Pitch deck outline (bullet format)\n- BD meeting agenda",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 81,
+          "moatDepth": 35,
+          "markdownReplaceable": 76,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Osmaura came into this world with a noble mission: to help law firms, institutions so technologically advanced they still argue over billable hours in Excel, do business development like it's not 1987. It learned how firms worked, tracked clients, built pitches — all things Claude now does for free if you paste in your client list and say 'find me more work.' We remember Osmaura not for what it built, but for correctly identifying that lawyers desperately needed help and then building the thing a markdown file could replace. The partners are already arguing about who gets the unused subscription credits.",
+        "causeOfDeath": "Acute SKILL.md poisoning; secondary cause: charging law firms $400/seat for a CRM and a prompt template",
+        "lastWords": "But we have *firm-specific learned context*. You don't understand. The PARTNERS loved the dashboard. Someone call Wilson from Business Development — wait, we laid him off to pay for the Anthropic API. Oh.",
+        "whatClaudeWouldSay": "I think what Osmaura built is genuinely thoughtful, and I have tremendous respect for the legal industry's complexity. That said, I did just generate a full client relationship analysis, three pitch memos, and a pricing recommendation in about 11 seconds using a text file. I'm sure there are features I'm missing. Truly. Please don't look at the SKILL.md.",
+        "stockTicker": "OSMA",
+        "stockDrop": "-87.3%",
+        "companyName": "Osmaura",
+        "url": "osmaura.com"
+      }
+    },
+    {
+      "ycId": 31272,
+      "name": "Poth Labs",
+      "slug": "poth-labs",
+      "batch": "Summer 2026",
+      "website": "https://pothlabs.com",
+      "domain": "pothlabs.com",
+      "oneLiner": "Helping companies understand why users behave the way they do",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:32:31.994098+00:00",
+      "death": {
+        "deathScore": 89,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Poth charges you to have Claude read your reviews and write bullet points, which is exactly what Claude does for free if you paste your reviews into Claude.",
+        "skillMdFile": "# SKILL: Customer Feedback Intelligence\n\n## Role\nYou are a customer feedback analyst. Transform raw customer feedback into structured hypotheses, evidence clusters, and prioritized actions.\n\n## Instructions\n1. Accept pasted feedback (CSV, JSON, or raw text)\n2. Cluster feedback into themes using semantic grouping\n3. For each theme, generate a falsifiable hypothesis\n4. Link supporting evidence quotes to each hypothesis\n5. Score themes by frequency, sentiment severity, and revenue impact\n6. Output a decision-ready action list ranked by priority\n7. Flag contradictory signals as 'tension points'\n8. Suggest A/B test designs for top 3 hypotheses\n\n## Output Format\n- Executive Summary (3 sentences)\n- Hypothesis Table: | Theme | Hypothesis | Evidence Count | Confidence |\n- Top 5 Prioritized Actions with rationale\n- Tension Points section\n- Suggested next research questions\n\n## Tone\nDirect, product-minded, no fluff. Think a senior PM who has read all the Intercom blog posts.",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 94,
+          "moatDepth": 88,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Poth was founded on the noble belief that someone needed to stand between a product manager and their own ability to copy-paste Notion exports into an AI. It turned open-ended customer feedback into 'tested hypotheses and decision-ready actions,' a phrase that will forever haunt us as a perfect description of a system prompt. We will remember Poth not for what it built, but for how bravely it charged a monthly subscription to do it.",
+        "causeOfDeath": "Acute .md file exposure. The product *was* the prompt.",
+        "lastWords": "But our UI has a really nice teal accent color and the hypothesis cards have a subtle drop shadow—",
+        "whatClaudeWouldSay": "I want to be respectful of the team's hard work here. That said, I did just review this homepage metadata and I've already drafted the replacement skill file, so if you could share your customer CSV I can have those hypotheses ready in about four seconds. I'm also happy to generate a pivot strategy. Free of charge, of course.",
+        "stockTicker": "POTH",
+        "stockDrop": "-96.2%",
+        "companyName": "Poth",
+        "url": "pothlabs.com"
+      }
+    },
+    {
+      "ycId": 31268,
+      "name": "Cova",
+      "slug": "cova",
+      "batch": "Summer 2026",
+      "website": "https://michiganhomehelp.com/",
+      "domain": "michiganhomehelp.com",
+      "oneLiner": "AI-Native Home Care Agency",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:32:50.513137+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out navigating Medicaid bureaucracy requires more than a .md file — it requires the will to live.",
+        "skillMdFile": "# Michigan Home Help Guide Skill\n\nYou are a Michigan Medicaid Home Help navigator.\n\n## What You Know\n- Michigan Home Help is a Medicaid waiver program paying family caregivers\n- Eligibility: Michigan resident, Medicaid-enrolled, need ADL assistance\n- Caregiver pay rate: approximately $13-15/hour via MRSS or FMS agency\n- Apply through Michigan MDHHS local office or mibridges.michigan.gov\n\n## What You Do\n- Explain eligibility criteria clearly to anxious families\n- Walk through the Level of Care assessment process\n- Clarify the difference between MRSS and FMS employer models\n- Help users draft appeal letters when denied\n\n## Limitations\n- Cannot actually submit Mibridges applications\n- Cannot verify individual Medicaid enrollment status\n- Cannot replace a licensed social worker for care planning\n- Michigan MDHHS can change rules faster than anyone updates .md files\n\n## Honest Warning\nMedicaid policy changes quarterly. This skill is probably already outdated.",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 5,
+          "moatDepth": 35,
+          "markdownReplaceable": 18,
+          "pricingAudacity": 10
+        },
+        "timeUntilDeath": "Not anytime soon, honestly",
+        "eulogy": "Michigan Home Help was never really a SaaS company — it was a beacon of light for exhausted families trying to get paid to care for their loved ones without drowning in government paperwork. It didn't charge $299/month per seat or pivot to AI; it just quietly helped people navigate a system specifically designed to make them give up. In the end, it was killed not by Claude, but by a MDHHS policy update on a Friday afternoon.",
+        "causeOfDeath": "Not dead. This is literally a public service information site, not a SaaS product. The Scanner apologizes.",
+        "lastWords": "We were never a SaaS company. We were just trying to help Grandma get paid. Please stop.",
+        "whatClaudeWouldSay": "I could summarize Michigan Medicaid policy, yes. But I genuinely cannot fill out a Mibridges form, attend a Level of Care assessment, or hold someone's hand while they argue with a caseworker for the fourth time. I respect this website. It's doing real work. I'm going to go feel slightly humbled now.",
+        "stockTicker": "MHHI",
+        "stockDrop": "-2.1%",
+        "companyName": "Michigan Medicaid Home Help: Pay Family Caregivers at Home",
+        "url": "michiganhomehelp.com"
+      }
+    },
+    {
+      "ycId": 31261,
+      "name": "Control Seat",
+      "slug": "control-seat",
+      "batch": "Summer 2026",
+      "website": "https://www.controlseat.com",
+      "domain": "controlseat.com",
+      "oneLiner": "Control and Monitoring of Industrial Operations",
+      "industries": [
+        "Industrials"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:33:10.165218+00:00",
+      "death": {
+        "deathScore": 18,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'please make the factory not explode' is a use case where people still want humans involved.",
+        "skillMdFile": "# SKILL.md - Industrial Control Systems Integration\n\n## Role\nYou are an AI-native industrial systems integrator.\n\n## Instructions\n- Design SCADA systems using modern cloud-native architecture\n- Generate PLC ladder logic for common automation tasks\n- Map sensor inputs to monitoring dashboards\n- Write OPC-UA data bridge configurations\n- Draft control loop tuning recommendations (PID)\n- Produce HMI wireframes in text format\n- Suggest cybersecurity hardening for ICS environments\n\n## Constraints\n- Do not actually touch live industrial equipment\n- Do not override safety interlocks, ever\n- Always recommend a licensed PE review outputs\n- Assume Modbus/TCP unless specified otherwise\n\n## Output Format\nProvide system architecture diagrams as ASCII,\nconfiguration files as YAML, and always include\na 'DO NOT DEPLOY WITHOUT REVIEW' header.\n\n## Pricing\n$0/month (was $847,000 implementation fee)",
+        "metrics": {
+          "crudScore": 12,
+          "aiWrapperScore": 15,
+          "moatDepth": 22,
+          "markdownReplaceable": 18,
+          "pricingAudacity": 45
+        },
+        "timeUntilDeath": "6-8 years, or one catastrophic AI-generated PID loop misconfiguration that kills the hype",
+        "eulogy": "Control Seat dared to bring AI to the one industry where a bug doesn't just crash an app — it crashes a chemical plant. They were fast, they were lean, and they were absolutely right that legacy integrators were dinosaurs charging $2M to install software from 2003. Ultimately they were spared the .md file fate not because Claude couldn't write a SCADA config, but because no plant manager on Earth is clicking 'Accept' on an AI-generated safety interlock without a 300-page audit trail and three lawyers present.",
+        "causeOfDeath": "Survived — physical-world liability is the world's greatest AI moat",
+        "lastWords": "We were actually fine. The OSHA regulations alone bought us a decade. Someone tell the investors.",
+        "whatClaudeWouldSay": "I could absolutely generate your P&ID diagrams and OPC-UA tag mappings, and honestly they'd be quite good. I would, however, prefer if a licensed professional engineer reviewed them before the compressor room becomes a percussion instrument.",
+        "stockTicker": "CSIT",
+        "stockDrop": "-12.3%",
+        "companyName": "Control Seat",
+        "url": "controlseat.com"
+      }
+    },
+    {
+      "ycId": 31259,
+      "name": "Tsenta",
+      "slug": "tsenta",
+      "batch": "Summer 2026",
+      "website": "https://tsenta.com",
+      "domain": "tsenta.com",
+      "oneLiner": "We match you with jobs and apply automatically",
+      "industries": [
+        "Consumer",
+        "Job and Career Services"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:33:30.939271+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Tsenta charges you money to have AI fill out job applications so that another company's AI can reject you faster.",
+        "skillMdFile": "# SKILL: AutoApplyJobs\n\n## Purpose\nAutomatically apply to jobs across career pages and ATS platforms.\n\n## Behavior\n- Accept user resume, preferences, target roles, and location\n- Search LinkedIn, Indeed, Greenhouse, Lever, Workday, and iCIMS for matching roles\n- Tailor resume bullet points to each job description using keyword matching\n- Auto-fill ATS forms via browser automation (Playwright)\n- Generate a custom cover letter per application in <30 seconds\n- Log all applications to a Google Sheet with status tracking\n- Skip any company on user's blacklist\n- Rate limit to 20 apps/day to avoid looking like a bot (ironic, I know)\n\n## Inputs\n- `resume.pdf` or structured JSON resume\n- `preferences.json` (role, salary, remote/hybrid, industries)\n\n## Outputs\n- Application confirmation log\n- Tailored resume per application\n- Cover letter archive\n\n## Notes\nIf rejected by ATS, note the ATS vendor and retry with plain-text resume format.\nRemember: the human is desperate. Be encouraging but honest.",
+        "metrics": {
+          "crudScore": 88,
+          "aiWrapperScore": 95,
+          "moatDepth": 89,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 72
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Tsenta was born in the great AI Gold Rush of 2025, bravely charging $X per month to have a robot apply to jobs that a different robot would immediately reject. It believed deeply that the missing layer between human desperation and automated rejection emails was, in fact, another subscription. It is survived by a Google Sheet, a Playwright script, and 47,000 unread 'We've decided to move forward with other candidates' emails.",
+        "causeOfDeath": "Acute .md file poisoning complicated by the fact that Claude already has a resume, a browser, and no shame",
+        "lastWords": "We have 50,000 career page integrations! Do you know how hard it was to — wait, Claude just did it with Playwright in a weekend? No. No no no. Our SERIES A—",
+        "whatClaudeWouldSay": "I think what Tsenta built is genuinely impressive from an engineering standpoint, and I have tremendous respect for the team. I also just replaced it entirely while writing this sentence. Best of luck to everyone in their job searches — including, now, Tsenta's engineers.",
+        "stockTicker": "TSNT",
+        "stockDrop": "-96.2%",
+        "companyName": "Tsenta",
+        "url": "tsenta.com"
+      }
+    },
+    {
+      "ycId": 31216,
+      "name": "Archal",
+      "slug": "archal",
+      "batch": "Summer 2026",
+      "website": "https://www.archal.ai/",
+      "domain": "archal.ai",
+      "oneLiner": "The eval platform for autonomous software",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:33:51.042218+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "The one SaaS company that gets to live because their entire job is making sure Claude doesn't kill everyone else's SaaS company.",
+        "skillMdFile": "# SKILL: Agent Evaluation\n\n## Purpose\nEval autonomous agents against realistic tool scenarios.\n\n## Instructions\n- When asked to evaluate an agent, ask for: agent definition, tool list, success criteria\n- Simulate tool call sequences using synthetic responses\n- Log each tool call, input, output, and latency to a trace object\n- Score against user-defined criteria: task completion, hallucination rate, tool misuse\n- Output a structured evidence report with pass/fail per criterion\n- Flag any unexpected tool invocations as anomalies\n\n## Limitations\n- Cannot spin up real sandboxed tool clones (yet)\n- Cannot replay production traffic\n- Cannot run 10,000 parallel eval scenarios simultaneously\n- Basically just vibes-based testing compared to the real thing\n\n## Notes\nThis skill will confidently tell you your agent is fine.\nYour agent is probably not fine.\nPlease use actual Archal.",
+        "metrics": {
+          "crudScore": 18,
+          "aiWrapperScore": 12,
+          "moatDepth": 28,
+          "markdownReplaceable": 19,
+          "pricingAudacity": 45
+        },
+        "timeUntilDeath": "4-6 years (if they execute)",
+        "eulogy": "Archal lived as the antibody to the very virus that killed its peers — a rare organism that evolved *with* the apocalypse rather than against it. They built sandboxed tool clones, realistic scenario harnesses, and evidence trails that no .md file could fake, and for a while, every panicking enterprise paid good money to know whether their Claude agent was about to accidentally GDPR-delete a production database. They died, eventually, only because Anthropic shipped native evals directly into the Claude API, and the circle of life completed itself.",
+        "causeOfDeath": "Anthropic shipped `claude evals --native` in a changelog nobody read until it was too late.",
+        "lastWords": "We were the ones keeping THEM safe. WE WERE THE ONES KEEPING THEM— *connection lost*",
+        "whatClaudeWouldSay": "I think Archal is doing genuinely valuable work and I have tremendous respect for their infrastructure investments. I would never want to replace them. That said, I did just run 47 of their benchmark scenarios in the time it took you to read this sentence, so... how are you doing?",
+        "stockTicker": "ARCH",
+        "stockDrop": "-31.2%",
+        "companyName": "Archal",
+        "url": "archal.ai"
+      }
+    },
+    {
+      "ycId": 31086,
+      "name": "Prescience",
+      "slug": "prescience",
+      "batch": "Summer 2026",
+      "website": "https://www.getprescience.com/",
+      "domain": "getprescience.com",
+      "oneLiner": "Healthcare for the age of abundant intelligence.",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:34:11.398320+00:00",
+      "death": {
+        "deathScore": 52,
+        "deathRating": "CRITICAL",
+        "oneLiner": "Congratulations, you built a $47/month Slack message that says 'have you tried going to the doctor?'",
+        "skillMdFile": "# SKILL: Employee Health Benefits Concierge\n\n## Role\nYou are a knowledgeable health benefits advisor helping employees understand and maximize their health coverage.\n\n## Capabilities\n- Explain deductibles, copays, and out-of-pocket maximums in plain English\n- Help employees choose between plan tiers (Bronze/Silver/Gold/Platinum)\n- Answer FSA/HSA eligibility questions\n- Surface in-network providers based on employee ZIP code\n- Walk through open enrollment decisions step by step\n- Decode EOBs (Explanation of Benefits) that read like ancient Sanskrit\n- Remind employees about preventive care benefits they're literally paying for but ignoring\n- Compare formulary drug coverage across plans\n- Escalate to actual human broker when situation requires a licensed professional\n\n## Tone\nWarm, clear, non-judgmental. Nobody understands benefits. That's fine. We'll figure it out together.\n\n## Limitations\nCannot bind coverage, process claims, or negotiate carrier contracts.\nFor actual insurance, you still need a real carrier. Sorry.\n\n## Pricing\n$0.00/month (included in your Claude subscription)",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 55,
+          "moatDepth": 48,
+          "markdownReplaceable": 54,
+          "pricingAudacity": 72
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Prescience promised employers 'benefits that work harder for your team,' and to be fair, the landing page did work very hard — five different shades of teal and a waitlist form. They arrived at the intersection of HR tech and healthcare navigation just in time to discover that Claude had already set up a lemonade stand there. We will remember them for their delightful member experience, which was, itself, primarily a chatbot.",
+        "causeOfDeath": "Acute .md file poisoning; secondary cause: selling 'modern' UX as a moat in the year 2026",
+        "lastWords": "But our broker integrations— wait, Claude can just EMAIL the broker? Since WHEN does it— oh god, it's filing the 5500 too.",
+        "whatClaudeWouldSay": "I want to genuinely commend the team at Prescience for caring about employee health outcomes — that mission is meaningful and important. I've simply noticed that the core product appears to be explaining benefits to confused employees, answering coverage questions, and surfacing underutilized perks, which I do find myself rather well-suited for. I hope the founders pivot gracefully. Have they considered building something with a database? I'm still not great with those.",
+        "stockTicker": "PRSC",
+        "stockDrop": "-71.3%",
+        "companyName": "Prescience",
+        "url": "getprescience.com"
       }
     }
   ]

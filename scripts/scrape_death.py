@@ -137,6 +137,7 @@ def scrape_batch(batch: str, force: bool = False) -> None:
         save_json(progress_path, progress)
         save_json(ISSUES_DIR / "api_failed.json", api_failed)
         save_json(ISSUES_DIR / "api_garbage.json", api_garbage)
+        merge_all()
         time.sleep(SCRAPE_DELAY_SECONDS)
 
     save_json(out_path, {

@@ -87,16 +87,16 @@
     "spring-2026": {
       "batch": "Spring 2026",
       "expected": 197,
-      "scraped": 0,
+      "scraped": 1,
       "complete": false,
-      "updatedAt": null
+      "updatedAt": "2026-06-25T18:34:29.649551+00:00"
     },
     "summer-2026": {
       "batch": "Summer 2026",
       "expected": 38,
-      "scraped": 0,
-      "complete": false,
-      "updatedAt": null
+      "scraped": 38,
+      "complete": true,
+      "updatedAt": "2026-06-25T18:34:13.903421+00:00"
     },
     "fall-2026": {
       "batch": "Fall 2026",
@@ -113,5 +113,5 @@
       "updatedAt": "2026-06-25T18:22:03.217051+00:00"
     }
   },
-  "generatedAt": "2026-06-25T18:22:03.269356+00:00"
+  "generatedAt": "2026-06-25T18:34:39.922470+00:00"
 }

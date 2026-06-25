@@ -111,29 +111,52 @@ function renderMetricSelect() {
   };
 }
 
+function batchSlug(batch) {
+  return batch.toLowerCase().replace(" ", "-");
+}
+
+function scrapedCountForBatch(batch) {
+  return (dashboard.companies || []).filter(
+    (c) => c.batch === batch && c.scrapeStatus === "ok"
+  ).length;
+}
+
+function batchesWithData() {
+  return new Set(
+    (dashboard.companies || [])
+      .filter((c) => c.scrapeStatus === "ok")
+      .map((c) => c.batch)
+  );
+}
+
 function renderBatchChips() {
   const wrap = document.getElementById("batch-chips");
   wrap.innerHTML = "";
   const batches = sortBatches(dashboard.batches || []);
   const manifest = dashboard.manifest?.batches || {};
+  const withData = batchesWithData();
+
+  if (!selectedBatches.size) {
+    withData.forEach((b) => selectedBatches.add(b));
+  }
 
   for (const batch of batches) {
-    const slug = batch.toLowerCase().replace(" ", "-");
+    const slug = batchSlug(batch);
     const info = manifest[slug] || {};
+    const count = scrapedCountForBatch(batch);
+    const hasData = count > 0;
     const btn = document.createElement("button");
-    btn.textContent = batch;
+    btn.textContent = hasData ? `${batch} (${count})` : batch;
     btn.dataset.batch = batch;
-    if (info.complete) btn.classList.add("active");
-    else if (info.scraped > 0) btn.classList.add("partial");
+
+    if (info.complete) btn.classList.add("complete");
+    else if (hasData) btn.classList.add("partial");
     else btn.classList.add("pending");
 
-    if (selectedBatches.has(batch) || (!selectedBatches.size && info.scraped > 0)) {
-      btn.classList.add("active");
-      selectedBatches.add(batch);
-    }
+    if (selectedBatches.has(batch)) btn.classList.add("active");
 
     btn.onclick = () => {
-      if (btn.classList.contains("pending")) return;
+      if (!hasData) return;
       if (selectedBatches.has(batch)) {
         selectedBatches.delete(batch);
         btn.classList.remove("active");
@@ -142,10 +165,7 @@ function renderBatchChips() {
         btn.classList.add("active");
       }
       if (!selectedBatches.size) {
-        for (const b of batches) {
-          const s = batch.toLowerCase().replace(" ", "-");
-          if ((manifest[s] || {}).scraped > 0) selectedBatches.add(b);
-        }
+        withData.forEach((b) => selectedBatches.add(b));
       }
       renderAll();
     };
@@ -358,7 +378,7 @@ function renderAll() {
 
 async function init() {
   try {
-    const resp = await fetch("data/dashboard.json");
+    const resp = await fetch(`data/dashboard.json?v=${Date.now()}`);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     dashboard = await resp.json();
     selectedBatches = new Set();
