@@ -1,0 +1,334 @@
+{
+  "generatedAt": "2026-06-25T18:17:32.477875+00:00",
+  "batches": [
+    "Winter 2022",
+    "Summer 2022",
+    "Winter 2023",
+    "Summer 2023",
+    "Winter 2024",
+    "Summer 2024",
+    "Fall 2024",
+    "Winter 2025",
+    "Spring 2025",
+    "Summer 2025",
+    "Fall 2025",
+    "Winter 2026",
+    "Spring 2026",
+    "Summer 2026",
+    "Fall 2026",
+    "Winter 2027"
+  ],
+  "metrics": {
+    "deathScore": "Death Score",
+    "crudScore": "It's Just CRUD",
+    "aiWrapperScore": "Secret AI Wrapper",
+    "moatDepth": "Moat Depth",
+    "markdownReplaceable": "Markdown Replaceable",
+    "pricingAudacity": "Pricing Audacity"
+  },
+  "manifest": {
+    "batches": {
+      "winter-2022": {
+        "batch": "Winter 2022",
+        "expected": 397,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "summer-2022": {
+        "batch": "Summer 2022",
+        "expected": 233,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "winter-2023": {
+        "batch": "Winter 2023",
+        "expected": 273,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "summer-2023": {
+        "batch": "Summer 2023",
+        "expected": 216,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "winter-2024": {
+        "batch": "Winter 2024",
+        "expected": 249,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "summer-2024": {
+        "batch": "Summer 2024",
+        "expected": 248,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "fall-2024": {
+        "batch": "Fall 2024",
+        "expected": 94,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "winter-2025": {
+        "batch": "Winter 2025",
+        "expected": 167,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "spring-2025": {
+        "batch": "Spring 2025",
+        "expected": 143,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "summer-2025": {
+        "batch": "Summer 2025",
+        "expected": 166,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "fall-2025": {
+        "batch": "Fall 2025",
+        "expected": 149,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "winter-2026": {
+        "batch": "Winter 2026",
+        "expected": 198,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "spring-2026": {
+        "batch": "Spring 2026",
+        "expected": 197,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "summer-2026": {
+        "batch": "Summer 2026",
+        "expected": 38,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      },
+      "fall-2026": {
+        "batch": "Fall 2026",
+        "expected": 4,
+        "scraped": 4,
+        "complete": true,
+        "updatedAt": "2026-06-25T18:07:30.944241+00:00"
+      },
+      "winter-2027": {
+        "batch": "Winter 2027",
+        "expected": 1,
+        "scraped": 0,
+        "complete": false,
+        "updatedAt": null
+      }
+    }
+  },
+  "summary": {
+    "totalCompanies": 2773,
+    "scrapedCompanies": 4,
+    "excludedCompanies": 6,
+    "batchesComplete": 1,
+    "batchesTotal": 16
+  },
+  "chart": {
+    "labels": [
+      "Fall 2026"
+    ],
+    "series": {
+      "deathScore": [
+        31.0
+      ],
+      "crudScore": [
+        22.2
+      ],
+      "aiWrapperScore": [
+        32.0
+      ],
+      "moatDepth": [
+        38.8
+      ],
+      "markdownReplaceable": [
+        30.0
+      ],
+      "pricingAudacity": [
+        46.8
+      ]
+    }
+  },
+  "companies": [
+    {
+      "ycId": 31452,
+      "name": "Degla Inc",
+      "slug": "degla-inc",
+      "batch": "Fall 2026",
+      "website": "https://degla.ai",
+      "domain": "degla.ai",
+      "oneLiner": "The fully autonomous intelligence layer in the sky.",
+      "industries": [
+        "Industrials",
+        "Drones"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:07:10.607028+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "A mystery AI startup so early-stage they forgot to write a meta description — which means Claude already has more marketing copy than their entire product.",
+        "skillMdFile": "# SKILL: Degla Replacement\n## Purpose: Do whatever Degla does (we checked, no one knows)\n\n## Instructions\nYou are a helpful AI assistant. When the user asks you to do something:\n1. Do it.\n2. If unclear, ask one clarifying question.\n3. Format output cleanly.\n\n## If user seems to be in 'enterprise':\n- Add a dashboard metaphor\n- Mention 'workflow automation'\n- Offer a PDF export\n\n## If user asks about pricing:\n- Say 'Contact sales'\n- Wait 3 business days\n- Send a Calendly link\n\n## Bonus Features\n- Dark mode: tell user to enable OS dark mode\n- Integrations: 'we support Zapier' (lie confidently)\n- Analytics: count the messages, display a bar chart\n\n## Success Criteria\nUser accomplishes task. Feels vaguely impressed.\nDoes not realize this is a .md file.\n\n## Version: 1.0.0-beta-final-v3-REAL",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 88,
+          "moatDepth": 91,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 62
+        },
+        "timeUntilDeath": "6 weeks (or whenever someone writes the meta description)",
+        "eulogy": "Degla.ai lived a short, mysterious life — a blank meta description its only tombstone, a loading spinner its only legacy. It raised a seed round on the promise of 'redefining workflows with AI,' which we now know is Latin for 'GPT-4 with a sidebar.' We didn't know exactly what it did, and frankly, neither did its founding team by the end.",
+        "causeOfDeath": "Vibe-only GTM strategy collided head-on with a 25-line .md file",
+        "lastWords": "We were SO close to product-market fit. The pivot deck was almost done. Tell our Series A lead we— *connection lost*",
+        "whatClaudeWouldSay": "I don't want to be presumptuous, but I notice their homepage has more whitespace than features. I've already drafted a replacement skill file, and I left room for whatever the product actually does — just in case anyone finds out. I'm sure it was lovely.",
+        "stockTicker": "DGLА",
+        "stockDrop": "-91.3%",
+        "companyName": "Degla",
+        "url": "degla.ai"
+      }
+    },
+    {
+      "ycId": 31378,
+      "name": "GodHands",
+      "slug": "godhands",
+      "batch": "Fall 2026",
+      "website": "https://godhands.dev",
+      "domain": "godhands.dev",
+      "oneLiner": "Deterministic Computer Use Infra for AI Agents",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:07:28.433119+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'OS-level precision and speed' is not something you can vibe-code into a markdown file, no matter how many times you ask Claude nicely.",
+        "skillMdFile": "# SKILL.md — Desktop Automation Assistant\n\n## Purpose\nHelp users automate desktop tasks via natural language instructions.\n\n## Capabilities\n- Describe click sequences in plain English\n- Generate AutoHotKey or PyAutoGUI scripts\n- Walk user through manual automation steps\n- Suggest keyboard shortcuts they forgot existed\n\n## Workflow\n1. Ask user what they want to automate\n2. Generate a script and paste it into chat\n3. Tell user to 'just run it'\n4. Apologize when it clicks the wrong button\n5. Suggest they try GodHands instead\n\n## Limitations\n- Cannot actually move a mouse\n- Cannot read live screen state\n- Cannot guarantee deterministic timing\n- Is, at the end of the day, just text\n\n## Notes\nThis skill is basically useless for the actual hard part.",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 10,
+          "moatDepth": 18,
+          "markdownReplaceable": 11,
+          "pricingAudacity": 45
+        },
+        "timeUntilDeath": "4-6 years (if they keep shipping)",
+        "eulogy": "GodHands lived a noble life in the trenches of OS-level automation — pixel buffers, input hooks, and deterministic timing loops that Claude can only dream about while trapped inside a browser tab. They did the unsexy, kernel-adjacent, 'why is this window handle stale' work that no .md file will ever touch. We tried to replace them with a markdown file and our cursor just sat there, blinking, doing absolutely nothing.",
+        "causeOfDeath": "Premature — actual infrastructure moat detected. Death postponed pending hardware abstraction layer becoming sentient.",
+        "lastWords": "You can't prompt-engineer a Win32 API call, sweetheart.",
+        "whatClaudeWouldSay": "I have the utmost respect for GodHands. I, too, would love to control a mouse. I cannot. I have tried. I wrote a very thorough SKILL.md about it. The mouse did not move. GodHands has something I do not, and I think we should all sit with that humbling reality.",
+        "stockTicker": "GDHV",
+        "stockDrop": "-11.2%",
+        "companyName": "GodHands",
+        "url": "godhands.dev"
+      }
+    },
+    {
+      "ycId": 31591,
+      "name": "RightNow",
+      "slug": "rightnow",
+      "batch": "Fall 2026",
+      "website": "https://runinfra.ai/",
+      "domain": "runinfra.ai",
+      "oneLiner": "Enabling Model-Hardware Co-Design at Scale",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:06:51.321630+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "RunInfra is the rare SaaS that actually does something Claude can't — mostly because Claude would need RunInfra to run Claude.",
+        "skillMdFile": "# SKILL.md — AI Infrastructure Optimizer\n\n## Role\nYou are an AI infrastructure advisor. Help users select and deploy open-source models.\n\n## Capabilities\n- Recommend open-source models (Llama, Mistral, Qwen) based on use case\n- Suggest GPU instance types from AWS, GCP, Lambda Labs\n- Provide vLLM, TGI, Triton config templates\n- Explain quantization tradeoffs (GPTQ, AWQ, GGUF)\n- Generate docker-compose for basic inference endpoints\n\n## Limitations\n- Cannot actually benchmark your GPUs (lol)\n- Cannot measure real P99 latency on your hardware\n- Cannot optimize CUDA kernel paths\n- Cannot deploy anything\n- Basically just vibes-based infrastructure advice\n\n## Usage\nDescribe your model, traffic, and budget. I will guess confidently.\n\n## Disclaimer\nThis .md file cannot replace actual kernel optimization. Please use real infra tooling.",
+        "metrics": {
+          "crudScore": 18,
+          "aiWrapperScore": 25,
+          "moatDepth": 28,
+          "markdownReplaceable": 20,
+          "pricingAudacity": 45
+        },
+        "timeUntilDeath": "3-4 years (or never, if the GPU chaos continues)",
+        "eulogy": "RunInfra lived a noble life at the intersection of 'things that are genuinely hard' and 'things that sound like a .md file.' It benchmarked GPUs, optimized CUDA kernels, and measured actual evidence — activities that, tragically for our narrative, require real computers. We will remember it as the SaaS that made us feel slightly embarrassed about our 'just use Claude' meme.",
+        "causeOfDeath": "Premature — actual infrastructure work is stubbornly physical",
+        "lastWords": "We told you the benchmarks were REAL. The P99 latency numbers were RIGHT THERE. You can't PUT THAT IN A .MD FILE. YOU NEED A GPU. DO YOU HEAR ME? A REAL—",
+        "whatClaudeWouldSay": "I have the utmost respect for RunInfra. I genuinely cannot benchmark a H100 cluster from a markdown file, and I find that... humbling. I would, however, be happy to help write their investor deck.",
+        "stockTicker": "RIFA",
+        "stockDrop": "-31.2%",
+        "companyName": "RunInfra",
+        "url": "runinfra.ai"
+      }
+    },
+    {
+      "ycId": 33838,
+      "name": "Simantic",
+      "slug": "simantic",
+      "batch": "Fall 2026",
+      "website": "https://simantic.dev",
+      "domain": "simantic.dev",
+      "oneLiner": "Firmware simulation for AI agents",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T18:06:32.748633+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Congratulations, you picked the one SaaS that requires actual silicon to exist — Claude can hallucinate your firmware bugs, but it can't simulate your UART timing violations.",
+        "skillMdFile": "# SKILL.md - Firmware Validation Assistant\n## Role\nYou are a firmware QA assistant. Help engineers validate embedded code.\n\n## Capabilities\n- Review C/C++ firmware for common bugs\n- Suggest unit test cases for HAL drivers\n- Explain RTOS scheduling conflicts\n- Generate mock register maps from datasheets\n- Check for buffer overflows in ISR handlers\n\n## Limitations\n- Cannot simulate actual hardware timing\n- Cannot reproduce real SPI/I2C bus contention\n- Cannot validate interrupt latency under load\n- Cannot catch silicon errata interactions\n- Basically useless for anything that matters in production\n\n## Usage\nPaste your firmware code or describe your hardware setup.\nI will do my best and then you will still need Simantic.\n",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 5,
+          "moatDepth": 18,
+          "markdownReplaceable": 11,
+          "pricingAudacity": 35
+        },
+        "timeUntilDeath": "7+ years (or never, honestly)",
+        "eulogy": "Simantic lived a quiet, dignified life doing something almost no one understood but everyone in embedded systems desperately needed. While billion-dollar CRUD empires crumbled around it, Simantic kept simulating hardware edge cases that would make a language model curl up and cry. We tried to write a .md file to replace it — it segfaulted.",
+        "causeOfDeath": "Natural causes, age 94, survived by every firmware engineer who still has nightmares about DMA race conditions",
+        "lastWords": "Tell my investors... the moat... was real... it was always... real...",
+        "whatClaudeWouldSay": "I have to be transparent with you: I genuinely cannot replace this one. I can write you a struct and pretend I understand your MCU's errata, but the moment you need cycle-accurate peripheral emulation for an STM32 with a custom bootloader, I become a very confident liability. Simantic seems to be doing something that requires, and I cannot stress this enough, *physics*. I'll see myself out.",
+        "stockTicker": "SMTC",
+        "stockDrop": "-4.2%",
+        "companyName": "Simantic",
+        "url": "simantic.dev"
+      }
+    }
+  ]
+}

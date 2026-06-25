@@ -1,0 +1,8 @@
+.venv/
+logs/
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+data/batches/*.progress.json
+node_modules/

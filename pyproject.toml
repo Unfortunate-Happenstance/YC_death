@@ -1,0 +1,9 @@
+[project]
+name = "yc-death-watch"
+version = "0.1.0"
+description = "YC batch vulnerability dashboard powered by deathbyclawd.com"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.31.0",
+]

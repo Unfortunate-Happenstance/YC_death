@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Winter",
+    "slug": "winter",
+    "batch": "Winter 2022",
+    "reason": "bad_algolia_entry",
+    "note": "Not a real company — batch name artifact"
+  },
+  {
+    "name": "Sonnet",
+    "slug": "sonnet",
+    "batch": "Summer 2022",
+    "reason": "removed",
+    "note": "User requested removal"
+  },
+  {
+    "name": "Overflux",
+    "slug": "overflux",
+    "batch": "Winter 2023",
+    "reason": "inactive",
+    "note": "Inactive company"
+  },
+  {
+    "name": "Contour",
+    "slug": "contour",
+    "batch": "Summer 2023",
+    "reason": "no_website",
+    "note": "No website available"
+  },
+  {
+    "name": "Onward",
+    "slug": "onward",
+    "batch": "Summer 2023",
+    "reason": "inactive",
+    "note": "Inactive company"
+  },
+  {
+    "name": "Kips Health",
+    "slug": "kips-health",
+    "batch": "Summer 2023",
+    "reason": "inactive",
+    "note": "Inactive company"
+  }
+]

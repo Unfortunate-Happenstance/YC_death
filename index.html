@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YC Death Watch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div>
+        <p class="eyebrow">SaaSpocalypse Survival Scanner</p>
+        <h1>YC Death Watch</h1>
+        <p class="subtitle">Average death scores across Y Combinator batches</p>
+      </div>
+      <div class="progress-banner" id="progress-banner">Loading…</div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="controls panel">
+      <div class="control-group">
+        <label for="metric-select">Chart metric</label>
+        <select id="metric-select"></select>
+      </div>
+      <div class="control-group">
+        <label>Industry filter</label>
+        <div class="btn-group" id="saas-filter">
+          <button data-filter="all" class="active">All</button>
+          <button data-filter="saasLikely">SaaS-likely</button>
+          <button data-filter="nonSaas">Non-SaaS</button>
+        </div>
+      </div>
+      <div class="control-group control-group-wide">
+        <label>YC batches</label>
+        <div class="batch-chips" id="batch-chips"></div>
+      </div>
+    </section>
+
+    <section class="panel chart-panel">
+      <h2>Cohort vulnerability</h2>
+      <div class="chart-wrap">
+        <canvas id="cohort-chart"></canvas>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <h2>Companies</h2>
+        <p id="company-count">—</p>
+      </div>
+      <div class="cards-grid" id="cards-grid"></div>
+    </section>
+  </main>
+
+  <dialog id="detail-modal" class="modal">
+    <div class="modal-inner">
+      <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+      <div id="modal-content"></div>
+    </div>
+  </dialog>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

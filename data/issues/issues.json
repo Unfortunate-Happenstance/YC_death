@@ -1,0 +1,12 @@
+{
+  "no_website": [],
+  "invalid_domain": [],
+  "summary": {
+    "totalCompanies": 2779,
+    "activeCompanies": 2773,
+    "excluded": 6,
+    "noWebsite": 0,
+    "invalidDomain": 0,
+    "scrapeable": 2773
+  }
+}

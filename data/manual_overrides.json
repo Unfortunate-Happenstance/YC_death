@@ -1,0 +1,38 @@
+{
+  "domainOverrides": {
+    "roforco": {
+      "website": "https://roforco.com/",
+      "note": "YC Algolia missing website; manual fix"
+    },
+    "kestroll": {
+      "website": "https://www.kestroll.com/",
+      "note": "YC Algolia missing website; manual fix"
+    }
+  },
+  "excluded": {
+    "winter": {
+      "reason": "bad_algolia_entry",
+      "note": "Not a real company — batch name artifact"
+    },
+    "sonnet": {
+      "reason": "removed",
+      "note": "User requested removal"
+    },
+    "overflux": {
+      "reason": "inactive",
+      "note": "Inactive company"
+    },
+    "contour": {
+      "reason": "no_website",
+      "note": "No website available"
+    },
+    "onward": {
+      "reason": "inactive",
+      "note": "Inactive company"
+    },
+    "kips-health": {
+      "reason": "inactive",
+      "note": "Inactive company"
+    }
+  }
+}
