@@ -24,23 +24,23 @@
     "summer-2023": {
       "batch": "Summer 2023",
       "expected": 216,
-      "scraped": 0,
+      "scraped": 8,
       "complete": false,
-      "updatedAt": null
+      "updatedAt": "2026-06-25T20:59:55.829330+00:00"
     },
     "winter-2024": {
       "batch": "Winter 2024",
       "expected": 249,
-      "scraped": 0,
+      "scraped": 6,
       "complete": false,
-      "updatedAt": null
+      "updatedAt": "2026-06-25T20:59:47.952473+00:00"
     },
     "summer-2024": {
       "batch": "Summer 2024",
       "expected": 248,
-      "scraped": 0,
+      "scraped": 9,
       "complete": false,
-      "updatedAt": null
+      "updatedAt": "2026-06-25T20:59:37.378618+00:00"
     },
     "fall-2024": {
       "batch": "Fall 2024",
@@ -52,37 +52,37 @@
     "winter-2025": {
       "batch": "Winter 2025",
       "expected": 167,
-      "scraped": 100,
-      "complete": false,
-      "updatedAt": "2026-06-25T20:33:49.132819+00:00"
+      "scraped": 167,
+      "complete": true,
+      "updatedAt": "2026-06-25T20:59:49.679781+00:00"
     },
     "spring-2025": {
       "batch": "Spring 2025",
       "expected": 143,
-      "scraped": 123,
-      "complete": false,
-      "updatedAt": "2026-06-25T20:33:58.618631+00:00"
+      "scraped": 143,
+      "complete": true,
+      "updatedAt": "2026-06-25T20:55:27.638730+00:00"
     },
     "summer-2025": {
       "batch": "Summer 2025",
       "expected": 166,
-      "scraped": 111,
-      "complete": false,
-      "updatedAt": "2026-06-25T20:33:53.680565+00:00"
+      "scraped": 166,
+      "complete": true,
+      "updatedAt": "2026-06-25T20:55:27.473716+00:00"
     },
     "fall-2025": {
       "batch": "Fall 2025",
       "expected": 149,
-      "scraped": 122,
-      "complete": false,
-      "updatedAt": "2026-06-25T20:33:39.571293+00:00"
+      "scraped": 149,
+      "complete": true,
+      "updatedAt": "2026-06-25T20:53:28.631496+00:00"
     },
     "winter-2026": {
       "batch": "Winter 2026",
       "expected": 198,
-      "scraped": 150,
-      "complete": false,
-      "updatedAt": "2026-06-25T20:33:47.688451+00:00"
+      "scraped": 198,
+      "complete": true,
+      "updatedAt": "2026-06-25T20:53:28.448405+00:00"
     },
     "spring-2026": {
       "batch": "Spring 2026",
@@ -113,5 +113,5 @@
       "updatedAt": "2026-06-25T18:22:03.217051+00:00"
     }
   },
-  "generatedAt": "2026-06-25T20:33:58.657043+00:00"
+  "generatedAt": "2026-06-25T21:00:05.206228+00:00"
 }

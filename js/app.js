@@ -159,14 +159,13 @@ function renderBatchChips() {
       if (!hasData) return;
       if (selectedBatches.has(batch)) {
         selectedBatches.delete(batch);
-        btn.classList.remove("active");
       } else {
         selectedBatches.add(batch);
-        btn.classList.add("active");
       }
       if (!selectedBatches.size) {
         withData.forEach((b) => selectedBatches.add(b));
       }
+      renderBatchChips();
       renderAll();
     };
     wrap.appendChild(btn);

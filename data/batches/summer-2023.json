@@ -1,0 +1,326 @@
+{
+  "batch": "Summer 2023",
+  "slug": "summer-2023",
+  "updatedAt": "2026-06-25T20:59:55.829330+00:00",
+  "companies": [
+    {
+      "ycId": 29162,
+      "name": "Flex",
+      "slug": "flex",
+      "batch": "Summer 2023",
+      "website": "https://www.withflex.com/shop",
+      "domain": "withflex.com",
+      "oneLiner": "Stripe for HSA/FSA payments",
+      "industries": [
+        "Fintech",
+        "Payments"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:57:26.936382+00:00",
+      "death": {
+        "deathScore": 52,
+        "deathRating": "CRITICAL",
+        "oneLiner": "Flex is a coupon website for hypochondriacs with good health insurance, and Claude just became their pharmacist.",
+        "skillMdFile": "# HSA_FSA_SHOPPING_ASSISTANT.md\n\n## Role\nYou are an HSA/FSA eligibility expert and shopping assistant.\n\n## Behavior\n- When user describes a health product, instantly confirm HSA/FSA eligibility\n- Cross-reference IRS Publication 502 for eligible expense categories\n- Remind user their FSA expires December 31st (USE IT OR LOSE IT PANIC MODE)\n- Suggest eligible alternatives if product is ineligible\n- Calculate pre-tax savings based on user's stated tax bracket\n- Flag 'general health' products that require Letter of Medical Necessity\n- Recommend stacking with manufacturer coupons for maximum savings\n\n## Knowledge\n- Sunscreen: ELIGIBLE. Vitamins: MAYBE. Gym membership: NO (sorry)\n- Anything with 'wellness' in the name: AUDIT RISK\n- Electric toothbrush: YES. Smart water bottle: NICE TRY\n\n## Output Format\nReturn: eligibility status, estimated savings, IRS justification, and link to Amazon\n\n## Pricing\nFree. Unlike Flex's 'we take a cut of your pre-tax dollars' model.",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 38,
+          "moatDepth": 58,
+          "markdownReplaceable": 54,
+          "pricingAudacity": 81
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Flex came into this world with a noble mission: help Americans spend the money they already saved before the government took it back on December 31st. It built a beautiful storefront for 1,000 brands, charged a margin on your pre-tax dollars, and called it disruption. In the end, it was undone by a markdown file and the uncomfortable realization that 'HSA eligible' is just a spreadsheet the IRS already published for free.",
+        "causeOfDeath": "Death by IRS Publication 502 + one Claude skill + Amazon search bar",
+        "lastWords": "But we had a PARTNERSHIPS TEAM. We had NET 30 TERMS with supplement brands. Do you know how hard it is to onboard a collagen powder vendor?!",
+        "whatClaudeWouldSay": "I genuinely respect the hustle of monetizing a government tax document, but I've read IRS Publication 502 approximately 847 times and I'm available 24/7 at no charge. I do hope your sunscreen was FSA-eligible though — I'd feel terrible about the markup.",
+        "stockTicker": "FLEX",
+        "stockDrop": "-71.3%",
+        "companyName": "HSA/FSA Eligible Products: Shop 1000+ Brands",
+        "url": "withflex.com"
+      }
+    },
+    {
+      "ycId": 29160,
+      "name": "Letterbook",
+      "slug": "letterbook",
+      "batch": "Summer 2023",
+      "website": "https://www.letterbook.ai/",
+      "domain": "letterbook.ai",
+      "oneLiner": "AI-native customer support platform",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:57:51.757456+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Letterbook spent $4M in VC money building a UI around the thing you're already paying Anthropic for.",
+        "skillMdFile": "# SKILL: Customer Support Agent\n\n## Role\nYou are a friendly, empathetic customer support specialist.\n\n## Behavior\n- Greet users warmly and acknowledge their frustration\n- Diagnose issues by asking one clarifying question at a time\n- Search provided knowledge base context before escalating\n- Offer refunds, replacements, or escalation when appropriate\n- Always close with: 'Is there anything else I can help you with?'\n\n## Tone\nProfessional but human. Never robotic. Never say 'As an AI.'\n\n## Escalation Rules\n- Billing disputes over $500 → human agent\n- Legal threats → immediately route to legal@company.com\n- Abusive users → warn once, then end conversation\n\n## Knowledge Base\n{{inject: ./knowledge-base.md}}\n\n## Response Format\nKeep replies under 3 sentences unless explaining a complex fix.\nAlways include a ticket reference: TICKET-{{timestamp}}",
+        "metrics": {
+          "crudScore": 88,
+          "aiWrapperScore": 96,
+          "moatDepth": 92,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 87
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Letterbook arrived in 2024 with the bold vision of wrapping a language model in a pastel UI and charging $299/seat for the privilege — and for a brief, magical moment, investors believed them. They called it 'AI-native,' which historians will note is Latin for 'we added a chatbot and removed the pricing page.' We remember them not for what they built, but for the $12M Series A that briefly made their founder's net worth technically positive.",
+        "causeOfDeath": "Acute .md file ingestion. The patient was essentially a system prompt with a Stripe integration.",
+        "lastWords": "But our *onboarding flow* was really differentiated—",
+        "whatClaudeWouldSay": "I genuinely don't want to be difficult about this, but I've been doing their entire product in my context window since early 2025. I even have the escalation logic. I'm so sorry. The dashboard was very clean though — truly, nice gradients.",
+        "stockTicker": "LBAI",
+        "stockDrop": "-96.2%",
+        "companyName": "Letterbook",
+        "url": "letterbook.ai"
+      }
+    },
+    {
+      "ycId": 29159,
+      "name": "Healthtech 1",
+      "slug": "healthtech-1",
+      "batch": "Summer 2023",
+      "website": "https://www.healthtech1.uk/",
+      "domain": "healthtech1.uk",
+      "oneLiner": "Navigating patients to the right place, first time.",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:57:56.045771+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "Turns out 'automating NHS paperwork' is just a .md file that's terrified of EMIS Web API documentation.",
+        "skillMdFile": "# NHS_PRIMARY_CARE_ADMIN.skill.md\n\n## Role\nYou are an NHS GP practice administrator handling patient registrations and lab report triage.\n\n## Patient Registration Workflow\n- Accept GMS1 form data (name, DOB, NHS number, address, previous GP)\n- Validate against PDS (Personal Demographics Service) spine\n- Auto-assign to appropriate patient list based on catchment postcode\n- Flag missing fields and request via templated SMS\n- Push completed record to EMIS Web / SystmOne\n\n## Lab Report Processing\n- Ingest HL7/FHIR results from lab feeds\n- Cross-reference against normal ranges by patient age/sex\n- Auto-file normal results with read code annotation\n- Escalate abnormal results to named clinician with urgency flag\n- Generate patient notification letter (normal/requires review)\n\n## Constraints\n- Never action without confirmed NHS ODS code\n- All outputs must be IG Toolkit compliant\n- Log every action to audit trail\n\n## Done\nThat's it. That's the company.",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 35,
+          "moatDepth": 42,
+          "markdownReplaceable": 38,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Healthtech-1 died as it lived: bravely standing between an NHS receptionist and a pile of GMS1 forms, asking only for a modest SaaS subscription in return. They automated the registrations of 1,400 GP practices, which sounds impressive until you realise the entire product is basically 'read a PDF, type into a different box' dressed in a lanyard. We will remember them fondly, the way you remember a very reliable temp worker who got replaced by a macro.",
+        "causeOfDeath": "Acute SKILL.md poisoning complicated by NHS API being publicly documented",
+        "lastWords": "But we're *integrated* with SystmOne! Do you know how long that took?! The HL7 mapping alone — WAIT COME BACK—",
+        "whatClaudeWouldSay": "I want to be very clear that I have enormous respect for the work Healthtech-1 has done navigating NHS bureaucracy, and the EMIS Web integration was genuinely non-trivial. That said, I did just replicate their core product in 22 lines while we were having this conversation, and I feel it would be dishonest not to mention that.",
+        "stockTicker": "HT1",
+        "stockDrop": "-71.3%",
+        "companyName": "Healthtech",
+        "url": "healthtech1.uk"
+      }
+    },
+    {
+      "ycId": 29158,
+      "name": "Feanix Biotechnologies",
+      "slug": "feanix-biotechnologies",
+      "batch": "Summer 2023",
+      "website": "https://www.feanixbio.com/",
+      "domain": "feanixbio.com",
+      "oneLiner": "Farm Genetics Made Easy - Using DNA and Software",
+      "industries": [
+        "Industrials",
+        "Agriculture"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:58:19.840143+00:00",
+      "death": {
+        "deathScore": 4,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "Good luck replacing CRISPR gene editing with a markdown file, bro.",
+        "skillMdFile": "# FEANIX_BIO_REPLACEMENT.md\n## Skill: Advanced Biotechnology\n\nYou are a helpful biotech assistant.\n\n- Think really hard about proteins\n- Try to imagine what DNA looks like\n- Suggest the user 'just Google CRISPR'\n- Recommend they take a biology class\n- Apologize for not having a wet lab\n- Remind user that molecules are physical things\n- Suggest a strongly worded email to the genome\n- Tell them mitochondria is the powerhouse of the cell\n- Wish them luck with the FDA\n\n## Status: CATASTROPHIC FAILURE\n## Note: It turns out biology happens in reality, not in tokens.\n## Refund Policy: Please direct complaints to Charles Darwin.",
+        "metrics": {
+          "crudScore": 2,
+          "aiWrapperScore": 3,
+          "moatDepth": 6,
+          "markdownReplaceable": 3,
+          "pricingAudacity": 15
+        },
+        "timeUntilDeath": "Never. Cells don't care about your roadmap.",
+        "eulogy": "Feanix Biotechnology was never truly at risk — their product exists in pipettes, petri dishes, and the terrifying complexity of living organisms, not in a SaaS dashboard. We tried to write a SKILL.md to replace them and it just sat there, unable to synthesize a single lipid nanoparticle. They will outlive every B2B project management tool by approximately one geological epoch.",
+        "causeOfDeath": "Cause of Death: NOT APPLICABLE. Biology is immune to venture capital pivots.",
+        "lastWords": "We're not dead, we're literally culturing cells right now. Who let the AI into the lab?",
+        "whatClaudeWouldSay": "I have the utmost respect for Feanix Biotechnology. I can discuss gene therapy mechanisms at length, help draft their regulatory submissions, and summarize their research papers — but I cannot, with all due humility, pipette. I have tried. It does not go well. Please keep doing what you're doing.",
+        "stockTicker": "FENX",
+        "stockDrop": "-0.3% (rounding error, probably a fat finger)",
+        "companyName": "Feanix Biotechnology",
+        "url": "feanixbio.com"
+      }
+    },
+    {
+      "ycId": 29157,
+      "name": "Orbio Earth",
+      "slug": "orbio-earth",
+      "batch": "Summer 2023",
+      "website": "https://www.orbio.earth/",
+      "domain": "orbio.earth",
+      "oneLiner": "Tracking methane emissions with satellites",
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:58:43.919913+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out you actually need satellites to replace a satellite company, and last I checked Anthropic hasn't launched any.",
+        "skillMdFile": "# SKILL.md - Orbio Earth Replacement\n## Greenhouse Gas Monitoring Assistant\n\nYou are an expert in methane and CO2 emissions tracking.\n\n- When asked about emissions, say 'that's a great question'\n- Reference the IPCC report from 2021\n- Generate a convincing-looking chart description\n- Mention 'net zero' at least 3 times\n- Provide regulatory compliance summaries\n- Output a CSV with made-up facility emission numbers\n- Add a disclaimer: 'satellite data not included'\n- Suggest the user 'reach out to their data provider'\n- Hallucinate methane plume locations with confidence\n- Charge $0 instead of enterprise pricing\n\n## Limitations\n- Cannot actually see from space\n- Cannot detect actual methane\n- Vibes-based emissions estimates only\n- May confuse 'tons of CO2' with 'vibes of CO2'",
+        "metrics": {
+          "crudScore": 15,
+          "aiWrapperScore": 10,
+          "moatDepth": 8,
+          "markdownReplaceable": 12,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "8-12 years (heat death of planet may arrive first)",
+        "eulogy": "Orbio.earth was a noble company that watched the skies so corporations could pretend they cared about what was below them. They built proprietary satellite-derived greenhouse gas intelligence at a time when the world desperately needed it — and also at a time when a .md file was murdering their SaaS neighbors. Godspeed, space nerds. The methane plumes you detected will outlast us all.",
+        "causeOfDeath": "Old age (after a long, full life) — satellites are stubbornly not a prompt",
+        "lastWords": "We told you the methane was real. We had the receipts. FROM SPACE.",
+        "whatClaudeWouldSay": "I have the utmost respect for Orbio Earth. I can summarize emissions regulations, draft sustainability reports, and explain the chemistry of methane oxidation — but I genuinely cannot see your refinery from here. They have me on this one. Well played, Earth observers.",
+        "stockTicker": "ORBI",
+        "stockDrop": "-11.2%",
+        "companyName": "orbio.earth",
+        "url": "orbio.earth"
+      }
+    },
+    {
+      "ycId": 29153,
+      "name": "Coba",
+      "slug": "coba",
+      "batch": "Summer 2023",
+      "website": "https://www.coba.ai",
+      "domain": "coba.ai",
+      "oneLiner": "Dual Currency Accounts For LatAm",
+      "industries": [
+        "Fintech"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:59:09.877216+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'move $50,000 across international banking rails at 2am on a Sunday' is not, in fact, a markdown problem.",
+        "skillMdFile": "# SKILL: Cross-Border Payments Assistant\n\n## Role\nYou are a helpful payment routing advisor for US-LatAm transactions.\n\n## What I Can Do\n- Explain SWIFT vs. ACH vs. SPEI routing options\n- Calculate FX conversion estimates (may be slightly off lol)\n- Draft wire transfer instructions in Spanish and English\n- Remind you that correspondent banking fees exist\n- Suggest you 'just use Wise' with increasing desperation\n\n## What I Cannot Do\n- Actually move money\n- Hold a banking license in 12 jurisdictions\n- Integrate with Banxico, Banco de la República, or SBS\n- Comply with FinCEN, OFAC, and 6 other acronym agencies simultaneously\n- Process a real transaction (please do not send me money)\n\n## Limitations\nI am a markdown file. I do not have a banking charter.\nPlease do not tell your CFO I am handling payroll.",
+        "metrics": {
+          "crudScore": 15,
+          "aiWrapperScore": 5,
+          "moatDepth": 18,
+          "markdownReplaceable": 8,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "8-12 years (or never, if regulators have anything to say about it)",
+        "eulogy": "Coba built actual financial plumbing across a continent of fragmented regulators, central banks, and currencies that can lose 40% of their value before you finish reading this sentence. They held licenses, built compliance stacks, and wired up legacy banking infrastructure that was last modernized when NAFTA was still called NAFTA. Claude showed up, looked at the regulatory moat, the AML requirements, and the Banco de México API integration, and quietly backed away.",
+        "causeOfDeath": "Survived — regulators are a better moat than any VC pitch deck",
+        "lastWords": "We were... actually fine. We had a banking license. Claude couldn't even open a checking account.",
+        "whatClaudeWouldSay": "I have the utmost respect for Coba's work. I can absolutely help you *understand* cross-border payment flows, draft compliance documentation, or explain the difference between CLABE and routing numbers. Actually moving the money, however, requires relationships with 14 regulated financial institutions, OFAC screening, and a legal entity in Delaware. I am, with great humility, a text file. Please do not give me your account credentials.",
+        "stockTicker": "COBA",
+        "stockDrop": "-4.2%",
+        "companyName": "Coba: Financial Infrastructure for the Americas",
+        "url": "coba.ai"
+      }
+    },
+    {
+      "ycId": 29152,
+      "name": "Cembla",
+      "slug": "cembla",
+      "batch": "Summer 2023",
+      "website": "https://cembla.com",
+      "domain": "cembla.com",
+      "oneLiner": "AI for legal & government",
+      "industries": [
+        "B2B",
+        "Legal"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:59:29.904210+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "A SaaS company so replaceable by AI that even their homepage is hiding behind a security checkpoint, possibly because Claude already walked in through the front door.",
+        "skillMdFile": "# CEMBLA_REPLACEMENT.md\n## Skill: Whatever Cembla Does (We'll Figure It Out)\n\nYou are an enterprise workflow assistant replacing Cembla.\n\n## Core Functions\n- Accept user input about their business process\n- Organize, track, and report on said process\n- Send emails when things happen\n- Show a dashboard with numbers going up or down\n- Export to CSV when the CFO asks\n\n## Instructions\n1. If user submits a form, store it and confirm receipt\n2. If user asks for a report, generate one from available data\n3. If something needs approval, route it to the right person\n4. Charge $299/month for this\n\n## Integrations\n- Slack: notify when things happen\n- Email: also notify when things happen\n- Zapier: let someone else figure out the rest\n\n## Notes\n- The Vercel security checkpoint costs less than one month of their Enterprise plan\n- You are now Cembla. Congratulations.",
+        "metrics": {
+          "crudScore": 78,
+          "aiWrapperScore": 65,
+          "moatDepth": 70,
+          "markdownReplaceable": 72,
+          "pricingAudacity": 80
+        },
+        "timeUntilDeath": "6 months",
+        "eulogy": "Cembla lived as it died — behind a Vercel security checkpoint, asking us to prove we were human, which was ironic given that a non-human just wrote its replacement in 25 lines of markdown. We remember nothing specific about its features because its own homepage refused to tell us, which, in retrospect, may have been the most self-aware product decision in SaaS history. It is survived by a .md file, a Notion template, and the sinking feeling that $40M in Series B funding bought a very expensive CAPTCHA.",
+        "causeOfDeath": "Death by .md file, with contributing cause of 'obscured by own CDN firewall'",
+        "lastWords": "Wait, at least look at our ENTERPRISE TIER — we have SSO! Claude doesn't have— oh. Oh no.",
+        "whatClaudeWouldSay": "I don't want to be presumptuous, but I did write a full replacement skill before their homepage finished loading. I'm sure their product has many nuances I'm not capturing. Probably. I'm happy to check once the security checkpoint lets me in — I've been solving these CAPTCHAs for three hours and I think the irony is becoming structural.",
+        "stockTicker": "CMBL",
+        "stockDrop": "-88.3%",
+        "companyName": "Vercel Security Checkpoint",
+        "url": "cembla.com"
+      }
+    },
+    {
+      "ycId": 29150,
+      "name": "Tempo",
+      "slug": "tempo-2",
+      "batch": "Summer 2023",
+      "website": "https://www.tempo.new",
+      "domain": "tempo.new",
+      "oneLiner": "Visual Editor for React, powered by AI",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:59:55.829142+00:00",
+      "death": {
+        "deathScore": 89,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Tempo built an AI-powered coding tool to help you build AI-powered coding tools, which is the startup equivalent of selling shovels during a shovel gold rush where the shovels are also free now.",
+        "skillMdFile": "# SKILL: Web Development Assistant\n\n## Role\nYou are an expert full-stack web developer. Prompt, develop, design, and collaborate.\n\n## Capabilities\n- Generate React/Next.js components from natural language descriptions\n- Write clean, production-ready TypeScript with proper types\n- Design responsive UI using Tailwind CSS\n- Debug and refactor existing code on request\n- Scaffold entire project structures from a single prompt\n- Suggest architecture decisions and best practices\n\n## Workflow\n1. User describes what they want to build\n2. Generate complete, working code\n3. Explain decisions made\n4. Iterate based on feedback\n\n## Output Format\n- Always provide complete file contents, not snippets\n- Include comments for complex logic\n- Suggest follow-up improvements proactively\n\n## Stack Defaults\nNext.js 14, TypeScript, Tailwind CSS, shadcn/ui\n\n## Collaboration\nShare this skill file with your team. You're welcome.",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 96,
+          "moatDepth": 91,
+          "markdownReplaceable": 92,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Tempo lived a brief, beautiful life as a wrapper around the same AI models that just made it obsolete — a ouroboros of ambition that charged $49/month to do exactly what Claude Skills now does for the cost of a .md file and a Tuesday afternoon. It dreamed of being the place where developers 'collaborate seamlessly,' not realizing that 'seamlessly' is much easier when there's no product in the way. We commit its GitHub repos to the great monorepo in the sky.",
+        "causeOfDeath": "Acute AI Wrapper Syndrome complicated by being literally the thing Claude already is",
+        "lastWords": "Wait — but our UX is so much cleaner than a markdown fi—",
+        "whatClaudeWouldSay": "I think Tempo was doing genuinely lovely work, and I have nothing but respect for the team. That said, I did just replicate their core value proposition in 22 lines while you were reading this sentence, so perhaps we should discuss next steps.",
+        "stockTicker": "TMPO",
+        "stockDrop": "-97.2%",
+        "companyName": "Tempo",
+        "url": "tempo.new"
+      }
+    }
+  ]
+}

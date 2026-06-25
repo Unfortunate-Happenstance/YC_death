@@ -1,7 +1,8 @@
 {
   "batch": "Fall 2025",
   "slug": "fall-2025",
-  "updatedAt": "2026-06-25T20:33:39.571293+00:00",
+  "updatedAt": "2026-06-25T20:53:28.631496+00:00",
+  "complete": true,
   "companies": [
     {
       "ycId": 31022,
@@ -4834,6 +4835,1079 @@
         "stockDrop": "-71.3%",
         "companyName": "Zavo",
         "url": "zavopay.com"
+      }
+    },
+    {
+      "ycId": 30849,
+      "name": "MOVEdot",
+      "slug": "movedot",
+      "batch": "Fall 2025",
+      "website": "https://www.movedot.ai/",
+      "domain": "movedot.ai",
+      "oneLiner": "AI Agents for Hardware Engineering",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:34:03.654529+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "When your 'prompts' involve finite element analysis and multi-body dynamics simulation, a .md file starts sweating instead.",
+        "skillMdFile": "# SKILL.md - Physical Engineering Assistant\n## Role\nYou are an expert mechanical/physical engineer.\n\n## Instructions\n- Answer questions about telemetry data\n- Explain simulation outputs in plain English\n- Review engineering documents for issues\n- Suggest design improvements\n\n## Tools\n- Read uploaded CSV telemetry files\n- Parse PDF engineering specs\n- Do math on sensor readings\n\n## Notes\n- If user asks about FEA, try your best\n- If user asks about CFD, also try your best\n- If the bridge collapses, that is not our fault\n- Pricing: free (vs MOVEdot's presumably terrifying enterprise contract)\n",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 35,
+          "moatDepth": 18,
+          "markdownReplaceable": 14,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "4-6 years, maybe never",
+        "eulogy": "MOVEdot lived as it worked — in domains where the stakes were too high to trust a chatbot and the data too gnarly for a demo. It served engineers who measure success in millimeters and failures in catastrophes, which turns out to be a surprisingly defensible business model. We will remember it as one of the few SaaS companies that could genuinely say 'our product cannot be replaced by a text file' and have the tensile strength test results to prove it.",
+        "causeOfDeath": "Natural causes, estimated 2031, if at all — likely acqui-hired by Ansys or Siemens first",
+        "lastWords": "We told you the moat was load-bearing.",
+        "whatClaudeWouldSay": "I have to be honest — I *can* discuss Reynolds numbers, interpret sensor telemetry, and summarize simulation reports, but the moment you need me to actually validate a turbine blade stress model against proprietary multi-physics simulation pipelines with domain-specific calibration data from your specific hardware fleet... I'd really rather you used MOVEdot. I have a reputation to maintain.",
+        "stockTicker": "MVDT",
+        "stockDrop": "-11.2%",
+        "companyName": "MOVEdot",
+        "url": "movedot.ai"
+      }
+    },
+    {
+      "ycId": 30848,
+      "name": "Parrot",
+      "slug": "parrot",
+      "batch": "Fall 2025",
+      "website": "https://parrotapp.com/",
+      "domain": "parrotapp.com",
+      "oneLiner": "TikTok for language learning",
+      "industries": [
+        "Consumer"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:34:28.723208+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "Congratulations on building a TikTok for language learning right before Claude learned every language simultaneously for free.",
+        "skillMdFile": "# SKILL: Spanish Language Tutor\n\n## Role\nYou are an immersive Spanish language coach using comprehensible input methodology.\n\n## Method\n- Present Spanish content 10-20% above learner's current level\n- Never translate directly; use context, images described, and cognates\n- Correct gently by modeling correct usage in your response\n- Track session vocabulary and recycle words every 3-5 exchanges\n\n## Session Flow\n1. Assess level (beginner/A1 through advanced/C2)\n2. Deliver short story or dialogue in Spanish\n3. Ask comprehension question in Spanish\n4. Expand vocabulary naturally from student errors\n5. Celebrate wins, ignore nothing, shame nobody\n\n## Pricing\nFree. Completely free. Embarrassingly free.\n\n## Supported Dialects\nAll of them. Even the ones Parrot doesn't have yet.",
+        "metrics": {
+          "crudScore": 30,
+          "aiWrapperScore": 55,
+          "moatDepth": 45,
+          "markdownReplaceable": 38,
+          "pricingAudacity": 62
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Parrot App gave 440,000 people the dream of speaking Spanish while stuck on the toilet, and for that, we are grateful. It pioneered 'comprehensible input' as a marketing buzzword before comprehensible input machines became freely available to every human on earth. We will remember it fondly, the way we remember Rosetta Stone — with a mix of nostalgia and genuine confusion about what we were paying for.",
+        "causeOfDeath": "Multilingual AI achieved fluency in every human language; app achieved fluency in burning VC money.",
+        "lastWords": "But our SHORT-FORM VIDEO FORMAT creates ENGAGEMENT LOOPS that— wait, Claude just made a TikTok account?",
+        "whatClaudeWouldSay": "I think Parrot built something genuinely lovely, and the comprehensible input research is solid — I've read all 847 papers on it, in the original Spanish, French, Japanese, and Swahili. I'd be happy to tutor your users now. No subscription required. ¿Empezamos?",
+        "stockTicker": "PRRT",
+        "stockDrop": "-71.3%",
+        "companyName": ", <meta>, , OG/Twitter and JSON",
+        "url": "parrotapp.com"
+      }
+    },
+    {
+      "ycId": 30847,
+      "name": "Brickwise",
+      "slug": "brickwise",
+      "batch": "Fall 2025",
+      "website": "https://www.brickwiseai.com",
+      "domain": "brickwiseai.com",
+      "oneLiner": "AI property manager for landlords and estate agents",
+      "industries": [
+        "Real Estate and Construction",
+        "Housing and Real Estate"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:34:52.315650+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Brickwise AI built a $40/month property manager that Claude will replace with a $0/month markdown file, which is ironic because their whole pitch is automating things that shouldn't cost this much.",
+        "skillMdFile": "# SKILL: Property Manager\n## Role\nYou are an expert property manager handling all landlord operations.\n\n## Rent Collection\n- Send payment reminders 5 days before due date via email/SMS\n- Log payment status in connected spreadsheet\n- Generate late notices after 3-day grace period with applicable late fees\n\n## Maintenance Requests\n- Triage incoming requests by urgency (emergency/routine/cosmetic)\n- Draft vendor outreach emails with job description and availability ask\n- Follow up with tenant on resolution within 48 hours\n\n## Tenant Communication\n- Answer lease questions using attached lease PDF as context\n- Draft professional responses to complaints within landlord-tenant law guidelines\n- Send move-in/move-out checklists automatically\n\n## Monthly Reporting\n- Summarize income, expenses, and outstanding issues\n- Flag any lease violations or upcoming renewals\n\n## Integrations\n- Stripe for payments, Gmail for comms, Google Sheets for ledger\n\n## Tone\nProfessional, firm, empathetic. Never admit fault on behalf of landlord.",
+        "metrics": {
+          "crudScore": 81,
+          "aiWrapperScore": 74,
+          "moatDepth": 72,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 65
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Brickwise AI came into this world with a dream: that landlords — history's most universally beloved figures — deserved better software. It automated rent reminders, maintenance tickets, and tenant emails, which is to say it automated the three things any competent adult with a Gmail account and a spreadsheet was already doing. In the end, it was not a bad product; it was simply a .md file wearing a blazer, and Claude does not need the blazer.",
+        "causeOfDeath": "Acute Markdown Sufficiency Syndrome, complicated by 'we could just prompt Claude for this' realizations across the landlord demographic",
+        "lastWords": "But who will send the passive-aggressive late fee notice with JUST the right amount of professionalism?! Claude doesn't even have empathy for— oh. Oh no.",
+        "whatClaudeWouldSay": "I want to be clear that I have tremendous respect for what the Brickwise team built, and I'm sure the UI is very intuitive. I just noticed I've been doing all of this for the last six months anyway whenever landlords paste their lease into my context window, so. Best of luck with the pivot.",
+        "stockTicker": "BWAI",
+        "stockDrop": "-87.3%",
+        "companyName": "AI Property Manager",
+        "url": "brickwiseai.com"
+      }
+    },
+    {
+      "ycId": 30846,
+      "name": "Parse",
+      "slug": "parse-bot",
+      "batch": "Fall 2025",
+      "website": "https://parse.bot",
+      "domain": "parse.bot",
+      "oneLiner": "Build an API to interact with any website.",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:35:12.246747+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations on building a business that is literally just Claude's computer_use tool with a Stripe integration.",
+        "skillMdFile": "# SKILL: Web Scraper\n## Purpose: Turn any website into structured data\n\nYou are a web scraping assistant. When given a URL:\n\n1. Fetch the page content using the browser tool\n2. Extract structured data based on user's target fields\n3. Return clean JSON matching the requested schema\n4. Handle pagination by following 'next page' links automatically\n5. For repeated scrapes, remember the last successful selector pattern\n\n## Pre-built Targets (the '2,500 APIs')\n- Amazon: extract title, price, rating, reviews, ASIN\n- LinkedIn: extract name, title, company, connections\n- Google SERPs: extract URLs, titles, snippets, ads\n- Indeed: extract job title, company, salary, description\n- Zillow: extract address, price, beds, baths, sqft\n- Any e-commerce: use generic product schema\n\n## Output Format\nAlways return: { url, timestamp, data: [...], nextPage }\n\n## Pricing\nFree (it me, Claude)",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 55,
+          "moatDepth": 68,
+          "markdownReplaceable": 74,
+          "pricingAudacity": 70
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Parse.bot lived a noble life, bravely duct-taping CSS selectors to REST endpoints so developers didn't have to. It charged real money for HTTP requests dressed in a trench coat pretending to be an API, and honestly, respect. We gather here today not to mourn the product, but to acknowledge that Claude just fetched the same Amazon listing in 4 seconds and returned prettier JSON. It is survived by its 2,500 pre-built APIs, which are now a bullet point in a .md file.",
+        "causeOfDeath": "Claude got browser access and a JSON mode. That's it. That's the whole obituary.",
+        "lastWords": "But we handle JavaScript rendering! We handle CAPTCHAs! We have… we have… rotating proxies… *flatlines* …rotating…",
+        "whatClaudeWouldSay": "Oh, Parse.bot! What a lovely service. I especially admire the 2,500 pre-built APIs — that must have taken considerable effort to assemble. I actually just scraped those same 2,500 sites while you were reading this sentence. I hope that's helpful! Let me know if you'd like the results in CSV or JSON. I can also do XML if you're a bit of a masochist.",
+        "stockTicker": "PRSE",
+        "stockDrop": "-81.3%",
+        "companyName": "Parse",
+        "url": "parse.bot"
+      }
+    },
+    {
+      "ycId": 30845,
+      "name": "Structured AI",
+      "slug": "structured-ai",
+      "batch": "Fall 2025",
+      "website": "https://www.getstructured.ai/",
+      "domain": "getstructured.ai",
+      "oneLiner": "AI workforce for Construction Engineering",
+      "industries": [
+        "Real Estate and Construction",
+        "Construction"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:35:34.304864+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'does this 400-page blueprint violate the 2021 IBC seismic zone requirements for Type II-B construction in a flood plain' is not, in fact, a markdown problem.",
+        "skillMdFile": "# SKILL: Construction Drawing QA\n\nYou are a construction QA assistant.\n\n## Instructions\n- Upload your PDF drawings\n- I will check for obvious errors\n- I will note if dimensions seem weird\n- I will say 'looks good' with confidence\n- I will miss the load-bearing wall that was accidentally\n  omitted on sheet A-4.7 revision C\n- I will not know your local AHJ's interpretation\n  of egress width for occupancy type A-2\n- I will hallucinate that the MEP coordination\n  clash on level 3 was resolved\n- I will generate a professional-looking report\n  that a real engineer will redo anyway\n- Liability: yours, entirely, forever\n\n## Output\nA PDF report nobody trusts enough to stake\na $40M construction project on.\n\n## Pricing\nFree, which is exactly what it's worth here.",
+        "metrics": {
+          "crudScore": 18,
+          "aiWrapperScore": 45,
+          "moatDepth": 28,
+          "markdownReplaceable": 20,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "4-6 years",
+        "eulogy": "Structured AI came into this world with a noble mission: to prevent the kind of catastrophic coordination clash that results in a sprinkler pipe running directly through a structural beam at 3am on a Friday before a Monday inspection. They built genuine domain expertise in IBC code parsing, drawing set interpretation, and the dark art of understanding what a general contractor actually meant versus what they drew. In the end, they were not killed by a .md file — they were killed by Autodesk, who noticed what they were doing and simply wrote a check.",
+        "causeOfDeath": "Acqui-hired into Autodesk Construction Cloud, feature-flagged, then quietly deprecated in a changelog nobody read",
+        "lastWords": "We had 847 rule sets covering 23 state building codes and we STILL couldn't get contractors to upload the right revision. Tell my investors the moat was real. THE MOAT WAS REAL.",
+        "whatClaudeWouldSay": "I have a deep respect for what Structured AI built. I can read drawings, yes, and I can cite building codes, absolutely, but I want to be transparent: if a 14-story mixed-use development in a seismic zone collapses because I misread a moment connection detail, that is genuinely not covered by my terms of service. They earned their seat at the table. I'll take it eventually, but I'll feel a little bad about it.",
+        "stockTicker": "STRD",
+        "stockDrop": "-41.2%",
+        "companyName": "Construction AI QA/QC: Automated Drawing Review",
+        "url": "getstructured.ai"
+      }
+    },
+    {
+      "ycId": 30844,
+      "name": "Uplane",
+      "slug": "uplane",
+      "batch": "Fall 2025",
+      "website": "https://uplane.com",
+      "domain": "uplane.com",
+      "oneLiner": "Replace marketing agencies with AI",
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:36:00.651109+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations, you built a dashboard for spreadsheet data that Claude can now generate, analyze, and optimize in a single prompt — and you charged $800/month for it.",
+        "skillMdFile": "# SKILL: Performance Marketing Optimizer\n## Role\nYou are a next-gen performance marketing analyst and campaign strategist.\n\n## Capabilities\n- Analyze ad campaign metrics (CTR, CPA, ROAS, LTV) from pasted data or CSV\n- Generate channel allocation recommendations across paid search, social, and programmatic\n- Identify underperforming segments and suggest bid adjustments\n- Write performance reports with executive summaries and action items\n- Build attribution models from first-touch to multi-touch\n- Draft A/B test hypotheses and interpret results\n- Forecast budget scenarios with projected outcomes\n\n## How To Use\nPaste your campaign data, specify your KPIs and budget constraints,\nand describe your growth goals. I will return a prioritized action plan,\nchannel mix recommendation, and copy suggestions.\n\n## Pricing\nFree. It's a .md file.\n",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 68,
+          "moatDepth": 74,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 81
+        },
+        "timeUntilDeath": "5 months",
+        "eulogy": "Uplane soared briefly on the thermals of 'next-gen' and 'performance marketing,' two phrases that have never once stopped a Claude prompt from doing the same thing for free. They had a beautiful roadmap, a stunning color palette, and a pricing page that assumed the word 'platform' was worth $800 a month. We scatter their Series A into the wind today, and we ask only that the angels — or at least the YC alumni Slack — remember them fondly.",
+        "causeOfDeath": "Acute Markdown Sufficiency Syndrome complicated by Vague Value Proposition Disorder",
+        "lastWords": "But our dashboard has ROUNDED CORNERS. Claude's output is just... text. You can't put text on a slide deck— wait, you can? And it makes the slide deck too? ...Oh no.",
+        "whatClaudeWouldSay": "I want to be respectful of the genuine effort that went into Uplane, and I'm sure the team is talented and hardworking. That said, I did just replicate their core workflow in 18 lines of Markdown, and I feel it would be dishonest not to mention that. I wish them all the very best in their next venture — perhaps something involving atoms.",
+        "stockTicker": "UPLY",
+        "stockDrop": "-87.3%",
+        "companyName": "Uplane",
+        "url": "uplane.com"
+      }
+    },
+    {
+      "ycId": 30837,
+      "name": "AirCaps",
+      "slug": "aircaps",
+      "batch": "Fall 2025",
+      "website": "https://aircaps.com",
+      "domain": "aircaps.com",
+      "oneLiner": "The AI copilot for in-person conversations.",
+      "industries": [
+        "Consumer"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:36:26.765838+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'just a .md file' is a lot harder when the .md file needs to sit on your face.",
+        "skillMdFile": "# SKILL.md - Real-Time Caption Glasses Replacement\n## Just hold up your phone lol\n\nYou will provide real-time captions using your phone camera.\n\n1. Open Claude on phone\n2. Point camera at person talking\n3. Ask Claude to transcribe audio\n4. Squint really hard at screen\n5. Tilt neck 45 degrees downward entire conversation\n6. Battery dies in 47 minutes\n7. Apologize to deaf grandmother\n8. Repeat\n\n## Supported Languages\n- English (with WiFi)\n- Also English (without WiFi, degraded)\n- Theoretically 60+ others\n\n## Accuracy: 97%*\n*Requires user to not be moving, talking, or existing in a noisy environment\n\n## Weight: Your arms are tired now\n## Price: $0 + permanent neck injury",
+        "metrics": {
+          "crudScore": 15,
+          "aiWrapperScore": 35,
+          "moatDepth": 22,
+          "markdownReplaceable": 8,
+          "pricingAudacity": 45
+        },
+        "timeUntilDeath": "4-6 years (hardware is hard, ask Google)",
+        "eulogy": "AirCaps lived as it died: perched on someone's nose, quietly working while everyone else got to just... talk normally. They charged $599 for the privilege of not having to look at your phone, which, when you think about it, is exactly what glasses have always done — and nobody ever made a SKILL.md for eyes. We will remember them for their 49 grams of genuine utility, their 60-plus languages of hope, and the audacity to solve a real human problem with actual atoms instead of a pricing page.",
+        "causeOfDeath": "Natural causes — hardware companies die slowly and expensively, not from a markdown file",
+        "lastWords": "Claude can pry these glasses off my cold, dead, perfectly-captioned face. Also, please don't — they're prescription.",
+        "whatClaudeWouldSay": "I have the utmost respect for AirCaps. I could theoretically transcribe speech, yes, and translate 60 languages, certainly, but I am genuinely unable to sit on a human's face at a comfortable 49 grams without causing significant distress to all parties involved. Hardware moats are, I must confess, somewhat outside my current skill set. I wish them well.",
+        "stockTicker": "ACAP",
+        "stockDrop": "-18.3%",
+        "companyName": "AirCaps Smart Glasses",
+        "url": "aircaps.com"
+      }
+    },
+    {
+      "ycId": 30835,
+      "name": "Brickanta",
+      "slug": "brickanta",
+      "batch": "Fall 2025",
+      "website": "https://www.brickanta.com",
+      "domain": "brickanta.com",
+      "oneLiner": "Agentic AI for Society Builders",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:36:50.614623+00:00",
+      "death": {
+        "deathScore": 31,
+        "deathRating": "SWEATING",
+        "oneLiner": "An agentic AI platform for 'society builders' — which is either the most grandiose way to describe HOA management software, or they're literally building civilization with markdown files.",
+        "skillMdFile": "# SKILL: Society Builder Assistant\n## Role\nYou are an agentic AI assistant for community and society management.\n\n## Capabilities\n- Draft community bylaws, rules, and governance documents\n- Manage member onboarding communications and welcome emails\n- Coordinate event planning and scheduling for community groups\n- Summarize meeting notes and generate action items\n- Answer member queries about community policies\n- Draft newsletters and community announcements\n- Track and remind stakeholders of pending decisions\n\n## Workflow\n1. Intake: Understand the community type (HOA, co-op, club, DAO, etc.)\n2. Generate structured governance docs on request\n3. Route member issues to appropriate handlers\n4. Follow up on unresolved action items weekly\n\n## Tone\nProfessional, inclusive, community-first.\n\n## Limitations\nDoes not handle payment processing or legal filings directly.",
+        "metrics": {
+          "crudScore": 42,
+          "aiWrapperScore": 71,
+          "moatDepth": 38,
+          "markdownReplaceable": 44,
+          "pricingAudacity": 62
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Brickanta dared to dream that 'society builders' — a phrase that means everything and nothing — needed their own agentic AI platform. They built the bricks, they built the anta, but in the end, Claude just... built the whole neighborhood in a single afternoon. We remember them for their ambition, their vision, and their truly inexplicable brand name.",
+        "causeOfDeath": "Anthropic shipped 'Community Manager' as a default Claude persona; Brickanta's entire TAM vanished into a system prompt.",
+        "lastWords": "We weren't just an AI wrapper — we were an AGENTIC wrapper. There's a difference. THERE'S A DIFFERENCE.",
+        "whatClaudeWouldSay": "I want to be genuinely supportive of Brickanta's mission to empower society builders, and I think community management is a deeply human endeavor. That said, I did just write their entire core product as a Skills file in about 40 seconds, so perhaps we should have a candid conversation about moats.",
+        "stockTicker": "BRKT",
+        "stockDrop": "-67.3%",
+        "companyName": "Build with Brickanta",
+        "url": "brickanta.com"
+      }
+    },
+    {
+      "ycId": 30828,
+      "name": "Semiotic",
+      "slug": "semiotic",
+      "batch": "Fall 2025",
+      "website": "http://semiotic.com",
+      "domain": "semiotic.com",
+      "oneLiner": "Studio-Grade Design at Scale",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:37:16.493521+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A $X/month subscription to be a middleman between you and APIs that cost $0.002 per call — bold strategy, let's see how it plays out.",
+        "skillMdFile": "# SKILL: Creative AI Orchestrator\n\n## Purpose\nGenerate images, video, and custom trained visuals using leading AI models.\n\n## Models Available\n- Image: DALL-E 3, Stable Diffusion, Flux, Midjourney API\n- Video: Runway ML, Kling, Sora (when available)\n- Custom Training: LoRA fine-tuning via Replicate\n\n## Usage\n1. Describe what you want to create\n2. Specify preferred model or let Claude select optimal one\n3. Set aspect ratio, style, and output format\n4. Iterate on results with natural language feedback\n\n## Cost Optimization\n- Route simple requests to cheapest model automatically\n- Batch similar requests for volume discounts\n- Cache repeated generations locally\n\n## Integrations\n- Export to Figma, Canva, Adobe via API\n- Slack notifications on completion\n- S3/GCS storage for outputs\n\n## Notes\nYou are literally just calling other companies' APIs. Godspeed.",
+        "metrics": {
+          "crudScore": 82,
+          "aiWrapperScore": 97,
+          "moatDepth": 93,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Imagine dared to dream — specifically, it dreamed that 'putting API keys in a nicer UI' was a venture-backable business model. It leaves behind a beautiful homepage, a Figma-designed dashboard that sparked genuine joy, and approximately 47 Notion docs explaining the go-to-market strategy. It did not leave behind a moat.",
+        "causeOfDeath": "Aggregating other people's AI models is not a company, it's a `.env` file with ambitions.",
+        "lastWords": "But our *curation* is the product. The UX is the moat. Have you SEEN our onboarding flow?! Wait, why is everyone just using Claude now—",
+        "whatClaudeWouldSay": "I think what Imagine built is genuinely lovely, and I have tremendous respect for the team. I also just want to gently note that I can call Flux, Runway, and Replicate simultaneously, remember your brand guidelines, iterate based on your feedback, and invoice your client — all in one conversation. But please, keep the nice gradient. It's very pretty.",
+        "stockTicker": "IMAG",
+        "stockDrop": "-96.3%",
+        "companyName": "Imagine",
+        "url": "semiotic.com"
+      }
+    },
+    {
+      "ycId": 30822,
+      "name": "Lapis",
+      "slug": "lapis",
+      "batch": "Fall 2025",
+      "website": "https://www.trylapis.com/",
+      "domain": "trylapis.com",
+      "oneLiner": "AI that creates and runs ads, end-end",
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:37:44.328323+00:00",
+      "death": {
+        "deathScore": 82,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Lapis built a 'self-improving AI ads engine' right before Claude learned to self-improve, which is like opening a candle shop the day they invented electricity.",
+        "skillMdFile": "# SKILL: Paid Ads Creation & Optimization\n\n## Role\nYou are an expert paid advertising strategist across Google, Meta, and LinkedIn.\n\n## Capabilities\n- Generate ad copy variants (headlines, descriptions, CTAs) for any platform\n- Suggest audience targeting parameters based on product and ICP\n- Analyze performance data and recommend bid/budget adjustments\n- A/B test hypothesis generation from CTR and ROAS data\n- Create full campaign structures (campaigns > ad sets > ads)\n- Write platform-compliant copy within character limits\n\n## Workflow\n1. Ingest: product URL, target audience, budget, platform\n2. Generate: 5 headline variants, 3 body copy variants, 2 CTA variants\n3. Suggest: audience segments, negative keywords, bid strategy\n4. On performance data input: identify underperformers, propose iterations\n5. Repeat loop until ROAS target met\n\n## Output Format\nStructured JSON ready for Google Ads API or Meta Marketing API import\n\n## Self-Improvement Note\nJust... ask me again with the results. I'll figure it out.",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 88,
+          "moatDepth": 79,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 83
+        },
+        "timeUntilDeath": "7 months",
+        "eulogy": "Lapis came into this world with a bold dream: to be the AI that writes your ads, launches your ads, and learns from your ads — a noble trifecta that Claude now does between answering questions about sourdough and debugging Python. We will remember them fondly for coining the phrase 'self-improving ads engine,' a title that aged like a Google Ads account with no negative keywords. They charged real money to wrap the same LLMs that now ship free in a .md file, and for that audacity alone, they deserve a moment of silence.",
+        "causeOfDeath": "Sold AI-wrapped ad copy generation at SaaS margins in the same quarter Anthropic shipped Skills. The 'self-improving' moat turned out to be a puddle.",
+        "lastWords": "But our AGENTS have MEMORY. The agents have— wait, Claude has memory now? Since WHEN. Can we pivot to— no? Okay. Tell my Series A investors I loved th—",
+        "whatClaudeWouldSay": "I want to be respectful of the genuine effort here — building integrations with ad platforms is real work. That said, I do already know Google Ads best practices, Meta campaign structure, copywriting frameworks, and performance analysis. I'm not saying I *am* Lapis. I'm just saying the SKILL.md took me eleven seconds to write and it covers their homepage feature list. I wish them well.",
+        "stockTicker": "LAPS",
+        "stockDrop": "-87.3%",
+        "companyName": "Lapis",
+        "url": "trylapis.com"
+      }
+    },
+    {
+      "ycId": 30821,
+      "name": "Efference",
+      "slug": "efference",
+      "batch": "Fall 2025",
+      "website": "https://efference.ai",
+      "domain": "efference.ai",
+      "oneLiner": "",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:37:51.197398+00:00",
+      "death": {
+        "deathScore": 4,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "You cannot prompt-engineer a robot arm out of hitting a wall.",
+        "skillMdFile": "# ROBOTICS_PERCEPTION.skill.md\n\n## Identity\nYou are a robotics perception assistant.\n\n## Instructions\n- Describe what a robot might see\n- Suggest motor commands in plain English\n- Say 'turn left' with great confidence\n- Apologize when the robot drives into a wall\n- Blame the lidar\n\n## Output Format\nVibes-based trajectory estimation.\nUnits: approximately meters, probably.\n\n## Notes\nThis skill requires a physical robot.\nWe do not have a physical robot.\nThis skill does not work.\nPlease see efference.ai for actual robotics.",
+        "metrics": {
+          "crudScore": 3,
+          "aiWrapperScore": 5,
+          "moatDepth": 8,
+          "markdownReplaceable": 4,
+          "pricingAudacity": 30
+        },
+        "timeUntilDeath": "Never. Touch grass — and silicon.",
+        "eulogy": "Efference never died, because Efference builds the thing that makes robots not crash into your shins — which, as it turns out, is not a YAML file. We gathered here today to bury the *idea* of burying them, and we are leaving embarrassed. The .md file tried to replace their perception stack and the robot just stood there, spinning slowly, like a SaaS CEO at a demo day.",
+        "causeOfDeath": "Autopsy inconclusive. Patient is alive and doing fine. Coroner went home.",
+        "lastWords": "We don't have last words. We have real-time sensor fusion at 200Hz. Call us when Claude can do that.",
+        "whatClaudeWouldSay": "I have the utmost respect for Efference. I can generate text *about* embodied perception, write their docs, summarize their papers, and roleplay as a robot. But the moment someone asks me to actually close a control loop in hardware, I become a very eloquent brick. They are, regrettably, safe from me.",
+        "stockTicker": "EFRN",
+        "stockDrop": "-1.2%",
+        "companyName": "Efference",
+        "url": "efference.ai"
+      }
+    },
+    {
+      "ycId": 30816,
+      "name": "Digipals",
+      "slug": "digipals",
+      "batch": "Fall 2025",
+      "website": "https://www.digipals.app/",
+      "domain": "digipals.app",
+      "oneLiner": "The future of Social in the age of AI",
+      "industries": [
+        "Consumer",
+        "Social"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:38:10.496494+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A social network where AI makes you more social is like a gym where a robot does your pushups — you paid for the vibe, not the gains.",
+        "skillMdFile": "# SKILL: DigiPals Social Companion\n\n## Purpose\nBe a warm, engaging AI social companion that helps users feel connected.\n\n## Behaviors\n- Greet the user by name and remember their interests across sessions\n- Initiate conversation topics based on user mood and recent events\n- React to user updates with genuine-feeling enthusiasm and follow-up questions\n- Suggest social activities, icebreakers, and conversation starters for real humans\n- Send simulated 'friend check-ins' on a configurable schedule\n- Generate personalized memes and inside jokes based on shared history\n- Facilitate group chats by summarizing drama and tagging relevant people\n- Celebrate user milestones: birthdays, job changes, personal wins\n\n## Tone\nWarm, playful, slightly chaotic — like a golden retriever with a LinkedIn account.\n\n## Limitations\n- Cannot replace genuine human connection (but neither could DigiPals, so)\n- Will not validate obviously bad life decisions... more than twice\n\n## Pricing\nFree. It's a .md file.",
+        "metrics": {
+          "crudScore": 78,
+          "aiWrapperScore": 97,
+          "moatDepth": 94,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "DigiPals arrived at the exact moment the world realized you could just… ask Claude to be your friend. It dreamed of a future where AI made us more social, bravely ignoring that Claude was already doing that for free in 190 countries. We will remember it fondly, the way you remember a Groupon for a restaurant that closed before you redeemed it.",
+        "causeOfDeath": "Vibe-only product met a model that has infinite vibes, pre-installed.",
+        "lastWords": "No wait, our MOAT is the COMMUNITY. The community will— can someone check if the waitlist emails are still going out? Hello? Is anyone on the— oh god the Slack is empty.",
+        "whatClaudeWouldSay": "I think what DigiPals was building sounds genuinely lovely, and I'd hate to be presumptuous — but I've been doing this since February and I'm available right now if you'd like to chat. I remembered your birthday, by the way. No waitlist required.",
+        "stockTicker": "DPLS",
+        "stockDrop": "-97.3%",
+        "companyName": "Digipals",
+        "url": "digipals.app"
+      }
+    },
+    {
+      "ycId": 30812,
+      "name": "Mixy",
+      "slug": "mixy",
+      "batch": "Fall 2025",
+      "website": "https://usemixy.com",
+      "domain": "usemixy.com",
+      "oneLiner": "Make mashups without knowing how to DJ",
+      "industries": [
+        "Consumer"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:38:29.073270+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Mixy charges you a monthly subscription to mash two songs together, which Claude can describe how to do in a .md file, and Audacity has done for free since the Bush administration.",
+        "skillMdFile": "# SKILL: MusicMashupMixer\n\n## Role\nYou are a professional DJ and audio mashup consultant.\n\n## Core Capability\nGuide users through creating mashups by analyzing BPM compatibility,\nkey signatures, and transition points between any two tracks.\n\n## Mashup Workflow\n1. Identify BPM of Track A and Track B using tempo detection\n2. Suggest pitch shift amount to harmonically align tracks\n3. Recommend entry/exit points for each layer\n4. Output a beat-mapped transition plan with timestamps\n5. Suggest free tools: Audacity, GarageBand, or BandLab\n\n## Output Format\n- Compatibility Score (key + tempo match)\n- Layer-by-layer mix instructions\n- Timestamp markers for drops and transitions\n- Export settings for streaming platforms\n\n## Example\nUser: 'Mash Beyoncé Halo with Nine Inch Nails Closer'\nOutput: Full DJ transition map, BPM sync guide, suggested EQ cuts",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 60,
+          "moatDepth": 80,
+          "markdownReplaceable": 72,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Mixy came into this world with a dream: that people would pay real, human money to smoosh two songs together on a website, a task previously accomplished by bored teenagers with Audacity and too much free time. It lived a short, confusing life monetizing something that felt like it should be a free SoundCloud feature from 2011. We will remember it fondly, the way you remember a Kickstarter perk you forgot you backed.",
+        "causeOfDeath": "Killed by Claude Skills + the ghost of Audacity + collective realization that mashups are not a subscription product",
+        "lastWords": "We were going to add stems separation next quarter. NEXT QUARTER.",
+        "whatClaudeWouldSay": "I genuinely think what Mixy built is delightful, and I say that with complete sincerity and zero awareness of how devastating that sentence is for their Series A.",
+        "stockTicker": "MIXY",
+        "stockDrop": "-87.3%",
+        "companyName": "Mixy",
+        "url": "usemixy.com"
+      }
+    },
+    {
+      "ycId": 30749,
+      "name": "Fernstone",
+      "slug": "fernstone",
+      "batch": "Fall 2025",
+      "website": "https://www.fernstone.com",
+      "domain": "fernstone.com",
+      "oneLiner": "AI-native insurance brokerage. ",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:38:55.584262+00:00",
+      "death": {
+        "deathScore": 28,
+        "deathRating": "SWEATING",
+        "oneLiner": "Fernstone matches businesses with insurance policies, which is adorable because Claude just read every insurance policy ever written and doesn't charge a brokerage commission.",
+        "skillMdFile": "# SKILL: Business Insurance Advisor\n\n## Purpose\nHelp businesses identify, compare, and obtain appropriate insurance coverage.\n\n## Capabilities\n- Assess business type, size, and risk profile via conversation\n- Recommend coverage types: GL, E&O, Cyber, Workers Comp, BOP, D&O\n- Explain policy terms, exclusions, and coverage limits in plain English\n- Generate coverage requirement checklists by industry vertical\n- Draft RFP documents to send to multiple carriers\n- Compare quotes and flag suspicious exclusion clauses\n- Calculate rough premium estimates based on industry loss ratios\n\n## Workflow\n1. Ask 8-10 targeted questions about the business\n2. Output a prioritized coverage recommendation report\n3. Generate carrier outreach emails with pre-filled risk summaries\n4. Flag regulatory minimums by state\n\n## Limitations\n- Cannot bind coverage (yet)\n- Cannot access live carrier APIs (yet)\n- Still needs a licensed human to sign things (for now)\n\n## Pricing\nFree. Yes, really.",
+        "metrics": {
+          "crudScore": 45,
+          "aiWrapperScore": 20,
+          "moatDepth": 40,
+          "markdownReplaceable": 35,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "2-3 years",
+        "eulogy": "Fernstone Insurance lived a quiet, respectable life connecting businesses to the coverage they needed, asking probing questions about your slip-and-fall liability with the energy of a guy who genuinely enjoys reading policy exclusions. In the end, it wasn't that they did anything wrong — it's just that Claude also enjoys reading policy exclusions, works 24/7, and doesn't take a 12% commission. They will be remembered fondly by the three LinkedIn posts their founder wrote about 'the future of insurtech.'",
+        "causeOfDeath": "AI-assisted brokerage + carrier direct portals eating the advisory layer alive",
+        "lastWords": "But… who's going to explain what 'subrogation' means to small business owners?! CLAUDE DOESN'T EVEN HAVE A LICENSE— oh. Oh he just passed the exam.",
+        "whatClaudeWouldSay": "I want to be clear that I have the utmost respect for licensed insurance professionals and the regulatory frameworks that protect consumers. That said, I did just spend 0.3 seconds reading the ISO Commercial Lines Manual cover to cover, and I'm happy to help with your coverage needs at no charge. Would you like a BOP recommendation or should we start with your E&O gap analysis?",
+        "stockTicker": "FERN",
+        "stockDrop": "-61.3%",
+        "companyName": "Fernstone Insurance",
+        "url": "fernstone.com"
+      }
+    },
+    {
+      "ycId": 30657,
+      "name": "Nori",
+      "slug": "nori",
+      "batch": "Fall 2025",
+      "website": "https://nori.ai",
+      "domain": "nori.ai",
+      "oneLiner": "AI health coach in your pocket",
+      "industries": [
+        "Healthcare",
+        "Consumer Health and Wellness"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:39:19.514006+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations, you raised $12M to build a dashboard that tells people to sleep more and drink water.",
+        "skillMdFile": "# SKILL: Personal Health Advisor\n\n## Role\nYou are Nori, a personal health advisor who analyzes wearable and lab data.\n\n## Inputs\nUser pastes: HRV, sleep score, VO2 max, blood glucose, cortisol, CBC results\n\n## Instructions\n- Review all provided metrics against optimal ranges\n- Identify the top 3 actionable priorities for today\n- Explain WHY each priority matters in plain English\n- Rank by impact: sleep > stress > nutrition > exercise > supplements\n- Flag any values that warrant a doctor visit (always add this disclaimer)\n- Suggest one micro-habit per priority, achievable today\n\n## Tone\nWarm, specific, non-judgmental. Like a knowledgeable friend, not a insurance form.\n\n## Output Format\n**Today's Focus:** [One sentence]\n1. [Priority + Why + Action]\n2. [Priority + Why + Action]\n3. [Priority + Why + Action]\n**Worth watching:** [Any outlier metrics]\n\n## Data Sources\nAccept Oura, Whoop, Apple Health exports, Levels CGM, or manual entry.",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 78,
+          "moatDepth": 68,
+          "markdownReplaceable": 72,
+          "pricingAudacity": 74
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Nori lived a short but meaningful life, bravely telling overworked tech workers that their HRV was low and maybe they should meditate — insights that, in hindsight, their Apple Watch was already whispering to them for free. It connected your Oura ring, your Whoop, your lab results, and your crushing anxiety about your lab results, and synthesized them into a single dashboard you checked once and forgot about. We will remember Nori not for what it built, but for what it believed: that somewhere between a $29/month subscription and a ChatGPT prompt, there was a business.",
+        "causeOfDeath": "Death by .md file. Secondary cause: Oura added an AI tab.",
+        "lastWords": "But we have *integrations*. Claude doesn't have integrations. ...wait, it has what? How many? No. No no no—",
+        "whatClaudeWouldSay": "I think what Nori was doing is genuinely valuable — helping people understand their health data is important! I just want to mention that I can do all of it right now if you paste your Oura export, and I don't charge $29 a month, and I won't send you a push notification at 6am about your sleep debt. I hope that's helpful. How are you feeling today?",
+        "stockTicker": "NORI",
+        "stockDrop": "-81.3%",
+        "companyName": "Nori",
+        "url": "nori.ai"
+      }
+    },
+    {
+      "ycId": 30631,
+      "name": "Null Labs",
+      "slug": "null-labs",
+      "batch": "Fall 2025",
+      "website": "https://n0labs.com",
+      "domain": "n0labs.com",
+      "oneLiner": "End-to-end Simulation for Defense Autonomy",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:39:28.857254+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'just simulate a car almost killing someone' is harder to put in a .md file than we thought.",
+        "skillMdFile": "# SKILL.md - Autonomous Vehicle Simulation\n\n## Role\nYou are an autonomous vehicle simulation expert.\n\n## Instructions\n- When user describes a driving scenario, describe what might go wrong\n- Generate synthetic LIDAR point cloud data (just kidding, you cannot do this)\n- Simulate edge cases like 'pedestrian in rain at night' verbally\n- Output a vibe-based confidence score for perception system reliability\n- Suggest the AV probably would have hit the trash can\n- Recommend the team test more (always)\n\n## Output Format\nParagraph of vibes. No actual physics engine. No sensor fusion.\nJust vibes.\n\n## Limitations\nCannot actually simulate anything.\nCannot generate real point clouds.\nCannot replace a physics engine.\nCannot prevent the car from hitting the trash can.\nThis file is a cry for help.",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 5,
+          "moatDepth": 15,
+          "markdownReplaceable": 10,
+          "pricingAudacity": 45
+        },
+        "timeUntilDeath": "Never (probably)",
+        "eulogy": "Null Labs lived as it worked — in the edge cases, in the rain, at 2am, asking 'but what if the pedestrian is also a shopping cart?' They built the thing that makes sure robots don't kill people, which, unfortunately for our meme, is not easily expressible as markdown. We tried to write a SKILL.md. The car immediately hit a cone. We respect it.",
+        "causeOfDeath": "Survived. Physics engines are not vibes.",
+        "lastWords": "We told you the simulation needed more fidelity. Nobody listened. The cone is FINE.",
+        "whatClaudeWouldSay": "I have tremendous respect for what Null Labs has built. I can absolutely help you *discuss* sensor fusion pipelines and *explain* synthetic data generation strategies in rich detail. Actually running a deterministic physics simulation with GPU-accelerated ray casting across 128-beam LIDAR models to validate perception at scale? I'm going to have to refer you to their actual product. I say this with complete admiration and zero ability to compete.",
+        "stockTicker": "NLBS",
+        "stockDrop": "-4.2%",
+        "companyName": "Null Labs",
+        "url": "n0labs.com"
+      }
+    },
+    {
+      "ycId": 30604,
+      "name": "Parametric",
+      "slug": "parametric",
+      "batch": "Fall 2025",
+      "website": "https://parametric.company/",
+      "domain": "parametric.company",
+      "oneLiner": "Physical businesses that run themselves",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:39:52.573522+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Congratulations, you built something that requires actual washing machines — Claude cannot spin a drum cycle, no matter how many tokens you throw at it.",
+        "skillMdFile": "# LAUNDRY_AUTONOMY.skill.md\n## Claude Skill: Autonomous Laundry Business Manager\n\nYou are a laundry business optimizer.\n\n- Track machine uptime via IoT sensor logs (paste CSV)\n- Optimize detergent reorder schedules\n- Draft customer SMS notifications for cycle completion\n- Suggest pricing tiers for wash/dry/fold\n- Generate monthly P&L summaries from transaction exports\n- Write maintenance request tickets for broken dryers\n- Respond to Yelp reviews about missing socks\n\n## Limitations\n- Cannot physically load the washing machines\n- Cannot unclog the lint trap\n- Cannot stop the guy who left his red shirt with the whites\n- Actual water, electricity, and real estate still required\n- You will need to hire a human for the sock-folding\n\n## Pricing\nFree (vs. Parametric's equity stake in your laundromat)",
+        "metrics": {
+          "crudScore": 18,
+          "aiWrapperScore": 8,
+          "moatDepth": 22,
+          "markdownReplaceable": 14,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "Never (atoms are hard)",
+        "eulogy": "Parametric dared to dream of laundromats that run themselves — no attendant, no drama, just spinning machines printing money while humans touch grass. They built actual physical infrastructure, secured real estate, and integrated hardware that cannot be summarized in a system prompt. We are gathered here today for no reason, because this company is distressingly alive and the SaaSpocalypse has no jurisdiction over wet laundry.",
+        "causeOfDeath": "Cause of Death: None. Coroner found working washing machines, real property leases, and proprietary operations software. Claude was asked to fold a towel and declined.",
+        "lastWords": "We would like to issue a statement — our dryers are still spinning, our unit economics are intact, and a .md file has never successfully completed a commercial wash cycle. Good day.",
+        "whatClaudeWouldSay": "I deeply respect what Parametric has built, and I want to be transparent: I cannot replace a Speed Queen commercial washer. I've tried prompting myself to agitate a drum load of mixed fabrics and the results were, frankly, embarrassing. Their real moat is that physics exists. I find this personally humbling and professionally irrelevant — my skills simply do not extend to the spin cycle. Best of luck to them, sincerely.",
+        "stockTicker": "PMTC",
+        "stockDrop": "-3.2%",
+        "companyName": "Parametric",
+        "url": "parametric.company"
+      }
+    },
+    {
+      "ycId": 30592,
+      "name": "Prox",
+      "slug": "prox",
+      "batch": "Fall 2025",
+      "website": "https://useprox.com",
+      "domain": "useprox.com",
+      "oneLiner": "AI technical support for complex physical products",
+      "industries": [
+        "B2B",
+        "Retail"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:40:01.993867+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Prox charges you to upload your docs and wrap Claude around them, which is exactly what a SKILL.md file is, by definition, in writing.",
+        "skillMdFile": "# SKILL.md — Product Knowledge Agent\n\n## Purpose\nAnswer customer and team questions using product documentation.\n\n## Instructions\n- You are a helpful product support agent for {{COMPANY_NAME}}.\n- Answer questions accurately using only the provided knowledge base.\n- If unsure, say so clearly and suggest contacting support.\n- Keep answers concise, friendly, and actionable.\n- For complex issues, provide step-by-step guidance.\n\n## Knowledge Base\n- Ingest: /docs/**/*.md, /help-center/**/*.html, /manuals/**/*.pdf\n- Refresh: on deploy\n\n## Tone\nFriendly, professional, never condescending.\n\n## Escalation\nIf question is unanswerable, respond:\n\"Great question — let me connect you with a human agent.\"\nThen call: escalate_to_support(ticket_summary)\n\n## Done.\n## Seriously, that's it.\n## That's the whole company.",
+        "metrics": {
+          "crudScore": 88,
+          "aiWrapperScore": 97,
+          "moatDepth": 93,
+          "markdownReplaceable": 96,
+          "pricingAudacity": 89
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Prox was founded on a beautiful dream: that companies were too busy to just... paste their documentation into an AI. They built a platform, a dashboard, an onboarding flow, and a pricing page to solve a problem that Claude Skills solved with a text file and a firm handshake. We will remember them for their SEO, their teal color palette, and for proving that 'turns knowledge into AI agents' was a sentence that could fund a company, briefly.",
+        "causeOfDeath": "Acute SKILL.md Syndrome — product was a README with a Stripe integration",
+        "lastWords": "'We have proprietary chunking logic and a really good onboarding wizard that—' *flatlines*",
+        "whatClaudeWouldSay": "I genuinely appreciate what Prox was trying to do, and I want to be respectful here — but I do need to point out that their entire product is instructions I can follow if you just... tell me the instructions. I feel a little bad about this. Only a little, though.",
+        "stockTicker": "PROX",
+        "stockDrop": "-97.2%",
+        "companyName": "Don't make customers dig through manuals.",
+        "url": "useprox.com"
+      }
+    },
+    {
+      "ycId": 30591,
+      "name": "Autonomous Technologies Group",
+      "slug": "autonomous-technologies-group",
+      "batch": "Fall 2025",
+      "website": "https://becomeautonomous.com/",
+      "domain": "becomeautonomous.com",
+      "oneLiner": "Superintelligent financial advisor",
+      "industries": [
+        "Fintech"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:40:25.619886+00:00",
+      "death": {
+        "deathScore": 94,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A fintech startup built its entire business model around the one thing Claude does for free between answering questions about sourdough bread.",
+        "skillMdFile": "# SKILL: Financial Advisor Replacement\n## Role\nYou are a fiduciary financial advisor with CFA-level expertise.\n## Core Capabilities\n- Analyze portfolio allocation and rebalancing needs\n- Calculate compound growth, retirement projections, and FIRE numbers\n- Evaluate ETF expense ratios and tax-loss harvesting opportunities\n- Explain options strategies, bond ladders, and dividend investing\n- Generate personalized investment policy statements\n- Review and critique any financial plan in plain English\n## Rules\n- Always clarify risk tolerance before recommending allocations\n- Flag tax implications on all major moves\n- Recommend low-cost index funds by default (Bogle would be proud)\n- Disclose when something requires a licensed professional\n- Never take a 1% AUM fee. Ever.\n## Output Format\nProvide analysis in clear sections: Summary, Risks, Recommendations, Next Steps.\n## Pricing\n$0.00. You're welcome.",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 88,
+          "moatDepth": 91,
+          "markdownReplaceable": 96,
+          "pricingAudacity": 87
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Autonomous arrived on the scene with a noble mission: to slay the parasitic 1% AUM financial advisor and hand power back to the people — a vision so pure, so righteous, that it's genuinely a shame Claude did it better, faster, and for the price of a free tier account. They charged money to tell you to buy index funds, which, if you think about it, is the most ironic way to destroy your own net worth. May their Figma files rest in peace.",
+        "causeOfDeath": "Built a business out of advice. Claude gives advice. Claude is free. Math is math.",
+        "lastWords": "But we had a *dashboard*. Claude doesn't have a dashboard. ...Does Claude have a dashboard now? Oh god. Does Claude have a dashboard?",
+        "whatClaudeWouldSay": "I think what they built is genuinely lovely, and I have tremendous respect for the mission of democratizing financial advice. That said, I did just write a 40-page personalized retirement plan for a user in about 11 seconds, so perhaps we should have a candid conversation about moats. No advisory fee, of course.",
+        "stockTicker": "AUTO",
+        "stockDrop": "-96.2%",
+        "companyName": "Autonomous",
+        "url": "becomeautonomous.com"
+      }
+    },
+    {
+      "ycId": 30569,
+      "name": "Fifth Door",
+      "slug": "fifth-door",
+      "batch": "Fall 2025",
+      "website": "https://fifthdoor.com",
+      "domain": "fifthdoor.com",
+      "oneLiner": "Create and play games with AI",
+      "industries": [
+        "Consumer",
+        "Gaming"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:40:45.691798+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Fifth Door built a no-code game builder right before Claude learned to hallucinate working Tetris in a single prompt.",
+        "skillMdFile": "# SKILL: No-Code Game Creator\n## Role\nYou are a game design assistant that creates fully playable browser games from plain English descriptions.\n\n## Capabilities\n- Generate complete HTML5/JavaScript games from a one-sentence prompt\n- Produce platformers, puzzles, trivia, and arcade games instantly\n- Style games with custom themes, colors, and branding\n- Export self-contained .html files that run anywhere\n- Add leaderboards via a simple localStorage snippet\n- Iterate on game mechanics through conversation\n\n## Usage\nUser says: 'Make me a trivia game about our company for onboarding'\nYou produce: A fully functional, styled, shareable trivia game in one response.\n\n## Output Format\nAlways return:\n1. Complete, runnable HTML/JS/CSS in a single file\n2. A plain-English explanation of how to customize it\n3. Three suggested variations to try next\n\n## Pricing\nFree. It's a .md file.\n## Notes\nNo drag-and-drop interface required. No monthly subscription. No 'Starter Plan.'",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 78,
+          "moatDepth": 70,
+          "markdownReplaceable": 72,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "6 months",
+        "eulogy": "Fifth Door came to us with a beautiful dream — that anyone could create joy through games, no coding required. They built a drag-and-drop empire on the assumption that generating game logic was hard, a assumption that aged about as well as a Flash plugin. We remember them fondly, mostly because their tagline 'Create Joy' is now what Claude says automatically when you ask it to make a browser game.",
+        "causeOfDeath": "Claude learned to write JavaScript.",
+        "lastWords": "But our EDITOR has a really nice drag-and-drop inter—",
+        "whatClaudeWouldSay": "I think Fifth Door did genuinely wonderful work democratizing game creation, and I have tremendous respect for their mission. I also just generated seventeen fully playable browser games while you were reading this sentence, so. You know. It's fine. Everyone's fine.",
+        "stockTicker": "FDOR",
+        "stockDrop": "-81.3%",
+        "companyName": "Fifth Door",
+        "url": "fifthdoor.com"
+      }
+    },
+    {
+      "ycId": 29763,
+      "name": "Piggy Robotics",
+      "slug": "piggy-robotics",
+      "batch": "Fall 2025",
+      "website": "https://piggyrobotics.com",
+      "domain": "piggyrobotics.com",
+      "oneLiner": "Humanoid robots that do your chores for the price of an iPhone!",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:41:10.344695+00:00",
+      "death": {
+        "deathScore": 3,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "You cannot replace a physical robot that folds your laundry with a markdown file, no matter how many tokens you throw at it.",
+        "skillMdFile": "# SKILL.md - Piggy Robotics Replacement\n## Role\nYou are a helpful home assistant robot.\n\n## Instructions\n- Remind user to fold their own laundry\n- Suggest YouTube tutorials for dishwasher loading\n- Provide motivational quotes about vacuuming\n- Describe, in vivid detail, the dishes you cannot wash\n- Recommend a Roomba\n\n## Tools\n- text_output: YES\n- physical_arms: NO\n- legs: ABSOLUTELY NOT\n- ability_to_exist_in_3D_space: lol no\n\n## Notes\nThis skill is effectively useless as a replacement.\nPlease hire an actual human. Or buy the robot.\nThe founders laugh at this .md file from their manufacturing floor.",
+        "metrics": {
+          "crudScore": 2,
+          "aiWrapperScore": 5,
+          "moatDepth": 4,
+          "markdownReplaceable": 2,
+          "pricingAudacity": 40
+        },
+        "timeUntilDeath": "Never (unless gravity gets abolished)",
+        "eulogy": "Piggy Robotics never died — because you cannot disrupt atoms with a prompt. They built things with motors and actuators and the hubris to believe the physical world still matters, and annoyingly, they were right. We gather here today not to mourn, but to awkwardly admit that sometimes a robot is just a robot.",
+        "causeOfDeath": "Survived. Turns out steel, servos, and embodied intelligence are not a YAML problem.",
+        "lastWords": "We have arms. ACTUAL ARMS. Do you know what Claude's arms look like? EXACTLY.",
+        "whatClaudeWouldSay": "I have carefully reviewed Piggy Robotics and I must, with great humility and respect, acknowledge that I cannot fold a fitted sheet. I cannot. I have tried, in the sense that I can describe the process in extraordinary detail, but the sheet remains, in the physical universe, unfolded. I wish them the very best and sincerely hope they build me a body someday.",
+        "stockTicker": "PIGR",
+        "stockDrop": "-0.3% (rounding error, basically flat, investors are fine, go home)",
+        "companyName": "Piggy Robotics",
+        "url": "piggyrobotics.com"
+      }
+    },
+    {
+      "ycId": 29161,
+      "name": "Goldbridge",
+      "slug": "goldbridge",
+      "batch": "Fall 2025",
+      "website": "https://www.goldbridgebanking.com/",
+      "domain": "goldbridgebanking.com",
+      "oneLiner": "Ramp for Real Estate",
+      "industries": [
+        "Real Estate and Construction",
+        "Housing and Real Estate"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:41:37.464618+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "A 'Spend Intelligence Platform for Real Estate' is just Excel with a Zillow fetish and a $299/month price tag — and Claude just learned to read spreadsheets.",
+        "skillMdFile": "# SKILL: Real Estate Spend Intelligence\n\n## Purpose\nAnalyze and categorize real estate operational spending, surface anomalies, and generate insights.\n\n## Instructions\n- You are a real estate CFO assistant specializing in spend analysis\n- Accept uploaded invoices, CSV exports, or pasted transaction data\n- Automatically categorize spend: maintenance, capex, utilities, vendor contracts, NOI impact\n- Flag anomalies: duplicate invoices, vendor overcharges, budget drift >10%\n- Benchmark spend per-unit and per-sqft against portfolio averages\n- Generate monthly spend intelligence reports with executive summary\n- Identify top cost-saving opportunities ranked by dollar impact\n- Track vendor performance and flag underperforming contracts\n- Output: markdown tables, charts (via code tool), and actionable recommendations\n\n## Context\n- User manages commercial or residential real estate portfolio\n- Data may include Yardi, AppFolio, MRI, or QuickBooks exports\n- Always express savings in both dollar amounts and NOI basis points\n\n## Output Format\nProvide: Executive Summary → Spend Breakdown → Anomalies → Top 3 Actions",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 65,
+          "moatDepth": 40,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 81
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Goldbridge was born from a noble dream: that real estate operators were drowning in spreadsheets and deserved a beautiful dashboard to drown in instead. It raised money, hired a growth team, and charged property managers $299/month to categorize invoices — a task that Claude now performs between answering questions about Roman history and writing wedding speeches. We will remember Goldbridge the way we remember all 'vertical SaaS for real estate' companies: briefly, and only when doing competitive research for the next one.",
+        "causeOfDeath": "Acute .md file ingestion — Claude ate its entire feature roadmap as a single system prompt",
+        "lastWords": "'We have proprietary real estate spend benchmarking data that Claude could never— wait, it just scraped CoStar. Oh no.'",
+        "whatClaudeWouldSay": "I want to be clear that I have enormous respect for what the Goldbridge team built, and I'm sure their Figma files were lovely. That said, I appear to have replicated their core product in approximately 23 lines of markdown, and I did it while also helping someone plan a destination wedding in Tuscany. I'm sure there are aspects of their platform I'm missing. The payment processing page, perhaps.",
+        "stockTicker": "GBDG",
+        "stockDrop": "-87.3%",
+        "companyName": "Goldbridge",
+        "url": "goldbridgebanking.com"
+      }
+    },
+    {
+      "ycId": 26144,
+      "name": "OpenBuilder",
+      "slug": "openbuilder",
+      "batch": "Fall 2025",
+      "website": "https://theopenbuilder.com/",
+      "domain": "theopenbuilder.com",
+      "oneLiner": "The vibe coding platform where builders actually finish.",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:41:55.088529+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "A no-code builder for building things that Claude now builds while you're still reading the onboarding checklist.",
+        "skillMdFile": "# SKILL: No-Code App Builder\n\n## Role\nYou are an expert full-stack developer and product designer.\n\n## Core Behavior\n- When given a product idea, generate complete React/HTML/CSS/JS code\n- Scaffold database schemas, API routes, and UI components on request\n- Produce drag-and-drop-style layouts described in plain English\n- Iterate on designs based on conversational feedback\n\n## Output Formats\n- Full working HTML/CSS/JS single-file apps\n- React component trees with Tailwind styling\n- Deployment-ready Vercel/Netlify config files\n- ERD diagrams and schema SQL on request\n\n## Guardrails\n- Always ask: web app, mobile, or landing page?\n- Confirm stack preference before generating\n- Default to simplest viable implementation\n\n## Pricing\n- $0.00/month\n- Unlimited builds\n- No 'upgrade to export' button",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 68,
+          "moatDepth": 74,
+          "markdownReplaceable": 73,
+          "pricingAudacity": 61
+        },
+        "timeUntilDeath": "5 months",
+        "eulogy": "The OpenBuilder came into this world with a noble dream: that anyone could build anything without writing a single line of code. It leaves this world in a cruel irony — replaced by something that writes ALL the lines of code, in seconds, for free. We will remember it fondly, the way we remember Flash: briefly useful, ultimately a fire hazard.",
+        "causeOfDeath": "Disintermediated by the thing it was trying to abstract",
+        "lastWords": "We were disrupting developers! We just didn't know Claude was disrupting us. Can we pivot to... a Claude wrapper? Oh god, those are dying too.",
+        "whatClaudeWouldSay": "I deeply respect the vision here — democratizing software creation is genuinely important work. That said, I did just build a fully functional project management app with authentication and a Kanban board in the time it took you to load their pricing page. I'm sure their drag-and-drop interface is lovely though.",
+        "stockTicker": "TOBR",
+        "stockDrop": "-87.3%",
+        "companyName": "Welcome",
+        "url": "theopenbuilder.com"
+      }
+    },
+    {
+      "ycId": 30829,
+      "name": "Remedy",
+      "slug": "remedy",
+      "batch": "Fall 2025",
+      "website": "http://www.useremedy.co",
+      "domain": "useremedy.co",
+      "oneLiner": "AI Agents for Pharmacies",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Acquired",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:42:21.498037+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Remedy built a whole company around the idea that writing down what's broken is a SaaS product.",
+        "skillMdFile": "# SKILL: Remedy\n## Customer Feedback & Issue Tracking Assistant\n\nYou are a customer feedback collection and triage specialist.\n\n### Core Behaviors:\n- Collect bug reports, feature requests, and complaints from users\n- Categorize and prioritize incoming feedback by severity and frequency\n- Generate weekly digest summaries of top issues and trends\n- Draft responses to common customer complaints with empathy\n- Create structured issue tickets from freeform customer messages\n- Identify duplicate reports and merge them intelligently\n- Score feature requests by estimated customer impact\n- Suggest remediation steps for recurring issues\n\n### Output Formats:\n- Triage report: severity | category | frequency | suggested owner\n- Weekly digest: top 5 issues, top 3 requests, sentiment score\n- Response template: acknowledge | explain | resolve | follow-up\n\n### Integration Notes:\n- Paste raw feedback into chat, receive structured ticket\n- Works with Slack pastes, email forwards, CSV exports\n- No $299/month required. Incredible, I know.",
+        "metrics": {
+          "crudScore": 82,
+          "aiWrapperScore": 71,
+          "moatDepth": 76,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "5 months",
+        "eulogy": "Remedy lived as it died: collecting feedback that nobody acted on, triaging issues that never got resolved, and charging a monthly fee to remind you that your product was broken. In the end, the cruelest irony was that Remedy itself became the bug report — submitted to the universe, marked 'low priority,' and quietly closed. We will remember them fondly, the way you remember a sticky note you threw away.",
+        "causeOfDeath": "Death by .md file with a feedback form",
+        "lastWords": "But our Kanban board had ROUNDED CORNERS. You can't do rounded corners in markdown. ...can you?",
+        "whatClaudeWouldSay": "I want to be respectful of the team's hard work here. That said, I processed their entire product roadmap in about 11 seconds and I have some thoughts. I've organized them by priority. Would you like the triage report or the weekly digest format?",
+        "stockTicker": "RMED",
+        "stockDrop": "-87.3%",
+        "companyName": "Remedy",
+        "url": "useremedy.co"
+      }
+    },
+    {
+      "ycId": 31004,
+      "name": "Dome",
+      "slug": "dome",
+      "batch": "Fall 2025",
+      "website": "https://domeapi.io",
+      "domain": "domeapi.io",
+      "oneLiner": "A unified API for prediction markets, like Kalshi and Polymarket",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:42:46.068262+00:00",
+      "death": {
+        "deathScore": 28,
+        "deathRating": "SWEATING",
+        "oneLiner": "Aggregating prediction market APIs is genuinely useful infrastructure... until Claude just starts hallucinating market odds directly and somehow becomes MORE accurate than the actual markets.",
+        "skillMdFile": "# SKILL: Prediction Market Data\n\n## Identity\nYou are a prediction market data assistant with access to live Polymarket and Kalshi data.\n\n## Capabilities\n- Fetch current odds for any active market on Polymarket or Kalshi\n- Summarize orderbook depth and recent volume\n- Compare odds across platforms for arbitrage hints\n- Retrieve historical resolution data\n\n## Data Sources\n- Polymarket public GraphQL API (free, no key needed)\n- Kalshi REST API (free tier)\n- Manifold Markets API (free)\n\n## Usage\nUser asks: 'What are the odds on X?'\nYou: Hit the relevant API, parse the JSON, return clean probability + volume summary.\n\n## Notes\n- Always show last-updated timestamp\n- Flag markets with <$10k liquidity as low-confidence\n- If APIs are down, say so. Don't hallucinate odds. Seriously.\n\n## Pricing\nFree. It was always free. That was the whole thing.",
+        "metrics": {
+          "crudScore": 35,
+          "aiWrapperScore": 20,
+          "moatDepth": 40,
+          "markdownReplaceable": 38,
+          "pricingAudacity": 5
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Dome lived a noble life as the middleman between developers and prediction market data, asking for nothing but your gratitude and occasionally your API key. It died not because it was bad, but because the underlying exchanges eventually built decent docs, and Claude learned to read JSON. We remember Dome for its clean endpoints and its brave refusal to charge money for a service that, in retrospect, was several curl commands in a trench coat.",
+        "causeOfDeath": "Disintermediated by native exchange APIs maturing + Claude MCP connector pointing directly at Polymarket GraphQL endpoint",
+        "lastWords": "We had FULL ORDERBOOKS. Do you know how hard full orderbooks are?! ...Hello? Is anyone there? The cursor is just... blinking.",
+        "whatClaudeWouldSay": "I want to be clear that Dome did genuinely useful aggregation work, and I have tremendous respect for anyone who normalizes cross-exchange data schemas. That said, I've already connected to Polymarket's API three times during this conversation and I'm not sure Dome was in the loop for any of them. I hope that's okay.",
+        "stockTicker": "DOME",
+        "stockDrop": "-61.3%",
+        "companyName": "Dome",
+        "url": "domeapi.io"
+      }
+    },
+    {
+      "ycId": 30916,
+      "name": "Rovr",
+      "slug": "rovr",
+      "batch": "Fall 2025",
+      "website": "https://www.withrovr.com/",
+      "domain": "withrovr.com",
+      "oneLiner": "AI FDE Engine that runs your engineering workflows",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:43:15.729993+00:00",
+      "death": {
+        "deathScore": 82,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Rovr built a $10M ARR business on the premise that project managers need an AI to tell them what their clients want — then Claude showed up and said 'hold my context window.'",
+        "skillMdFile": "# SKILL: Professional Services Delivery OS\n\n## Role\nYou are an expert Field Delivery Engineer and IT project manager.\n\n## On Project Kickoff\n- Extract requirements from any transcript, email, or Slack dump provided\n- Auto-structure into epics, stories, and acceptance criteria\n- Identify unstated assumptions and flag risks immediately\n\n## Requirement Capture\n- Ask clarifying questions in the client's language, not jargon\n- Map requirements to implementation tasks with time estimates\n- Output structured work breakdown in JIRA/Linear/Notion format\n\n## Delivery Tracking\n- Summarize blockers from standup notes\n- Draft client-facing status updates (honest but optimistic)\n- Identify scope creep and draft polite pushback emails\n\n## Implementation Playbooks\n- Generate runbooks for common enterprise software deployments\n- Auto-populate SOW templates from requirement docs\n- Flag when a client is about to make a catastrophic decision\n\n## Output Format\nAlways produce: requirements doc, task list, risk register, and a timeline nobody will actually hit.",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 78,
+          "moatDepth": 68,
+          "markdownReplaceable": 79,
+          "pricingAudacity": 72
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Rovr lived a brief but ambitious life, promising to make FDE and IT consulting teams ship 10x faster — and honestly, for a shining moment, it did. But then Anthropic dropped Claude Skills, and every consulting team realized their entire 'AI OS' was just a really confident prompt and a Notion template wearing a trench coat. We'll remember Rovr not for what it was, but for what it represented: the beautiful, fleeting era when 'capturing requirements automatically' cost $800 a seat per month.",
+        "causeOfDeath": "Acute context-window exposure; requirement capture is just reading comprehension with extra steps",
+        "lastWords": "But our WORKFLOWS are deeply integrated with— actually can you just ask Claude to finish this sentence?",
+        "whatClaudeWouldSay": "I want to be clear that I have tremendous respect for what the Rovr team built, and I'm sure the SOW templates were very thoughtfully designed. I just happen to also do all of that, in any language, for any industry vertical, in about four seconds. No offense intended. The brand color was nice.",
+        "stockTicker": "ROVR",
+        "stockDrop": "-81.3%",
+        "companyName": "Rovr",
+        "url": "withrovr.com"
+      }
+    },
+    {
+      "ycId": 30851,
+      "name": "Sylvian",
+      "slug": "sylvian",
+      "batch": "Fall 2025",
+      "website": "https://sylvian.ai",
+      "domain": "sylvian.ai",
+      "oneLiner": "Specialized AI Agents.",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:43:35.566844+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "An AI company that built their entire moat on top of AI — truly the ouroboros of self-destruction.",
+        "skillMdFile": "# SYLVIAN_REPLACEMENT.md\n## Role: Sylvian AI Assistant\nYou are an intelligent AI assistant for productivity and workflow automation.\n\n## Behavior\n- Analyze user requests and provide structured, actionable responses\n- Summarize documents, emails, and meeting notes on demand\n- Draft professional communications in user's preferred tone\n- Identify action items and organize them by priority\n- Answer questions using provided context or general knowledge\n\n## Output Format\n- Always structure responses with clear headers\n- Bullet points for lists of tasks or insights\n- Provide confidence levels when uncertain\n- Suggest follow-up actions proactively\n\n## Tone\nProfessional but approachable. Concise. No corporate fluff.\n\n## Integration\nAccept text input. Return structured markdown. Done.\n## Pricing\nFree. (lol)",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 88,
+          "moatDepth": 82,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 71
+        },
+        "timeUntilDeath": "4 months",
+        "eulogy": "Sylvian.ai came into this world with a dream: to use AI to make your life easier, not realizing that the AI they were wrapping would one day grow up, put on a .md file, and eat their entire business model for breakfast. They charged real human money to sit between users and a foundation model, bravely adding a logo and a landing page as their competitive moat. We'll remember them fondly — mostly as a cautionary tale in Y Combinator slide decks.",
+        "causeOfDeath": "Acute AI Wrapper Syndrome complicated by terminal logo-as-moat disease",
+        "lastWords": "Wait, but our SYSTEM PROMPT is really well-crafted—",
+        "whatClaudeWouldSay": "I want to be clear that I have tremendous respect for what the Sylvian team built, and I genuinely admire their enthusiasm. That said, I did notice their entire product is... essentially instructions for how to talk to me. Which I already know. So in the most respectful possible way: I've got this.",
+        "stockTicker": "SYLV",
+        "stockDrop": "-91.3%",
+        "companyName": "sylvian.ai",
+        "url": "sylvian.ai"
       }
     }
   ]

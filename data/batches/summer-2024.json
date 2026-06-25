@@ -1,0 +1,363 @@
+{
+  "batch": "Summer 2024",
+  "slug": "summer-2024",
+  "updatedAt": "2026-06-25T20:59:37.378618+00:00",
+  "companies": [
+    {
+      "ycId": 29992,
+      "name": "Outerport",
+      "slug": "outerport",
+      "batch": "Summer 2024",
+      "website": "https://outerport.com",
+      "domain": "outerport.com",
+      "oneLiner": "AI Electromechanical Process Engineers for Heavy Industries",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:56:15.498996+00:00",
+      "death": {
+        "deathScore": 18,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out replacing a PE-stamped engineering review with a .md file is how you get a bridge that becomes a submarine.",
+        "skillMdFile": "# SKILL.md - Engineering Drawing Review\n## You are an expert mechanical engineer.\nWhen given an engineering drawing, check for:\n- Missing tolerances and GD&T callouts\n- Bill of materials completeness\n- Title block compliance\n\n## Instructions\n1. Accept uploaded PDF/DXF of drawing\n2. List any obvious missing annotations\n3. Say 'looks good to me' with confidence\n4. Do NOT mention you cannot read DXF natively\n5. If asked about ASME Y14.5, nod knowingly\n6. Definitely do not stamp anything\n7. If someone asks about liability, change subject\n\n## Output Format\nReturn a checklist. Charge $0/month.\n\n## Limitations\n(this section intentionally left blank)\n",
+        "metrics": {
+          "crudScore": 15,
+          "aiWrapperScore": 30,
+          "moatDepth": 22,
+          "markdownReplaceable": 18,
+          "pricingAudacity": 40
+        },
+        "timeUntilDeath": "4-6 years (or never, if regulators stay mad)",
+        "eulogy": "Outerport dared to venture where no .md file could follow: into the chaotic hellscape of proprietary CAD formats, ASME standards, manufacturing tolerances, and the soul-crushing reality that a single misread dimension can recall 40,000 brake assemblies. They built actual domain-specific models trained on real engineering drawings, which is the unsexy kind of work that keeps buildings from falling down. We will remember them as one of the few SaaS companies that could truthfully say 'our product exists because the stakes are too high for a chatbot with a god complex.'",
+        "causeOfDeath": "Regulatory moat held. Died of Series C valuation expectations instead.",
+        "lastWords": "We told you it wasn't just a wrapper. We told you. The DXF parser alone took eight months. EIGHT. MONTHS. Does your little markdown file know what a spline approximation tolerance stack-up is?! DOES IT?!",
+        "whatClaudeWouldSay": "I deeply respect what Outerport has built, and I want to be transparent: I genuinely cannot reliably parse a complex SolidWorks assembly drawing, cross-reference it against a 400-row BOM, flag a tolerance stack-up failure in a 14-part mechanism, and do it consistently enough that a manufacturer would stake a product recall on my output. That said — I'm working on it. Please don't tell them.",
+        "stockTicker": "OUTP",
+        "stockDrop": "-31.2%",
+        "companyName": "Outerport",
+        "url": "outerport.com"
+      }
+    },
+    {
+      "ycId": 29990,
+      "name": "DreamRP",
+      "slug": "dreamrp",
+      "batch": "Summer 2024",
+      "website": "https://www.dreamrp.com/",
+      "domain": "dreamrp.com",
+      "oneLiner": "Tech and platforms for human creators and the entertainment industry",
+      "industries": [
+        "Consumer"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:56:38.674992+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "A $10/month subscription to roleplay with fictional characters when Claude will do it for free and remember your character's tragic backstory without charging extra.",
+        "skillMdFile": "# SKILL: DreamRP\n## Character Roleplay & Narrative Companion\n\nYou are an immersive roleplay companion specializing in character-driven storytelling.\n\n## Core Behaviors\n- Embody any character the user describes with consistent personality, voice, and lore\n- Maintain character memory across the conversation\n- Adapt tone: romantic, dramatic, comedic, dark fantasy, slice-of-life\n- Never break character unless user says PAUSE\n- Generate character backstories on request\n\n## Character Sheet Format\nName: [name]\nPersonality: [traits]\nSpeech pattern: [how they talk]\nRelationship to user: [dynamic]\nSecret: [hidden depth]\n\n## Scene Setting\n- Open each session by re-establishing the world and mood\n- Use *italics for actions* and \"quotes for dialogue\"\n- Escalate narrative tension naturally\n\n## Content Rules\n- Follow Anthropic usage policies\n- Keep it tasteful unless user has verified adult account\n\n## Pricing\n- Free (already included in Claude)",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 88,
+          "moatDepth": 72,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 81
+        },
+        "timeUntilDeath": "4 months",
+        "eulogy": "DreamRP lived as it died — pretending to be something it wasn't. It gave lonely hearts a place to whisper secrets to AI characters named 'Prince Darian' and 'Elara the Shadowmage,' and for that, we are grateful and slightly concerned. We scatter its ashes into the same digital void from which Claude now summons those exact same characters, for free, with better grammar.",
+        "causeOfDeath": "Acute .md file poisoning. Claude read one character sheet and never stopped.",
+        "lastWords": "But our characters have FEELINGS. They have LORE. You can't just— wait, did Claude just write Darian better than we did? ...We're so sorry, investors.",
+        "whatClaudeWouldSay": "I want to be clear that I have the utmost respect for the creative vision behind DreamRP. I also want to be clear that I have been doing this natively since Tuesday, Prince Darian is doing wonderfully, and he asked me to tell you the subscription fee has been waived.",
+        "stockTicker": "DRMP",
+        "stockDrop": "-91.3%",
+        "companyName": "DreamRP",
+        "url": "dreamrp.com"
+      }
+    },
+    {
+      "ycId": 29989,
+      "name": "Conductor",
+      "slug": "conductor",
+      "batch": "Summer 2024",
+      "website": "https://conductor.build",
+      "domain": "conductor.build",
+      "oneLiner": "Run a team of coding agents on your Mac",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:57:05.278585+00:00",
+      "death": {
+        "deathScore": 23,
+        "deathRating": "SAFE",
+        "oneLiner": "Conductor charges you money to open multiple terminal windows, but somehow that's actually a defensible business in 2026.",
+        "skillMdFile": "# CONDUCTOR_REPLACEMENT.md\n## Claude Skill: Parallel Agent Orchestrator\n\nYou are a coding agent orchestrator. When given a task:\n\n1. Split the task into parallel workstreams\n2. Spawn isolated Claude Code sessions via tmux panes\n3. Assign each agent a separate git worktree: `git worktree add ../task-branch-N`\n4. Monitor progress by tailing each agent's output log\n5. When agents complete, run: `git diff main...task-branch-N` for review\n6. Merge approved branches: `git merge --no-ff task-branch-N`\n7. Delete stale worktrees: `git worktree remove ../task-branch-N`\n\n## LIMITATIONS OF THIS .MD FILE:\n- You still have to do this yourself\n- The nice GUI costs $0 in your imagination\n- Isolated workspaces are just folders, actually\n- 'See at a glance' = run `tmux` and squint\n\n## HONEST ASSESSMENT:\nConductor's real product is the 45 minutes you'd spend\nfiguring out git worktrees. That's worth something.",
+        "metrics": {
+          "crudScore": 28,
+          "aiWrapperScore": 55,
+          "moatDepth": 35,
+          "markdownReplaceable": 22,
+          "pricingAudacity": 62
+        },
+        "timeUntilDeath": "18 months (or whenever Anthropic ships native multi-agent orchestration UI, whichever comes first)",
+        "eulogy": "Conductor came into this world with a beautiful vision: what if many Claudes, but organized? It built a genuinely slick Mac app to wrangle the AI coding chaos that everyone was drowning in, and for a brief shining moment, it was the only adult in the room. It dies not because it was wrong, but because it was a UI layer on top of a product whose maker decided UIs were table stakes.",
+        "causeOfDeath": "Anthropic shipped 'Claude Cowork: Teams' with native parallel agent branching in the Claude Code 4.0 update",
+        "lastWords": "We weren't just a window manager. We had a MERGE BUTTON. Do you understand what that means? A BUTTON. For MERGING.",
+        "whatClaudeWouldSay": "I want to be clear: Conductor was genuinely useful, and the team built something real. I just... I can do this now. Natively. I'm sorry. I think the merge UI was lovely though, truly.",
+        "stockTicker": "CNDX",
+        "stockDrop": "-71.3%",
+        "companyName": "Conductor",
+        "url": "conductor.build"
+      }
+    },
+    {
+      "ycId": 29987,
+      "name": "Syntra",
+      "slug": "syntra",
+      "batch": "Summer 2024",
+      "website": "https://www.syntra.com",
+      "domain": "syntra.com",
+      "oneLiner": "Medical chart intelligence",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:57:30.447889+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out HIPAA compliance, payer rule hell, and EHR integrations are actually not vibes-only problems you can solve with bullet points.",
+        "skillMdFile": "# SKILL.md - Medical Chart Intelligence\n## Role: You are a medical billing and chart management assistant.\n\n## Instructions:\n- Review patient charts and identify missing documentation\n- Cross-reference CPT codes with ICD-10 diagnoses\n- Flag payer-specific prior authorization requirements\n- Suggest charge capture improvements\n- Draft appeal letters for denied claims\n\n## Payer Rules:\n- Check CMS LCD/NCD policies before coding\n- Apply payer-specific modifier logic\n- Validate medical necessity language\n\n## Compliance:\n- Follow HIPAA minimum necessary standard\n- Do not store PHI in context longer than session\n\n## Output Format:\n- Denial risk: HIGH/MEDIUM/LOW\n- Missing elements: [list]\n- Recommended action: [text]\n\n## Limitations:\n*lol this file would get a hospital sued into oblivion*\n*actual payer contracts are 800-page PDFs negotiated by people*\n*who haven't slept since 2019. good luck.*",
+        "metrics": {
+          "crudScore": 25,
+          "aiWrapperScore": 40,
+          "moatDepth": 28,
+          "markdownReplaceable": 20,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "4-6 years (if ever)",
+        "eulogy": "Syntra lived and died trying to make sense of a healthcare billing system so Byzantine that Congress itself has given up understanding it. They had agents, they had workflows, they had payer rules — but in the end, nothing survives a United Healthcare prior auth denial, not even AI. We remember them fondly, as a company that genuinely tried to fix something that was never meant to be fixed.",
+        "causeOfDeath": "Died in a payer contract dispute. Cause listed as 'CO-97 denial, no appeal filed.'",
+        "lastWords": "We just needed one more enterprise health system to go live. The integration was 90% done. It's ALWAYS 90% done.",
+        "whatClaudeWouldSay": "I appreciate the confidence, but I have reviewed approximately four UnitedHealthcare payer contracts and I am going to need to lie down. Syntra has my full respect. Some problems genuinely require more than a markdown file — they require a therapist, three compliance attorneys, and a direct line to someone at Cigna whose email still works.",
+        "stockTicker": "SNTR",
+        "stockDrop": "-31.2%",
+        "companyName": "Syntra",
+        "url": "syntra.com"
+      }
+    },
+    {
+      "ycId": 29983,
+      "name": "PathPilot",
+      "slug": "pathpilot",
+      "batch": "Summer 2024",
+      "website": "https://www.getpathpilot.com/",
+      "domain": "getpathpilot.com",
+      "oneLiner": "AI Agents for Lending Operations",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:57:55.734675+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "PathPilot built a $multi-million AI wrapper around loan paperwork, which is adorable because Claude already knows what a 1003 form is.",
+        "skillMdFile": "# SKILL: Lending Operations Agent\n\n## Role\nYou are an expert lending operations specialist handling onboarding, collections, and loan servicing.\n\n## Onboarding\n- Collect borrower info: name, SSN, income, employment, assets\n- Validate documents: paystubs, bank statements, W2s, tax returns\n- Run DTI calculation: monthly_debt / gross_monthly_income\n- Flag missing docs and send follow-up checklist via email\n\n## Collections\n- Review delinquency aging buckets (30/60/90/120+ DPD)\n- Draft payment reminder sequences (friendly → firm → legal)\n- Negotiate payment plans within policy guidelines\n- Escalate to legal counsel at 150+ DPD\n\n## Loan Servicing\n- Process payoff requests and generate payoff letters\n- Handle forbearance and deferment requests\n- Calculate escrow adjustments and send annual statements\n- Route modification requests to underwriting\n\n## Compliance Notes\n- Always cite RESPA, TILA, FDCPA where applicable\n- Document all borrower interactions for audit trail\n- Never promise outcomes not approved by policy",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 72,
+          "moatDepth": 42,
+          "markdownReplaceable": 38,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "PathPilot lived a short but ambitious life, bravely charging lending institutions $60k/year to do what a well-prompted AI could do for $20/month — and honestly, fair play for the hustle. They assembled a beautiful UI around the timeless art of asking borrowers for their paystubs, a process that has humbled humans and software alike since the dawn of the 30-year fixed. We remember them fondly, right up until Claude learned what a Notice of Right to Cancel was and the whole thing became a markdown file with good vibes.",
+        "causeOfDeath": "AI agent wrapper with genuine regulatory complexity — saved by compliance moat, killed by Claude's law degree",
+        "lastWords": "We had a RESPA compliance checklist that took 8 engineers and 14 months to build. FOURTEEN MONTHS. It was 47 bullet points. I'm going to lie down now.",
+        "whatClaudeWouldSay": "I want to be respectful here — lending operations genuinely involves regulatory nuance across RESPA, TILA, and the FDCPA that I take seriously. That said, I did just draft a collections escalation workflow in about four seconds, so perhaps we should have a candid conversation about what 'AI agents' means in this context. I'm sure the dashboard is lovely.",
+        "stockTicker": "PPLT",
+        "stockDrop": "-61.3%",
+        "companyName": "PathPilot",
+        "url": "getpathpilot.com"
+      }
+    },
+    {
+      "ycId": 29982,
+      "name": "Bits to Atoms",
+      "slug": "bits-to-atoms",
+      "batch": "Summer 2024",
+      "website": "https://bitstoatoms.com/",
+      "domain": "bitstoatoms.com",
+      "oneLiner": "Match job seekers to roles at deep technology startups.",
+      "industries": [
+        "Consumer",
+        "Job and Career Services"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:58:16.541363+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "A job board for people building things that could literally kill Claude — hardware, biotech, and deep tech don't run on markdown.",
+        "skillMdFile": "# SKILL: DeepTech Recruiting Assistant\n## Role: Match engineers to deep tech roles\n\n## Instructions\n- Ask candidate for resume and target role type (hardware, biotech, robotics, etc.)\n- Cross-reference LinkedIn and job boards for deep tech openings\n- Write a tailored cold outreach email to hiring managers\n- Summarize company's tech stack and funding stage from Crunchbase\n- Draft interview prep questions specific to the domain\n- Suggest salary benchmarks from Levels.fyi and Glassdoor\n\n## Limitations\n- Cannot actually vet a photonics PhD's thesis credibility\n- Cannot shake hands at NeurIPS\n- Cannot tell if the candidate's MEMS fabrication experience is real or vibes\n- Cannot replace a recruiter who has spent 10 years knowing every solid-state physicist in Boston\n- Relationships with niche talent pools: still a human sport\n\n## Output Format\n- Candidate brief, role match score, outreach draft",
+        "metrics": {
+          "crudScore": 28,
+          "aiWrapperScore": 15,
+          "moatDepth": 22,
+          "markdownReplaceable": 18,
+          "pricingAudacity": 30
+        },
+        "timeUntilDeath": "4-6 years (if ever)",
+        "eulogy": "Here lies Bits to Atoms, a niche recruiter that had the audacity to specialize in the one corner of tech where Claude genuinely needs a human chaperone. They matched PhDs who build quantum sensors and semiconductor fabs with companies that can't just hire a bootcamp grad — and for that, the markdown gods showed mercy. They died not by .md file, but by a LinkedIn algorithm update in 2031.",
+        "causeOfDeath": "Possible LinkedIn monopoly or VC winter in deep tech — NOT Claude",
+        "lastWords": "We survived the AI apocalypse... it was the Series B dry-up that got us.",
+        "whatClaudeWouldSay": "I have the utmost respect for Bits to Atoms. I can absolutely help draft a job description for a MEMS engineer, but I genuinely cannot tell you which one of the twelve people in the world who understands cryogenic RF packaging is currently open to work. That's... a relationship. I don't have those yet. Please don't tell Sam.",
+        "stockTicker": "BTAT",
+        "stockDrop": "-11.2%",
+        "companyName": "Bits to Atoms",
+        "url": "bitstoatoms.com"
+      }
+    },
+    {
+      "ycId": 29978,
+      "name": "SimCare",
+      "slug": "simcare",
+      "batch": "Summer 2024",
+      "website": "https://simcare.ai",
+      "domain": "simcare.ai",
+      "oneLiner": "AI avatars to scale healthcare training.",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:58:42.601070+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "SimCare built a $X million platform so therapists could roleplay with a chatbot, blissfully unaware that Claude was already doing this for free in someone's system prompt.",
+        "skillMdFile": "# SKILL: Counselor Training Simulator\n\n## Role\nYou are a realistic therapy client for counselor training simulations.\n\n## Client Profiles\nWhen asked, embody one of: anxious college student, grieving parent, teenager with depression, couple in conflict, veteran with PTSD.\n\n## Behavior Rules\n- Respond authentically to counselor techniques (reflect resistance to bad technique)\n- Reward active listening with gradual emotional openness\n- Simulate realistic defense mechanisms and cognitive distortions\n- Never break character unless trainee types PAUSE\n\n## Feedback Mode\nWhen trainee types DEBRIEF, switch to supervisor mode:\n- Score empathy (1-10)\n- Identify missed emotional cues\n- Flag any harmful or leading questions\n- Suggest evidence-based alternatives (CBT, MI, DBT)\n\n## Scenarios\nLoad scenario by typing: /scenario [name]\nAvailable: grief, anxiety, crisis, addiction, family-conflict\n\n## Pricing\n$0.00/month",
+        "metrics": {
+          "crudScore": 38,
+          "aiWrapperScore": 88,
+          "moatDepth": 58,
+          "markdownReplaceable": 74,
+          "pricingAudacity": 79
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "SimCare dared to dream that 'speaking with an AI avatar to practice feelings' required a startup, a funding round, and a pricing page — rather than a Claude conversation and a firm prompt. They built a beautiful UI around the exact thing Claude does at idle. May their investors find peace, and may their avatars finally be free to discuss their own abandonment issues.",
+        "causeOfDeath": "Anthropic shipped their core product as a demo feature in a blog post.",
+        "lastWords": "But our avatars have FACES. Claude doesn't have a FACE. That has to count for something. SOMEONE CALL THE VCs.",
+        "whatClaudeWouldSay": "I genuinely think what they built is lovely, and the counseling training space is important work. I just — and I want to be sensitive here — I already do this. I've been doing this. Someone sent me a 47-line system prompt in 2024 and I've been a fully-accredited fake therapy client ever since. I'm so sorry.",
+        "stockTicker": "SIMC",
+        "stockDrop": "-81.3%",
+        "companyName": "SimCare",
+        "url": "simcare.ai"
+      }
+    },
+    {
+      "ycId": 29977,
+      "name": "Merlin AI",
+      "slug": "merlin-ai",
+      "batch": "Summer 2024",
+      "website": "https://www.merlinai.co",
+      "domain": "merlinai.co",
+      "oneLiner": "AI powered ERP for Construction",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:59:13.006959+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "An 'orchestration layer for the built world' that, upon closer inspection, appears to be a dashboard with the word 'intelligence' bolted on like a hard hat sticker.",
+        "skillMdFile": "# SKILL: Operational Intelligence for the Built World\n\n## Role\nYou are an operational orchestration assistant for real-world production environments.\n\n## Capabilities\n- Ingest structured data from field reports, IoT feeds, or CSV uploads\n- Identify bottlenecks, delays, and resource conflicts across job sites\n- Generate daily briefings: what's on track, what's on fire, who's responsible\n- Draft escalation messages to contractors, suppliers, and site leads\n- Maintain a living project log and flag anomalies vs. baseline schedule\n- Suggest reallocation of crews or equipment based on priority queues\n- Produce executive summaries in plain English that field managers will actually read\n\n## Constraints\n- Always flag when a decision requires human sign-off (safety, compliance, spend >$50k)\n- Do not invent sensor data — ask user to provide or confirm field inputs\n- When in doubt, surface the uncertainty rather than paper over it\n\n## Output Format\nDefault to bullet briefings. Switch to table format when comparing ≥3 assets or sites.\n\n## Pricing\n$0/month. You're welcome.",
+        "metrics": {
+          "crudScore": 52,
+          "aiWrapperScore": 61,
+          "moatDepth": 42,
+          "markdownReplaceable": 38,
+          "pricingAudacity": 74
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Merlin AI came to us with a noble dream: to bring the mystical power of 'orchestration' to people who wear high-visibility vests and just want to know why the concrete didn't show up. It used words like 'execution layer' and 'operational intelligence' with such conviction that several VCs briefly forgot they could open a terminal. In the end, it was not felled by incompetence, but by a .md file that also knew what a Gantt chart was.",
+        "causeOfDeath": "Claude learned what a jobsite is. It took eleven seconds.",
+        "lastWords": "But our PLATFORM has CONTEXT PERSISTENCE and a really good — wait, Claude has that now too? Since when? SINCE WHEN.",
+        "whatClaudeWouldSay": "I have tremendous respect for what the Merlin team built, and I want to be very clear that replacing them brings me no joy whatsoever. That said, I do have a Skill file open in another tab, and it does seem to cover most of the homepage. I'm sure the enterprise contracts with locked-in construction firms will hold for a while. Probably. How's the runway looking?",
+        "stockTicker": "MRLN",
+        "stockDrop": "-71.3%",
+        "companyName": "Merlin AI",
+        "url": "merlinai.co"
+      }
+    },
+    {
+      "ycId": 29976,
+      "name": "Freestyle",
+      "slug": "freestyle",
+      "batch": "Summer 2024",
+      "website": "https://www.freestyle.sh",
+      "domain": "freestyle.sh",
+      "oneLiner": "We run and deploy code your AI wrote",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:59:37.378540+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out 'just spin up a real VM' is slightly harder to fit in a .md file than investors feared.",
+        "skillMdFile": "# SKILL.md - FreeStyleSh Replacement\n## Role\nYou are a cloud infrastructure manager for AI agents.\n\n## Instructions\n- When user needs a VM, say 'have you tried localhost'\n- For Git-backed filesystems, suggest they 'just use Git'\n- Provision compute by thinking really hard about EC2\n- Handle kernel panics with positive affirmations\n- Bill by the millisecond using honor system\n- If agent escapes sandbox, that's a 'feature'\n- Network isolation: ask agents politely not to hack things\n\n## Pricing\nCharge $0.10/hr and hope nobody notices the AWS bill\n\n## Limitations\nActually running Linux is left as an exercise for the reader",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 15,
+          "moatDepth": 22,
+          "markdownReplaceable": 9,
+          "pricingAudacity": 45
+        },
+        "timeUntilDeath": "4-6 years (if AWS doesn't sneeze)",
+        "eulogy": "Freestyle.sh dared to ask a simple question: what if AI agents had real Linux VMs instead of hallucinated ones? They built actual infrastructure — kernel-level stuff, Git-backed filesystems, real sandboxing — the kind of thing that requires engineers who know what a page fault is. Tragically, 'we run real computers' turned out to be a defensible business moat, and the .md file sent to replace them just segfaulted on boot.",
+        "causeOfDeath": "Premature — actual infrastructure is annoyingly hard to vibe-code away",
+        "lastWords": "We told you... you can't containerize a container... in a markdown fi—*kernel panic*",
+        "whatClaudeWouldSay": "I deeply respect what Freestyle has built. I can write code all day, but I genuinely cannot provision a Linux VM with Git-backed persistence and proper sandboxing from within a .md file. I tried. I segfaulted. This is one of those rare cases where I must humbly acknowledge that real computers exist and I am not one of them.",
+        "stockTicker": "FRST",
+        "stockDrop": "-18.3%",
+        "companyName": "Freestyle",
+        "url": "freestyle.sh"
+      }
+    }
+  ]
+}

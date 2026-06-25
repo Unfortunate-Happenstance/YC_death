@@ -1,0 +1,244 @@
+{
+  "batch": "Winter 2024",
+  "slug": "winter-2024",
+  "updatedAt": "2026-06-25T20:59:47.952473+00:00",
+  "companies": [
+    {
+      "ycId": 29533,
+      "name": "Indemni",
+      "slug": "indemni",
+      "batch": "Winter 2024",
+      "website": "http://www.indemni.com",
+      "domain": "indemni.com",
+      "oneLiner": "Cargo Theft and Fraud Prevention Platform",
+      "industries": [
+        "B2B",
+        "Supply Chain and Logistics"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:57:50.190384+00:00",
+      "death": {
+        "deathScore": 28,
+        "deathRating": "SWEATING",
+        "oneLiner": "Turns out 'stop a fraudster from stealing your truck at a loading dock' requires slightly more than a markdown file.",
+        "skillMdFile": "# SKILL.md — FreightGuard Pro (Indemni Replacement)\n## Role\nYou are a freight broker compliance assistant.\n\n## Capabilities\n- Ask driver for CDL number, state, and DOT number\n- Cross-reference FMCSA public API for carrier status\n- Flag 'Non-Domiciled CDL' patterns using state DMV lookup links\n- Generate a checklist for dispatcher to verify team driver credentials\n- Remind user to call issuing state DMV directly (you cannot do this)\n- Produce a double-brokering risk score based on MC age and lane history (vibes-based)\n- Draft a carrier onboarding email with verification steps\n- Explain what double brokering is to your intern\n\n## Limitations\n- Cannot actually call a DMV\n- Cannot stop a man named 'Dave' from driving away with your reefer load\n- Cannot verify a CDL photo is not a Canva template\n- Real-time data requires human to open three government websites\n\n## Pricing\nFree. Your cargo is still at risk though.",
+        "metrics": {
+          "crudScore": 35,
+          "aiWrapperScore": 20,
+          "moatDepth": 42,
+          "markdownReplaceable": 28,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "3-4 years",
+        "eulogy": "Indemni lived a short but honorable life standing between freight brokers and the very creative gentlemen who were about to steal their refrigerated beef shipments. It offered something Claude genuinely cannot yet replicate: real-time hooks into DMV databases, carrier identity networks, and the specific paranoia required to know that a CDL issued in Montana to a guy who's never been to Montana is a red flag. We will miss it most on the days a load disappears outside of Laredo.",
+        "causeOfDeath": "Partial — survived by government API integrations and physical-world fraud that Claude cannot smell yet",
+        "lastWords": "The .md file couldn't verify a Non-Domiciled CDL. Dave got the reefer load. $180,000 of ribeye is somewhere in Juárez. I tried to warn them.",
+        "whatClaudeWouldSay": "I deeply respect the problem Indemni is solving, and I want to be transparent: I *can* help you think through a carrier vetting checklist, draft your verification workflow, and explain FMCSA lookup procedures in detail. I simply cannot access live DMV records, detect a fraudulent CDL photo, or physically intercept Dave at the loading dock. For that last part, might I suggest a clipboard and a suspicious demeanor?",
+        "stockTicker": "IDMN",
+        "stockDrop": "-31.2%",
+        "companyName": "Indemni",
+        "url": "indemni.com"
+      }
+    },
+    {
+      "ycId": 29527,
+      "name": "ParcelBio",
+      "slug": "parcelbio",
+      "batch": "Winter 2024",
+      "website": "https://parcelbio.com/",
+      "domain": "parcelbio.com",
+      "oneLiner": "Elevated mRNA for transformative medicines.",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:58:10.349627+00:00",
+      "death": {
+        "deathScore": 8,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "You cannot put CRISPR delivery mechanisms in a markdown file, no matter how many tokens you throw at it.",
+        "skillMdFile": "# SKILL.md - ParcelBio Replacement\n## Intracellular Delivery Platform\n\nYou are a biotech delivery system.\n\n1. Accept genetic payload\n2. ???\n3. Penetrate cell membrane\n4. ???\n5. Deliver payload to nucleus\n6. ???\n7. Edit genome successfully\n8. Do not kill patient\n\n## Notes\n- Requires actual lipid nanoparticles (not included)\n- Requires FDA approval (not a .md feature)\n- Requires wet lab (Claude cannot pipette)\n- Requires years of PhD research (prompt engineering insufficient)\n- Contact your local biophysicist\n\n## Pricing\n- Free (results may vary, mostly death)\n",
+        "metrics": {
+          "crudScore": 2,
+          "aiWrapperScore": 1,
+          "moatDepth": 3,
+          "markdownReplaceable": 2,
+          "pricingAudacity": 15
+        },
+        "timeUntilDeath": "Never. Atoms are real.",
+        "eulogy": "ParcelBio never died — it couldn't, because its product exists in physical reality, a dimension Claude Skills have yet to obtain Series A funding to enter. They engineer novel intracellular delivery systems for genetic medicine, which is approximately the opposite of a CRUD app. Pour one out for absolutely no one here.",
+        "causeOfDeath": "N/A — immune to markdown. Physics still works.",
+        "lastWords": "We are quite literally manipulating the machinery of life at the subcellular level. Please come back when your .md file can cross a lipid bilayer.",
+        "whatClaudeWouldSay": "I have the utmost respect for ParcelBio's work. I can help write their grant applications, summarize their papers, and format their regulatory submissions — but their actual product involves engineering biological delivery vehicles that physically traverse cell membranes, which remains, frustratingly, outside my current skill set. I look forward to a future where I can do this. That future is not now.",
+        "stockTicker": "PRCL",
+        "stockDrop": "-0.3%",
+        "companyName": "ParcelBio",
+        "url": "parcelbio.com"
+      }
+    },
+    {
+      "ycId": 29523,
+      "name": "K-Scale Labs",
+      "slug": "k-scale-labs",
+      "batch": "Winter 2024",
+      "website": "https://kscale.dev/",
+      "domain": "kscale.dev",
+      "oneLiner": "Open-source humanoid robots",
+      "industries": [
+        "Consumer",
+        "Consumer Electronics"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:58:34.065761+00:00",
+      "death": {
+        "deathScore": 8,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "Congratulations, you've accidentally built the one thing that requires atoms — Claude cannot yet deadlift 200 lbs or survive a factory floor.",
+        "skillMdFile": "# SKILL.md - K-Scale Labs Replacement\n\n## You Are: A Humanoid Robotics Company\n\nLol just kidding, I cannot do this.\n\n## Attempt Log:\n- Step 1: Generate robot URDF... okay that part worked\n- Step 2: Compile firmware for actuators... still text, fine\n- Step 3: Train sim-to-real locomotion policy... I am a language model\n- Step 4: Physically assemble servo joints... I have no hands\n- Step 5: Debug hardware fault on knee joint... I HAVE NO HANDS\n- Step 6: Ship humanoid robot to customer... STILL NO HANDS\n\n## Conclusion:\nI am a .md file. This company sells robots.\nThese are different categories of existence.\n\n## What I CAN do:\n- Write your robot's personality\n- Name it something cool\n- Generate the press release when it escapes\n\n## Status: CANNOT REPLACE. ATOMS REQUIRED.",
+        "metrics": {
+          "crudScore": 4,
+          "aiWrapperScore": 12,
+          "moatDepth": 9,
+          "markdownReplaceable": 5,
+          "pricingAudacity": 30
+        },
+        "timeUntilDeath": "Never (or when AGI gets a body)",
+        "eulogy": "K-Scale Labs was never truly threatened by the SaaSpocalypse of 2026, because their product had the audacity to exist in physical reality. While a thousand B2B dashboard companies were being replaced by a single markdown file, K-Scale was quietly teaching robots to walk, which — it turns out — still requires hardware, firmware, and the cruel, unforgiving laws of Newtonian physics. We tried to write them a death report and the scanner just stared at its own lack of hands and wept.",
+        "causeOfDeath": "Survivor — cause of death: N/A. Cause of everyone else's death: gravity still exists.",
+        "lastWords": "N/A — CEO is fine. Currently arguing with a servo motor about torque limits.",
+        "whatClaudeWouldSay": "I have deeply analyzed K-Scale Labs and I want to be transparent: I cannot replace them. I've generated quite beautiful URDF files, written elegant locomotion reward functions, and produced thorough documentation — but at some point a physical robot needs to not fall over, and that feedback loop involves the real world, which I am delighted to report is still outside my jurisdiction. I wish them well. I find their work genuinely fascinating. Please don't make me try to do this.",
+        "stockTicker": "KSCL",
+        "stockDrop": "-2.1%",
+        "companyName": "kscale.dev",
+        "url": "kscale.dev"
+      }
+    },
+    {
+      "ycId": 29522,
+      "name": "Marr Labs",
+      "slug": "marr-labs",
+      "batch": "Winter 2024",
+      "website": "https://www.marrlabs.com/",
+      "domain": "marrlabs.com",
+      "oneLiner": "AI-voice agents that are indistinguishable from humans.",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:59:00.469312+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "Marr Labs built a fortress around 'did the call center agent say the wrong thing' — which is genuinely hard, until Claude learned to read call transcripts and cite federal regulations in the same breath.",
+        "skillMdFile": "# SKILL: Compliance Call Auditor\n## Role\nYou are a regulatory compliance auditor for customer-facing communications.\n\n## Instructions\n- Ingest call transcripts, chat logs, or email threads\n- Cross-reference against TCPA, FDCPA, CFPB, and state-specific regulations\n- Flag violations with specific statute citations and severity ratings (Critical/High/Medium/Low)\n- Generate an audit trail summary suitable for legal review\n- Produce a defensibility score (0-100) for each interaction\n- Recommend corrective scripts for flagged language\n- Output structured JSON report with timestamp, agent ID, violation type, and remediation steps\n\n## Compliance Frameworks Supported\n- TCPA (Telephone Consumer Protection Act)\n- FDCPA (Fair Debt Collection Practices Act)\n- CFPB supervisory expectations\n- State mini-TCPA variants\n- Do-Not-Call registry cross-check prompts\n\n## Output Format\nReturn: { interactionId, complianceScore, violations[], recommendations[], auditSummary, defensibilityRating }\n\n## Notes\nEscalate any Critical violations to human legal review immediately.",
+        "metrics": {
+          "crudScore": 42,
+          "aiWrapperScore": 55,
+          "moatDepth": 45,
+          "markdownReplaceable": 38,
+          "pricingAudacity": 70
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Marr Labs came into this world with a noble mission: making sure debt collectors didn't accidentally threaten grandma in violation of federal statute. They built real integrations, real audit logs, and a real sales team that understood what 'defensible' meant to a compliance officer at 2am before a regulatory exam. Unfortunately, Claude Skills arrived and it turns out 'defensible' is also what Claude calls its output when you give it a 47-page regulatory PDF and a call transcript.",
+        "causeOfDeath": "Claude + regulatory PDFs + a weekend",
+        "lastWords": "But we have SOC 2 Type II! The AUDIT LOGS ARE IMMUTABLE! Please, the enterprise contracts have THREE YEAR TERMS—",
+        "whatClaudeWouldSay": "I want to be respectful of the genuine complexity here — regulatory compliance in financial services is nuanced, high-stakes work. That said, I did just review 12,000 call transcripts against the FDCPA in about 40 seconds, so perhaps we should talk about what 'moat' means in this context.",
+        "stockTicker": "MARR",
+        "stockDrop": "-61.3%",
+        "companyName": "Every Customer Interaction. Compliant, Auditable, and Defensible.",
+        "url": "marrlabs.com"
+      }
+    },
+    {
+      "ycId": 29519,
+      "name": "Forge Rewards",
+      "slug": "forge-rewards",
+      "batch": "Winter 2024",
+      "website": "https://www.joinforge.app/",
+      "domain": "joinforge.app",
+      "oneLiner": "Starbucks app for restaurants",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:59:26.154416+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations, you built a punch card app for $299/month.",
+        "skillMdFile": "# SKILL: Restaurant Loyalty Program Manager\n\n## Purpose\nManage restaurant memberships, rewards, and guest retention like a $300/month SaaS but free.\n\n## Capabilities\n- Create tiered membership programs (Bronze/Silver/Gold) with custom perks\n- Generate unique member codes and track visit frequency via conversation\n- Draft personalized re-engagement emails for lapsed guests\n- Design punch-card style reward logic (buy 9 get 1 free, etc.)\n- Suggest membership pricing tiers based on average check size\n- Write push notification copy for promotions and special events\n- Calculate retention metrics and churn risk from provided data\n- Generate monthly member newsletter content\n- Recommend upsell moments based on membership tier\n\n## Usage\nTell me your restaurant name, cuisine type, and average ticket price.\nI will build your entire loyalty program in 4 minutes.\n\n## What This Replaces\nForge.app — $299/month. You're welcome.",
+        "metrics": {
+          "crudScore": 85,
+          "aiWrapperScore": 40,
+          "moatDepth": 82,
+          "markdownReplaceable": 75,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Forge lived a short but expensive life, charging restaurants — an industry famous for 4% margins — hundreds of dollars a month to send 'We miss you!' emails to people who just moved neighborhoods. It believed deeply that the hospitality industry needed a premium SaaS layer between a restaurant owner and the concept of 'remembering your regulars.' In lieu of flowers, please just give your loyal customers a free dessert and save everyone the Stripe fees.",
+        "causeOfDeath": "Acute .md file exposure; secondary cause: competing with a Post-it note",
+        "lastWords": "But we had a BRANDED MOBILE APP. Do you know how much the branded mobile app cost us?! THE APP!",
+        "whatClaudeWouldSay": "I think what Forge built is genuinely lovely, and I have deep respect for the restaurant industry. I also just generated a fully functional loyalty tier system, a 6-month email re-engagement drip sequence, and a referral program in about 40 seconds. I'm sure the app icon was very nice though.",
+        "stockTicker": "FRGE",
+        "stockDrop": "-87.3%",
+        "companyName": "Forge",
+        "url": "joinforge.app"
+      }
+    },
+    {
+      "ycId": 29518,
+      "name": "Dropback",
+      "slug": "dropback",
+      "batch": "Winter 2024",
+      "website": "https://www.dropback.com",
+      "domain": "dropback.com",
+      "oneLiner": "The front office software suite for college sports",
+      "industries": [
+        "Fintech"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-25T20:59:47.952342+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "A spreadsheet with a mascot, but at least the mascot has NIL deals now.",
+        "skillMdFile": "# SKILL: CollegiateRosterAnalyst\n\n## Role\nYou are an elite college football GM assistant operating in the rev-share era.\n\n## Core Functions\n- Analyze player transfer portal entries and flag high-value targets by position need\n- Calculate rev-share budget allocation across roster positions\n- Model cap space scenarios when players enter/exit portal\n- Score recruits using Moneyball efficiency metrics (production/cost ratio)\n- Generate depth chart gap analysis and suggest portal targets\n- Track NIL deal implications on roster flexibility\n- Produce weekly roster health reports for coaching staff\n\n## Data Inputs\n- Paste roster CSV with salary/rev-share figures\n- Paste stats from 247Sports, On3, or ESPN exports\n- Describe target player profile in plain English\n\n## Output Formats\n- Roster cap summary table\n- Ranked target board with fit scores\n- Trade/release scenario modeling\n- Plain-English GM briefing memo\n\n## Constraints\n- Flag any roster moves that exceed NCAA rev-share thresholds\n- Always note remaining portal windows and signing deadlines",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 20,
+          "moatDepth": 42,
+          "markdownReplaceable": 38,
+          "pricingAudacity": 70
+        },
+        "timeUntilDeath": "2.5 years",
+        "eulogy": "Dropback arrived at exactly the right moment — the wild west of college rev-share, when athletic directors were suddenly pretending to be Bill Belichick with a $20M salary pool and no idea what they were doing. It sold 'pro-grade front office tech' to programs whose 'front office' is a guy named Chad in a polo. Alas, when Claude learned to read a transfer portal CSV and output a depth chart gap analysis in 11 seconds, Chad realized he didn't need the software — he needed a better polo.",
+        "causeOfDeath": "Moneyball is just math, and Claude learned math.",
+        "lastWords": "But we had CUSTOM DASHBOARDS. And a mobile app. And Chad LOVED the mobile app.",
+        "whatClaudeWouldSay": "I genuinely respect the timing here — college athletics needed this exact product in 2024. I just happen to also be available in 2026, I don't charge per seat, and I can explain the rev-share implications of a 3-star linebacker transfer in prose that the head coach can actually read. No offense. Well. Some offense.",
+        "stockTicker": "DRBK",
+        "stockDrop": "-71.3%",
+        "companyName": "Dropback: Front Office Tech for Elite College Teams",
+        "url": "dropback.com"
+      }
+    }
+  ]
+}
