@@ -22,6 +22,17 @@ uv run python -m http.server 8080
 
 # 4. Scrape remaining batches (resumable, run overnight in another terminal)
 uv run python scripts/scrape_death.py --remaining
+
+# Or by wave:
+uv run python scripts/scrape_death.py --priority   # latest → Winter 2025
+uv run python scripts/scrape_death.py --older        # 2022–2024
+```
+
+After priority scrape finishes, deploy and kick off older batches:
+
+```bash
+chmod +x scripts/push_and_continue.sh
+./scripts/push_and_continue.sh
 ```
 
 After each batch finishes, `data/dashboard.json` is regenerated — refresh the browser to see new data.
@@ -51,9 +62,16 @@ Manual fixes live in `data/manual_overrides.json` (domain overrides + exclusions
 
 ## GitHub Pages
 
-1. Push to GitHub
-2. Settings → Pages → Source: **GitHub Actions**
-3. Push triggers deploy via `.github/workflows/deploy.yml`
+1. Create a repo on GitHub (e.g. `YC_death`)
+2. Enable Pages: Settings → Pages → Source: **GitHub Actions**
+3. Push:
+
+```bash
+git remote add origin git@github.com:YOUR_USER/YC_death.git
+git push -u origin main
+```
+
+Push triggers deploy via `.github/workflows/deploy.yml`. Use SSH (`git@github.com:...`) for secure auth.
 
 ## Data files
 
