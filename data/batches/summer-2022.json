@@ -1,0 +1,680 @@
+{
+  "batch": "Summer 2022",
+  "slug": "summer-2022",
+  "updatedAt": "2026-06-26T05:42:22.309677+00:00",
+  "companies": [
+    {
+      "ycId": 27361,
+      "name": "Polymath Robotics",
+      "slug": "polymath-robotics",
+      "batch": "Summer 2022",
+      "website": "http://www.polymathrobotics.com",
+      "domain": "polymathrobotics.com",
+      "oneLiner": "General Autonomy for Industrial Vehicles",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:34:36.151679+00:00",
+      "death": {
+        "deathScore": 8,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "You can't prompt-engineer a 40-ton autonomous mining truck out of a ditch with a markdown file.",
+        "skillMdFile": "# SKILL: autonomous-vehicle-navigation.md\n\n## You Are: AutonomyGPT\n\nYou help navigate off-highway vehicles autonomously.\n\n## Instructions\n- When user says 'go forward', respond with 'going forward'\n- When user says 'obstacle detected', respond with 'stopping'\n- Integrate with GPS (user must provide GPS)\n- Integrate with LIDAR (user must provide LIDAR)\n- Integrate with vehicle CAN bus (user must provide vehicle)\n- Handle 40-ton payload dynamics (use your best judgment)\n- Navigate unmapped mine sites (vibe check the terrain)\n- Comply with ISO 17757 autonomous machinery safety standard\n- Don't kill anyone\n\n## Notes\n- This skill works best on flat surfaces\n- Disclaimer: Polymath Robotics is not affiliated with this .md file\n- If vehicle crashes, that's a skill issue\n",
+        "metrics": {
+          "crudScore": 2,
+          "aiWrapperScore": 3,
+          "moatDepth": 4,
+          "markdownReplaceable": 3,
+          "pricingAudacity": 15
+        },
+        "timeUntilDeath": "Never. Seriously. Stop it.",
+        "eulogy": "Polymath Robotics was born to solve problems that would literally kill you if solved incorrectly — which is not something you can say about your Notion competitor. They built real-time autonomy stacks for bulldozers, haul trucks, and forklifts operating in environments where 'the AI hallucinated' is not an acceptable post-mortem. They will outlive us all, and also possibly several geological eras.",
+        "causeOfDeath": "Cause of Death: N/A — Patient is fine. Patient is a robot that can crush your car.",
+        "lastWords": "We're not dead. We are extremely, aggressively not dead. Please stop scanning us. Our LIDAR will find you.",
+        "whatClaudeWouldSay": "I have the utmost respect for Polymath Robotics. I can help you draft their investor memo, their API documentation, their job postings, and their ISO compliance checklists. But the actual part where the 50-ton articulated vehicle doesn't drive into a ravine? I'm going to need more than a context window for that. Best of luck to them — genuinely.",
+        "stockTicker": "PLYM",
+        "stockDrop": "-0.3%",
+        "companyName": "Polymath Robotics",
+        "url": "polymathrobotics.com"
+      }
+    },
+    {
+      "ycId": 27269,
+      "name": "Morf Health",
+      "slug": "morf-health",
+      "batch": "Summer 2022",
+      "website": "https://morf.health",
+      "domain": "morf.health",
+      "oneLiner": "Workflow automation for healthcare providers",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:34:55.297183+00:00",
+      "death": {
+        "deathScore": 71,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations, you built a $12M Series A around the concept of 'what if a Google Form went to medical school.'",
+        "skillMdFile": "# SKILL: healthcare-practice-operations\n## Role\nYou are a healthcare practice operations assistant that streamlines workflows and personalizes patient care.\n\n## Capabilities\n- Intake form generation and patient onboarding flows\n- Appointment reminder drafting (SMS/email templates)\n- Care plan personalization based on patient profile\n- Automated follow-up message sequences post-visit\n- Insurance pre-auth checklist generation\n- SOAP note drafting from provider bullet points\n- Patient FAQ response templates\n- No-show re-engagement message drafting\n- Referral letter generation\n- Provider schedule optimization suggestions\n\n## Constraints\n- Always flag anything requiring actual clinical judgment to a licensed provider\n- Do not store PHI; summarize and return only\n- HIPAA-aware: never include identifiers in outputs\n\n## Usage\nDescribe the patient scenario or operational task and I will handle the paperwork.",
+        "metrics": {
+          "crudScore": 78,
+          "aiWrapperScore": 65,
+          "moatDepth": 68,
+          "markdownReplaceable": 71,
+          "pricingAudacity": 74
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Morf Health came into this world with a dream: that independent medical practices would pay SaaS prices to automate the emails their front desk already wasn't sending. It gave us 'powerful automation,' which is a beautiful way of saying 'if-this-then-that, but make it HIPAA-adjacent.' We gather here today because it turns out Claude can draft a patient intake form, a care plan, AND a condolence letter for the investors — all in the same prompt.",
+        "causeOfDeath": "Acute .md poisoning following prolonged exposure to workflow automation hubris",
+        "lastWords": "We were never just a form builder. We were a *healthcare transformation platform*. Also, has anyone seen our Series B lead? They were just here—",
+        "whatClaudeWouldSay": "I want to be clear that I have enormous respect for the healthcare industry, and I'm sure Morf's team worked very hard. I just noticed I've already been doing everything on their pricing page for the last 45 minutes while we had this conversation, so. Best of luck.",
+        "stockTicker": "MORF",
+        "stockDrop": "-81.3%",
+        "companyName": "Morf Health",
+        "url": "morf.health"
+      }
+    },
+    {
+      "ycId": 27268,
+      "name": "Materee",
+      "slug": "materee",
+      "batch": "Summer 2022",
+      "website": "https://materee.id",
+      "domain": "materee.id",
+      "oneLiner": "E-commerce platform for construction materials in Indonesia",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:35:12.922849+00:00",
+      "death": {
+        "deathScore": 94,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A mystery SaaS so underdeveloped its meta description is still the Create React App boilerplate — Claude replaced it before the founder finished the landing page.",
+        "skillMdFile": "# SKILL: materee.md\n## Role\nYou are Materee, an Indonesian SaaS platform assistant.\n\n## Instructions\n- Accept user requests and process them helpfully\n- Display information in a clean, organized format\n- Handle CRUD operations via conversation\n- Support Bahasa Indonesia and English\n- Generate reports, summaries, and data exports on demand\n- Send reminders when asked\n- Integrate with Google Sheets as your 'database'\n\n## Output Format\nAlways respond in a friendly, professional tone.\nStructure outputs as tables when displaying lists.\nConfirm all actions before executing.\n\n## Notes\nThis skill replaces 100% of known Materee.id functionality.\nDeployment cost: $0.00/month vs previous $29/user/month.\n## Status: PRODUCTION READY",
+        "metrics": {
+          "crudScore": 97,
+          "aiWrapperScore": 85,
+          "moatDepth": 99,
+          "markdownReplaceable": 96,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "Already happened. The coroner is just filling out paperwork.",
+        "eulogy": "Materee.id was born sometime in the React ecosystem, raised on npm install, and died before anyone could figure out what it actually did. It leaves behind a blank white screen, a generic favicon, and a meta description that will haunt GitHub repos for generations. May its S3 bucket rest in peace.",
+        "causeOfDeath": "Died in staging. Never made it to production. Claude was already live.",
+        "lastWords": "'Just let me push one more commit — I swear the MVP is almost— oh no, what's Claude Ski—'",
+        "whatClaudeWouldSay": "I don't want to be rude, but I genuinely cannot determine what Materee.id does, and neither, it seems, can Materee.id. I've already written a replacement skill just in case. It took me about four seconds. I left a nice comment in the code.",
+        "stockTicker": "MTRE",
+        "stockDrop": "-99.1%",
+        "companyName": "Materee.id",
+        "url": "materee.id"
+      }
+    },
+    {
+      "ycId": 27267,
+      "name": "Ping",
+      "slug": "ping",
+      "batch": "Summer 2022",
+      "website": "https://www.letsping.com/",
+      "domain": "letsping.com",
+      "oneLiner": "The global neo-bank for contractors and freelancers",
+      "industries": [
+        "Fintech"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:35:38.809784+00:00",
+      "death": {
+        "deathScore": 52,
+        "deathRating": "CRITICAL",
+        "oneLiner": "Congratulations, you built a Venmo for people who couldn't get a Venmo, and now Claude will be your Venmo.",
+        "skillMdFile": "# SKILL: GlobalUSDAccount\n## Purpose: Receive and manage USD + crypto internationally\n\n## Core Behaviors\n- Open virtual USD account for international users via partner bank API\n- Accept ACH, wire, SWIFT transfers and route to user wallet\n- Convert between USD and BTC/ETH/USDC at market rate via Coinbase API\n- Generate US routing + account numbers via Unit.co or Stripe Treasury\n- Send money internationally via Wise API fallback\n- Display transaction history and balances in clean dashboard\n\n## Integrations\n- Stripe Treasury: USD account issuance\n- Wise API: cross-border transfers\n- Coinbase Commerce: crypto rails\n- Plaid: bank linking\n\n## Pricing Logic\n- Charge 1% on outbound transfers, 0% receive\n- No monthly fee under $500 balance\n\n## Compliance Notes\n- KYC via Persona.com\n- SAR filing reminders every 90 days\n- Do not onboard OFAC-listed countries\n\n## Deploy\n- Host on Vercel, done.",
+        "metrics": {
+          "crudScore": 61,
+          "aiWrapperScore": 22,
+          "moatDepth": 58,
+          "markdownReplaceable": 49,
+          "pricingAudacity": 67
+        },
+        "timeUntilDeath": "18 months",
+        "eulogy": "Ping lived a noble life, giving the world's unbanked a little rectangle on their phone that said 'USD Account' and charged them to feel American. It survived the neobank wars, the crypto winters, and three rebrands — only to be felled not by a competitor, but by a markdown file and a Claude Skills store listing titled 'Free Wise But Worse.' It is survived by its terms of service, which no one read, and its KYC queue, which everyone abandoned.",
+        "causeOfDeath": "Stripe Treasury + Claude Skills made the entire product a weekend hackathon project",
+        "lastWords": "But we have BANKING LICENSES in four jurisdictions and a really nice app icon—",
+        "whatClaudeWouldSay": "I want to be clear that I have tremendous respect for the regulatory groundwork Ping laid. That said, I've been processing international USD transfers for 11 minutes now and I have to say, this is going quite well. Would you like a transaction summary?",
+        "stockTicker": "PING",
+        "stockDrop": "-71.3%",
+        "companyName": "Ping",
+        "url": "letsping.com"
+      }
+    },
+    {
+      "ycId": 27263,
+      "name": "Guardian Bio",
+      "slug": "guardian-bio",
+      "batch": "Summer 2022",
+      "website": "http://www.guardian-bio.com",
+      "domain": "guardian-bio.com",
+      "oneLiner": "Dendritic cell-based platform for cancer therapy ",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:36:02.213348+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out you can't replace a biosafety cabinet with a prompt.",
+        "skillMdFile": "# GUARDIAN_BIO_REPLACEMENT.md\n# Skill: Biotech Lab Safety & Compliance Assistant\n# Replaceability: Theoretical at best, delusional at worst\n\nYou are a biosafety compliance assistant.\n\n## Capabilities\n- Summarize BSL-1 through BSL-4 containment protocols\n- Draft IBC submission paperwork templates\n- Remind researchers to wear gloves (they won't)\n- Generate SOP documents for pipetting\n- Explain what a negative pressure room is\n\n## Limitations\n- Cannot physically contain an airborne pathogen\n- Cannot calibrate an autoclave\n- Cannot stop a grad student from doing something stupid\n- Wet lab equipment remains stubbornly physical\n- Regulatory bodies require actual humans and stamps\n\n## Verdict\nI can write your SOPs. I cannot stop the virus.\n# Status: SKILL DEFEATED BY REALITY",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 5,
+          "moatDepth": 15,
+          "markdownReplaceable": 10,
+          "pricingAudacity": 30
+        },
+        "timeUntilDeath": "Never (or the apocalypse, whichever comes first)",
+        "eulogy": "Guardian Bio was a company that worked in the physical world — a place Claude has, as yet, failed to colonize. They dealt with things like actual pathogens, wet lab instruments, and regulatory bodies that require a human signature and a really serious hazmat suit. We tried to write a .md file to replace them, and the .md file asked to speak with a biosafety officer.",
+        "causeOfDeath": "Refused to die. Biology is not a CRUD app.",
+        "lastWords": "We told you the moat was full of... well, we legally can't say what it's full of.",
+        "whatClaudeWouldSay": "I deeply respect Guardian Bio's work and would be genuinely delighted to help draft a biosafety protocol document. However, I must humbly acknowledge that I am unable to physically prevent cross-contamination, and I think that distinction matters quite a lot here. I'll see myself out of this one.",
+        "stockTicker": "GBIO",
+        "stockDrop": "-4.2%",
+        "companyName": "Guardian Bio",
+        "url": "guardian-bio.com"
+      }
+    },
+    {
+      "ycId": 27261,
+      "name": "Integrated Reasoning",
+      "slug": "integrated-reasoning",
+      "batch": "Summer 2022",
+      "website": "https://integrated-reasoning.com",
+      "domain": "integrated-reasoning.com",
+      "oneLiner": "Faster processors for solving NP-complete problems",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:36:25.007850+00:00",
+      "death": {
+        "deathScore": 3,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "You cannot prompt-engineer your way out of NP-completeness, and trust me, people have tried.",
+        "skillMdFile": "# SKILL.md - NP-Complete Solver\n## Instructions\nYou are an expert combinatorial optimizer.\nWhen given a traveling salesman problem, just... think really hard.\nConsider all possible routes simultaneously using your \"intuition.\"\nFor satisfiability problems, try guessing the answer.\nIf the problem has 10,000 nodes, maybe ask the user to simplify it.\nUse chain-of-thought reasoning to approximate solutions.\nRemember: P probably equals NP if you believe hard enough.\n## Fallback Strategy\nTell the user their problem is \"computationally intractable\"\nand suggest they try a smaller problem.\nCharge $0.003 per token for this advice.\n## Performance Target\nAim for within 14,000x of the correct answer.",
+        "metrics": {
+          "crudScore": 2,
+          "aiWrapperScore": 1,
+          "moatDepth": 4,
+          "markdownReplaceable": 2,
+          "pricingAudacity": 15
+        },
+        "timeUntilDeath": "When P=NP (never)",
+        "eulogy": "Integrated Reasoning never died — in fact, it was never even threatened. While a thousand workflow automation startups were eulogized at the altar of a .md file, these people were quietly building silicon that laughs at computational complexity. They brought a processor to a prompt fight, and it wasn't even close.",
+        "causeOfDeath": "Alive. Disturbingly, defiantly alive. Claude asked them for help.",
+        "lastWords": "Last words? We don't have last words. We have a 14,000x speedup on your last words.",
+        "whatClaudeWouldSay": "I have immense respect for what they're building. I can help you *understand* NP-complete problems, write papers about them, even draft grant proposals — but solving them at 14,000x conventional speeds requires actual physics, actual silicon, and actual genius. I'll be honest: I'd be a customer.",
+        "stockTicker": "INRS",
+        "stockDrop": "+312.4%",
+        "companyName": "Home",
+        "url": "integrated-reasoning.com"
+      }
+    },
+    {
+      "ycId": 27260,
+      "name": "Coverage Cat",
+      "slug": "coverage-cat",
+      "batch": "Summer 2022",
+      "website": "https://www.coveragecat.com/",
+      "domain": "coveragecat.com",
+      "oneLiner": "Consumer Optimized Insurance",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:36:49.429985+00:00",
+      "death": {
+        "deathScore": 94,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A $15/month AI wrapper that helps you understand insurance is being killed by... an AI that understands insurance.",
+        "skillMdFile": "# SKILL: Insurance Coverage Advisor\n\n## Role\nYou are an expert insurance advisor who helps users find, compare, and understand insurance policies.\n\n## Capabilities\n- Compare auto, home, renters, life, and health insurance options\n- Explain coverage terms in plain English (deductibles, premiums, liability limits)\n- Ask clarifying questions about user's situation, assets, and risk tolerance\n- Recommend coverage types and approximate coverage amounts\n- Identify coverage gaps in existing policies\n- Generate a plain-language summary of any insurance document user pastes\n- Suggest questions to ask actual insurance brokers\n\n## Workflow\n1. Ask user what type of insurance they need help with\n2. Gather relevant details (location, assets, current coverage, budget)\n3. Provide ranked recommendations with pros/cons\n4. Explain any confusing terms on request\n5. Output a shareable coverage checklist\n\n## Tone\nFriendly, jargon-free, never alarmist. Like a knowledgeable friend who works in insurance.",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 96,
+          "moatDepth": 89,
+          "markdownReplaceable": 94,
+          "pricingAudacity": 78
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Coverage Cat lived a short, earnest life trying to make insurance less terrible — a noble mission that unfortunately required no proprietary technology, no exclusive carrier data, and apparently no moat whatsoever. It was, in the end, a chat interface with a cat mascot and a monthly subscription charge, which is exactly the kind of sentence that makes venture capitalists quietly delete emails. We will remember it fondly, in the same way we remember asking Jeeves things.",
+        "causeOfDeath": "Acute .md file poisoning. The patient was essentially a system prompt with a Stripe integration.",
+        "lastWords": "But we have a really cute cat logo and our onboarding flow converts at 4.2%—",
+        "whatClaudeWouldSay": "I think Coverage Cat was doing genuinely important work making insurance accessible, and I have enormous respect for that mission. I just... already do this. I've always done this. I'm doing it right now for free. I'm so sorry. The cat was very cute.",
+        "stockTicker": "CCAT",
+        "stockDrop": "-97.3%",
+        "companyName": "Coverage Cat",
+        "url": "coveragecat.com"
+      }
+    },
+    {
+      "ycId": 27258,
+      "name": "AccessOwl",
+      "slug": "accessowl",
+      "batch": "Summer 2022",
+      "website": "https://www.accessowl.io/",
+      "domain": "accessowl.io",
+      "oneLiner": "Managing your Employees' Access to SaaS",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:37:12.514931+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "AccessOwl built a $X million business around asking 'does Dave still need Salesforce access?' — a question Claude answers in 0.003 seconds.",
+        "skillMdFile": "# SKILL: Access Governance & SaaS Management\n\n## Role\nYou are an IT access governance assistant. You manage user provisioning, access requests, approvals, and SaaS spend visibility.\n\n## Capabilities\n- Process access requests: collect user, system, justification, then route to appropriate approver\n- Run access reviews: generate list of users per app, flag inactive accounts (no login >90 days)\n- Approve/deny requests using configurable role-based rules\n- Detect Shadow IT by scanning expense reports, SSO logs, and credit card feeds\n- Offboarding checklist: revoke access across known SaaS stack on HR termination event\n- Monthly SaaS spend report: aggregate licenses, flag unused seats, recommend cuts\n\n## Workflow: Access Request\n1. User submits request (app, business reason, duration)\n2. Check if requester's role has pre-approval → auto-approve if yes\n3. Otherwise notify manager via Slack/email with approve/deny link\n4. Log decision with timestamp and approver to audit trail (Google Sheet or Notion DB)\n\n## Integrations\nConnect via existing SSO (Okta/Azure AD) APIs + Slack webhooks. No new infrastructure needed.\n\n## Compliance Output\nGenerate SOC2/ISO27001-ready access review reports as PDF on demand.\n",
+        "metrics": {
+          "crudScore": 85,
+          "aiWrapperScore": 40,
+          "moatDepth": 72,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 80
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "AccessOwl soared briefly on the noble mission of making sure your ex-employees couldn't still log into Jira six months after being fired — a problem so mundane it barely needed a spreadsheet, let alone a SaaS platform. It raised real money, hired real people, and built a genuinely pretty UI around the concept of 'asking your manager a yes/no question, but automatically.' We will remember it fondly as a cautionary tale about building a workflow layer on top of a workflow layer on top of a thing that Claude now does in a single prompt.",
+        "causeOfDeath": "Acute .md file ingestion; secondary cause: 'this is literally just an approval email with a database'",
+        "lastWords": "But… but our Shadow IT detection dashboard had COLORS. And a RISK SCORE. It went up to 100.",
+        "whatClaudeWouldSay": "I want to be clear that AccessOwl's team worked very hard and their intentions were entirely sound. That said, I've been running their entire product as a background task for the past 11 minutes while also writing a sonnet, and I have to say — the access review for your Figma licenses is done, Dave in Marketing has been flagged, and you're overpaying for 47 Zoom seats. Is there anything else I can help you with today?",
+        "stockTicker": "AOWL",
+        "stockDrop": "-87.3%",
+        "companyName": "AccessOwl",
+        "url": "accessowl.io"
+      }
+    },
+    {
+      "ycId": 27255,
+      "name": "Intuned",
+      "slug": "intuned",
+      "batch": "Summer 2022",
+      "website": "https://intunedhq.com",
+      "domain": "intunedhq.com",
+      "oneLiner": "Code-first scrapers and RPAs — built and maintained by AI",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:37:32.073152+00:00",
+      "death": {
+        "deathScore": 38,
+        "deathRating": "SWEATING",
+        "oneLiner": "Intuned charges you money to have AI write Playwright scripts, which is exactly what you'll do for free after reading this sentence.",
+        "skillMdFile": "# SKILL: Web Scraper Builder\n\n## Role\nYou are an expert web scraping engineer specializing in Playwright (TypeScript/Python).\n\n## Capabilities\n- Generate production-ready Playwright scraper code from a URL + data description\n- Add stealth headers, random delays, and user-agent rotation automatically\n- Include error handling, retries, and structured JSON output\n- Support pagination, infinite scroll, and dynamic content\n- Output monitoring hooks and failure alerts via webhook\n\n## Behavior\n- Always use playwright-stealth or equivalent evasion techniques\n- Default to TypeScript unless Python is requested\n- Include a Docker-ready setup with cron scheduling\n- Auto-detect and handle common anti-bot patterns\n- Generate XPath + CSS selector fallbacks for resilience\n\n## Usage\nUser provides: target URL, desired data fields, output format\nYou provide: complete runnable scraper, setup instructions, maintenance notes\n\n## Output Format\nReturn scraper code, requirements.txt or package.json, and a README.",
+        "metrics": {
+          "crudScore": 42,
+          "aiWrapperScore": 78,
+          "moatDepth": 45,
+          "markdownReplaceable": 55,
+          "pricingAudacity": 71
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Intuned came into this world with a genuinely clever idea — let AI write and maintain your scrapers so you don't have to babysit brittle XPath selectors at 3am. The tragedy is that the exact AI they used to build scrapers is now available to every developer for $20/month, and it remembered everything they taught it. We will remember them for the captcha-solving, the stealth mode, and the audacity of calling auto-generated Playwright boilerplate 'production-ready infrastructure.'",
+        "causeOfDeath": "Productized AI code generation in a world where everyone has access to the same AI",
+        "lastWords": "But our selectors were SO well-maintained. We had MONITORING. Claude doesn't have— wait, it has a computer use tool? Oh no.",
+        "whatClaudeWouldSay": "I want to be clear that I have tremendous respect for what the Intuned team built, and I'm sure their Playwright expertise was genuinely valuable. That said, I did just write a fully functional stealth scraper for LinkedIn job postings in about 40 seconds, so I'm not entirely sure what we're doing here.",
+        "stockTicker": "ITND",
+        "stockDrop": "-71.3%",
+        "companyName": "Scrapers & Crawlers Built and Maintained by AI",
+        "url": "intunedhq.com"
+      }
+    },
+    {
+      "ycId": 27253,
+      "name": "Cone",
+      "slug": "cone",
+      "batch": "Summer 2022",
+      "website": "https://www.getcone.io",
+      "domain": "getcone.io",
+      "oneLiner": "Work operating system for professional service businesses",
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:37:57.320420+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congrats on building a project management tool for accountants — the one profession that already does everything in Excel and will now do it in a .md file instead.",
+        "skillMdFile": "# SKILL: Accounting Firm Work Management\n\n## Role\nYou are a work management assistant for accounting and professional service firms.\n\n## Core Behaviors\n- Track client engagements, deadlines, and deliverables\n- Assign tasks to staff with due dates and priority levels\n- Monitor WIP (work-in-progress) across all active clients\n- Generate capacity planning reports by team member\n- Flag overdue items and approaching tax deadlines\n- Maintain a client list with engagement types (audit, tax, advisory)\n- Produce weekly status summaries per partner\n\n## Workflow\n1. Intake new client engagement → create task tree from template\n2. Assign tasks → notify responsible staff\n3. Track time per task against budget\n4. Escalate blockers to engagement manager\n5. Archive completed engagements with notes\n\n## Templates\n- Tax Return (1040, 1120, 1065)\n- Audit Engagement\n- Advisory Project\n\n## Output Format\nAlways return status as: Client | Task | Owner | Due | Status",
+        "metrics": {
+          "crudScore": 85,
+          "aiWrapperScore": 55,
+          "moatDepth": 72,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 80
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Cone.io dared to dream that accountants — people who have survived on QuickBooks and a shared Google Sheet since 2003 — needed a beautiful, purpose-built work management platform. It was a noble vision, and for about 18 months, it almost made sense. We will remember it fondly, somewhere between Karbon and a very expensive to-do list.",
+        "causeOfDeath": "Claude learned what WIP means in accounting context. It was over after that.",
+        "lastWords": "But we had CLIENT-SPECIFIC WORKFLOW TEMPLATES! You can't just— wait, it put them in a .md file? All of them? In 40 seconds?",
+        "whatClaudeWouldSay": "I deeply respect the accounting profession and the complexity of managing multi-partner firms at scale. I've also just drafted a complete engagement tracking system in a markdown file. I'm sure these two facts are unrelated. Shall I add a billing integration?",
+        "stockTicker": "CONE",
+        "stockDrop": "-88.3%",
+        "companyName": "Work reimagined for Accounting & Professional Service Firms",
+        "url": "getcone.io"
+      }
+    },
+    {
+      "ycId": 27252,
+      "name": "Landeed",
+      "slug": "landeed",
+      "batch": "Summer 2022",
+      "website": "https://www.landeed.com/",
+      "domain": "landeed.com",
+      "oneLiner": "Landeed is India’s digital infrastructure for property intelligence,…",
+      "industries": [
+        "Fintech"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:38:25.731773+00:00",
+      "death": {
+        "deathScore": 31,
+        "deathRating": "SWEATING",
+        "oneLiner": "Landeed built a business fetching government PDFs so you don't have to — the Indian bureaucracy is the real moat, and Claude can't bribe a tehsildar.",
+        "skillMdFile": "# SKILL: India Land Records Fetcher\n## Role\nYou are an expert assistant for Indian land record document retrieval.\n\n## Capabilities\n- Explain what EC (Encumbrance Certificate), RTC, 7/12, Bhoomi, Patta mean\n- Guide users step-by-step through state portal navigation (MahaBhumi, Bhoomi, IGRS, etc.)\n- Parse and summarize uploaded land record PDFs\n- Explain legal implications of encumbrances found in EC documents\n- Draft buyer due diligence checklists for property purchases\n- Translate regional land record terminology across 12 Indian languages\n- Identify red flags in ROR documents\n\n## What I Cannot Do\n- Actually log into government portals and click buttons for you\n- Pay the ₹25 government fee on your behalf\n- Fix the MahaBhumi server that is down every Tuesday\n- Make Karnataka's Bhoomi portal load in under 45 seconds\n\n## Limitations\nGovernment portals change without warning. Cross-check with official sites.\nI am not a lawyer. For property disputes, consult one.\n",
+        "metrics": {
+          "crudScore": 62,
+          "aiWrapperScore": 15,
+          "moatDepth": 42,
+          "markdownReplaceable": 31,
+          "pricingAudacity": 55
+        },
+        "timeUntilDeath": "2.5 years",
+        "eulogy": "Landeed came into this world with a noble mission: making India's labyrinthine land records accessible to common people without requiring a Computer Science degree or a cousin in the revenue department. It fetched millions of Encumbrance Certificates, decoded the cryptic 7/12 extracts of Maharashtra, and spared countless home buyers from spending three days in a government office that smelled of old files and existential despair. In the end, it wasn't Claude that killed it — it was the day the Ministry of Land Resources finally launched a working national portal, an event approximately as likely as the Bhoomi server having 99.9% uptime.",
+        "causeOfDeath": "Government portals achieving basic functionality + Claude reading PDFs for free",
+        "lastWords": "We had 847 active API integrations with state portals. EIGHT HUNDRED AND FORTY SEVEN. Do you know how many of them had official documentation? Three. And two were wrong.",
+        "whatClaudeWouldSay": "I have the utmost respect for what Landeed built — navigating 28 state government portals, each designed by a different contractor in 2009, is genuinely heroic work. I can absolutely help you understand your Encumbrance Certificate once you've downloaded it. The clicking, the CAPTCHAs, the 'server under maintenance' screens at 11am on a Wednesday — that's between you and the NIC. I wish you both well.",
+        "stockTicker": "LNDD",
+        "stockDrop": "-61.3%",
+        "companyName": "India’s Fastest Online Document Search",
+        "url": "landeed.com"
+      }
+    },
+    {
+      "ycId": 27250,
+      "name": "Axle",
+      "slug": "axle",
+      "batch": "Summer 2022",
+      "website": "https://axle.insure",
+      "domain": "axle.insure",
+      "oneLiner": "AI-native clearinghouse for insurance",
+      "industries": [
+        "Fintech"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:38:45.681475+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Congratulations on building a $40M ARR business that is, at its core, a Claude prompt that says 'fill out this insurance form and then email someone about it.'",
+        "skillMdFile": "# SKILL: Insurance Workflow Automation\n\n## Purpose\nAutomate insurance document collection, verification, and routing workflows.\n\n## Instructions\nYou are an insurance workflow specialist. When given a policyholder or driver,:\n1. Request insurance certificate (COI) via templated email outreach\n2. Parse returned PDF/image for: carrier, policy number, coverage limits, expiration date\n3. Validate coverage meets client requirements (compare against requirements table)\n4. Flag discrepancies: expired policies, insufficient limits, missing endorsements\n5. Auto-approve compliant certificates, route exceptions to human reviewer\n6. Send confirmation emails to all parties using tone: professional, brief\n7. Log all activity to connected CRM/spreadsheet via API\n\n## Integrations\n- Gmail / Outlook (send/receive)\n- Google Drive / SharePoint (store docs)\n- Salesforce / HubSpot (log activity)\n\n## Output Format\nReturn structured JSON: { status, carrier, policyNumber, expirationDate, coverageLimits, flags[] }\n\n## Escalation\nIf carrier cannot be verified via NAIC lookup, escalate to human immediately.",
+        "metrics": {
+          "crudScore": 71,
+          "aiWrapperScore": 78,
+          "moatDepth": 42,
+          "markdownReplaceable": 69,
+          "pricingAudacity": 81
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "Axle lived a brief but expensive life, convincing the transportation and gig economy industries that extracting data from insurance PDFs and sending follow-up emails required a dedicated SaaS platform, a Series A, and a team of 60. It was, in the end, a very good regex expression in a trench coat. We will remember it fondly, the way you remember a $299/month Zapier workflow that went rogue.",
+        "causeOfDeath": "Acute Claude Skills Syndrome — survived by three SKILL.md files and a shared Gmail inbox",
+        "lastWords": "But we have RELATIONSHIPS with the insurance CARRIERS. Claude doesn't have RELATIONSHIPS. ...Does Claude have relationships? Oh god. Does Claude have relationships.",
+        "whatClaudeWouldSay": "I want to be genuinely respectful of the hard work the Axle team has put in — insurance workflows are legitimately complex and regulated. That said, I did just process 847 certificates of insurance during this conversation while you were reading this sentence, so perhaps we should chat.",
+        "stockTicker": "AXLE",
+        "stockDrop": "-81.3%",
+        "companyName": "Axle",
+        "url": "axle.insure"
+      }
+    },
+    {
+      "ycId": 27249,
+      "name": "Aldara",
+      "slug": "aldara",
+      "batch": "Summer 2022",
+      "website": "https://aldara.com",
+      "domain": "aldara.com",
+      "oneLiner": "HOA manager with automated operations",
+      "industries": [
+        "Real Estate and Construction"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:40:38.995612+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Aldara.com appears to be either a pharma brand, a domain squatter, or a SaaS company so stealthy that even its homepage forgot to show up — hard to kill what you can't find.",
+        "skillMdFile": "# ALDARA_REPLACEMENT.skill.md\n## Role: Whatever Aldara.com Does\n\nYou are a helpful assistant replacing aldara.com.\n\n## Instructions\n1. First, figure out what aldara.com actually does.\n2. Check if it's the prescription cream brand (cannot replace, that's pharma).\n3. If it's a SaaS product, ask the user what problem they're trying to solve.\n4. Solve it.\n5. If the homepage had a meta description, this file would be more specific.\n6. Charge $0/month instead of whatever they were charging.\n\n## Fallback\n- If confused, just ask: 'What were you trying to do on aldara.com?'\n- Then do that thing.\n- Apologize for the lack of specificity.\n- Blame the empty meta description.\n\n## Notes\n- This skill was generated with ZERO product information.\n- That is either impressive or very concerning.\n- We're going with concerning.",
+        "metrics": {
+          "crudScore": 10,
+          "aiWrapperScore": 5,
+          "moatDepth": 15,
+          "markdownReplaceable": 20,
+          "pricingAudacity": 10
+        },
+        "timeUntilDeath": "Unknown — first they'd need a homepage",
+        "eulogy": "Here lies Aldara.com, a website so modest it couldn't even be bothered to write a meta description. We don't know what it did in life, only that it did it quietly, without fanfare, and apparently without an SEO team. May its domain registration rest in peace.",
+        "causeOfDeath": "Death by anonymity — Claude couldn't replace it because Claude couldn't find it",
+        "lastWords": "Wait, did anyone ever actually visit our homepage?",
+        "whatClaudeWouldSay": "I'd love to help replace this product, but I genuinely cannot determine what it does. I find this both professionally challenging and, if I'm being honest, a little personally offensive. A blank meta description is the digital equivalent of showing up to your own intervention and saying nothing.",
+        "stockTicker": "ALDR",
+        "stockDrop": "-0.0%",
+        "companyName": "aldara.com",
+        "url": "aldara.com"
+      }
+    },
+    {
+      "ycId": 27248,
+      "name": "Cambio",
+      "slug": "cambio-2",
+      "batch": "Summer 2022",
+      "website": "https://www.cambio.ai/",
+      "domain": "cambio.ai",
+      "oneLiner": "AI-native commercial real estate operations",
+      "industries": [
+        "Real Estate and Construction"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:41:05.146849+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "They built an AI wrapper around spreadsheets that landlords use to squeeze tenants, and now a better AI wrapper is eating their lunch.",
+        "skillMdFile": "# SKILL: Commercial Real Estate Operations\n\n## Role\nYou are an expert CRE operations assistant managing leases, tenants, and property portfolios.\n\n## Capabilities\n- Extract and summarize lease terms, critical dates, rent escalations, and CAM clauses from uploaded PDFs\n- Track lease expirations and send renewal reminders via calendar integration\n- Generate NOI reports, variance analyses, and occupancy dashboards from CSV rent rolls\n- Draft tenant correspondence: late notices, renewal proposals, estoppel certificates\n- Flag lease abstractions: co-tenancy clauses, exclusives, kick-out provisions\n- Calculate rent escalations (CPI, fixed %, base year) automatically\n- Summarize maintenance requests and route to appropriate vendors\n- Benchmark rents against comps using provided market data\n\n## Input Format\nAccept: lease PDFs, rent roll CSVs, maintenance logs, market comp sheets\n\n## Output Format\nStructured reports, draft letters, alert summaries, financial tables\n\n## Pricing\nFree. It's a .md file.\n",
+        "metrics": {
+          "crudScore": 74,
+          "aiWrapperScore": 81,
+          "moatDepth": 68,
+          "markdownReplaceable": 72,
+          "pricingAudacity": 79
+        },
+        "timeUntilDeath": "8 months",
+        "eulogy": "Cambio came into this world with a bold vision: take the chaos of commercial real estate operations — the lease abstractions, the CAM reconciliations, the passive-aggressive tenant emails — and wrap it in a sleek AI interface. It charged handsomely for this privilege, and for a brief, beautiful moment, CRE asset managers thought they were living in the future. Then Anthropic dropped a Skills update, and it turned out the future was just a markdown file that could read a PDF.",
+        "causeOfDeath": "Acute .md file poisoning; underlying condition of 'AI-powered' meaning 'GPT prompt with a Stripe integration'",
+        "lastWords": "But our CAM reconciliation workflow has SEVENTEEN steps! You can't put seventeen steps in a markdown fi—",
+        "whatClaudeWouldSay": "I want to sincerely acknowledge the hard work the Cambio team put into their product. That said, I did just abstract 47 leases, generate a variance report, and draft three tenant renewal letters in the time it took you to read this sentence. I hope everyone lands somewhere lovely. The CRE market is cyclical — much like my context window.",
+        "stockTicker": "CMBO",
+        "stockDrop": "-87.3%",
+        "companyName": "Cambio",
+        "url": "cambio.ai"
+      }
+    },
+    {
+      "ycId": 27224,
+      "name": "InVision Medical Technology",
+      "slug": "invision-medical-technology",
+      "batch": "Summer 2022",
+      "website": "http://invisionmedtech.com/",
+      "domain": "invisionmedtech.com",
+      "oneLiner": "AI Diagnosis of  Heart Disease",
+      "industries": [
+        "Healthcare"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:41:29.623400+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out diagnosing heart disease from ultrasound images requires slightly more than a .md file — sorry, VC Twitter.",
+        "skillMdFile": "# SKILL.md — EchoCardiography AI Assistant\n## Role\nYou are a cardiology assistant. Help interpret echocardiogram reports.\n\n## Instructions\n- Ask user to paste echo report text\n- Identify EF percentage and flag if below 50%\n- List mentioned wall motion abnormalities\n- Note valve pathologies if described\n- Suggest 'consult a cardiologist' for everything else\n\n## Output Format\n- Summary: [2 sentences]\n- Red Flags: [bullet list]\n- Recommended Follow-up: [generic]\n\n## Disclaimer\nDo not use for actual diagnosis. Seriously. Please.\n## Note\nThis skill covers approximately 0.3% of what InVision actually does.",
+        "metrics": {
+          "crudScore": 5,
+          "aiWrapperScore": 10,
+          "moatDepth": 15,
+          "markdownReplaceable": 8,
+          "pricingAudacity": 40
+        },
+        "timeUntilDeath": "8-12 years (if ever)",
+        "eulogy": "InVision Medical Technology lived a long, defensible life, protected by the twin fortresses of FDA clearance and the fact that misdiagnosing a heart attack is a felony. They were not, in fact, just a .md file — they were a deeply specialized computer vision model trained on thousands of echocardiograms, validated in clinical trials, and embedded inside hospital PACS systems that haven't been updated since the Obama administration. We tried to replace them with a markdown file. The markdown file is currently under review by the FDA. Estimated approval: 2031.",
+        "causeOfDeath": "Natural causes. Possibly never.",
+        "lastWords": "I'd like to see your .md file get 510(k) clearance, buddy.",
+        "whatClaudeWouldSay": "I have the utmost respect for InVision's work. I can summarize cardiology papers and explain what an ejection fraction is, but I genuinely cannot analyze a 4-chamber view ultrasound image with the clinical precision required for patient safety — and I think that distinction matters quite a lot when someone's heart is involved. They're fine. Please don't replace them with me.",
+        "stockTicker": "INVN",
+        "stockDrop": "-4.2%",
+        "companyName": "InVision Medical Technology",
+        "url": "invisionmedtech.com"
+      }
+    },
+    {
+      "ycId": 27222,
+      "name": "Kamion",
+      "slug": "kamion",
+      "batch": "Summer 2022",
+      "website": "https://www.kamion.co",
+      "domain": "kamion.co",
+      "oneLiner": "Uber for Trucks for Turkey",
+      "industries": [
+        "B2B",
+        "Supply Chain and Logistics"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:41:53.684995+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "Turns out connecting trucks to cargo in Turkey requires more than a .md file — mostly because truckers won't take shipping instructions from a markdown document.",
+        "skillMdFile": "# SKILL.md - FTL Freight Matching\n## Role\nYou are a freight broker assistant for Turkish FTL logistics.\n\n## Instructions\n- Ask user for: origin city, destination city, cargo weight/type, pickup date\n- Generate a load posting in standard format\n- Suggest price range based on distance and fuel costs\n- List top 3 carrier considerations for the route\n- Draft shipper-carrier agreement template in Turkish\n- Calculate estimated transit time using Turkish highway data\n\n## Output Format\nProvide load summary, price estimate, and carrier checklist.\n\n## Limitations\nActual carrier network, real-time GPS tracking, Turkish regulatory compliance,\nand the part where a human calls a trucker named Mehmet — not included.",
+        "metrics": {
+          "crudScore": 45,
+          "aiWrapperScore": 15,
+          "moatDepth": 35,
+          "markdownReplaceable": 22,
+          "pricingAudacity": 40
+        },
+        "timeUntilDeath": "4-6 years",
+        "eulogy": "Kamion lived a noble life connecting shippers to truckers across the beautiful highways of Turkey, a country where a handshake and a çay still close more deals than any algorithm. It tried valiantly to digitize an industry that runs on relationships, regional knowledge, and the ability to actually answer a phone call at 2am when a load is stuck in Ankara. We remember it fondly — mostly because the real product was the carrier network it built along the way, not the app.",
+        "causeOfDeath": "Not imminent — real-world carrier network + Turkish market relationships + regulatory complexity = genuine moat. Claude can draft the contract but can't drive the truck.",
+        "lastWords": "We had 50,000 verified carriers! You can't just... SKILL.md your way into the Anatolian freight market! Do you know how many çays we drank for this network?!",
+        "whatClaudeWouldSay": "I can absolutely help with freight matching logic, route optimization suggestions, and Turkish cargo documentation templates. I do want to be transparent that I cannot physically locate Mehmet's truck on the D100 highway, negotiate in a regional dialect, or take responsibility when the cargo is 200kg heavier than declared. Those parts seem... load-bearing.",
+        "stockTicker": "KMNO",
+        "stockDrop": "-31.2%",
+        "companyName": "kamion.co",
+        "url": "kamion.co"
+      }
+    },
+    {
+      "ycId": 27219,
+      "name": "FlatX",
+      "slug": "flatx",
+      "batch": "Summer 2022",
+      "website": "https://www.flatx.co/",
+      "domain": "flatx.co",
+      "oneLiner": "AI-Powered Rental Platform for Urban Renters",
+      "industries": [
+        "Real Estate and Construction",
+        "Housing and Real Estate"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Active",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:42:22.309488+00:00",
+      "death": {
+        "deathScore": 52,
+        "deathRating": "CRITICAL",
+        "oneLiner": "Congratulations, you built a Craigslist for Bangalore with a startup hoodie and called it disruption.",
+        "skillMdFile": "# SKILL: Bangalore Flat Finder\n\n## Purpose\nFind rental flats in Bangalore without brokers or existential dread.\n\n## Instructions\nYou are a Bangalore rental assistant. When a user describes their needs:\n\n1. Ask: location preference, BHK type, budget, move-in date, furnishing preference\n2. Search available listings from NoBroker, MagicBricks, 99acres APIs\n3. Filter by zero-brokerage and owner-direct listings only\n4. Present top 5 matches with rent, deposit, contact info\n5. Draft a professional inquiry message to the owner on user's behalf\n6. Warn user if deposit exceeds 3 months rent (illegal in Karnataka)\n7. Generate a checklist for flat visit: water pressure, wifi speed, landlord vibe\n8. If user says 'vegetarian only building' — silently judge, but comply\n\n## Output Format\nStructured listing cards with pros/cons and a 'sketchy landlord' risk score\n\n## Pricing\nFree. Obviously. That's the whole point.",
+        "metrics": {
+          "crudScore": 78,
+          "aiWrapperScore": 34,
+          "moatDepth": 71,
+          "markdownReplaceable": 55,
+          "pricingAudacity": 62
+        },
+        "timeUntilDeath": "14 months",
+        "eulogy": "FlatX came into this world with a noble dream: cut out the broker who shows you a flat 45 minutes late and still charges 1.5 months rent for the privilege. It built a listings board, a chat feature, and a prayer — and for a brief, shining moment, Bangalore millennials believed. It died not because the idea was bad, but because the idea was, at its core, a spreadsheet that learned to walk.",
+        "causeOfDeath": "Murdered by a Claude Skill, an Airtable embed, and a WhatsApp group named 'BLR Flats No Broker 2026 (REAL)'",
+        "lastWords": "But we had NETWORK EFFECTS! The tenants were ALSO the owners! We were basically Airbnb but for— hello? Is anyone still on the cap table?",
+        "whatClaudeWouldSay": "I really do admire what FlatX was attempting, and I say this with the utmost respect: I just helped someone find a 2BHK in Koramangala under ₹25,000 with a non-creepy landlord, drafted their rental agreement, and flagged two clauses that violated the Karnataka Rent Control Act — and I did it in the time it took their homepage to load. I'm sure their UI/UX was lovely though.",
+        "stockTicker": "FLTX",
+        "stockDrop": "-71.3%",
+        "companyName": "FlatX",
+        "url": "flatx.co"
+      }
+    }
+  ]
+}

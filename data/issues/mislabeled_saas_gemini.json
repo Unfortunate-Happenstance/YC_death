@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-06-25T19:52:13.345198+00:00",
+  "generatedAt": "2026-06-26T00:59:08.127175+00:00",
   "model": "gemini-2.5-flash-lite",
   "summary": {
-    "agreed": 1,
+    "agreed": 2,
     "mislabeled": 0,
-    "errors": 0,
-    "requests": 1
+    "errors": 62,
+    "requests": 2,
+    "apiAttempts": 247
   },
   "mislabeled": []
 }
