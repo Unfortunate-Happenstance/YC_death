@@ -1,12 +1,28 @@
 {
-  "generatedAt": "2026-06-26T00:59:08.127175+00:00",
+  "generatedAt": "2026-06-26T07:30:21.959183+00:00",
   "model": "gemini-2.5-flash-lite",
   "summary": {
-    "agreed": 2,
-    "mislabeled": 0,
-    "errors": 62,
-    "requests": 2,
-    "apiAttempts": 247
+    "agreed": 13,
+    "mislabeled": 1,
+    "errors": 82,
+    "requests": 14,
+    "apiAttempts": 347
   },
-  "mislabeled": []
+  "mislabeled": [
+    {
+      "ycId": 29089,
+      "name": "Line.Build",
+      "slug": "line-build",
+      "batch": "Summer 2023",
+      "industries": [
+        "B2B"
+      ],
+      "oneLiner": "Incentives and financing for energy efficiency upgrades",
+      "currentTag": "saasLikely",
+      "geminiTag": "nonSaas",
+      "reasoning": "The company provides incentives and financing for energy efficiency upgrades, which is a service and financial offering rather than a core software product.",
+      "ycUrl": "https://www.ycombinator.com/companies/line-build",
+      "auditedAt": "2026-06-26T07:28:09.929494+00:00"
+    }
+  ]
 }

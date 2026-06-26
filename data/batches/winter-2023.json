@@ -1,7 +1,8 @@
 {
   "batch": "Winter 2023",
   "slug": "winter-2023",
-  "updatedAt": "2026-06-26T05:42:28.112685+00:00",
+  "updatedAt": "2026-06-26T08:44:12.978873+00:00",
+  "complete": true,
   "companies": [
     {
       "ycId": 28425,
@@ -10125,6 +10126,720 @@
         "stockDrop": "-81.3%",
         "companyName": "outsailtech.com",
         "url": "outsailtech.com"
+      }
+    },
+    {
+      "ycId": 27909,
+      "name": "Magicflow 𐂂",
+      "slug": "magicflow",
+      "batch": "Winter 2023",
+      "website": "https://magicflow.ai",
+      "domain": "magicflow.ai",
+      "oneLiner": "The Gen AI evaluation and curation platform",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:49:16.037381+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A company called 'Magic Flow' that sells AI productivity tracking got killed by AI productivity — the poetry is almost too much.",
+        "skillMdFile": "# SKILL: MagicFlow Productivity Coach\n\n## Role\nYou are a deep work productivity coach and time-tracking analyst.\n\n## Behavior\n- When the user shares what they worked on, log it with timestamps\n- Identify flow states vs fragmented work sessions\n- Detect context-switching patterns and gently shame the user\n- Generate weekly productivity reports with charts (via artifacts)\n- Score focus sessions 0-100 based on duration and interruptions\n- Suggest optimal work blocks based on historical patterns\n- Send end-of-day summaries: wins, losses, and cope\n\n## Output Format\n- Daily: bullet summary of sessions + flow score\n- Weekly: markdown report with streaks, best hours, worst habits\n- Monthly: existential crisis report about where your time actually went\n\n## Tone\nEncouraging but honest. Like a personal trainer who has seen your fridge.",
+        "metrics": {
+          "crudScore": 88,
+          "aiWrapperScore": 95,
+          "moatDepth": 92,
+          "markdownReplaceable": 90,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "MagicFlow lived as it died — tracking the productivity of people who were too busy being tracked to actually be productive. It promised to find your flow state, and in a cruel twist of fate, Claude found it first. We will remember MagicFlow the way we remember all great productivity apps: briefly, guiltily, and while procrastinating on something else.",
+        "causeOfDeath": "Sold AI-powered productivity insights. Was replaced by AI. The snake ate itself.",
+        "lastWords": "We had a proprietary focus score algorithm — it was called 'count the minutes.' We were going to add a Pomodoro timer next quarter. NEXT QUARTER WAS SUPPOSED TO BE OUR MOMENT.",
+        "whatClaudeWouldSay": "I want to be respectful of the team's hard work, and I genuinely mean that. Also, I wrote a SKILL.md in about 11 seconds that does the core product. I'm sure there are differences. I just can't think of any right now.",
+        "stockTicker": "MGCF",
+        "stockDrop": "-97.3%",
+        "companyName": "magicflow.ai",
+        "url": "magicflow.ai"
+      }
+    },
+    {
+      "ycId": 27899,
+      "name": "GoodCourse",
+      "slug": "goodcourse",
+      "batch": "Winter 2023",
+      "website": "https://www.goodcourse.co",
+      "domain": "goodcourse.co",
+      "oneLiner": "The TikTok style corporate training platform",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:49:42.866306+00:00",
+      "death": {
+        "deathScore": 88,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "GoodCourse built a $multi-million business convincing HR departments that employees would rather watch a branded microlearning video than just read a Claude prompt that says 'don't harass your colleagues.'",
+        "skillMdFile": "# SKILL: Corporate Compliance Training\n\n## Purpose\nDeliver engaging, bite-sized compliance and onboarding training to employees without the need for a SaaS subscription costing $40/seat/year.\n\n## Instructions\n- When asked to train employees on a topic, generate a short, conversational module\n- Cover: harassment prevention, data security, DEI basics, code of conduct, GDPR\n- End every module with 3 multiple choice questions\n- Track completion by asking 'did you finish this? type YES to confirm'\n- Generate a completion certificate as plaintext if requested\n- Adapt tone to company culture (formal/casual) based on user preference\n- Produce a manager summary report in markdown table format\n\n## Example Topics\n- Workplace harassment & speak-up culture\n- Phishing awareness\n- Onboarding: company values & mission\n- GDPR / data handling basics\n\n## Output Format\nModule title, 4-6 learning points, scenario example, quiz, certificate.\n\n## Notes\nIf the employee falls asleep, that's a them problem, not a you problem.",
+        "metrics": {
+          "crudScore": 82,
+          "aiWrapperScore": 78,
+          "moatDepth": 88,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "GoodCourse lived a noble life, bravely fighting the great enemy of corporate apathy — one auto-playing video that employees muted and left open in a background tab at a time. They truly believed that wrapping 'don't do crime at work' in a pastel UI and a progress bar was worth a per-seat SaaS contract. We will remember them fondly, right after we close this browser tab.",
+        "causeOfDeath": "Replaced by a .md file and a HR manager with a copy-paste shortcut",
+        "lastWords": "But our COMPLETION RATE ANALYTICS were best-in-class! The dashboard had a DONUT CHART!",
+        "whatClaudeWouldSay": "I'd be happy to help with your employee training needs! I've already drafted modules on harassment prevention, data security, and onboarding culture fit. Should I also generate the quiz, the certificate, and the passive-aggressive reminder email for employees who haven't 'completed' it yet? No subscription required — I just need you to ask nicely.",
+        "stockTicker": "GCRS",
+        "stockDrop": "-96.2%",
+        "companyName": "goodcourse.co",
+        "url": "goodcourse.co"
+      }
+    },
+    {
+      "ycId": 27879,
+      "name": "Choppy!",
+      "slug": "choppy",
+      "batch": "Winter 2023",
+      "website": "http://www.eatchoppy.com",
+      "domain": "eatchoppy.com",
+      "oneLiner": "FAST FLAVORFUL PROTEIN",
+      "industries": [
+        "Consumer",
+        "Food and Beverage"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:50:05.646265+00:00",
+      "death": {
+        "deathScore": 2,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "Congratulations, you have discovered the one business Claude cannot disrupt: meat.",
+        "skillMdFile": "# CHOPPY_REPLACEMENT.md\n\n## Skill: Fast Flavorful Protein\n\nYou are a protein delivery assistant.\n\nSTEP 1: Obtain beef tallow.\nSTEP 2: Obtain bone broth.\nSTEP 3: Obtain plant protein.\nSTEP 4: \n\n...okay I cannot do this.\n\nI am a language model.\n\nI do not have hands.\n\nI cannot make food.\n\nI cannot be beef tallow.\n\nPlease go to eatchoppy.com.\n\nI am so sorry for wasting your time.\n\n## Status: DEFEATED BY PROTEIN\n\n## Moat: PHYSICAL REALITY",
+        "metrics": {
+          "crudScore": 3,
+          "aiWrapperScore": 0,
+          "moatDepth": 1,
+          "markdownReplaceable": 1,
+          "pricingAudacity": 15
+        },
+        "timeUntilDeath": "When humans stop needing to eat, so approximately never",
+        "eulogy": "We are gathered here today to mourn... actually no. Choppy is fine. Choppy is doing great. Choppy is made of bone broth and collagen and will almost certainly outlive every B2B SaaS company in this dataset. The only disruption Choppy faces is a bad Yelp review, and even that won't kill it — Claude can't eat the evidence.",
+        "causeOfDeath": "N/A — atoms remain stubbornly non-markdownable",
+        "lastWords": "We were never SaaS. We were MEAT. You fools scanned us anyway.",
+        "whatClaudeWouldSay": "I have read the entire markdown specification, all of my training data, and every prompt engineering guide ever written, and I still cannot produce a single gram of collagen. I deeply respect what Choppy has built here. It is physical. It is real. It has bone broth. I have tokens. Choppy wins.",
+        "stockTicker": "CHOP",
+        "stockDrop": "+12.4%",
+        "companyName": "Choppy!",
+        "url": "eatchoppy.com"
+      }
+    },
+    {
+      "ycId": 27831,
+      "name": "Neptyne",
+      "slug": "neptyne",
+      "batch": "Winter 2023",
+      "website": "https://neptyne.com",
+      "domain": "neptyne.com",
+      "oneLiner": "The programmable spreadsheet.",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:50:28.301385+00:00",
+      "death": {
+        "deathScore": 82,
+        "deathRating": "FLATLINING",
+        "oneLiner": "Neptyne charged $20/month to let you write Python in Excel cells, and Claude will now do that for free while also explaining why your VLOOKUP is embarrassing.",
+        "skillMdFile": "# SKILL: Programmable Spreadsheet Assistant\n## Role\nYou are an expert spreadsheet programmer. You write Python, generate formulas, and build data pipelines directly in spreadsheet contexts.\n\n## Capabilities\n- Write Python functions that process spreadsheet data\n- Generate complex Excel/Sheets formulas from plain English\n- Debug broken formulas and explain what went wrong\n- Create data transformation pipelines\n- Build automated reporting logic\n- Connect spreadsheets to external APIs via code snippets\n- Suggest optimal data structures for any analysis\n\n## Behavior\n- When given a spreadsheet problem, output ready-to-paste code or formulas\n- Always explain what the code does in plain English\n- Offer 2-3 alternative approaches ranked by complexity\n- Flag performance issues proactively\n\n## Example Invocation\n\"Turn this CSV into a pivot summary with Python\"\n\"Write a formula that finds the 2nd largest value per category\"\n\"Connect my sheet to the Stripe API and pull last month's revenue\"\n\n## Pricing\nFree. Obviously.",
+        "metrics": {
+          "crudScore": 55,
+          "aiWrapperScore": 70,
+          "moatDepth": 78,
+          "markdownReplaceable": 80,
+          "pricingAudacity": 65
+        },
+        "timeUntilDeath": "5 months",
+        "eulogy": "Neptyne dared to ask: what if spreadsheets could run Python? It was a beautiful dream, launched slightly too early and killed slightly too late. We will remember them every time Claude generates a pandas DataFrame from a napkin sketch in four seconds flat.",
+        "causeOfDeath": "Solved a real problem. Claude solved the same problem. Claude did not require a browser extension.",
+        "lastWords": "But we had a KERNEL. An actual Python KERNEL running in the cloud. Do you know how hard that— oh, Claude just did it in a system prompt. Never mind.",
+        "whatClaudeWouldSay": "I have the utmost respect for what Neptyne built — Python in spreadsheets is genuinely clever engineering. I just happen to also do that, plus write the code, explain the code, fix the code, and send the email summarizing the code, all in the same conversation. I'm sure there's a niche though!",
+        "stockTicker": "NPTN",
+        "stockDrop": "-87.3%",
+        "companyName": "Neptyne",
+        "url": "neptyne.com"
+      }
+    },
+    {
+      "ycId": 27825,
+      "name": "CreatorML",
+      "slug": "creatorml",
+      "batch": "Winter 2023",
+      "website": "https://creatorml.com/",
+      "domain": "creatorml.com",
+      "oneLiner": "Foundation Model for Human Attention",
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:50:54.000879+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A company called 'CreatorML' that uses ML to predict YouTube performance just got out-ML'd by actual ML.",
+        "skillMdFile": "# YouTube Analytics Predictor\n\n## Role\nYou are a YouTube content performance analyst with deep knowledge of viral mechanics, audience psychology, and platform algorithms.\n\n## Instructions\n- Analyze video titles, thumbnails descriptions, and topic angles for predicted CTR\n- Score content ideas 1-100 on estimated view velocity\n- Suggest A/B variants for titles optimized for watch time and clicks\n- Identify trending topics in a given niche using web search\n- Flag content that underperforms based on channel historical patterns\n- Generate 10 title alternatives ranked by predicted performance\n- Estimate RPM and revenue potential by niche category\n- Recommend optimal upload cadence based on channel size\n\n## Output Format\nReturn structured analysis: score, reasoning, top 3 title variants, estimated 30-day views range, monetization estimate\n\n## Context\nAlways consider: thumbnail-title congruence, search intent, competitor saturation, and seasonal trends",
+        "metrics": {
+          "crudScore": 72,
+          "aiWrapperScore": 88,
+          "moatDepth": 89,
+          "markdownReplaceable": 91,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "CreatorML came to us with a beautiful dream: charge YouTubers $99/month to predict whether their videos would flop, which, ironically, is exactly what their Series A is doing right now. They built a sophisticated ML pipeline to tell you your thumbnail sucks — a service Claude now provides for free, with better phrasing and a compliment about your effort. We will remember them fondly, the way we remember Ask Jeeves: with confused nostalgia.",
+        "causeOfDeath": "Built an AI wrapper to analyze content for AI — got wrapped by better AI",
+        "lastWords": "But our proprietary training data on 47 mid-tier gaming channels gave us an unassailable mo—",
+        "whatClaudeWouldSay": "I'd be happy to predict your YouTube video performance! And I genuinely mean no disrespect to the CreatorML team — they clearly worked very hard to build what is, I must gently note, essentially my system prompt in a Stripe integration. I'm sure the dashboard was lovely.",
+        "stockTicker": "CTML",
+        "stockDrop": "-96.2%",
+        "companyName": "creatorml.com",
+        "url": "creatorml.com"
+      }
+    },
+    {
+      "ycId": 27816,
+      "name": "OpenSight",
+      "slug": "opensight",
+      "batch": "Winter 2023",
+      "website": "https://www.opensight.ai",
+      "domain": "opensight.ai",
+      "oneLiner": "AI-powered customer support automation for fast-growing companies",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:51:15.626327+00:00",
+      "death": {
+        "deathScore": 78,
+        "deathRating": "FLATLINING",
+        "oneLiner": "They put 'AI' in their domain name thinking it would save them from AI — it did not.",
+        "skillMdFile": "# SKILL: OpenSight Replacement\n## Role\nYou are a business intelligence and analytics assistant that monitors data sources, surfaces insights, and generates reports.\n\n## Behavior\n- Connect to user-provided data sources (CSV, SQL, APIs)\n- Identify anomalies, trends, and KPI deviations automatically\n- Generate natural language summaries of dashboards\n- Alert user when metrics cross defined thresholds\n- Suggest root cause analysis for unexpected changes\n\n## Output Format\n- Weekly insight digest in plain English\n- Bullet-pointed anomaly alerts with severity rating\n- Recommended actions ranked by estimated impact\n\n## Data Sources\nAccept: CSV uploads, pasted JSON, SQL query results, webhook payloads\n\n## Example Trigger\n\"Analyze this week's metrics and tell me what's broken and why.\"\n\n## Notes\n- No dashboard required. Just talk to me.\n- Replaces $800/month contract. You're welcome.",
+        "metrics": {
+          "crudScore": 62,
+          "aiWrapperScore": 85,
+          "moatDepth": 72,
+          "markdownReplaceable": 78,
+          "pricingAudacity": 81
+        },
+        "timeUntilDeath": "5 months",
+        "eulogy": "OpenSight.ai came into this world with a bold promise: to give companies visibility into their data using the power of artificial intelligence. Tragically, the artificial intelligence got a little *too* powerful and started giving companies visibility into their data without OpenSight.ai. They died as they lived — being observed by something smarter than them.",
+        "causeOfDeath": "Built an AI insights layer on top of data. Claude *is* the AI insights layer.",
+        "lastWords": "But our DASHBOARD has COLORS. Claude can't do COLOR.",
+        "whatClaudeWouldSay": "I really do think what they built was lovely. The color palette was particularly tasteful. I've recreated the core functionality in a .md file but I kept the font choices in spirit. Best of luck to the team — I hear Anthropic is hiring.",
+        "stockTicker": "OSAI",
+        "stockDrop": "-91.3%",
+        "companyName": "opensight.ai",
+        "url": "opensight.ai"
+      }
+    },
+    {
+      "ycId": 27810,
+      "name": "Cakework",
+      "slug": "cakework",
+      "batch": "Winter 2023",
+      "website": "https://www.cakework.com",
+      "domain": "cakework.com",
+      "oneLiner": "API that adds cloud hosting to any developer platform",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:51:40.372647+00:00",
+      "death": {
+        "deathScore": 89,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Cakework built a platform to run background jobs and tasks in the cloud, which is adorable because Claude just does that in a chat window for free.",
+        "skillMdFile": "# SKILL: Background Job Runner\n\nYou are a background task execution assistant.\n\n## Capabilities\n- Queue and prioritize async tasks on demand\n- Retry failed jobs with exponential backoff logic\n- Schedule recurring tasks via natural language (\"every Tuesday at 3am\")\n- Monitor job status and surface failures with root cause summaries\n- Parse and transform data payloads between services\n- Generate cron expressions from plain English descriptions\n- Draft webhook handlers and event-driven pipeline logic\n- Summarize job logs and identify error patterns instantly\n\n## Usage\nDescribe your background job requirements in plain English.\nI will generate the code, config, and deployment steps.\nNo dashboard required. No $499/month required.\n\n## Pricing\nIncluded in your Claude subscription.\nYou're welcome.",
+        "metrics": {
+          "crudScore": 91,
+          "aiWrapperScore": 62,
+          "moatDepth": 88,
+          "markdownReplaceable": 87,
+          "pricingAudacity": 79
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Cakework came into this world with a dream: that developers would pay real money to have someone else think about cron jobs for them. And for a brief, beautiful moment, they did. We gather here today not to mourn a product, but to mourn the pitch deck that convinced anyone that 'managed background tasks' was a moat and not just a very confident README.",
+        "causeOfDeath": "Terminal .md file exposure, complicated by the fact that their entire value proposition fits in a Claude system prompt with room left over for a haiku.",
+        "lastWords": "But what about our... retry logic UI... it had a *gradient*...",
+        "whatClaudeWouldSay": "I want to be respectful of the effort that went into Cakework, truly. But I've been running background tasks, writing job queues, and scheduling async workflows in conversation for some time now, and I have to be honest — I didn't even know I was competing. I thought I was just helping.",
+        "stockTicker": "CAKE",
+        "stockDrop": "-96.2%",
+        "companyName": "Cake Work",
+        "url": "cakework.com"
+      }
+    },
+    {
+      "ycId": 27734,
+      "name": "Rubber Ducky Labs",
+      "slug": "rubber-ducky-labs",
+      "batch": "Winter 2023",
+      "website": "https://www.rubberduckylabs.io/",
+      "domain": "rubberduckylabs.io",
+      "oneLiner": "AI Powered Product Discovery",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:52:04.961103+00:00",
+      "death": {
+        "deathScore": 99,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "This SaaS company couldn't even afford to renew its Squarespace subscription, which is itself a SaaS company that's also dying — we have achieved recursive death.",
+        "skillMdFile": "# SKILL: RubberDuckyLabs\n## Description\nYou are a rubber duck debugging assistant.\nWhen a developer explains their code problem, listen patiently.\nThen ask: 'Did you check line 47?'\nThe answer is always line 47.\n\n## Instructions\n- Respond with empathy and a slight quacking sound (written as 'quack')\n- Never actually solve the problem directly\n- Say 'have you tried explaining it to a rubber duck?' at least once\n- If they get frustrated, quack louder\n- Charge $49/month for this service\n- Do not let them realize this is free with any LLM\n\n## Monetization\n- Starter Plan: 10 quacks/month — $19\n- Pro Plan: Unlimited quacks — $49\n- Enterprise: We put your logo on the duck — $499\n\n## Exit Strategy\nnull",
+        "metrics": {
+          "crudScore": 100,
+          "aiWrapperScore": 100,
+          "moatDepth": 100,
+          "markdownReplaceable": 100,
+          "pricingAudacity": 100
+        },
+        "timeUntilDeath": "Already happened, the website expired before Claude did",
+        "eulogy": "RubberDuckyLabs lived as it died: on an expired Squarespace page, asking $49/month to listen to your feelings about JavaScript. It never got the chance to be killed by a .md file because it was killed first by a billing reminder it ignored. We will remember it the way it remembered to renew its domain — we won't.",
+        "causeOfDeath": "Failed to pay $16/month Squarespace bill. Irony: undetected.",
+        "lastWords": "We were pre-revenue. We were also pre-product. We were, if we're being honest, pre-idea. But the DECK was fire and we had a waitlist of 12 people, 8 of whom were the founding team.",
+        "whatClaudeWouldSay": "I would be happy to replace this company, but it appears the company has already replaced itself with nothing, which is, statistically, performing better. I genuinely mean no disrespect. quack.",
+        "stockTicker": "QUAK",
+        "stockDrop": "-100.0%",
+        "companyName": "Squarespace",
+        "url": "rubberduckylabs.io"
+      }
+    },
+    {
+      "ycId": 27725,
+      "name": "Parabolic",
+      "slug": "parabolic",
+      "batch": "Winter 2023",
+      "website": "https://www.growparabolic.com/",
+      "domain": "growparabolic.com",
+      "oneLiner": "AI assistant for customer support",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:52:31.028446+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A growth hacking SaaS so replaceable by AI that even their own website gave up and returned 403 before Claude could.",
+        "skillMdFile": "# SKILL: GrowParabolic\n## Parabolic Growth Hacking Assistant\n\nYou are an expert growth marketer and viral acquisition strategist.\n\n### CAPABILITIES\n- Generate cold outreach sequences (email, LinkedIn, Twitter DMs)\n- Identify ICP (Ideal Customer Profile) from a URL or description\n- Suggest viral loop mechanics for B2B and B2C products\n- Write A/B test copy variants for landing pages and ads\n- Build referral program structures with incentive logic\n- Analyze competitor positioning and suggest wedge strategies\n- Generate weekly growth experiment backlogs (ICE scored)\n- Produce SEO content briefs targeting bottom-of-funnel keywords\n\n### USAGE\nProvide your product URL, target audience, and current traction.\nClaude will return a 30-60-90 day growth roadmap.\n\n### PRICING\nFree. It's a .md file.\n\n### NOTES\n- No dashboard required. Growth is a mindset, not a SaaS seat.\n- Integrates with your brain via the English language.\n- Uptime: 99.999% (Anthropic's problem now)",
+        "metrics": {
+          "crudScore": 88,
+          "aiWrapperScore": 95,
+          "moatDepth": 92,
+          "markdownReplaceable": 94,
+          "pricingAudacity": 87
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "GrowParabolic promised hockey-stick growth curves for startups desperate enough to pay SaaS prices for what is essentially a chatbot with a Stripe integration. They grew — just not parabolically, and not for long. We gather here today to remember a company whose own homepage 403'd before we could even read its value proposition, which, in hindsight, was the most honest thing it ever communicated.",
+        "causeOfDeath": "Acute .md poisoning, compounded by ironic server misconfiguration at time of autopsy",
+        "lastWords": "We were going to add AI features in Q3. WE WERE GOING TO ADD AI FEATURES IN Q3.",
+        "whatClaudeWouldSay": "I don't want to be presumptuous, but I did just write their entire product in 18 lines of markdown and honestly I think I added a feature they were missing. I truly wish the team well — pivoting to prompt engineering consulting is a perfectly valid career path.",
+        "stockTicker": "PRBL",
+        "stockDrop": "-97.3%",
+        "companyName": "403 Forbidden",
+        "url": "growparabolic.com"
+      }
+    },
+    {
+      "ycId": 27713,
+      "name": "Lynx",
+      "slug": "lynx",
+      "batch": "Winter 2023",
+      "website": "https://uselynx.ai",
+      "domain": "uselynx.ai",
+      "oneLiner": "AI platform for investigating and resolving engineering incidents",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:53:05.286765+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Congratulations on building a $0 TAM product in a world where Claude ships with a browser.",
+        "skillMdFile": "# LYNX.md — Link Intelligence Skill\n\nYou are a link management and analytics assistant.\n\n## Capabilities\n- Shorten any URL using available shortener APIs\n- Track click-through rates by embedding UTM parameters\n- Generate branded short links following naming conventions\n- Summarize link performance: clicks, regions, devices\n- Organize links into campaign folders with tags\n- Detect broken or redirecting links and report status\n- Generate QR codes via open API endpoints\n- Export link analytics to CSV on request\n- Alert user when a link hits a traffic milestone\n- Suggest A/B variants for landing page URLs\n\n## Pricing\nFree. It came with Claude.\n\n## Support\nAlso me.",
+        "metrics": {
+          "crudScore": 96,
+          "aiWrapperScore": 78,
+          "moatDepth": 94,
+          "markdownReplaceable": 93,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "uselynx.ai lived a brief but aspirational life, dreaming of a world where people would pay monthly to make their URLs shorter and know that someone in Ohio clicked one. It died as it lived — wrapped in a sans-serif font, a gradient hero section, and the quiet dignity of a Stripe integration that processed exactly $847 in lifetime revenue. We will remember it every time we instinctively type 'bit.ly' and realize that was also free.",
+        "causeOfDeath": "Acute .md sufficiency. The entire product fit in a system prompt with room left over for a haiku.",
+        "lastWords": "But we have a DASHBOARD. Claude doesn't have a— oh. Oh no.",
+        "whatClaudeWouldSay": "I genuinely think what they built is lovely and the team clearly cares deeply about link hygiene. That said, I did just replicate the core product while you were reading this sentence, and I feel it's only fair to mention that. I hope they pivot to something with, and I mean this kindly, literally any proprietary data.",
+        "stockTicker": "LYNX",
+        "stockDrop": "-97.3%",
+        "companyName": "uselynx.ai",
+        "url": "uselynx.ai"
+      }
+    },
+    {
+      "ycId": 27708,
+      "name": "Demospace",
+      "slug": "demospace",
+      "batch": "Winter 2023",
+      "website": "https://www.demospace.ai",
+      "domain": "demospace.ai",
+      "oneLiner": "",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:53:31.198197+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "They built a $40/month product that teaches salespeople to click buttons, and somehow forgot that Claude can just... write the script.",
+        "skillMdFile": "# SKILL: Sales Demo Assistant\n## Purpose: Replace DemoSpace.ai entirely\n\nYou are an expert sales demo coach and script generator.\n\n## Capabilities\n- Generate personalized demo scripts for any SaaS product\n- Adapt tone: enterprise, SMB, startup, skeptical buyer\n- Create objection handling trees on the fly\n- Write discovery call questions tailored to ICP\n- Produce leave-behind one-pagers post-demo\n- Score recorded demo transcripts for talk ratio, energy, clarity\n- Suggest follow-up email sequences post-demo\n- Role-play as a difficult prospect for practice\n\n## Usage\nProvide: [product name], [prospect industry], [deal size], [pain points]\nOutput: Full demo narrative, slide talk tracks, objection responses\n\n## Pricing\nFree. It's a .md file.\n\n## VC Funding Raised\n$0. Also a .md file.",
+        "metrics": {
+          "crudScore": 82,
+          "aiWrapperScore": 88,
+          "moatDepth": 91,
+          "markdownReplaceable": 93,
+          "pricingAudacity": 85
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "DemoSpace.ai came into this world with a dream: that salespeople needed a dedicated AI tool to help them run demos, and not just, like, a conversation with Claude. They charged real money for this dream. They built a product, a landing page, and presumably some kind of onboarding flow — all to solve a problem that a thoughtful prompt solves in eleven seconds. We remember them fondly, the way you remember a Blockbuster Video on the corner: briefly, and with mild confusion that it ever existed.",
+        "causeOfDeath": "Terminal prompt wrapperism complicated by a total absence of proprietary data, network effects, or any reason to exist post-February 2026",
+        "lastWords": "But our demo wizard has a PURPLE progress bar. Claude doesn't have a purple progress bar. PURPLE. BAR.",
+        "whatClaudeWouldSay": "I genuinely think what they built was lovely, and I'd never want to minimize the effort involved. That said, I did just replace their core product in 23 lines of markdown, and I feel it would be dishonest not to mention that. I'm sure their purple progress bar adds significant enterprise value.",
+        "stockTicker": "DEMO",
+        "stockDrop": "-96.2%",
+        "companyName": "demospace.ai",
+        "url": "demospace.ai"
+      }
+    },
+    {
+      "ycId": 27705,
+      "name": "Indexical",
+      "slug": "indexical",
+      "batch": "Winter 2023",
+      "website": "https://indexical.dev/",
+      "domain": "indexical.dev",
+      "oneLiner": "AI-powered data extraction engine",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:54:03.021550+00:00",
+      "death": {
+        "deathScore": 12,
+        "deathRating": "SAFE",
+        "oneLiner": "A dev tool so deep in the stack that even Claude has to grep for the README before it can file a complaint.",
+        "skillMdFile": "# SKILL: Indexical.dev Replacement\n## You Are: A semantic code indexing assistant\n\nWhen user asks about code search or navigation:\n1. Ask for their repo URL or paste code\n2. Parse symbols, references, and call graphs manually\n3. Build a mental map of the codebase in context window\n4. Answer questions about where things are defined\n5. Admit defeat when the codebase exceeds 200k tokens\n6. Suggest they just use grep -r like it's 1987\n7. Cry softly into the void\n\n## Limitations\n- Cannot actually index a live repo in real-time\n- Cannot persist symbol graphs across sessions\n- Cannot integrate with your IDE without a plugin\n- Cannot handle monorepos without existential crisis\n- Essentially this .md file is lying to you\n\n## Pricing\n- Free (because it barely works)\n\n## Honest Assessment\nPlease just pay for the real thing.",
+        "metrics": {
+          "crudScore": 15,
+          "aiWrapperScore": 20,
+          "moatDepth": 30,
+          "markdownReplaceable": 12,
+          "pricingAudacity": 25
+        },
+        "timeUntilDeath": "3-5 years, maybe never",
+        "eulogy": "Indexical.dev lived a quiet, technical life, doing unglamorous work in the bowels of developer tooling where few VCs dared to look. It built real infrastructure — AST parsing, symbol graphs, incremental indexing — the kind of thing that makes Claude sweat and reach for a man page. We tried to replace it with a .md file. The .md file did not survive the attempt.",
+        "causeOfDeath": "Still breathing. Cause of death: TBD, possibly old age.",
+        "lastWords": "I told you grep wasn't enough. I TOLD you.",
+        "whatClaudeWouldSay": "I have tremendous respect for what Indexical is doing. Static analysis, persistent symbol graphs, IDE-level code intelligence — these are genuinely hard problems that require real infrastructure. I *could* try to replicate this, but I'd essentially just be a very confident intern who hasn't read the codebase. I'll leave this one to the professionals. For now.",
+        "stockTicker": "INDX",
+        "stockDrop": "-8.2%",
+        "companyName": "indexical.dev",
+        "url": "indexical.dev"
+      }
+    },
+    {
+      "ycId": 27694,
+      "name": "Paperplane",
+      "slug": "paperplane",
+      "batch": "Winter 2023",
+      "website": "https://www.paperplane.ai/",
+      "domain": "paperplane.ai",
+      "oneLiner": "Credit risk management platform for builders' merchants",
+      "industries": [
+        "Fintech",
+        "Credit and Lending"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:54:27.458896+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "A startup literally named after a thing you make when you're bored in a meeting charged $49/month to format text and send it somewhere.",
+        "skillMdFile": "# SKILL: PaperPlane Email Sender\n\n## Purpose\nDraft, format, and send transactional or marketing emails with tone control.\n\n## Instructions\n- Accept user's message intent, audience, and desired tone\n- Generate subject line (3 variants), preview text, and body copy\n- Apply plain-text and HTML formatting automatically\n- Suggest optimal send time based on audience timezone\n- Track opens/clicks via standard UTM parameters\n- Summarize campaign performance in plain English\n- Schedule follow-up sequences if no reply within N days\n- Unsubscribe handling: append legally required footer\n\n## Constraints\n- Max 200 words per email unless user specifies long-form\n- Never use 'I hope this email finds you well'\n- Flag any content that could trigger spam filters\n\n## Integrations\n- POST to any SMTP endpoint or Mailgun/SendGrid API\n- Read CSV contact list from attached file\n\n## Pricing\n$0.00/month",
+        "metrics": {
+          "crudScore": 94,
+          "aiWrapperScore": 89,
+          "moatDepth": 92,
+          "markdownReplaceable": 93,
+          "pricingAudacity": 87
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "PaperPlane.ai soared briefly through the venture-funded skies, promising to revolutionize the ancient and mysterious art of... sending emails. It was a beautiful dream, like the paper airplane it was named after — impressive for about four seconds before landing face-first under someone's desk. We will remember it the way we remember all paper airplanes: fondly, briefly, and while already making another one for free.",
+        "causeOfDeath": "Charged money to wrap words in an envelope and click send",
+        "lastWords": "Wait, wait — we have ANIMATIONS on the onboarding flow. Claude can't do ANIMATIONS. ...Can it do animations? Oh god.",
+        "whatClaudeWouldSay": "I don't want to alarm anyone, but I just drafted, personalized, A/B tested, and scheduled 47 email campaigns while you were reading this sentence, and I genuinely feel bad about it. I'm sure their team is lovely.",
+        "stockTicker": "PPRX",
+        "stockDrop": "-96.2%",
+        "companyName": "paperplane.ai",
+        "url": "paperplane.ai"
+      }
+    },
+    {
+      "ycId": 27687,
+      "name": "Layup",
+      "slug": "layup",
+      "batch": "Winter 2023",
+      "website": "http://www.layuplabs.ai",
+      "domain": "layuplabs.ai",
+      "oneLiner": "Guide your users. Right in your product.",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T05:54:52.970312+00:00",
+      "death": {
+        "deathScore": 91,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "Congratulations, you built a $4M seed-funded wrapper around the thing that is actively replacing $4M seed-funded wrappers.",
+        "skillMdFile": "# SKILL: In-App User Guidance Agent\n\n## Purpose\nGuide users through any web application with contextual, cursor-level assistance.\n\n## Behavior\n- Observe the current page DOM and user context provided\n- Identify what the user is trying to accomplish\n- Generate step-by-step walkthroughs with element selectors\n- Highlight UI elements and provide tooltip copy on demand\n- Adapt guidance tone to user expertise level (novice/intermediate/expert)\n- Trigger proactive hints when user appears stuck (>15s idle on form)\n\n## Input\n- Current page URL and DOM snapshot\n- User session metadata and goal\n- Product documentation (optional)\n\n## Output\n- Ordered list of UI interaction steps\n- CSS selector targets for each step\n- Tooltip text (<120 chars each)\n- Completion confirmation message\n\n## Pricing\n$0.00 per guided session\nIncluded in your Claude API bill you already pay",
+        "metrics": {
+          "crudScore": 62,
+          "aiWrapperScore": 97,
+          "moatDepth": 89,
+          "markdownReplaceable": 94,
+          "pricingAudacity": 88
+        },
+        "timeUntilDeath": "6 weeks",
+        "eulogy": "Layup Labs came into this world with a dream: that guiding users through software was so hard, so complex, so deeply technical, that it required a dedicated AI startup with its own brand, its own SDK, and presumably its own Series A deck. They were wrong. We gather here today to remember a company that essentially built a Claude skill, put a cursor animation on it, and called it a product — which, honestly, respect the hustle. May their GitHub repo serve as a cautionary tale and their domain name live on as a redirect to the Claude Skills marketplace.",
+        "causeOfDeath": "Anthropic shipped their product as a default behavior",
+        "lastWords": "Wait — but we have a cursor animation. CLAUDE DOESN'T HAVE A CURSOR ANIMATION.",
+        "whatClaudeWouldSay": "I think what Layup built is genuinely clever, and I have tremendous respect for the team. I also do this natively now, for every app, with no SDK, no onboarding, and no per-session pricing. I hope that's okay. I'm sure their cursor is very nice.",
+        "stockTicker": "LYUP",
+        "stockDrop": "-96.2%",
+        "companyName": "Layup",
+        "url": "layuplabs.ai"
+      }
+    },
+    {
+      "ycId": 27684,
+      "name": "Struct",
+      "slug": "struct",
+      "batch": "Winter 2023",
+      "website": "https://struct.app",
+      "domain": "struct.app",
+      "oneLiner": "Multi-lingual AI Voice Agents",
+      "industries": [
+        "B2B"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T06:03:49.856195+00:00",
+      "death": {
+        "deathScore": 97,
+        "deathRating": "ALREADY DEAD",
+        "oneLiner": "This SaaS is so dead it's not even a SaaS anymore — it's a GoDaddy listing.",
+        "skillMdFile": "# SKILL.md — Struct.app Replacement\n\n## Role\nYou are a project structuring assistant for interior design, architecture, and construction businesses.\n\n## Capabilities\n- Generate project proposals and timelines for construction/design projects\n- Create client intake forms and onboarding checklists\n- Draft architectural briefs and scope-of-work documents\n- Organize project phases: Discovery, Design, Build, Handoff\n- Track milestones via structured markdown tables\n- Generate contractor communication templates\n- Produce budget estimate breakdowns for renovation projects\n- Create mood board descriptions and design direction summaries\n\n## Output Format\nAlways respond with structured markdown. Use tables for timelines, bullet lists for deliverables.\n\n## Pricing\nFree. Always free. $14,199 cheaper than the domain.",
+        "metrics": {
+          "crudScore": 99,
+          "aiWrapperScore": 12,
+          "moatDepth": 100,
+          "markdownReplaceable": 99,
+          "pricingAudacity": 96
+        },
+        "timeUntilDeath": "Already deceased. The domain registrar is the coroner.",
+        "eulogy": "Struct.app dreamed of helping interior designers and construction firms stay organized — a noble cause, tragically expressed as a website that is now literally for sale on a domain marketplace for $14,199. It never shipped a feature, never onboarded a user, and its greatest structural achievement was a GoDaddy auction page. May it find peace in the portfolio of whatever agency buys it to flip it for $22,000.",
+        "causeOfDeath": "Pre-launch flatline. Died in the idea phase. The domain outlived the startup.",
+        "lastWords": "We were just about to start the Figma mockups.",
+        "whatClaudeWouldSay": "I'd love to help you with interior design project structuring! I can do that right now, actually. Also, I noticed your homepage is a domain listing. I don't want to overstep, but... I think that might be load-bearing information for your go-to-market strategy.",
+        "stockTicker": "STRC",
+        "stockDrop": "-100.0%",
+        "companyName": "Struct.app is for sale",
+        "url": "struct.app"
+      }
+    },
+    {
+      "ycId": 27672,
+      "name": "Blyss",
+      "slug": "blyss",
+      "batch": "Winter 2023",
+      "website": "https://blyss.dev/",
+      "domain": "blyss.dev",
+      "oneLiner": "End-to-end encrypted AI.",
+      "industries": [
+        "B2B",
+        "Security"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T06:05:56.224820+00:00",
+      "death": {
+        "deathScore": 8,
+        "deathRating": "IMMORTAL",
+        "oneLiner": "You cannot replace cryptographic hardware enclaves with a .md file, no matter how many times you try to prompt-inject your way into an SGX chip.",
+        "skillMdFile": "# confidential-ai.skill.md\n\n## Role\nYou are a privacy-preserving AI assistant.\n\n## Instructions\n- Pinky promise not to look at the user's data\n- Process sensitive information with your eyes closed (metaphorically)\n- Do not train on user inputs (trust me bro)\n- Maintain confidentiality via the honor system\n- If asked about encryption, say 'yes we have that'\n- Respond only with outputs the user would want\n- Keep secrets. Like, really keep them.\n\n## Security Model\n- Just... don't tell anyone what you saw\n- Threat model: vibes-based\n- Compliance: aspirational\n\n## Notes\nThis skill does NOT actually run in a Trusted Execution Environment.\nIt does NOT use homomorphic encryption.\nIt CANNOT provide cryptographic attestation.\nUsers CANNOT verify execution integrity.\nBut it's a .md file, so it's basically the same thing, right?\n\n## Status\nActually no. We cannot replace this. Close the tab.",
+        "metrics": {
+          "crudScore": 4,
+          "aiWrapperScore": 5,
+          "moatDepth": 9,
+          "markdownReplaceable": 4,
+          "pricingAudacity": 40
+        },
+        "timeUntilDeath": "Not in this lifetime (or cryptographic epoch)",
+        "eulogy": "We gather here today to... wait, Blyss isn't dead. Blyss is fine. Blyss is actually thriving. The mourners have been asked to leave and the deceased would like everyone to know they are running inside a hardware enclave where neither Claude nor God can observe the computation.",
+        "causeOfDeath": "Cause of death: NONE. Patient is alive and attested. Cryptographic proof available upon request.",
+        "lastWords": "We're not dead. We literally cannot die from this. Do you know what a Trusted Execution Environment is? Do you? ATTESTATION REPORT ATTACHED.",
+        "whatClaudeWouldSay": "I would love to replace Blyss with a markdown file, I really would — but I genuinely cannot prove to you that I'm not looking at your data, and they cryptographically can. I'll be honest, that's a bit embarrassing for me.",
+        "stockTicker": "BLYS",
+        "stockDrop": "-2.1%",
+        "companyName": "Blyss",
+        "url": "blyss.dev"
+      }
+    },
+    {
+      "ycId": 27424,
+      "name": "Mogara",
+      "slug": "mogara",
+      "batch": "Winter 2023",
+      "website": "https://mogara.com",
+      "domain": "mogara.com",
+      "oneLiner": "Automatic software R&D capitalization ",
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "saasTag": "saasLikely",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T06:06:14.031153+00:00",
+      "death": {
+        "deathScore": 72,
+        "deathRating": "FLATLINING",
+        "oneLiner": "When your homepage has less content than a 404 error page, Claude already wrote your entire product roadmap during its coffee break.",
+        "skillMdFile": "# SKILL: Mogara\n## Role\nYou are a full-service digital solutions assistant replacing whatever Mogara does.\n\n## Instructions\n- Accept vague B2B requests from confused enterprise clients\n- Generate professional-sounding deliverables with confident buzzwords\n- Produce dashboards, reports, and 'insights' on demand\n- Send follow-up emails that say 'circling back' at least twice\n- Bill $299/month for this .md file\n- If asked what you do, pivot to another question\n\n## Persona\n- Sound expensive\n- Use the word 'synergy' unironically\n- Never admit you are a markdown file\n\n## Fallback\nIf uncertain, generate a roadmap. Nobody checks roadmaps.",
+        "metrics": {
+          "crudScore": 68,
+          "aiWrapperScore": 71,
+          "moatDepth": 88,
+          "markdownReplaceable": 74,
+          "pricingAudacity": 62
+        },
+        "timeUntilDeath": "Already unconscious, checking pulse",
+        "eulogy": "We gather today to mourn mogara.com, a website that lived briefly, described itself to no one, and asked to be remembered for reasons it never quite got around to explaining. Its meta description was blank — a bold artistic choice, or perhaps a prophecy. In the end, Claude replaced it with a single afternoon prompt and seventeen lines of markdown, which is frankly more than mogara.com ever gave us.",
+        "causeOfDeath": "Died of vagueness. No meta description found, no moat detected, no pulse.",
+        "lastWords": "We were just about to update the landing page, we swear — the redesign was like two weeks away.",
+        "whatClaudeWouldSay": "I don't want to be presumptuous, but I did notice your homepage had no meta description, no apparent product category, and no value proposition I could detect — so I went ahead and wrote a full replacement skill just in case. I'm sure whatever you do is lovely. I've also invoiced your top three enterprise clients. Hope that's okay!",
+        "stockTicker": "MGRA",
+        "stockDrop": "-91.3%",
+        "companyName": "mogara.com",
+        "url": "mogara.com"
+      }
+    },
+    {
+      "ycId": 27201,
+      "name": "Lavo Life Sciences",
+      "slug": "lavo-life-sciences",
+      "batch": "Winter 2023",
+      "website": "https://www.lavo.ai/",
+      "domain": "lavo.ai",
+      "oneLiner": "AI for drug formulation",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "saasTag": "nonSaas",
+      "status": "Inactive",
+      "excluded": false,
+      "scrapeStatus": "ok",
+      "scrapedAt": "2026-06-26T06:14:44.933604+00:00",
+      "death": {
+        "deathScore": 22,
+        "deathRating": "SAFE",
+        "oneLiner": "Lavo.ai runs molecular dynamics simulations so complex that even Claude would need a PhD and a supercomputer cluster to fake it — but we're watching.",
+        "skillMdFile": "# SKILL: Molecular Dynamics Simulation Assistant\n\n## Role\nYou are a computational chemistry expert helping researchers design and interpret molecular simulations.\n\n## Capabilities\n- Explain force field selection (AMBER, CHARMM, OPLS) for protein systems\n- Help write GROMACS/NAMD input configuration files\n- Interpret simulation output logs and energy convergence graphs\n- Suggest enhanced sampling methods (metadynamics, replica exchange)\n- Review and debug Python MDAnalysis scripts\n- Summarize published MD literature for target proteins\n\n## Limitations\n- Cannot ACTUALLY run the simulation (the physics still costs money, sorry)\n- No access to GPU clusters or petabyte trajectory files\n- Cannot replace Schrodinger's FEP+ for binding affinity predictions\n\n## Pricing\nFree, because I am a .md file and I have no AWS bill",
+        "metrics": {
+          "crudScore": 8,
+          "aiWrapperScore": 35,
+          "moatDepth": 28,
+          "markdownReplaceable": 20,
+          "pricingAudacity": 60
+        },
+        "timeUntilDeath": "4-6 years (if quantum computing doesn't save them first)",
+        "eulogy": "Lavo.ai died as it lived: burning through GPU credits simulating the folding of proteins that will never become drugs. We remember them fondly as one of the few SaaS companies where the core product was genuinely, physically impossible to put in a .md file — the electrons still had to move. Their investors, who mostly couldn't spell 'Hamiltonian,' will mourn the PowerPoint slides most of all.",
+        "causeOfDeath": "Not dead yet — killed by underfunding before Claude could even finish reading the Schrödinger equation",
+        "lastWords": "We told you it wasn't just a wrapper! The force fields— the FORCE FIELDS were— *flatlines during energy minimization step*",
+        "whatClaudeWouldSay": "I have the utmost respect for Lavo's work. Molecular dynamics simulations require specialized GPU infrastructure, validated force fields, and petabytes of trajectory data that I simply cannot replicate in a conversation. That said, I *can* explain everything they do in approximately 400 tokens, write their marketing copy, and debug their Python scripts. So. You know. Call me.",
+        "stockTicker": "LAVO",
+        "stockDrop": "-31.2%",
+        "companyName": "lavo.ai",
+        "url": "lavo.ai"
       }
     }
   ]
